@@ -6,11 +6,11 @@ export default {
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>番剧在线播放器</title>
+<script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.17/dist/hls.min.js"></script>
 <style>
 *{box-sizing:border-box;margin:0;padding:0;color:#eee;font-family:system-ui}
 body{background:#111;padding:16px}
 .container{max-width:1400px;margin:0 auto;display:grid;grid-template-columns: 1fr 320px;gap:16px;align-items:start}
-/* 16:9 固定比例视频容器 */
 #video-box{
     position:relative;
     width:100%;
@@ -28,12 +28,11 @@ body{background:#111;padding:16px}
     display:block;
     background:#000;
 }
-/* 右侧面板 */
 .side{display:flex;flex-direction:column;gap:12px}
 .select-wrap{background:#222;padding:12px;border-radius:8px}
 .anime-title{font-size:18px;font-weight:bold;margin-bottom:8px}
 .info-text{font-size:14px;color:#aaa}
-.ep-wrap{background:#222;padding:12px;border-radius:8px;display:flex;flex-direction:column;gap:8px}
+.ep-wrap{background:#222;padding:12px;border-radius:8px;display:flex;flex-direction:column;gap:12px}
 .ep-list{
     display:flex;
     flex-direction:column;
@@ -77,6 +76,7 @@ body{background:#111;padding:16px}
         </div>
     </div>
 </div>
+
 <script>
 const PAGE_SIZE = 6;
 let episodes = [];
@@ -88,12 +88,13 @@ const epListEl = document.getElementById('epList');
 const pageBarEl = document.getElementById('pageBar');
 const errBox = document.getElementById('errBox');
 const animeTitleEl = document.getElementById('animeTitle');
-// 获取URL参数
+let hls = null;
+
 function getUrlParam(key){
     const params = new URLSearchParams(location.search);
     return params.get(key);
 }
-// 加载远程JSON剧集列表
+
 async function loadJson(jsonUrl){
     errBox.textContent = "加载中...";
     animeTitleEl.textContent = "加载番剧信息...";
@@ -101,11 +102,10 @@ async function loadJson(jsonUrl){
         const res = await fetch(jsonUrl);
         if(!res.ok) throw new Error(\`HTTP \${res.status}\`);
         const data = await res.json();
-        // 读取番剧名称
         animeName = data.title;
         episodes = data.episodes;
         animeTitleEl.textContent = animeName;
-        // 读取本地记忆
+
         const savedKey = \`lastEp_\${btoa(jsonUrl)}\`;
         const saved = localStorage.getItem(savedKey);
         if(saved !== null){
@@ -122,7 +122,7 @@ async function loadJson(jsonUrl){
         console.error("加载json错误：",e);
     }
 }
-// 渲染剧集分页列表
+
 function renderEpList(){
     epListEl.innerHTML = '';
     pageBarEl.innerHTML = '';
@@ -141,7 +141,6 @@ function renderEpList(){
         }
         epListEl.appendChild(div);
     })
-    // 分页按钮
     for(let i=1;i<=totalPage;i++){
         const btn = document.createElement('button');
         btn.className = "page-btn" + (i === currentPage ? " active":"");
@@ -153,15 +152,32 @@ function renderEpList(){
         pageBarEl.appendChild(btn);
     }
 }
-// 播放指定集
+
 function playEp(idx){
     const ep = episodes[idx];
-    player.src = ep.src;
+    if(hls){
+        hls.destroy();
+        hls = null;
+    }
+    if(Hls.isSupported()) {
+        hls = new Hls({
+            enableWorker:true,
+            lowLatencyMode:false
+        });
+        hls.loadSource(ep.src);
+        hls.attachMedia(player);
+        hls.on(Hls.Events.MANIFEST_PARSED,function() {
+            player.play();
+        });
+    }
+    else if (player.canPlayType('application/vnd.apple.mpegurl')) {
+        player.src = ep.src;
+    }
     player.load();
     const savedKey = \`lastEp_\${btoa(getUrlParam('json'))}\`;
     localStorage.setItem(savedKey, idx.toString());
 }
-// 快捷键 ← →
+
 document.addEventListener('keydown',e=>{
     if(e.key === "ArrowLeft"){
         if(currentEpIndex >0){
@@ -179,7 +195,13 @@ document.addEventListener('keydown',e=>{
         }
     }
 })
-// 初始化
+
+document.addEventListener("visibilitychange", () => {
+    if (!document.hidden && !player.paused && hls) {
+        hls.startLoad();
+    }
+});
+
 const jsonUrl = getUrlParam('json');
 if(jsonUrl){
     loadJson(jsonUrl);
@@ -187,13 +209,13 @@ if(jsonUrl){
     animeTitleEl.textContent = "播放器";
     errBox.textContent = "缺少参数，用法：?json=https://xxx/anime.json";
 }
-<\/script>
+</script>
 </body>
-</html>`;
+`;
     return new Response(html, {
-      headers: {
-        "content-type": "text/html;charset=utf-8",
-      },
+        headers: {
+            "content-type": "text/html;charset=utf-8",
+        },
     });
   },
 };

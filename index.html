@@ -4,11 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>番剧在线播放器</title>
+<!-- 引入hls.js CDN -->
+<script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.17/dist/hls.min.js"></script>
 <style>
 *{box-sizing:border-box;margin:0;padding:0;color:#eee;font-family:system-ui}
 body{background:#111;padding:16px}
 .container{max-width:1400px;margin:0 auto;display:grid;grid-template-columns: 1fr 320px;gap:16px;align-items:start}
-
 /* 16:9 固定比例视频容器 */
 #video-box{
     position:relative;
@@ -27,7 +28,6 @@ body{background:#111;padding:16px}
     display:block;
     background:#000;
 }
-
 /* 右侧面板 */
 .side{display:flex;flex-direction:column;gap:12px}
 .select-wrap{background:#222;padding:12px;border-radius:8px}
@@ -89,6 +89,7 @@ const epListEl = document.getElementById('epList');
 const pageBarEl = document.getElementById('pageBar');
 const errBox = document.getElementById('errBox');
 const animeTitleEl = document.getElementById('animeTitle');
+let hls = null; // 新增hls实例
 
 // 获取URL参数
 function getUrlParam(key){
@@ -159,10 +160,30 @@ function renderEpList(){
     }
 }
 
-// 播放指定集
+// 播放指定集【改用hls.js加载m3u8】
 function playEp(idx){
     const ep = episodes[idx];
-    player.src = ep.src;
+    // 如果已有hls实例，先销毁
+    if(hls){
+        hls.destroy();
+        hls = null;
+    }
+    // 判断浏览器是否原生支持HLS（Safari）
+    if(Hls.isSupported()) {
+        hls = new Hls({
+            enableWorker:true,
+            lowLatencyMode:false
+        });
+        hls.loadSource(ep.src);
+        hls.attachMedia(player);
+        hls.on(Hls.Events.MANIFEST_PARSED,function() {
+            player.play();
+        });
+    }
+    else if (player.canPlayType('application/vnd.apple.mpegurl')) {
+        // Safari原生HLS
+        player.src = ep.src;
+    }
     player.load();
     const savedKey = `lastEp_${btoa(getUrlParam('json'))}`;
     localStorage.setItem(savedKey, idx.toString());
