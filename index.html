@@ -26,33 +26,33 @@ body{background:#111;padding:16px}
 .err-text{font-size:14px;color:#ff6b6b;margin:8px 0}
 .all-anime-wrap{max-width:1400px;margin:24px auto 0 auto;background:#1e1e1e;padding:16px;border-radius:8px}
 .all-anime-wrap h3{margin-bottom:12px}
-.anime-card-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
-.anime-card{padding:10px 12px;background:#2d2d2d;border-radius:6px;cursor:pointer;transition:.2s}
-.anime-card:hover{background:#3b3b3b}
-.anime-card.loading{color:#888;cursor:default}
+.anime-card-list{display:grid;grid-template-columns:repeat(auto‑fill,minmax(220px,1fr));gap:10px}
+.anime‑card{padding:10px 12px;background:#2d2d2d;border‑radius:6px;cursor:pointer;transition:.2s}
+.anime‑card:hover{background:#3b3b3b}
+.anime‑card.loading{color:#888;cursor:default}
 </style>
 </head>
 <body>
 <div class="container">
-    <div id="video-box">
+    <div id="video‑box">
         <video id="player" controls></video>
     </div>
     <div class="side">
-        <div class="select-wrap">
-            <div id="animeTitle" class="anime-title">选择下方番剧开始播放</div>
-            <div class="info-text">由URL传入远程JSON地址</div>
+        <div class="select‑wrap">
+            <div id="animeTitle" class="anime‑title">选择下方番剧开始播放</div>
+            <div class="info‑text">由URL传入远程JSON地址</div>
         </div>
-        <div class="ep-wrap">
-            <div class="info-text">快捷键: ←上一集 →下一集</div>
-            <div id="errBox" class="err-text"></div>
-            <div id="epList" class="ep-list"></div>
-            <div id="pageBar" class="page-bar"></div>
+        <div class="ep‑wrap">
+            <div class="info‑text">快捷键: ←上一集 →下一集</div>
+            <div id="errBox" class="err‑text"></div>
+            <div id="epList" class="ep‑list"></div>
+            <div id="pageBar" class="page‑bar"></div>
         </div>
     </div>
 </div>
-<div id="allAnimeWrap" class="all-anime-wrap">
+<div id="allAnimeWrap" class="all‑anime‑wrap">
     <h3>仓库全部番剧列表</h3>
-    <div id="animeCardList" class="anime-card-list"></div>
+    <div id="animeCardList" class="anime‑card‑list"></div>
 </div>
 
 <script>
@@ -82,9 +82,6 @@ async function loadJson(jsonUrl){
         const res = await fetch(jsonUrl);
         if(!res.ok) throw new Error(`HTTP ${res.status}`);
         const data = await res.json();
-        if(data.error){
-            throw new Error(data.error);
-        }
         animeName = data.title;
         episodes = data.episodes;
         animeTitleEl.textContent = animeName;
@@ -111,7 +108,7 @@ function renderEpList(){
     sliceEps.forEach((ep,idx)=>{
         const realIdx = start + idx;
         const div = document.createElement('div');
-        div.className = "ep-item" + (realIdx === currentEpIndex ? " active":"");
+        div.className = "ep‑item" + (realIdx === currentEpIndex ? " active":"");
         div.textContent = ep.title;
         div.onclick = ()=>{
             currentEpIndex = realIdx;
@@ -122,7 +119,7 @@ function renderEpList(){
     })
     for(let i=1;i<=totalPage;i++){
         const btn = document.createElement('button');
-        btn.className = "page-btn" + (i === currentPage ? " active":"");
+        btn.className = "page‑btn" + (i === currentPage ? " active":"");
         btn.textContent = `第${i}页`;
         btn.onclick = ()=>{
             currentPage = i;
@@ -160,7 +157,7 @@ document.addEventListener('keydown',e=>{
             renderEpList();
         }
     }else if(e.key === "ArrowRight"){
-        if(currentEpIndex < episodes.length-1){
+        if(currentEpIndex < episodes.length‑1){
             currentEpIndex++;
             currentPage = Math.floor(currentEpIndex / PAGE_SIZE)+1;
             playEp(currentEpIndex);
@@ -174,28 +171,28 @@ document.addEventListener("visibilitychange", ()=>{
 });
 
 async function loadRepoAnimeList(){
-    animeCardList.innerHTML = '<div class="anime-card loading">读取仓库番剧列表中…</div>';
+    animeCardList.innerHTML = '<div class="anime‑card loading">读取仓库番剧列表中…</div>';
     try{
         const resp = await fetch(`./api/list`);
         const fileArr = await resp.json();
         if(!Array.isArray(fileArr)){
-            animeCardList.innerHTML = '<div class="anime-card loading">仓库清单读取异常</div>';
+            animeCardList.innerHTML = '<div class="anime‑card loading">仓库清单读取异常</div>';
             return;
         }
         if(fileArr.length === 0){
-            animeCardList.innerHTML = '<div class="anime-card loading">清单为空/CDN访问被拦截</div>';
+            animeCardList.innerHTML = '<div class="anime‑card loading">清单为空</div>';
             return;
         }
         animeCardList.innerHTML = '';
         for(const item of fileArr){
             const card = document.createElement("div");
-            card.className = "anime-card";
+            card.className = "anime‑card";
             card.textContent = item.title;
             card.onclick = ()=> loadJson(item.rawUrl);
             animeCardList.appendChild(card);
         }
     }catch(err){
-        animeCardList.innerHTML = '<div class="anime-card loading">获取番剧列表失败：'+err.message+'</div>';
+        animeCardList.innerHTML = '<div class="anime‑card loading">获取番剧列表失败：'+err.message+'</div>';
     }
 }
 
