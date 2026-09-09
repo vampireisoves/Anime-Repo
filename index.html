@@ -170,17 +170,18 @@ document.addEventListener("visibilitychange", ()=>{
     if (!document.hidden && !player.paused && hls) hls.startLoad();
 });
 
+// 直接浏览器拉取根目录 index.json，不再经过Function接口
 async function loadRepoAnimeList(){
     animeCardList.innerHTML = '<div class="anime-card loading">读取仓库番剧列表中…</div>';
     try{
-        const resp = await fetch(`./api/list`);
+        const resp = await fetch(`/index.json`);
         const fileArr = await resp.json();
         if(!Array.isArray(fileArr)){
             animeCardList.innerHTML = '<div class="anime-card loading">仓库清单读取异常</div>';
             return;
         }
         if(fileArr.length === 0){
-            animeCardList.innerHTML = '<div class="anime-card loading">清单为空</div>';
+            animeCardList.innerHTML = '<div class="anime-card loading">清单为空，请检查index.json</div>';
             return;
         }
         animeCardList.innerHTML = '';
@@ -188,7 +189,7 @@ async function loadRepoAnimeList(){
             const card = document.createElement("div");
             card.className = "anime-card";
             card.textContent = item.title;
-            card.onclick = ()=> loadJson(item.rawUrl);
+            card.onclick = ()=> loadJson(`/${item.jsonFile}`);
             animeCardList.appendChild(card);
         }
     }catch(err){
