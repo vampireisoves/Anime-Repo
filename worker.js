@@ -1,0 +1,199 @@
+export default {
+  async fetch(request, env, ctx) {
+    const html = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>番剧在线播放器</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;color:#eee;font-family:system-ui}
+body{background:#111;padding:16px}
+.container{max-width:1400px;margin:0 auto;display:grid;grid-template-columns: 1fr 320px;gap:16px;align-items:start}
+/* 16:9 固定比例视频容器 */
+#video-box{
+    position:relative;
+    width:100%;
+    background:#000;
+    border-radius:8px;
+    padding-bottom: 56.25%;
+    overflow:hidden;
+}
+#player{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    display:block;
+    background:#000;
+}
+/* 右侧面板 */
+.side{display:flex;flex-direction:column;gap:12px}
+.select-wrap{background:#222;padding:12px;border-radius:8px}
+.anime-title{font-size:18px;font-weight:bold;margin-bottom:8px}
+.info-text{font-size:14px;color:#aaa}
+.ep-wrap{background:#222;padding:12px;border-radius:8px;display:flex;flex-direction:column;gap:8px}
+.ep-list{
+    display:flex;
+    flex-direction:column;
+    gap:6px;
+    max-height:520px;
+    overflow-y:auto;
+    padding-right:4px;
+}
+.ep-item{
+    padding:10px 10px;
+    background:#333;
+    border-radius:4px;
+    cursor:pointer;
+    transition:.2s;
+    height:40px;
+    line-height:20px;
+}
+.ep-item:hover{background:#444}
+.ep-item.active{background:#2563eb}
+.page-bar{display:flex;gap:8px;margin-top:10px}
+.page-btn{padding:8px 16px;background:#333;border:none;border-radius:4px;cursor:pointer;font-size:16px;height:40px}
+.page-btn.active{background:#2563eb}
+.err-text{font-size:14px;color:#ff6b6b;margin:8px 0}
+</style>
+</head>
+<body>
+<div class="container">
+    <div id="video-box">
+        <video id="player" controls></video>
+    </div>
+    <div class="side">
+        <div class="select-wrap">
+            <div id="animeTitle" class="anime-title">加载番剧信息...</div>
+            <div class="info-text">由URL传入远程JSON地址</div>
+        </div>
+        <div class="ep-wrap">
+            <div class="info-text">快捷键: ←上一集 →下一集</div>
+            <div id="errBox" class="err-text"></div>
+            <div id="epList" class="ep-list"></div>
+            <div id="pageBar" class="page-bar"></div>
+        </div>
+    </div>
+</div>
+<script>
+const PAGE_SIZE = 6;
+let episodes = [];
+let animeName = "";
+let currentPage = 1;
+let currentEpIndex = 0;
+const player = document.getElementById('player');
+const epListEl = document.getElementById('epList');
+const pageBarEl = document.getElementById('pageBar');
+const errBox = document.getElementById('errBox');
+const animeTitleEl = document.getElementById('animeTitle');
+// 获取URL参数
+function getUrlParam(key){
+    const params = new URLSearchParams(location.search);
+    return params.get(key);
+}
+// 加载远程JSON剧集列表
+async function loadJson(jsonUrl){
+    errBox.textContent = "加载中...";
+    animeTitleEl.textContent = "加载番剧信息...";
+    try{
+        const res = await fetch(jsonUrl);
+        if(!res.ok) throw new Error(\`HTTP \${res.status}\`);
+        const data = await res.json();
+        // 读取番剧名称
+        animeName = data.title;
+        episodes = data.episodes;
+        animeTitleEl.textContent = animeName;
+        // 读取本地记忆
+        const savedKey = \`lastEp_\${btoa(jsonUrl)}\`;
+        const saved = localStorage.getItem(savedKey);
+        if(saved !== null){
+            currentEpIndex = parseInt(saved,10);
+        }else{
+            currentEpIndex = 0;
+        }
+        currentPage = Math.floor(currentEpIndex / PAGE_SIZE) +1;
+        renderEpList();
+        playEp(currentEpIndex);
+        errBox.textContent = "";
+    }catch(e){
+        errBox.textContent = \`JSON读取失败: \${e.message}\`;
+        console.error("加载json错误：",e);
+    }
+}
+// 渲染剧集分页列表
+function renderEpList(){
+    epListEl.innerHTML = '';
+    pageBarEl.innerHTML = '';
+    const totalPage = Math.ceil(episodes.length / PAGE_SIZE);
+    const start = (currentPage -1)*PAGE_SIZE;
+    const sliceEps = episodes.slice(start, start+PAGE_SIZE);
+    sliceEps.forEach((ep,idx)=>{
+        const realIdx = start + idx;
+        const div = document.createElement('div');
+        div.className = "ep-item" + (realIdx === currentEpIndex ? " active":"");
+        div.textContent = ep.title;
+        div.onclick = ()=>{
+            currentEpIndex = realIdx;
+            playEp(realIdx);
+            renderEpList();
+        }
+        epListEl.appendChild(div);
+    })
+    // 分页按钮
+    for(let i=1;i<=totalPage;i++){
+        const btn = document.createElement('button');
+        btn.className = "page-btn" + (i === currentPage ? " active":"");
+        btn.textContent = \`第\${i}页\`;
+        btn.onclick = ()=>{
+            currentPage = i;
+            renderEpList();
+        }
+        pageBarEl.appendChild(btn);
+    }
+}
+// 播放指定集
+function playEp(idx){
+    const ep = episodes[idx];
+    player.src = ep.src;
+    player.load();
+    const savedKey = \`lastEp_\${btoa(getUrlParam('json'))}\`;
+    localStorage.setItem(savedKey, idx.toString());
+}
+// 快捷键 ← →
+document.addEventListener('keydown',e=>{
+    if(e.key === "ArrowLeft"){
+        if(currentEpIndex >0){
+            currentEpIndex--;
+            currentPage = Math.floor(currentEpIndex / PAGE_SIZE)+1;
+            playEp(currentEpIndex);
+            renderEpList();
+        }
+    }else if(e.key === "ArrowRight"){
+        if(currentEpIndex < episodes.length -1){
+            currentEpIndex++;
+            currentPage = Math.floor(currentEpIndex / PAGE_SIZE)+1;
+            playEp(currentEpIndex);
+            renderEpList();
+        }
+    }
+})
+// 初始化
+const jsonUrl = getUrlParam('json');
+if(jsonUrl){
+    loadJson(jsonUrl);
+}else{
+    animeTitleEl.textContent = "播放器";
+    errBox.textContent = "缺少参数，用法：?json=https://xxx/anime.json";
+}
+<\/script>
+</body>
+</html>`;
+    return new Response(html, {
+      headers: {
+        "content-type": "text/html;charset=utf-8",
+      },
+    });
+  },
+};
