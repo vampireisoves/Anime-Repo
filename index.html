@@ -54,9 +54,9 @@ body{background:#111;padding:16px}
     <div id="animeCardList" class="anime-card-list"></div>
 </div>
 
-<!-- 移到body末尾，defer确保加载完毕再执行 -->
-<script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.17/dist/hls.min.js" defer></script>
-<script defer>
+<!-- 本地静态hls，先加载库，再执行业务脚本 -->
+<script src="/static/hls.min.js"></script>
+<script>
 const PAGE_SIZE = 6;
 let episodes = [];
 let animeName = "";
@@ -70,6 +70,11 @@ const animeTitleEl = document.getElementById('animeTitle');
 const allAnimeWrap = document.getElementById('allAnimeWrap');
 const animeCardList = document.getElementById('animeCardList');
 let hls = null;
+
+// 安全防护：如果Hls不存在直接报错提示
+if(typeof Hls === "undefined"){
+    errBox.textContent = "错误：hls.js 库加载失败";
+}
 
 function getUrlParam(key){
     const params = new URLSearchParams(location.search);
@@ -131,6 +136,10 @@ function renderEpList(){
 }
 
 function playEp(idx){
+    if(typeof Hls === "undefined"){
+        errBox.textContent = "hls库未加载，无法播放";
+        return;
+    }
     const ep = episodes[idx];
     if(hls){
         hls.destroy();
