@@ -2,52 +2,57 @@ export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
 
-    // 代理接口：/api/list 获取仓库episodes目录下json文件清单
-    if (url.pathname === "/api/list") {
+    // /api/list 代理读取仓库 episodes/index.json 清单
+    if(url.pathname === "/api/list"){
       try {
-        const githubApi = "https://api.github.com/repos/vampireisoves/Anime-Repo/git/trees/main?recursive=1";
-        const res = await fetch(githubApi, {
-          headers: { "User-Agent": "Mozilla/5.0" }
+        // 读取你仓库里的清单文件
+        const indexRawUrl = "https://raw.githubusercontent.com/vampireisoves/Anime-Repo/main/episodes/index.json";
+        const res = await fetch(indexRawUrl, {
+          headers:{
+            "User‑Agent":"Mozilla/5.0"
+          }
         });
-        if (!res.ok) throw new Error("github api response not ok");
-        const data = await res.json();
-        const jsonFiles = (data.tree || [])
-          .filter(item => item.path.startsWith("episodes/") && item.path.endsWith(".json") && item.type === "blob")
-          .map(item => {
-            const filename = item.path.replace("episodes/", "");
-            const rawUrl = "https://raw.githubusercontent.com/vampireisoves/Anime-Repo/main/episodes/" + filename;
-            return { filename, rawUrl };
-          });
-        return new Response(JSON.stringify(jsonFiles), {
-          headers: {
-            "content-type": "application/json;charset=utf-8",
-            "Access-Control-Allow-Origin": "*"
+        if(!res.ok) throw new Error(`fetch index.json ${res.status}`);
+        const list = await res.json();
+        // 拼接完整raw地址返回前端
+        const result = list.map(item=>{
+          return {
+            title: item.title,
+            rawUrl: `https://raw.githubusercontent.com/vampireisoves/Anime‑Repo/main/episodes/${item.jsonFile}`
+          };
+        });
+        return new Response(JSON.stringify(result),{
+          headers:{
+            "content‑type":"application/json;charset=utf‑8",
+            "Access‑Control‑Allow‑Origin":"*"
           }
         });
       } catch (err) {
-        return new Response("[]", {
-          headers: { "content-type": "application/json;charset=utf-8" }
+        console.error("/api/list error",err);
+        return new Response("[]",{
+          headers:{"content‑type":"application/json;charset=utf‑8"}
         });
       }
     }
 
+    // 返回播放器HTML页面
     const html = `<!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh‑CN">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF‑8">
+<meta name="viewport" content="width=device‑width, initial‑scale=1.0">
 <title>番剧在线播放器</title>
 <script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.17/dist/hls.min.js"></script>
 <style>
-*{box-sizing:border-box;margin:0;padding:0;color:#eee;font-family:system-ui}
+*{box‑sizing:border‑box;margin:0;padding:0;color:#eee;font‑family:system‑ui}
 body{background:#111;padding:16px}
-.container{max-width:1400px;margin:0 auto;display:grid;grid-template-columns: 1fr 320px;gap:16px;align-items:start}
-#video-box{
+.container{max‑width:1400px;margin:0 auto;display:grid;grid‑template‑columns: 1fr 320px;gap:16px;align‑items:start}
+#video‑box{
     position:relative;
     width:100%;
     background:#000;
-    border-radius:8px;
-    padding-bottom: 56.25%;
+    border‑radius:8px;
+    padding‑bottom: 56.25%;
     overflow:hidden;
 }
 #player{
@@ -59,65 +64,66 @@ body{background:#111;padding:16px}
     display:block;
     background:#000;
 }
-.side{display:flex;flex-direction:column;gap:12px}
-.select-wrap{background:#222;padding:12px;border-radius:8px}
-.anime-title{font-size:18px;font-weight:bold;margin-bottom:8px}
-.info-text{font-size:14px;color:#aaa}
-.ep-wrap{background:#222;padding:12px;border-radius:8px;display:flex;flex-direction:column;gap:12px}
-.ep-list{
+.side{display:flex;flex‑direction:column;gap:12px}
+.select‑wrap{background:#222;padding:12px;border‑radius:8px}
+.anime‑title{font‑size:18px;font‑weight:bold;margin‑bottom:8px}
+.info‑text{font‑size:14px;color:#aaa}
+.ep‑wrap{background:#222;padding:12px;border‑radius:8px;display:flex;flex‑direction:column;gap:12px}
+.ep‑list{
     display:flex;
-    flex-direction:column;
+    flex‑direction:column;
     gap:6px;
-    max-height:520px;
-    overflow-y:auto;
-    padding-right:4px;
+    max‑height:520px;
+    overflow‑y:auto;
+    padding‑right:4px;
 }
-.ep-item{
+.ep‑item{
     padding:10px 10px;
     background:#333;
-    border-radius:4px;
+    border‑radius:4px;
     cursor:pointer;
     transition:.2s;
     height:40px;
-    line-height:20px;
+    line‑height:20px;
 }
-.ep-item:hover{background:#444}
-.ep-item.active{background:#2563eb}
-.page-bar{display:flex;gap:8px;margin-top:10px}
-.page-btn{padding:8px 16px;background:#333;border:none;border-radius:4px;cursor:pointer;font-size:16px;height:40px}
-.page-btn.active{background:#2563eb}
-.err-text{font-size:14px;color:#ff6b6b;margin:8px 0}
+.ep‑item:hover{background:#444}
+.ep‑item.active{background:#2563eb}
+.page‑bar{display:flex;gap:8px;margin‑top:10px}
+.page‑btn{padding:8px 16px;background:#333;border:none;border‑radius:4px;cursor:pointer;font‑size:16px;height:40px}
+.page‑btn.active{background:#2563eb}
+.err‑text{font‑size:14px;color:#ff6b6b;margin:8px 0}
 
-.all-anime-wrap{max-width:1400px;margin:24px auto 0 auto;background:#1e1e1e;padding:16px;border-radius:8px}
-.all-anime-wrap h3{margin-bottom:12px}
-.anime-card-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
-.anime-card{padding:10px 12px;background:#2d2d2d;border-radius:6px;cursor:pointer;transition:.2s}
-.anime-card:hover{background:#3b3b3b}
-.anime-card.loading{color:#888;cursor:default}
+.all‑anime‑wrap{max‑width:1400px;margin:24px auto 0 auto;background:#1e1e1e;padding:16px;border‑radius:8px}
+.all‑anime‑wrap h3{margin‑bottom:12px}
+.anime‑card‑list{display:grid;grid‑template‑columns:repeat(auto‑fill,minmax(220px,1fr));gap:10px}
+.anime‑card{padding:10px 12px;background:#2d2d2d;border‑radius:6px;cursor:pointer;transition:.2s}
+.anime‑card:hover{background:#3b3b3b}
+.anime‑card.loading{color:#888;cursor:default}
 </style>
 </head>
 <body>
 <div class="container">
-    <div id="video-box">
+    <div id="video‑box">
         <video id="player" controls></video>
     </div>
     <div class="side">
-        <div class="select-wrap">
-            <div id="animeTitle" class="anime-title">加载番剧信息...</div>
-            <div class="info-text">由URL传入远程JSON地址</div>
+        <div class="select‑wrap">
+            <div id="animeTitle" class="anime‑title">选择下方番剧开始播放</div>
+            <div class="info‑text">由URL传入远程JSON地址</div>
         </div>
-        <div class="ep-wrap">
-            <div class="info-text">快捷键: ←上一集 →下一集</div>
-            <div id="errBox" class="err-text"></div>
-            <div id="epList" class="ep-list"></div>
-            <div id="pageBar" class="page-bar"></div>
+        <div class="ep‑wrap">
+            <div class="info‑text">快捷键: ←上一集 →下一集</div>
+            <div id="errBox" class="err‑text"></div>
+            <div id="epList" class="ep‑list"></div>
+            <div id="pageBar" class="page‑bar"></div>
         </div>
     </div>
 </div>
 
-<div id="allAnimeWrap" class="all-anime-wrap" style="display:none;">
+<div id="allAnimeWrap" class="all‑anime‑wrap" style="display:none;">
     <h3>仓库全部番剧列表（点击播放）</h3>
-    <div id="animeCardList" class="anime-card-list"></div>
+    <div id="animeCardList" class="anime‑card‑list">
+    </div>
 </div>
 
 <script>
@@ -158,7 +164,7 @@ async function loadJson(jsonUrl){
         }else{
             currentEpIndex = 0;
         }
-        currentPage = Math.floor(currentEpIndex / PAGE_SIZE) + 1;
+        currentPage = Math.floor(currentEpIndex / PAGE_SIZE) +1;
         renderEpList();
         playEp(currentEpIndex);
         errBox.textContent = "";
@@ -172,12 +178,12 @@ function renderEpList(){
     epListEl.innerHTML = '';
     pageBarEl.innerHTML = '';
     const totalPage = Math.ceil(episodes.length / PAGE_SIZE);
-    const start = (currentPage - 1) * PAGE_SIZE;
-    const sliceEps = episodes.slice(start, start + PAGE_SIZE);
+    const start = (currentPage -1)*PAGE_SIZE;
+    const sliceEps = episodes.slice(start, start+PAGE_SIZE);
     sliceEps.forEach((ep,idx)=>{
         const realIdx = start + idx;
         const div = document.createElement('div');
-        div.className = "ep-item" + (realIdx === currentEpIndex ? " active":"");
+        div.className = "ep‑item" + (realIdx === currentEpIndex ? " active":"");
         div.textContent = ep.title;
         div.onclick = ()=>{
             currentEpIndex = realIdx;
@@ -188,7 +194,7 @@ function renderEpList(){
     })
     for(let i=1;i<=totalPage;i++){
         const btn = document.createElement('button');
-        btn.className = "page-btn" + (i === currentPage ? " active":"");
+        btn.className = "page‑btn" + (i === currentPage ? " active":"");
         btn.textContent = \`第\${i}页\`;
         btn.onclick = ()=>{
             currentPage = i;
@@ -205,10 +211,13 @@ function playEp(idx){
         hls = null;
     }
     if(Hls.isSupported()) {
-        hls = new Hls({ enableWorker:true, lowLatencyMode:false });
+        hls = new Hls({
+            enableWorker:true,
+            lowLatencyMode:false
+        });
         hls.loadSource(ep.src);
         hls.attachMedia(player);
-        hls.on(Hls.Events.MANIFEST_PARSED, function(){
+        hls.on(Hls.Events.MANIFEST_PARSED,function() {
             player.play();
         });
     }
@@ -216,62 +225,56 @@ function playEp(idx){
         player.src = ep.src;
     }
     player.load();
-    const savedKey = \`lastEp_\${btoa(getUrlParam('json') || '')}\`;
+    const savedKey = \`lastEp_\${btoa(getUrlParam('json')||'')}\`;
     localStorage.setItem(savedKey, idx.toString());
 }
 
-document.addEventListener('keydown', e=>{
+document.addEventListener('keydown',e=>{
     if(e.key === "ArrowLeft"){
-        if(currentEpIndex > 0){
+        if(currentEpIndex >0){
             currentEpIndex--;
-            currentPage = Math.floor(currentEpIndex / PAGE_SIZE) + 1;
+            currentPage = Math.floor(currentEpIndex / PAGE_SIZE)+1;
             playEp(currentEpIndex);
             renderEpList();
         }
     }else if(e.key === "ArrowRight"){
-        if(currentEpIndex < episodes.length - 1){
+        if(currentEpIndex < episodes.length -1){
             currentEpIndex++;
-            currentPage = Math.floor(currentEpIndex / PAGE_SIZE) + 1;
+            currentPage = Math.floor(currentEpIndex / PAGE_SIZE)+1;
             playEp(currentEpIndex);
             renderEpList();
         }
     }
 })
 
-document.addEventListener("visibilitychange", ()=>{
-    if(!document.hidden && !player.paused && hls){
+document.addEventListener("visibilitychange", () => {
+    if (!document.hidden && !player.paused && hls) {
         hls.startLoad();
     }
 });
 
 async function loadRepoAnimeList(){
     allAnimeWrap.style.display = "block";
-    animeCardList.innerHTML = '<div class="anime-card loading">读取仓库番剧列表中…</div>';
+    animeCardList.innerHTML = '<div class="anime‑card loading">读取仓库番剧列表中…</div>';
     try{
         const resp = await fetch("./api/list");
         const fileArr = await resp.json();
-        if(!Array.isArray(fileArr) || fileArr.length === 0){
-            animeCardList.innerHTML = '<div class="anime-card loading">仓库列表为空 / GitHub API限流</div>';
+        if(!Array.isArray(fileArr) || fileArr.length ===0){
+            animeCardList.innerHTML = '<div class="anime‑card loading">仓库清单index.json为空或读取失败</div>';
             return;
         }
         animeCardList.innerHTML = '';
         for(const item of fileArr){
-            let titleText = item.filename;
-            try{
-                const jResp = await fetch(item.rawUrl);
-                const jData = await jResp.json();
-                titleText = jData.title || item.filename;
-            }catch(err){}
             const card = document.createElement("div");
-            card.className = "anime-card";
-            card.textContent = titleText;
+            card.className = "anime‑card";
+            card.textContent = item.title;
             card.onclick = ()=>{
                 loadJson(item.rawUrl);
             }
             animeCardList.appendChild(card);
         }
     }catch(err){
-        animeCardList.innerHTML = '<div class="anime-card loading">获取番剧列表失败：' + err.message + '</div>';
+        animeCardList.innerHTML = '<div class="anime‑card loading">获取番剧列表失败：'+err.message+'</div>';
     }
 }
 
@@ -287,9 +290,9 @@ if(jsonUrl){
 </body>
 `;
     return new Response(html, {
-      headers: {
-        "content-type": "text/html;charset=utf-8"
-      }
+        headers: {
+            "content‑type": "text/html;charset=utf‑8",
+        },
     });
   },
 };
