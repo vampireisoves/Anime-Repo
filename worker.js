@@ -109,7 +109,7 @@ body{background:#111;padding:16px}
     <div class="side">
         <div class="select‑wrap">
             <div id="animeTitle" class="anime‑title">选择下方番剧开始播放</div>
-            <div class="info‑text">由URL传入远程JSON地址</div>
+            <div class="info‑text">由远程JSON传入地址(后方加入/?json=url)</div>
         </div>
         <div class="ep‑wrap">
             <div class="info‑text">快捷键: ←上一集 →下一集</div>
