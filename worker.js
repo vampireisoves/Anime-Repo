@@ -1,5 +1,36 @@
 export default {
   async fetch(request, env, ctx) {
+    const url = new URL(request.url);
+
+    // 代理接口：/api/list 获取仓库episodes目录下json文件清单
+    if (url.pathname === "/api/list") {
+      try {
+        const githubApi = "https://api.github.com/repos/vampireisoves/Anime-Repo/git/trees/main?recursive=1";
+        const res = await fetch(githubApi, {
+          headers: { "User-Agent": "Mozilla/5.0" }
+        });
+        if (!res.ok) throw new Error("github api response not ok");
+        const data = await res.json();
+        const jsonFiles = (data.tree || [])
+          .filter(item => item.path.startsWith("episodes/") && item.path.endsWith(".json") && item.type === "blob")
+          .map(item => {
+            const filename = item.path.replace("episodes/", "");
+            const rawUrl = "https://raw.githubusercontent.com/vampireisoves/Anime-Repo/main/episodes/" + filename;
+            return { filename, rawUrl };
+          });
+        return new Response(JSON.stringify(jsonFiles), {
+          headers: {
+            "content-type": "application/json;charset=utf-8",
+            "Access-Control-Allow-Origin": "*"
+          }
+        });
+      } catch (err) {
+        return new Response("[]", {
+          headers: { "content-type": "application/json;charset=utf-8" }
+        });
+      }
+    }
+
     const html = `<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -56,6 +87,13 @@ body{background:#111;padding:16px}
 .page-btn{padding:8px 16px;background:#333;border:none;border-radius:4px;cursor:pointer;font-size:16px;height:40px}
 .page-btn.active{background:#2563eb}
 .err-text{font-size:14px;color:#ff6b6b;margin:8px 0}
+
+.all-anime-wrap{max-width:1400px;margin:24px auto 0 auto;background:#1e1e1e;padding:16px;border-radius:8px}
+.all-anime-wrap h3{margin-bottom:12px}
+.anime-card-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
+.anime-card{padding:10px 12px;background:#2d2d2d;border-radius:6px;cursor:pointer;transition:.2s}
+.anime-card:hover{background:#3b3b3b}
+.anime-card.loading{color:#888;cursor:default}
 </style>
 </head>
 <body>
@@ -77,6 +115,11 @@ body{background:#111;padding:16px}
     </div>
 </div>
 
+<div id="allAnimeWrap" class="all-anime-wrap" style="display:none;">
+    <h3>仓库全部番剧列表（点击播放）</h3>
+    <div id="animeCardList" class="anime-card-list"></div>
+</div>
+
 <script>
 const PAGE_SIZE = 6;
 let episodes = [];
@@ -88,6 +131,8 @@ const epListEl = document.getElementById('epList');
 const pageBarEl = document.getElementById('pageBar');
 const errBox = document.getElementById('errBox');
 const animeTitleEl = document.getElementById('animeTitle');
+const allAnimeWrap = document.getElementById('allAnimeWrap');
+const animeCardList = document.getElementById('animeCardList');
 let hls = null;
 
 function getUrlParam(key){
@@ -113,7 +158,7 @@ async function loadJson(jsonUrl){
         }else{
             currentEpIndex = 0;
         }
-        currentPage = Math.floor(currentEpIndex / PAGE_SIZE) +1;
+        currentPage = Math.floor(currentEpIndex / PAGE_SIZE) + 1;
         renderEpList();
         playEp(currentEpIndex);
         errBox.textContent = "";
@@ -127,8 +172,8 @@ function renderEpList(){
     epListEl.innerHTML = '';
     pageBarEl.innerHTML = '';
     const totalPage = Math.ceil(episodes.length / PAGE_SIZE);
-    const start = (currentPage -1)*PAGE_SIZE;
-    const sliceEps = episodes.slice(start, start+PAGE_SIZE);
+    const start = (currentPage - 1) * PAGE_SIZE;
+    const sliceEps = episodes.slice(start, start + PAGE_SIZE);
     sliceEps.forEach((ep,idx)=>{
         const realIdx = start + idx;
         const div = document.createElement('div');
@@ -160,13 +205,10 @@ function playEp(idx){
         hls = null;
     }
     if(Hls.isSupported()) {
-        hls = new Hls({
-            enableWorker:true,
-            lowLatencyMode:false
-        });
+        hls = new Hls({ enableWorker:true, lowLatencyMode:false });
         hls.loadSource(ep.src);
         hls.attachMedia(player);
-        hls.on(Hls.Events.MANIFEST_PARSED,function() {
+        hls.on(Hls.Events.MANIFEST_PARSED, function(){
             player.play();
         });
     }
@@ -174,48 +216,80 @@ function playEp(idx){
         player.src = ep.src;
     }
     player.load();
-    const savedKey = \`lastEp_\${btoa(getUrlParam('json'))}\`;
+    const savedKey = \`lastEp_\${btoa(getUrlParam('json') || '')}\`;
     localStorage.setItem(savedKey, idx.toString());
 }
 
-document.addEventListener('keydown',e=>{
+document.addEventListener('keydown', e=>{
     if(e.key === "ArrowLeft"){
-        if(currentEpIndex >0){
+        if(currentEpIndex > 0){
             currentEpIndex--;
-            currentPage = Math.floor(currentEpIndex / PAGE_SIZE)+1;
+            currentPage = Math.floor(currentEpIndex / PAGE_SIZE) + 1;
             playEp(currentEpIndex);
             renderEpList();
         }
     }else if(e.key === "ArrowRight"){
-        if(currentEpIndex < episodes.length -1){
+        if(currentEpIndex < episodes.length - 1){
             currentEpIndex++;
-            currentPage = Math.floor(currentEpIndex / PAGE_SIZE)+1;
+            currentPage = Math.floor(currentEpIndex / PAGE_SIZE) + 1;
             playEp(currentEpIndex);
             renderEpList();
         }
     }
 })
 
-document.addEventListener("visibilitychange", () => {
-    if (!document.hidden && !player.paused && hls) {
+document.addEventListener("visibilitychange", ()=>{
+    if(!document.hidden && !player.paused && hls){
         hls.startLoad();
     }
 });
+
+async function loadRepoAnimeList(){
+    allAnimeWrap.style.display = "block";
+    animeCardList.innerHTML = '<div class="anime-card loading">读取仓库番剧列表中…</div>';
+    try{
+        const resp = await fetch("./api/list");
+        const fileArr = await resp.json();
+        if(!Array.isArray(fileArr) || fileArr.length === 0){
+            animeCardList.innerHTML = '<div class="anime-card loading">仓库列表为空 / GitHub API限流</div>';
+            return;
+        }
+        animeCardList.innerHTML = '';
+        for(const item of fileArr){
+            let titleText = item.filename;
+            try{
+                const jResp = await fetch(item.rawUrl);
+                const jData = await jResp.json();
+                titleText = jData.title || item.filename;
+            }catch(err){}
+            const card = document.createElement("div");
+            card.className = "anime-card";
+            card.textContent = titleText;
+            card.onclick = ()=>{
+                loadJson(item.rawUrl);
+            }
+            animeCardList.appendChild(card);
+        }
+    }catch(err){
+        animeCardList.innerHTML = '<div class="anime-card loading">获取番剧列表失败：' + err.message + '</div>';
+    }
+}
 
 const jsonUrl = getUrlParam('json');
 if(jsonUrl){
     loadJson(jsonUrl);
 }else{
-    animeTitleEl.textContent = "播放器";
-    errBox.textContent = "缺少参数，用法：?json=https://xxx/anime.json";
+    animeTitleEl.textContent = "选择下方番剧开始播放";
+    errBox.textContent = "";
+    loadRepoAnimeList();
 }
 </script>
 </body>
 `;
     return new Response(html, {
-        headers: {
-            "content-type": "text/html;charset=utf-8",
-        },
+      headers: {
+        "content-type": "text/html;charset=utf-8"
+      }
     });
   },
 };
