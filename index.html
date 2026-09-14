@@ -19,6 +19,14 @@ body{background:#111;padding:16px}
 .ep-item:hover{background:#444}
 .ep-item.active{background:#2563eb}
 .err-text{font-size:14px;color:#ff6b6b;margin:8px 0}
+.history-wrap{max-width:1400px;margin:24px auto 0 auto;background:#1e1e1e;padding:16px;border-radius:8px}
+.history-wrap h3{margin-bottom:12px}
+.history-list{display:flex;flex-direction:column;gap:6px}
+.history-item{padding:10px 12px;background:#2d2d2d;border-radius:6px;cursor:pointer;transition:.2s;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.history-item:hover{background:#3b3b3b}
+.history-title{font-size:14px;min-width:0}
+.history-meta{font-size:12px;color:#888;flex-shrink:0}
+.history-empty{font-size:14px;color:#888;padding:10px 0}
 .all-anime-wrap{max-width:1400px;margin:24px auto 0 auto;background:#1e1e1e;padding:16px;border-radius:8px}
 .all-anime-wrap h3{margin-bottom:12px}
 .anime-filter{width:100%;padding:10px 12px;background:#2d2d2d;border:1px solid #3a3a3a;border-radius:6px;font-size:14px;color:#eee;margin-bottom:12px;outline:none}
@@ -62,6 +70,10 @@ body{background:#111;padding:16px}
             <div id="epList" class="ep-list"></div>
         </div>
     </div>
+</div>
+<div id="historyWrap" class="history-wrap">
+    <h3>播放历史</h3>
+    <div id="historyList" class="history-list"></div>
 </div>
 <div id="allAnimeWrap" class="all-anime-wrap">
     <h3>剧集列表</h3>
@@ -125,6 +137,7 @@ const animeTypeBarEl = document.getElementById('animeTypeBar');
 let hls = null;
 let repoAnimeList = [];
 let currentType = "全部";
+let currentJsonFile = "";
 const TYPE_LIST = ["全部", "电影", "剧集", "动漫"];
 
 // 安全防护：如果Hls不存在直接报错提示
@@ -138,6 +151,7 @@ function getUrlParam(key){
 }
 
 async function loadJson(jsonUrl){
+    currentJsonFile = jsonUrl;
     errBox.textContent = "加载中...";
     animeTitleEl.textContent = "加载番剧信息...";
     try{
@@ -196,8 +210,10 @@ function playEp(idx){
         player.src = ep.src;
         player.play();
     }
-    const savedKey = `lastEp_${btoa(getUrlParam('json')||'')}`;
+    const savedKey = `lastEp_${btoa(currentJsonFile)}`;
     localStorage.setItem(savedKey, idx.toString());
+    saveHistory();
+    renderHistory();
 }
 
 document.addEventListener('keydown',e=>{
@@ -219,6 +235,54 @@ document.addEventListener('keydown',e=>{
 document.addEventListener("visibilitychange", ()=>{
     if (!document.hidden && !player.paused && hls) hls.startLoad();
 });
+
+const HISTORY_KEY = 'anip_history';
+const historyWrap = document.getElementById('historyWrap');
+const historyList = document.getElementById('historyList');
+
+function getHistory(){
+    try{ return JSON.parse(localStorage.getItem(HISTORY_KEY)) || []; }
+    catch(e){ return []; }
+}
+function saveHistory(){
+    try{
+        const h = getHistory().filter(x => x.jsonFile !== currentJsonFile);
+        h.unshift({title: animeName, jsonFile: currentJsonFile, epTitle: episodes[currentEpIndex] ? episodes[currentEpIndex].title : '', epIndex: currentEpIndex, time: Date.now()});
+        localStorage.setItem(HISTORY_KEY, JSON.stringify(h.slice(0, 20)));
+    }catch(e){}
+}
+function fmtTime(t){
+    const d = new Date(t);
+    const pad = n => String(n).padStart(2, '0');
+    return d.getFullYear() + '-' + pad(d.getMonth()+1) + '-' + pad(d.getDate()) + ' ' + pad(d.getHours()) + ':' + pad(d.getMinutes());
+}
+function renderHistory(){
+    if(!historyList) return;
+    const h = getHistory();
+    if(h.length === 0){
+        historyList.innerHTML = '<div class="history-empty">暂无播放记录</div>';
+        return;
+    }
+    historyList.innerHTML = '';
+    h.forEach(item => {
+        const div = document.createElement('div');
+        div.className = 'history-item';
+        const t = document.createElement('span');
+        t.className = 'history-title';
+        t.textContent = item.title + ' · ' + (item.epTitle || '');
+        const m = document.createElement('span');
+        m.className = 'history-meta';
+        m.textContent = fmtTime(item.time);
+        div.appendChild(t);
+        div.appendChild(m);
+        div.onclick = ()=>{
+            const url = '/' + item.jsonFile;
+            try{ localStorage.setItem('lastEp_' + btoa(url), String(item.epIndex)); }catch(e){}
+            loadJson(url);
+        };
+        historyList.appendChild(div);
+    });
+}
 
 function initTypeBar(){
     animeTypeBarEl.innerHTML = '';
@@ -289,6 +353,7 @@ syncSideHeight();
 window.addEventListener('resize', syncSideHeight);
 
 if(animeTypeBarEl) initTypeBar();
+renderHistory();
 if(animeFilterEl) animeFilterEl.addEventListener('input', renderAnimeCards);
 
 const jsonUrl = getUrlParam('json');
