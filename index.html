@@ -11,6 +11,10 @@ body{background:#111;padding:16px}
 #video-box{position:relative;width:100%;background:#000;border-radius:8px;padding-bottom:56.25%;overflow:hidden}
 #player{position:absolute;top:0;left:0;width:100%;height:100%;display:block;background:#000}
 .anime-title-overlay{position:absolute;top:0;left:0;right:0;z-index:2;padding:12px 16px;font-size:18px;font-weight:bold;color:#eee;background:linear-gradient(180deg,rgba(0,0,0,.8),rgba(0,0,0,0));pointer-events:none}
+.fs-btn{position:absolute;top:10px;right:12px;z-index:3;padding:6px 12px;background:rgba(0,0,0,.6);border:1px solid rgba(255,255,255,.25);border-radius:6px;font-size:13px;color:#eee;cursor:pointer;transition:.2s}
+.fs-btn:hover{background:rgba(255,255,255,.15)}
+.fs-btn.active{background:#2563eb;border-color:#2563eb}
+.speed-info{position:absolute;right:12px;bottom:44px;z-index:2;padding:3px 8px;background:rgba(0,0,0,.55);border-radius:4px;font-size:12px;color:#eee;pointer-events:none;font-variant-numeric:tabular-nums;min-width:70px;text-align:right}
 .side{display:flex;flex-direction:column;gap:12px;min-height:0}
 .info-text{font-size:14px;color:#aaa}
 .ep-wrap{background:#222;padding:12px;border-radius:8px;display:flex;flex-direction:column;gap:12px;flex:1;min-height:0}
@@ -20,7 +24,13 @@ body{background:#111;padding:16px}
 .ep-item.active{background:#2563eb}
 .err-text{font-size:14px;color:#ff6b6b;margin:8px 0}
 .history-wrap{max-width:1400px;margin:24px auto 0 auto;background:#1e1e1e;padding:16px;border-radius:8px}
-.history-wrap h3{margin-bottom:12px}
+.history-wrap h3{margin:0}
+.history-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.history-clear-btn{padding:4px 12px;background:#2d2d2d;border:1px solid #3a3a3a;border-radius:4px;cursor:pointer;font-size:12px;color:#aaa;transition:.2s}
+.history-clear-btn:hover{background:#3b3b3b;color:#ff6b6b}
+.history-del-btn{flex-shrink:0;width:22px;height:22px;line-height:20px;text-align:center;border:none;background:transparent;color:#888;font-size:14px;cursor:pointer;border-radius:4px;transition:.2s;padding:0}
+.history-del-btn:hover{background:#444;color:#ff6b6b}
+.history-right{display:flex;align-items:center;gap:8px;flex-shrink:0}
 .history-list{display:flex;flex-direction:column;gap:6px}
 .history-item{padding:10px 12px;background:#2d2d2d;border-radius:6px;cursor:pointer;transition:.2s;display:flex;justify-content:space-between;align-items:center;gap:10px}
 .history-item:hover{background:#3b3b3b}
@@ -49,6 +59,10 @@ body{background:#111;padding:16px}
 .login-err{font-size:13px;color:#ff6b6b;min-height:16px;text-align:center}
 .login-btn{padding:10px;background:#2563eb;border:none;border-radius:6px;font-size:15px;cursor:pointer;color:#fff}
 .login-btn:hover{background:#1d4ed8}
+:fullscreen body{padding:16px;height:100vh;overflow:hidden}
+:fullscreen .container{max-width:none;height:100%}
+:fullscreen #video-box{height:calc(100vh - 32px);padding-bottom:0}
+:fullscreen #player{object-fit:contain}
 @media (max-width:900px){
     .container{grid-template-columns:1fr;gap:12px}
     #video-box{position:sticky;top:0;z-index:10}
@@ -61,6 +75,8 @@ body{background:#111;padding:16px}
 <div class="container">
     <div id="video-box">
         <div id="animeTitle" class="anime-title-overlay">选择下方番剧开始播放</div>
+        <button id="fsBtn" class="fs-btn" type="button">页面全屏</button>
+        <div id="speedInfo" class="speed-info"></div>
         <video id="player" controls></video>
     </div>
     <div class="side">
@@ -72,7 +88,10 @@ body{background:#111;padding:16px}
     </div>
 </div>
 <div id="historyWrap" class="history-wrap">
-    <h3>播放历史</h3>
+    <div class="history-head">
+        <h3>播放历史</h3>
+        <button id="historyClearBtn" class="history-clear-btn" type="button">清空全部</button>
+    </div>
     <div id="historyList" class="history-list"></div>
 </div>
 <div id="allAnimeWrap" class="all-anime-wrap">
@@ -94,7 +113,7 @@ body{background:#111;padding:16px}
 <!-- 本地静态hls，先加载库，再执行业务脚本 -->
 <script src="/static/hls.min.js"></script>
 <script>
-const LOGIN_PWDS = ["anip19941104", "hy19960414"];
+const LOGIN_PWDS = ["anip19941104", "hy19960414", "test123456"];
 const loginOverlay = document.getElementById('loginOverlay');
 const loginPwd = document.getElementById('loginPwd');
 const loginBtn = document.getElementById('loginBtn');
@@ -138,6 +157,7 @@ let hls = null;
 let repoAnimeList = [];
 let currentType = "全部";
 let currentJsonFile = "";
+let pendingSeek = null;
 const TYPE_LIST = ["全部", "电影", "剧集", "动漫"];
 
 // 安全防护：如果Hls不存在直接报错提示
@@ -201,11 +221,18 @@ function playEp(idx){
         hls.destroy();
         hls = null;
     }
+    resetSpeed();
     if(Hls.isSupported()) {
         hls = new Hls({enableWorker:true, lowLatencyMode:false});
         hls.loadSource(ep.src);
         hls.attachMedia(player);
         hls.on(Hls.Events.MANIFEST_PARSED,()=>{ player.play(); });
+        hls.on(Hls.Events.FRAG_LOADED,(e,data)=>{
+            const st = data && data.frag && data.frag.stats;
+            if(st && st.loaded){
+                speedState.bytes += st.loaded;
+            }
+        });
     }else if(player.canPlayType('application/vnd.apple.mpegurl')){
         player.src = ep.src;
         player.play();
@@ -214,20 +241,29 @@ function playEp(idx){
     localStorage.setItem(savedKey, idx.toString());
     saveHistory();
     renderHistory();
+setInterval(()=>{ if(player && !player.paused && episodes.length) updateHistoryPos(); }, 5000);
+    const jf = String(currentJsonFile).replace(/^\//, '');
+    if(pendingSeek && pendingSeek.jsonFile === jf && pendingSeek.epIndex === idx){
+        const sec = pendingSeek.pos || 0;
+        pendingSeek = null;
+        const doSeek = ()=>{ try{ if(!isNaN(sec) && sec > 0) player.currentTime = sec; }catch(e){} };
+        if(player.readyState >= 1){ doSeek(); }
+        else{ player.addEventListener('loadedmetadata', doSeek, {once:true}); }
+    }
 }
 
 document.addEventListener('keydown',e=>{
+    const tag = (e.target && e.target.tagName) || '';
+    if(tag === 'INPUT' || tag === 'TEXTAREA') return;
     if(e.key === "ArrowLeft"){
-        if(currentEpIndex>0){
-            currentEpIndex--;
-            playEp(currentEpIndex);
-            renderEpList();
+        e.preventDefault();
+        if(player){
+            player.currentTime = Math.max(0, (player.currentTime || 0) - 5);
         }
     }else if(e.key === "ArrowRight"){
-        if(currentEpIndex < episodes.length-1){
-            currentEpIndex++;
-            playEp(currentEpIndex);
-            renderEpList();
+        e.preventDefault();
+        if(player){
+            player.currentTime = (player.currentTime || 0) + 5;
         }
     }
 })
@@ -246,9 +282,26 @@ function getHistory(){
 }
 function saveHistory(){
     try{
-        const h = getHistory().filter(x => x.jsonFile !== currentJsonFile);
-        h.unshift({title: animeName, jsonFile: currentJsonFile, epTitle: episodes[currentEpIndex] ? episodes[currentEpIndex].title : '', epIndex: currentEpIndex, time: Date.now()});
+        const jf = String(currentJsonFile).replace(/^\//, '');
+        const h = getHistory().filter(x => x.jsonFile !== jf);
+        let pos = 0;
+        if(pendingSeek && pendingSeek.jsonFile === jf && pendingSeek.epIndex === currentEpIndex){
+            pos = pendingSeek.pos || 0;
+        }
+        h.unshift({title: animeName, jsonFile: jf, epTitle: episodes[currentEpIndex] ? episodes[currentEpIndex].title : '', epIndex: currentEpIndex, pos: pos, time: Date.now()});
         localStorage.setItem(HISTORY_KEY, JSON.stringify(h.slice(0, 20)));
+    }catch(e){}
+}
+
+function updateHistoryPos(){
+    try{
+        const jf = String(currentJsonFile).replace(/^\//, '');
+        const h = getHistory();
+        const item = h.find(x => x.jsonFile === jf && x.epIndex === currentEpIndex);
+        if(item && player && !isNaN(player.currentTime) && player.currentTime > 0){
+            item.pos = player.currentTime;
+            localStorage.setItem(HISTORY_KEY, JSON.stringify(h));
+        }
     }catch(e){}
 }
 function fmtTime(t){
@@ -264,7 +317,7 @@ function renderHistory(){
         return;
     }
     historyList.innerHTML = '';
-    h.forEach(item => {
+    h.forEach((item, idx) => {
         const div = document.createElement('div');
         div.className = 'history-item';
         const t = document.createElement('span');
@@ -273,15 +326,41 @@ function renderHistory(){
         const m = document.createElement('span');
         m.className = 'history-meta';
         m.textContent = fmtTime(item.time);
+        const del = document.createElement('button');
+        del.className = 'history-del-btn';
+        del.type = 'button';
+        del.textContent = '✕';
+        del.title = '删除该条记录';
+        del.onclick = (ev)=>{
+            ev.stopPropagation();
+            const hh = getHistory();
+            hh.splice(idx, 1);
+            localStorage.setItem(HISTORY_KEY, JSON.stringify(hh));
+            renderHistory();
+        };
+        const right = document.createElement('span');
+        right.className = 'history-right';
+        right.appendChild(m);
+        right.appendChild(del);
         div.appendChild(t);
-        div.appendChild(m);
+        div.appendChild(right);
         div.onclick = ()=>{
-            const url = '/' + item.jsonFile;
+            const url = '/' + String(item.jsonFile).replace(/^\//, '');
             try{ localStorage.setItem('lastEp_' + btoa(url), String(item.epIndex)); }catch(e){}
+            pendingSeek = {jsonFile: item.jsonFile, epIndex: item.epIndex, pos: item.pos || 0};
             loadJson(url);
         };
         historyList.appendChild(div);
     });
+}
+
+const historyClearBtn = document.getElementById('historyClearBtn');
+if(historyClearBtn){
+    historyClearBtn.onclick = ()=>{
+        if(!confirm('确定要清空全部播放历史吗？')) return;
+        localStorage.removeItem(HISTORY_KEY);
+        renderHistory();
+    };
 }
 
 function initTypeBar(){
@@ -351,6 +430,52 @@ function syncSideHeight(){
 }
 syncSideHeight();
 window.addEventListener('resize', syncSideHeight);
+
+// 页面全屏
+// 缓存速度统计
+const speedInfoEl = document.getElementById('speedInfo');
+const speedState = {bytes: 0, windowStart: 0};
+function fmtSpeed(bps){
+    if(bps >= 1048576) return (bps/1048576).toFixed(2) + ' MB/s';
+    if(bps >= 1024) return Math.round(bps/1024) + ' KB/s';
+    return Math.round(bps) + ' B/s';
+}
+function resetSpeed(){
+    speedState.bytes = 0;
+    speedState.windowStart = Date.now();
+    if(speedInfoEl) speedInfoEl.textContent = '';
+}
+setInterval(()=>{
+    if(!speedInfoEl || !hls || player.paused) return;
+    const now = Date.now();
+    const dt = (now - speedState.windowStart) / 1000;
+    if(dt >= 2 && speedState.bytes > 0){
+        speedInfoEl.textContent = fmtSpeed(speedState.bytes / dt);
+        speedState.bytes = 0;
+        speedState.windowStart = now;
+    }
+}, 1000);
+
+const fsBtn = document.getElementById('fsBtn');
+if(fsBtn){
+    fsBtn.onclick = ()=>{
+        try{
+            if(document.fullscreenElement){
+                document.exitFullscreen();
+            }else if(document.documentElement.requestFullscreen){
+                document.documentElement.requestFullscreen();
+            }else{
+                alert('当前浏览器不支持页面全屏');
+            }
+        }catch(e){}
+    };
+    document.addEventListener('fullscreenchange', ()=>{
+        const on = !!document.fullscreenElement;
+        fsBtn.textContent = on ? '退出全屏' : '页面全屏';
+        fsBtn.classList.toggle('active', on);
+        syncSideHeight();
+    });
+}
 
 if(animeTypeBarEl) initTypeBar();
 renderHistory();
