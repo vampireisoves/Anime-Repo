@@ -4,6 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Anip在线观影</title>
+<link rel="icon" href="/static/favicon.ico" sizes="48x48">
+<link rel="icon" type="image/png" sizes="32x32" href="/static/favicon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/static/favicon-192.png">
+<link rel="apple-touch-icon" href="/static/favicon-192.png">
 <style>
 *{box-sizing:border-box;margin:0;padding:0;color:#eee;font-family:system-ui}
 body{background:#111;padding:16px}
@@ -269,8 +273,8 @@ function initArtPlayer(){
             setTimeout(initArtPlayer, 500);
             return;
         }
-        errBox.textContent = "错误：ArtPlayer 库加载失败";
-        addLog('ArtPlayer 库加载失败');
+        errBox.textContent = "ArtPlayer 库未加载（static/artplayer.min.js 未找到或未部署），请确认文件存在后刷新";
+        addLog('ArtPlayer 库未加载：static/artplayer.min.js 未找到或未部署');
         return;
     }
     try{
@@ -314,14 +318,19 @@ function initArtPlayer(){
 let artInitWait = 0;
 function playEp(idx){
     if(!art || !player){
+        if(typeof Artplayer === "undefined"){
+            errBox.textContent = "ArtPlayer 库未加载（static/artplayer.min.js 未找到或未部署），请确认文件存在后刷新";
+            addLog('ArtPlayer 库未加载，无法播放');
+            return;
+        }
         if(artInitWait < 20){
             artInitWait++;
             errBox.textContent = "播放器初始化中…";
             setTimeout(()=>{ playEp(idx); }, 500);
             return;
         }
-        errBox.textContent = "播放器尚未初始化，请刷新页面";
-        addLog('播放器尚未初始化，请刷新页面');
+        errBox.textContent = "播放器初始化失败，请查看上方日志或刷新页面";
+        addLog('播放器初始化失败：请查看日志面板错误信息');
         return;
     }
     artInitWait = 0;
