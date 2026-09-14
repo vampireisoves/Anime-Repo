@@ -37,6 +37,12 @@ body{background:#111;padding:16px}
 .history-title{font-size:14px;min-width:0}
 .history-meta{font-size:12px;color:#888;flex-shrink:0}
 .history-empty{font-size:14px;color:#888;padding:10px 0}
+.log-wrap{max-width:1400px;margin:24px auto 0 auto;background:#1e1e1e;padding:16px;border-radius:8px}
+.log-wrap h3{margin:0}
+.log-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.log-list{display:flex;flex-direction:column;gap:4px;max-height:66px;overflow-y:auto;padding-right:4px}
+.log-line{font-size:12px;color:#aaa;font-family:Consolas,monospace;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.log-line.log-status{color:#4ade80}
 .all-anime-wrap{max-width:1400px;margin:24px auto 0 auto;background:#1e1e1e;padding:16px;border-radius:8px}
 .all-anime-wrap h3{margin-bottom:12px}
 .anime-filter{width:100%;padding:10px 12px;background:#2d2d2d;border:1px solid #3a3a3a;border-radius:6px;font-size:14px;color:#eee;margin-bottom:12px;outline:none}
@@ -89,6 +95,10 @@ body.player-fs #player{width:100%;height:100%;object-fit:contain}
             <div id="epList" class="ep-list"></div>
         </div>
     </div>
+</div>
+<div id="logWrap" class="log-wrap">
+    <div class="log-head"><h3>播放与缓存日志</h3></div>
+    <div id="logList" class="log-list"></div>
 </div>
 <div id="historyWrap" class="history-wrap">
     <div class="history-head">
@@ -188,11 +198,13 @@ async function loadJson(jsonUrl){
         const saved = localStorage.getItem(savedKey);
         if(saved !== null) currentEpIndex = parseInt(saved);
         else currentEpIndex = 0;
+        addLog('加载番剧：' + animeName + '（' + episodes.length + '集）');
         renderEpList();
         playEp(currentEpIndex);
         errBox.textContent = "";
     }catch(e){
         errBox.textContent = `JSON读取失败: ${e.message}`;
+        addLog('加载失败：' + e.message);
         console.error("加载json错误：",e);
     }
 }
@@ -225,6 +237,8 @@ function playEp(idx){
         hls = null;
     }
     resetSpeed();
+    cacheDoneLogged = false;
+    addLog('开始播放：' + (ep.title || ('第' + (idx+1) + '集')));
     if(Hls.isSupported()) {
         hls = new Hls({enableWorker:true, lowLatencyMode:false, maxBufferLength:Infinity, maxMaxBufferLength:Infinity, maxBufferSize:Infinity, maxBufferHole:3, fragLoadingConcurrency:8});
         hls.loadSource(ep.src);
@@ -243,16 +257,20 @@ function playEp(idx){
             hlsErrCount++;
             if(hlsErrCount > 5){
                 errBox.textContent = '播放错误：' + (data.details || '未知错误') + '，已停止重试，请刷新或重选';
+                addLog('播放错误，已停止重试：' + (data.details || '未知错误'));
                 return;
             }
             if(data.type === Hls.ErrorTypes.NETWORK_ERROR){
                 errBox.textContent = '网络错误(' + (data.details || '') + ')，自动重连中…';
+                addLog('网络错误(' + (data.details || '') + ')，自动重连');
                 hls.startLoad();
             }else if(data.type === Hls.ErrorTypes.MEDIA_ERROR){
                 errBox.textContent = '媒体错误(' + (data.details || '') + ')，尝试恢复…';
+                addLog('媒体错误(' + (data.details || '') + ')，尝试恢复');
                 hls.recoverMediaError();
             }else{
                 errBox.textContent = '播放错误：' + (data.details || data.type || '未知');
+                addLog('播放错误：' + (data.details || data.type || '未知'));
                 hls.destroy();
                 hls = null;
             }
@@ -455,6 +473,52 @@ syncSideHeight();
 window.addEventListener('resize', syncSideHeight);
 setInterval(()=>{ if(player && !player.paused && episodes.length) updateHistoryPos(); }, 5000);
 
+// 播放与缓存日志
+const logList = document.getElementById('logList');
+const logData = [];
+let statusRow = null;
+let cacheDoneLogged = false;
+function fmtDur(s){
+    if(!isFinite(s) || s < 0) return '--:--';
+    s = Math.round(s);
+    const h = Math.floor(s/3600), m = Math.floor((s%3600)/60), sec = s%60;
+    const pad = n => String(n).padStart(2,'0');
+    return (h>0 ? h+':'+pad(m) : m) + ':' + pad(sec);
+}
+function renderLogs(){
+    if(!logList) return;
+    logList.innerHTML = '';
+    logData.forEach(item => {
+        const div = document.createElement('div');
+        div.className = 'log-line';
+        div.textContent = '[' + item.time + '] ' + item.msg;
+        logList.appendChild(div);
+    });
+    statusRow = document.createElement('div');
+    statusRow.className = 'log-line log-status';
+    statusRow.textContent = '缓存状态：等待播放…';
+    logList.appendChild(statusRow);
+    logList.scrollTop = logList.scrollHeight;
+}
+function addLog(msg){
+    const d = new Date();
+    const pad = n => String(n).padStart(2,'0');
+    const ts = pad(d.getHours())+':'+pad(d.getMinutes())+':'+pad(d.getSeconds());
+    logData.push({time: ts, msg: msg});
+    if(logData.length > 4) logData.shift();
+    renderLogs();
+}
+function getCacheStatus(){
+    try{
+        if(!player || isNaN(player.duration) || player.duration <= 0) return null;
+        const b = player.buffered;
+        if(!b || b.length === 0) return null;
+        const end = b.end(b.length - 1);
+        return {end: end, duration: player.duration, pct: Math.min(100, end/player.duration*100)};
+    }catch(e){ return null; }
+}
+renderLogs();
+
 // 缓存速度统计
 const speedInfoEl = document.getElementById('speedInfo');
 const speedState = {bytes: 0, windowStart: 0};
@@ -469,17 +533,31 @@ function resetSpeed(){
     if(speedInfoEl) speedInfoEl.textContent = '';
 }
 setInterval(()=>{
-    if(!speedInfoEl) return;
-    if(!hls || player.paused){
-        speedInfoEl.textContent = '';
-        return;
-    }
     const now = Date.now();
     const dt = (now - speedState.windowStart) / 1000;
+    let spdText = '0 B/s';
+    if(!hls){
+        if(speedInfoEl) speedInfoEl.textContent = '';
+        if(statusRow) statusRow.textContent = '缓存状态：等待播放…';
+        return;
+    }
     if(dt >= 1){
-        speedInfoEl.textContent = fmtSpeed(speedState.bytes / dt);
+        spdText = fmtSpeed(speedState.bytes / dt);
+        if(speedInfoEl) speedInfoEl.textContent = spdText;
         speedState.bytes = 0;
         speedState.windowStart = now;
+    }else if(speedInfoEl && speedInfoEl.textContent){
+        spdText = speedInfoEl.textContent;
+    }
+    const st = getCacheStatus();
+    if(st){
+        if(st.pct >= 99.5 && !cacheDoneLogged){
+            cacheDoneLogged = true;
+            addLog('整片缓存完成（' + fmtDur(st.duration) + '）');
+        }
+        if(statusRow) statusRow.textContent = '缓存状态：' + st.pct.toFixed(1) + '%（' + fmtDur(st.end) + ' / ' + fmtDur(st.duration) + '） · ' + spdText;
+    }else{
+        if(statusRow) statusRow.textContent = '缓存状态：加载中…';
     }
 }, 500);
 
