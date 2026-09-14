@@ -32,6 +32,15 @@ body{background:#111;padding:16px}
 .anime-card{padding:10px 12px;background:#2d2d2d;border-radius:6px;cursor:pointer;transition:.2s}
 .anime-card:hover{background:#3b3b3b}
 .anime-card.loading{color:#888;cursor:default}
+.login-overlay{position:fixed;inset:0;background:rgba(17,17,17,.96);z-index:100;display:flex;align-items:center;justify-content:center}
+.login-overlay.hidden{display:none}
+.login-box{background:#1e1e1e;padding:32px;border-radius:12px;width:320px;display:flex;flex-direction:column;gap:14px}
+.login-title{font-size:18px;font-weight:bold;text-align:center}
+.login-input{padding:10px 12px;background:#2d2d2d;border:1px solid #3a3a3a;border-radius:6px;font-size:14px;color:#eee;outline:none}
+.login-input:focus{border-color:#2563eb}
+.login-err{font-size:13px;color:#ff6b6b;min-height:16px;text-align:center}
+.login-btn{padding:10px;background:#2563eb;border:none;border-radius:6px;font-size:15px;cursor:pointer;color:#fff}
+.login-btn:hover{background:#1d4ed8}
 </style>
 </head>
 <body>
@@ -58,6 +67,35 @@ body{background:#111;padding:16px}
 <!-- 本地静态hls，先加载库，再执行业务脚本 -->
 <script src="/static/hls.min.js"></script>
 <script>
+const LOGIN_PWD = "anip19941104";
+const loginOverlay = document.getElementById('loginOverlay');
+const loginPwd = document.getElementById('loginPwd');
+const loginBtn = document.getElementById('loginBtn');
+const loginErr = document.getElementById('loginErr');
+
+function checkLogin(){
+    if(sessionStorage.getItem('anip_authed') === '1'){
+        if(loginOverlay) loginOverlay.classList.add('hidden');
+        return true;
+    }
+    return false;
+}
+function doLogin(){
+    if(!loginPwd || !loginOverlay) return;
+    if(loginPwd.value === LOGIN_PWD){
+        sessionStorage.setItem('anip_authed', '1');
+        loginOverlay.classList.add('hidden');
+        loginErr.textContent = '';
+    }else{
+        loginErr.textContent = '密码错误，请重试';
+        loginPwd.value = '';
+        loginPwd.focus();
+    }
+}
+if(loginBtn) loginBtn.onclick = doLogin;
+if(loginPwd) loginPwd.addEventListener('keydown', e=>{ if(e.key === 'Enter') doLogin(); });
+checkLogin();
+
 let episodes = [];
 let animeName = "";
 let currentEpIndex = 0;
@@ -241,5 +279,13 @@ if(jsonUrl){
     loadRepoAnimeList();
 }
 </script>
+<div id="loginOverlay" class="login-overlay">
+    <div class="login-box">
+        <div class="login-title">番剧在线播放器</div>
+        <input id="loginPwd" class="login-input" type="password" placeholder="请输入访问密码">
+        <div id="loginErr" class="login-err"></div>
+        <button id="loginBtn" class="login-btn">进入</button>
+    </div>
+</div>
 </body>
 </html>
