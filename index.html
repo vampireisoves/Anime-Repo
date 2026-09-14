@@ -226,7 +226,7 @@ function playEp(idx){
     }
     resetSpeed();
     if(Hls.isSupported()) {
-        hls = new Hls({enableWorker:true, lowLatencyMode:false, maxBufferLength:600, maxMaxBufferLength:1200, maxBufferSize:1073741824, maxBufferHole:3});
+        hls = new Hls({enableWorker:true, lowLatencyMode:false, maxBufferLength:Infinity, maxMaxBufferLength:Infinity, maxBufferSize:Infinity, maxBufferHole:3});
         hls.loadSource(ep.src);
         hls.attachMedia(player);
         hls.on(Hls.Events.MANIFEST_PARSED,()=>{ player.play(); });
@@ -265,7 +265,6 @@ function playEp(idx){
     localStorage.setItem(savedKey, idx.toString());
     saveHistory();
     renderHistory();
-setInterval(()=>{ if(player && !player.paused && episodes.length) updateHistoryPos(); }, 5000);
     const jf = String(currentJsonFile).replace(/^\//, '');
     if(pendingSeek && pendingSeek.jsonFile === jf && pendingSeek.epIndex === idx){
         const sec = pendingSeek.pos || 0;
@@ -454,6 +453,7 @@ function syncSideHeight(){
 }
 syncSideHeight();
 window.addEventListener('resize', syncSideHeight);
+setInterval(()=>{ if(player && !player.paused && episodes.length) updateHistoryPos(); }, 5000);
 
 // 缓存速度统计
 const speedInfoEl = document.getElementById('speedInfo');
