@@ -38,5 +38,15 @@
     "title": "犬夜叉 (2000)",
     "type": "动漫",
     "jsonFile": "episodes/tt0290223.json"
+  },
+  {
+    "title": "逃出绝命街 The End of Oak Street (2026)",
+    "type": "电影",
+    "jsonFile": "episodes/tt27165187.json"
+  },
+  {
+    "title": "三国 (2010)",
+    "type": "剧集",
+    "jsonFile": "episodes/tt1514753.json"
   }
 ]
