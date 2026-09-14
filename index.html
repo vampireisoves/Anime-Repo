@@ -229,7 +229,7 @@ function renderEpList(){
 }
 
 function bindHlsEvents(h){
-    h.on(Hls.Events.MANIFEST_PARSED,()=>{ try{ if(art) art.play(); }catch(e){} });
+    h.on(Hls.Events.MANIFEST_PARSED,()=>{ try{ if(art) art.play().catch(()=>{}); }catch(e){} });
     h.on(Hls.Events.FRAG_LOADED,(e,data)=>{
         const st = data && data.frag && data.frag.stats;
         if(st && st.loaded){
@@ -261,50 +261,70 @@ function bindHlsEvents(h){
         }
     });
 }
+let artInitTries = 0;
 function initArtPlayer(){
     if(typeof Artplayer === "undefined"){
+        if(artInitTries < 20){
+            artInitTries++;
+            setTimeout(initArtPlayer, 500);
+            return;
+        }
         errBox.textContent = "错误：ArtPlayer 库加载失败";
+        addLog('ArtPlayer 库加载失败');
         return;
     }
-    art = new Artplayer({
-        container: '#artBox',
-        url: '',
-        autoplay: false,
-        fullscreen: false,
-        fullscreenWeb: true,
-        hotkeys: false,
-        volume: 0.8
-    });
-    player = art.video;
     try{
-        const lyr = art.layers.add({
-            name: 'speedInfo',
-            html: '',
-            style: {position:'absolute', right:'10px', bottom:'52px', padding:'3px 8px', background:'rgba(0,0,0,.55)', borderRadius:'4px', fontSize:'12px', color:'#eee', pointerEvents:'none', fontVariantNumeric:'tabular-nums', minWidth:'70px', textAlign:'right', zIndex:20}
+        art = new Artplayer({
+            container: '#artBox',
+            url: '',
+            autoplay: false,
+            fullscreen: false,
+            fullscreenWeb: true,
+            hotkeys: false,
+            volume: 0.8
         });
-        speedInfoEl = (lyr && lyr.$el) ? lyr.$el : lyr;
-    }catch(e){ speedInfoEl = null; }
-    if(!speedInfoEl || !speedInfoEl.nodeType){
-        speedInfoEl = document.createElement('div');
-        speedInfoEl.className = 'speed-info';
-        const vb = document.getElementById('video-box');
-        if(vb) vb.appendChild(speedInfoEl);
+        player = art.video;
+        try{
+            const lyr = art.layers.add({
+                name: 'speedInfo',
+                html: '',
+                style: {position:'absolute', right:'10px', bottom:'52px', padding:'3px 8px', background:'rgba(0,0,0,.55)', borderRadius:'4px', fontSize:'12px', color:'#eee', pointerEvents:'none', fontVariantNumeric:'tabular-nums', minWidth:'70px', textAlign:'right', zIndex:20}
+            });
+            speedInfoEl = (lyr && lyr.$el) ? lyr.$el : lyr;
+        }catch(e){ speedInfoEl = null; }
+        if(!speedInfoEl || !speedInfoEl.nodeType){
+            speedInfoEl = document.createElement('div');
+            speedInfoEl.className = 'speed-info';
+            const vb = document.getElementById('video-box');
+            if(vb) vb.appendChild(speedInfoEl);
+        }
+        if(fsBtn && art.on){
+            art.on('fullscreenWeb', (on)=>{
+                fsBtn.textContent = on ? '退出窗口全屏' : '窗口全屏';
+                fsBtn.classList.toggle('active', !!on);
+                syncSideHeight();
+            });
+        }
+        addLog('播放器初始化完成（ArtPlayer ' + (Artplayer.version || '') + '）');
+    }catch(e){
+        errBox.textContent = '播放器初始化失败：' + (e && e.message ? e.message : e);
+        addLog('播放器初始化失败：' + (e && e.message ? e.message : e));
     }
-    if(fsBtn && art.on){
-        art.on('fullscreenWeb', (on)=>{
-            fsBtn.textContent = on ? '退出窗口全屏' : '窗口全屏';
-            fsBtn.classList.toggle('active', !!on);
-            syncSideHeight();
-        });
-    }
-    if(art.on) art.on('destroy', ()=>{ art = null; player = null; });
 }
+let artInitWait = 0;
 function playEp(idx){
     if(!art || !player){
-        errBox.textContent = "播放器尚未初始化，请稍候…";
-        addLog('播放器尚未初始化');
+        if(artInitWait < 20){
+            artInitWait++;
+            errBox.textContent = "播放器初始化中…";
+            setTimeout(()=>{ playEp(idx); }, 500);
+            return;
+        }
+        errBox.textContent = "播放器尚未初始化，请刷新页面";
+        addLog('播放器尚未初始化，请刷新页面');
         return;
     }
+    artInitWait = 0;
     const ep = episodes[idx];
     if(hls){
         try{ hls.destroy(); }catch(e){}
@@ -320,7 +340,7 @@ function playEp(idx){
         bindHlsEvents(hls);
     }else if(player.canPlayType('application/vnd.apple.mpegurl')){
         player.src = ep.src;
-        art.play();
+        if(art.play) art.play().catch(()=>{});
     }else{
         errBox.textContent = '浏览器不支持 HLS 播放';
         addLog('浏览器不支持 HLS 播放');
