@@ -1,7 +1,8 @@
 {
   "title": "name",
+  "type": "动漫",
   "episodes": [
-    {"title":"第*集","src":"https://***.m3u8"},
-    {"title":"第*集","src":"https://***.m3u8"}
+    {"title": "第*集", "src": "https://***.m3u8"},
+    {"title": "第*集", "src": "https://***.m3u8"}
   ]
 }

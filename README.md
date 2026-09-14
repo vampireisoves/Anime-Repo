@@ -6,7 +6,7 @@
 
 - **HLS 在线播放**：基于 hls.js 播放 `.m3u8` 视频流，支持 `enableWorker` 多线程解码、低延迟模式可配
 - **原生回退**：在支持原生 HLS 的浏览器（如 Safari）中自动回退到 `<video>` 原生播放
-- **番剧列表**：首页从 `index.json` 加载仓库内全部番剧，卡片式点击切换
+- **剧集列表**：首页从 `index.json` 加载仓库内全部番剧，卡片式点击切换，支持按「电影 / 剧集 / 动漫」分类与关键词实时筛选
 - **URL 直达**：通过 `?json=<路径>` 参数直接加载指定番剧 JSON，便于分享与收藏
 - **剧集分页**：右侧剧集列表每页展示 6 集，支持翻页浏览
 - **快捷键切集**：`←` 上一集 / `→` 下一集，无需鼠标操作
@@ -73,10 +73,12 @@ npx serve -l 8080
 [
   {
     "title": "无职转生：到了异世界就拿出真本事 (2021)",
+    "type": "动漫",
     "jsonFile": "episodes/tt13293588.json"
   },
   {
     "title": "无职转生：到了异世界就拿出真本事 Part.2 第2クール (2021)",
+    "type": "动漫",
     "jsonFile": "episodes/tt15553038.json"
   }
 ]
@@ -85,6 +87,7 @@ npx serve -l 8080
 | 字段 | 类型 | 说明 |
 | --- | --- | --- |
 | `title` | string | 番剧显示名称 |
+| `type` | string | 分类：`电影` / `剧集` / `动漫`（缺省时按动漫处理） |
 | `jsonFile` | string | 剧集数据 JSON 的仓库相对路径 |
 
 ### 剧集数据 `episodes/*.json`
@@ -94,6 +97,7 @@ npx serve -l 8080
 ```json
 {
   "title": "番剧名称",
+  "type": "动漫",
   "episodes": [
     { "title": "第01集", "src": "https://example.com/xxx/index.m3u8" },
     { "title": "第02集", "src": "https://example.com/xxx/index.m3u8" }
@@ -104,6 +108,7 @@ npx serve -l 8080
 | 字段 | 类型 | 说明 |
 | --- | --- | --- |
 | `title` | string | 番剧名称（页面顶部展示） |
+| `type` | string | 分类：`电影` / `剧集` / `动漫`，与清单索引保持一致 |
 | `episodes` | array | 剧集列表，按数组顺序播放 |
 | `episodes[].title` | string | 集数标题（如"第01集"） |
 | `episodes[].src` | string | 该集 HLS 播放地址（`.m3u8`） |
@@ -111,7 +116,7 @@ npx serve -l 8080
 ## ➕ 如何添加新番剧
 
 1. 在 `episodes/` 目录下新建 JSON 文件（建议以番剧标识命名，如 `tt12345678.json`），按上方模板填入标题与各集 `.m3u8` 地址
-2. 在 `index.json` 数组中追加一项，写入番剧标题与 `jsonFile` 路径
+2. 在 `index.json` 数组中追加一项，写入番剧标题、分类 `type`（`电影` / `剧集` / `动漫`）与 `jsonFile` 路径
 3. 提交并推送，刷新页面即可在"仓库全部番剧列表"中看到并播放
 
 ## 🎮 使用说明

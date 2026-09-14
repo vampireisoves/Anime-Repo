@@ -28,6 +28,10 @@ body{background:#111;padding:16px}
 .anime-filter{width:100%;padding:10px 12px;background:#2d2d2d;border:1px solid #3a3a3a;border-radius:6px;font-size:14px;color:#eee;margin-bottom:12px;outline:none}
 .anime-filter:focus{border-color:#2563eb}
 .anime-filter::placeholder{color:#888}
+.anime-type-bar{display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap}
+.type-btn{padding:6px 16px;background:#2d2d2d;border:1px solid #3a3a3a;border-radius:6px;cursor:pointer;font-size:13px;color:#aaa;transition:.2s}
+.type-btn:hover{background:#3b3b3b;color:#eee}
+.type-btn.active{background:#2563eb;border-color:#2563eb;color:#fff}
 .anime-card-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
 .anime-card{padding:10px 12px;background:#2d2d2d;border-radius:6px;cursor:pointer;transition:.2s}
 .anime-card:hover{background:#3b3b3b}
@@ -54,6 +58,7 @@ body{background:#111;padding:16px}
 </div>
 <div id="allAnimeWrap" class="all-anime-wrap">
     <h3>剧集列表</h3>
+    <div id="animeTypeBar" class="anime-type-bar"></div>
     <input id="animeFilter" class="anime-filter" type="text" placeholder="输入关键词筛选番剧标题…">
     <div id="animeCardList" class="anime-card-list"></div>
 </div>
@@ -74,8 +79,11 @@ const animeTitleEl = document.getElementById('animeTitle');
 const allAnimeWrap = document.getElementById('allAnimeWrap');
 const animeCardList = document.getElementById('animeCardList');
 const animeFilterEl = document.getElementById('animeFilter');
+const animeTypeBarEl = document.getElementById('animeTypeBar');
 let hls = null;
 let repoAnimeList = [];
+let currentType = "全部";
+const TYPE_LIST = ["全部", "电影", "剧集", "动漫"];
 
 // 安全防护：如果Hls不存在直接报错提示
 if(typeof Hls === "undefined"){
@@ -186,9 +194,26 @@ document.addEventListener("visibilitychange", ()=>{
     if (!document.hidden && !player.paused && hls) hls.startLoad();
 });
 
+function initTypeBar(){
+    animeTypeBarEl.innerHTML = '';
+    TYPE_LIST.forEach(type => {
+        const btn = document.createElement("button");
+        btn.className = "type-btn";
+        btn.textContent = type;
+        btn.onclick = ()=>{
+            currentType = type;
+            initTypeBar();
+            renderAnimeCards();
+        };
+        animeTypeBarEl.appendChild(btn);
+    });
+    [...animeTypeBarEl.children].forEach(b => b.classList.toggle('active', b.textContent === currentType));
+}
+
 function renderAnimeCards(){
     const kw = animeFilterEl.value.trim().toLowerCase();
-    const matched = kw ? repoAnimeList.filter(item => item.title.toLowerCase().includes(kw)) : repoAnimeList;
+    const kwMatched = kw ? repoAnimeList.filter(item => item.title.toLowerCase().includes(kw)) : repoAnimeList;
+    const matched = currentType === "全部" ? kwMatched : kwMatched.filter(item => (item.type || "动漫") === currentType);
     animeCardList.innerHTML = '';
     if(matched.length === 0){
         animeCardList.innerHTML = '<div class="anime-card loading">未找到匹配的番剧</div>';
@@ -223,6 +248,7 @@ async function loadRepoAnimeList(){
     }
 }
 
+if(animeTypeBarEl) initTypeBar();
 if(animeFilterEl) animeFilterEl.addEventListener('input', renderAnimeCards);
 
 const jsonUrl = getUrlParam('json');
