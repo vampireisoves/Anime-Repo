@@ -240,7 +240,7 @@ function playEp(idx){
     cacheDoneLogged = false;
     addLog('开始播放：' + (ep.title || ('第' + (idx+1) + '集')));
     if(Hls.isSupported()) {
-        hls = new Hls({enableWorker:true, lowLatencyMode:false, maxBufferLength:Infinity, maxMaxBufferLength:Infinity, maxBufferSize:Infinity, maxBufferHole:3, fragLoadingConcurrency:8});
+        hls = new Hls({enableWorker:true, lowLatencyMode:false, maxBufferLength:Infinity, maxMaxBufferLength:Infinity, maxBufferSize:Infinity, maxBufferHole:3, fragLoadingConcurrency:8, fragLoadingMaxRetry:30, fragLoadingRetryDelay:1000, fragLoadingTimeOut:1000, fragLoadingMaxRetryTimeout:60000});
         hls.loadSource(ep.src);
         hls.attachMedia(player);
         hls.on(Hls.Events.MANIFEST_PARSED,()=>{ player.play(); });
