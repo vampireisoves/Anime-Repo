@@ -59,10 +59,13 @@ body{background:#111;padding:16px}
 .login-err{font-size:13px;color:#ff6b6b;min-height:16px;text-align:center}
 .login-btn{padding:10px;background:#2563eb;border:none;border-radius:6px;font-size:15px;cursor:pointer;color:#fff}
 .login-btn:hover{background:#1d4ed8}
-:fullscreen body{padding:16px;height:100vh;overflow:hidden}
-:fullscreen .container{max-width:none;height:100%}
-:fullscreen #video-box{height:calc(100vh - 32px);padding-bottom:0}
-:fullscreen #player{object-fit:contain}
+body.player-fs{padding:0;overflow:hidden;height:100vh}
+body.player-fs .container{max-width:none;height:100vh;display:block;padding:0}
+body.player-fs .side{display:none}
+body.player-fs .history-wrap{display:none}
+body.player-fs .all-anime-wrap{display:none}
+body.player-fs #video-box{height:100vh;padding-bottom:0;border-radius:0}
+body.player-fs #player{width:100%;height:100%;object-fit:contain}
 @media (max-width:900px){
     .container{grid-template-columns:1fr;gap:12px}
     #video-box{position:sticky;top:0;z-index:10}
@@ -75,7 +78,7 @@ body{background:#111;padding:16px}
 <div class="container">
     <div id="video-box">
         <div id="animeTitle" class="anime-title-overlay">选择下方番剧开始播放</div>
-        <button id="fsBtn" class="fs-btn" type="button">页面全屏</button>
+        <button id="fsBtn" class="fs-btn" type="button">窗口全屏</button>
         <div id="speedInfo" class="speed-info"></div>
         <video id="player" controls></video>
     </div>
@@ -223,7 +226,7 @@ function playEp(idx){
     }
     resetSpeed();
     if(Hls.isSupported()) {
-        hls = new Hls({enableWorker:true, lowLatencyMode:false});
+        hls = new Hls({enableWorker:true, lowLatencyMode:false, maxBufferLength:600, maxMaxBufferLength:1200, maxBufferSize:1073741824, maxBufferHole:3});
         hls.loadSource(ep.src);
         hls.attachMedia(player);
         hls.on(Hls.Events.MANIFEST_PARSED,()=>{ player.play(); });
@@ -231,6 +234,27 @@ function playEp(idx){
             const st = data && data.frag && data.frag.stats;
             if(st && st.loaded){
                 speedState.bytes += st.loaded;
+            }
+        });
+
+        let hlsErrCount = 0;
+        hls.on(Hls.Events.ERROR, (e, data)=>{
+            if(!data || !data.fatal) return;
+            hlsErrCount++;
+            if(hlsErrCount > 5){
+                errBox.textContent = '播放错误：' + (data.details || '未知错误') + '，已停止重试，请刷新或重选';
+                return;
+            }
+            if(data.type === Hls.ErrorTypes.NETWORK_ERROR){
+                errBox.textContent = '网络错误(' + (data.details || '') + ')，自动重连中…';
+                hls.startLoad();
+            }else if(data.type === Hls.ErrorTypes.MEDIA_ERROR){
+                errBox.textContent = '媒体错误(' + (data.details || '') + ')，尝试恢复…';
+                hls.recoverMediaError();
+            }else{
+                errBox.textContent = '播放错误：' + (data.details || data.type || '未知');
+                hls.destroy();
+                hls = null;
             }
         });
     }else if(player.canPlayType('application/vnd.apple.mpegurl')){
@@ -431,7 +455,6 @@ function syncSideHeight(){
 syncSideHeight();
 window.addEventListener('resize', syncSideHeight);
 
-// 页面全屏
 // 缓存速度统计
 const speedInfoEl = document.getElementById('speedInfo');
 const speedState = {bytes: 0, windowStart: 0};
@@ -446,35 +469,29 @@ function resetSpeed(){
     if(speedInfoEl) speedInfoEl.textContent = '';
 }
 setInterval(()=>{
-    if(!speedInfoEl || !hls || player.paused) return;
+    if(!speedInfoEl) return;
+    if(!hls || player.paused){
+        speedInfoEl.textContent = '';
+        return;
+    }
     const now = Date.now();
     const dt = (now - speedState.windowStart) / 1000;
-    if(dt >= 2 && speedState.bytes > 0){
+    if(dt >= 1){
         speedInfoEl.textContent = fmtSpeed(speedState.bytes / dt);
         speedState.bytes = 0;
         speedState.windowStart = now;
     }
-}, 1000);
+}, 500);
 
+// 窗口内全屏：视频铺满当前浏览器窗口（不调用系统全屏API）
 const fsBtn = document.getElementById('fsBtn');
 if(fsBtn){
     fsBtn.onclick = ()=>{
-        try{
-            if(document.fullscreenElement){
-                document.exitFullscreen();
-            }else if(document.documentElement.requestFullscreen){
-                document.documentElement.requestFullscreen();
-            }else{
-                alert('当前浏览器不支持页面全屏');
-            }
-        }catch(e){}
-    };
-    document.addEventListener('fullscreenchange', ()=>{
-        const on = !!document.fullscreenElement;
-        fsBtn.textContent = on ? '退出全屏' : '页面全屏';
+        const on = document.body.classList.toggle('player-fs');
+        fsBtn.textContent = on ? '退出窗口全屏' : '窗口全屏';
         fsBtn.classList.toggle('active', on);
         syncSideHeight();
-    });
+    };
 }
 
 if(animeTypeBarEl) initTypeBar();
