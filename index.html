@@ -25,6 +25,9 @@ body{background:#111;padding:16px}
 .err-text{font-size:14px;color:#ff6b6b;margin:8px 0}
 .all-anime-wrap{max-width:1400px;margin:24px auto 0 auto;background:#1e1e1e;padding:16px;border-radius:8px}
 .all-anime-wrap h3{margin-bottom:12px}
+.anime-filter{width:100%;padding:10px 12px;background:#2d2d2d;border:1px solid #3a3a3a;border-radius:6px;font-size:14px;color:#eee;margin-bottom:12px;outline:none}
+.anime-filter:focus{border-color:#2563eb}
+.anime-filter::placeholder{color:#888}
 .anime-card-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
 .anime-card{padding:10px 12px;background:#2d2d2d;border-radius:6px;cursor:pointer;transition:.2s}
 .anime-card:hover{background:#3b3b3b}
@@ -51,6 +54,7 @@ body{background:#111;padding:16px}
 </div>
 <div id="allAnimeWrap" class="all-anime-wrap">
     <h3>剧集列表</h3>
+    <input id="animeFilter" class="anime-filter" type="text" placeholder="输入关键词筛选番剧标题…">
     <div id="animeCardList" class="anime-card-list"></div>
 </div>
 
@@ -69,7 +73,9 @@ const errBox = document.getElementById('errBox');
 const animeTitleEl = document.getElementById('animeTitle');
 const allAnimeWrap = document.getElementById('allAnimeWrap');
 const animeCardList = document.getElementById('animeCardList');
+const animeFilterEl = document.getElementById('animeFilter');
 let hls = null;
+let repoAnimeList = [];
 
 // 安全防护：如果Hls不存在直接报错提示
 if(typeof Hls === "undefined"){
@@ -180,31 +186,44 @@ document.addEventListener("visibilitychange", ()=>{
     if (!document.hidden && !player.paused && hls) hls.startLoad();
 });
 
+function renderAnimeCards(){
+    const kw = animeFilterEl.value.trim().toLowerCase();
+    const matched = kw ? repoAnimeList.filter(item => item.title.toLowerCase().includes(kw)) : repoAnimeList;
+    animeCardList.innerHTML = '';
+    if(matched.length === 0){
+        animeCardList.innerHTML = '<div class="anime-card loading">未找到匹配的番剧</div>';
+        return;
+    }
+    for(const item of matched){
+        const card = document.createElement("div");
+        card.className = "anime-card";
+        card.textContent = item.title;
+        card.onclick = ()=> loadJson(`/${item.jsonFile}`);
+        animeCardList.appendChild(card);
+    }
+}
+
 async function loadRepoAnimeList(){
-    animeCardList.innerHTML = '<div class="anime-card loading">读取仓库番剧列表中…</div>';
+    animeCardList.innerHTML = '<div class="anime-card loading">读取剧集列表中…</div>';
     try{
         const resp = await fetch(`/index.json`);
         const fileArr = await resp.json();
         if(!Array.isArray(fileArr)){
-            animeCardList.innerHTML = '<div class="anime-card loading">仓库清单读取异常</div>';
+            animeCardList.innerHTML = '<div class="anime-card loading">剧集清单读取异常</div>';
             return;
         }
         if(fileArr.length === 0){
             animeCardList.innerHTML = '<div class="anime-card loading">清单为空，请检查index.json</div>';
             return;
         }
-        animeCardList.innerHTML = '';
-        for(const item of fileArr){
-            const card = document.createElement("div");
-            card.className = "anime-card";
-            card.textContent = item.title;
-            card.onclick = ()=> loadJson(`/${item.jsonFile}`);
-            animeCardList.appendChild(card);
-        }
+        repoAnimeList = fileArr;
+        renderAnimeCards();
     }catch(err){
-        animeCardList.innerHTML = '<div class="anime-card loading">获取番剧列表失败：'+err.message+'</div>';
+        animeCardList.innerHTML = '<div class="anime-card loading">获取剧集列表失败：'+err.message+'</div>';
     }
 }
+
+if(animeFilterEl) animeFilterEl.addEventListener('input', renderAnimeCards);
 
 const jsonUrl = getUrlParam('json');
 if(jsonUrl){
