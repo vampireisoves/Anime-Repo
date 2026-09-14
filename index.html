@@ -64,6 +64,15 @@ body{background:#111;padding:16px}
     <div id="animeCardList" class="anime-card-list"></div>
 </div>
 
+<div id="loginOverlay" class="login-overlay">
+    <div class="login-box">
+        <div class="login-title">番剧在线播放器</div>
+        <input id="loginPwd" class="login-input" type="password" placeholder="请输入访问密码">
+        <div id="loginErr" class="login-err"></div>
+        <button id="loginBtn" class="login-btn">进入</button>
+    </div>
+</div>
+
 <!-- 本地静态hls，先加载库，再执行业务脚本 -->
 <script src="/static/hls.min.js"></script>
 <script>
@@ -279,13 +288,5 @@ if(jsonUrl){
     loadRepoAnimeList();
 }
 </script>
-<div id="loginOverlay" class="login-overlay">
-    <div class="login-box">
-        <div class="login-title">番剧在线播放器</div>
-        <input id="loginPwd" class="login-input" type="password" placeholder="请输入访问密码">
-        <div id="loginErr" class="login-err"></div>
-        <button id="loginBtn" class="login-btn">进入</button>
-    </div>
-</div>
 </body>
 </html>
