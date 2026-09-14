@@ -226,7 +226,7 @@ function playEp(idx){
     }
     resetSpeed();
     if(Hls.isSupported()) {
-        hls = new Hls({enableWorker:true, lowLatencyMode:false, maxBufferLength:Infinity, maxMaxBufferLength:Infinity, maxBufferSize:Infinity, maxBufferHole:3});
+        hls = new Hls({enableWorker:true, lowLatencyMode:false, maxBufferLength:Infinity, maxMaxBufferLength:Infinity, maxBufferSize:Infinity, maxBufferHole:3, fragLoadingConcurrency:8});
         hls.loadSource(ep.src);
         hls.attachMedia(player);
         hls.on(Hls.Events.MANIFEST_PARSED,()=>{ player.play(); });
