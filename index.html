@@ -41,6 +41,11 @@ body{background:#111;padding:16px}
 .login-err{font-size:13px;color:#ff6b6b;min-height:16px;text-align:center}
 .login-btn{padding:10px;background:#2563eb;border:none;border-radius:6px;font-size:15px;cursor:pointer;color:#fff}
 .login-btn:hover{background:#1d4ed8}
+@media (max-width:900px){
+    .container{grid-template-columns:1fr;gap:12px}
+    .login-box{width:min(320px,92vw)}
+    .anime-card-list{grid-template-columns:repeat(auto-fill,minmax(160px,1fr))}
+}
 </style>
 </head>
 <body>
@@ -271,7 +276,13 @@ async function loadRepoAnimeList(){
 function syncSideHeight(){
     const vb = document.getElementById('video-box');
     const side = document.querySelector('.side');
-    if(vb && side) side.style.height = vb.offsetHeight + 'px';
+    if(vb && side){
+        if(window.innerWidth < 900){
+            side.style.height = '';
+        }else{
+            side.style.height = vb.offsetHeight + 'px';
+        }
+    }
 }
 syncSideHeight();
 window.addEventListener('resize', syncSideHeight);
