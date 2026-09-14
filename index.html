@@ -7,15 +7,15 @@
 <style>
 *{box-sizing:border-box;margin:0;padding:0;color:#eee;font-family:system-ui}
 body{background:#111;padding:16px}
-.container{max-width:1400px;margin:0 auto;display:grid;grid-template-columns: 1fr 320px;gap:16px;align-items:start}
+.container{max-width:1400px;margin:0 auto;display:grid;grid-template-columns: 1fr 320px;gap:16px;align-items:stretch}
 #video-box{position:relative;width:100%;background:#000;border-radius:8px;padding-bottom:56.25%;overflow:hidden}
 #player{position:absolute;top:0;left:0;width:100%;height:100%;display:block;background:#000}
-.side{display:flex;flex-direction:column;gap:12px}
+.anime-title-overlay{position:absolute;top:0;left:0;right:0;z-index:2;padding:12px 16px;font-size:18px;font-weight:bold;color:#eee;background:linear-gradient(180deg,rgba(0,0,0,.8),rgba(0,0,0,0));pointer-events:none}
+.side{display:flex;flex-direction:column;gap:12px;min-height:0}
 .select-wrap{background:#222;padding:12px;border-radius:8px}
-.anime-title{font-size:18px;font-weight:bold;margin-bottom:8px}
 .info-text{font-size:14px;color:#aaa}
-.ep-wrap{background:#222;padding:12px;border-radius:8px;display:flex;flex-direction:column;gap:12px}
-.ep-list{display:flex;flex-direction:column;gap:6px;max-height:520px;overflow-y:auto;padding-right:4px}
+.ep-wrap{background:#222;padding:12px;border-radius:8px;display:flex;flex-direction:column;gap:12px;flex:1;min-height:0}
+.ep-list{display:flex;flex-direction:column;gap:6px;flex:1;min-height:0;overflow-y:auto;padding-right:4px}
 .ep-item{padding:10px;background:#333;border-radius:4px;cursor:pointer;transition:.2s;height:40px;line-height:20px}
 .ep-item:hover{background:#444}
 .ep-item.active{background:#2563eb}
@@ -38,11 +38,11 @@ body{background:#111;padding:16px}
 <body>
 <div class="container">
     <div id="video-box">
+        <div id="animeTitle" class="anime-title-overlay">选择下方番剧开始播放</div>
         <video id="player" controls></video>
     </div>
     <div class="side">
         <div class="select-wrap">
-            <div id="animeTitle" class="anime-title">选择下方番剧开始播放</div>
             <div class="info-text">由URL传入远程JSON地址</div>
         </div>
         <div class="ep-wrap">
