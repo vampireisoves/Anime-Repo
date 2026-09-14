@@ -14,11 +14,7 @@ body{background:#111;padding:16px}
 .container{max-width:1400px;margin:0 auto;display:grid;grid-template-columns: 1fr 320px;gap:16px;align-items:start}
 #video-box{position:relative;width:100%;background:#000;border-radius:8px;padding-bottom:56.25%;overflow:hidden}
 #artBox{position:absolute;top:0;left:0;width:100%;height:100%;display:block;background:#000}
-.anime-title-overlay{position:absolute;top:0;left:0;right:0;z-index:2;padding:12px 16px;font-size:18px;font-weight:bold;color:#eee;background:linear-gradient(180deg,rgba(0,0,0,.8),rgba(0,0,0,0));pointer-events:none}
-.fs-btn{position:absolute;top:10px;right:12px;z-index:3;padding:6px 12px;background:rgba(0,0,0,.6);border:1px solid rgba(255,255,255,.25);border-radius:6px;font-size:13px;color:#eee;cursor:pointer;transition:.2s}
-.fs-btn:hover{background:rgba(255,255,255,.15)}
-.fs-btn.active{background:#2563eb;border-color:#2563eb}
-.speed-info{position:absolute;right:12px;bottom:44px;z-index:2;padding:3px 8px;background:rgba(0,0,0,.55);border-radius:4px;font-size:12px;color:#eee;pointer-events:none;font-variant-numeric:tabular-nums;min-width:70px;text-align:right}
+.anime-title-overlay{position:absolute;top:0;left:0;right:0;z-index:2;padding:8px 12px;font-size:12px;font-weight:bold;color:#eee;background:linear-gradient(180deg,rgba(0,0,0,.8),rgba(0,0,0,0));pointer-events:none}
 .side{display:flex;flex-direction:column;gap:12px;min-height:0}
 .info-text{font-size:14px;color:#aaa}
 .ep-wrap{background:#222;padding:12px;border-radius:8px;display:flex;flex-direction:column;gap:12px;flex:1;min-height:0}
@@ -44,8 +40,8 @@ body{background:#111;padding:16px}
 .log-wrap{max-width:1400px;margin:24px auto 0 auto;background:#1e1e1e;padding:16px;border-radius:8px}
 .log-wrap h3{margin:0}
 .log-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
-.log-list{display:flex;flex-direction:column;gap:4px;max-height:46px;overflow-y:auto;padding-right:4px}
-.log-line{font-size:10px;color:#aaa;font-family:Consolas,monospace;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.log-list{display:flex;flex-direction:column;gap:4px;max-height:50px;overflow-y:auto;padding-right:4px}
+.log-line{font-size:10px;line-height:14px;color:#aaa;font-family:Consolas,monospace;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .log-line.log-status{color:#4ade80}
 .all-anime-wrap{max-width:1400px;margin:24px auto 0 auto;background:#1e1e1e;padding:16px;border-radius:8px}
 .all-anime-wrap h3{margin-bottom:12px}
@@ -78,7 +74,8 @@ body.player-fs #video-box{height:100vh;padding-bottom:0;border-radius:0}
 body.player-fs #artBox{width:100%;height:100%}
 @media (max-width:900px){
     .container{grid-template-columns:1fr;gap:12px}
-    #video-box{position:sticky;top:0;z-index:10}
+    #video-box.vb-fixed{position:fixed;top:0;left:0;right:0;z-index:50;border-radius:0;margin:0}
+    body.player-fs #video-box.vb-fixed{position:relative}
     .login-box{width:min(320px,92vw)}
     .anime-card-list{grid-template-columns:repeat(auto-fill,minmax(160px,1fr))}
 }
@@ -88,7 +85,6 @@ body.player-fs #artBox{width:100%;height:100%}
 <div class="container">
     <div id="video-box">
         <div id="animeTitle" class="anime-title-overlay">选择下方番剧开始播放</div>
-        <button id="fsBtn" class="fs-btn" type="button">窗口全屏</button>
         <div id="artBox"></div>
     </div>
     <div class="side">
@@ -234,12 +230,6 @@ function renderEpList(){
 
 function bindHlsEvents(h){
     h.on(Hls.Events.MANIFEST_PARSED,()=>{ try{ if(art) art.play().catch(()=>{}); }catch(e){} });
-    h.on(Hls.Events.FRAG_LOADED,(e,data)=>{
-        const st = data && data.frag && data.frag.stats;
-        if(st && st.loaded){
-            speedState.bytes += st.loaded;
-        }
-    });
     let hlsErrCount = 0;
     h.on(Hls.Events.ERROR, (e, data)=>{
         if(!data || !data.fatal) return;
@@ -282,33 +272,24 @@ function initArtPlayer(){
             container: '#artBox',
             url: '',
             autoplay: false,
+            theme: '#2563eb',
+            volume: 0.8,
+            pip: true,
+            screenshot: true,
+            setting: true,
+            flip: true,
+            playbackRate: true,
+            aspectRatio: true,
+            miniProgressBar: true,
+            mutex: true,
+            backdrop: true,
+            playsInline: true,
+            airplay: true,
             fullscreen: false,
             fullscreenWeb: true,
-            hotkeys: false,
-            volume: 0.8
+            hotkeys: false
         });
         player = art.video;
-        try{
-            const lyr = art.layers.add({
-                name: 'speedInfo',
-                html: '',
-                style: {position:'absolute', right:'10px', bottom:'52px', padding:'3px 8px', background:'rgba(0,0,0,.55)', borderRadius:'4px', fontSize:'12px', color:'#eee', pointerEvents:'none', fontVariantNumeric:'tabular-nums', minWidth:'70px', textAlign:'right', zIndex:20}
-            });
-            speedInfoEl = (lyr && lyr.$el) ? lyr.$el : lyr;
-        }catch(e){ speedInfoEl = null; }
-        if(!speedInfoEl || !speedInfoEl.nodeType){
-            speedInfoEl = document.createElement('div');
-            speedInfoEl.className = 'speed-info';
-            const vb = document.getElementById('video-box');
-            if(vb) vb.appendChild(speedInfoEl);
-        }
-        if(fsBtn && art.on){
-            art.on('fullscreenWeb', (on)=>{
-                fsBtn.textContent = on ? '退出窗口全屏' : '窗口全屏';
-                fsBtn.classList.toggle('active', !!on);
-                syncSideHeight();
-            });
-        }
         addLog('播放器初始化完成（ArtPlayer ' + (Artplayer.version || '') + '）');
     }catch(e){
         errBox.textContent = '播放器初始化失败：' + (e && e.message ? e.message : e);
@@ -339,7 +320,6 @@ function playEp(idx){
         try{ hls.destroy(); }catch(e){}
         hls = null;
     }
-    resetSpeed();
     cacheDoneLogged = false;
     addLog('开始播放：' + (ep.title || ('第' + (idx+1) + '集')));
     if(Hls.isSupported()) {
@@ -581,7 +561,7 @@ function addLog(msg){
     const pad = n => String(n).padStart(2,'0');
     const ts = pad(d.getHours())+':'+pad(d.getMinutes())+':'+pad(d.getSeconds());
     logData.push({time: ts, msg: msg});
-    if(logData.length > 4) logData.shift();
+    if(logData.length > 2) logData.shift();
     renderLogs();
 }
 function getCacheStatus(){
@@ -595,35 +575,11 @@ function getCacheStatus(){
 }
 renderLogs();
 
-// 缓存速度统计
-let speedInfoEl = null;
-const speedState = {bytes: 0, windowStart: 0};
-function fmtSpeed(bps){
-    if(bps >= 1048576) return (bps/1048576).toFixed(2) + ' MB/s';
-    if(bps >= 1024) return Math.round(bps/1024) + ' KB/s';
-    return Math.round(bps) + ' B/s';
-}
-function resetSpeed(){
-    speedState.bytes = 0;
-    speedState.windowStart = Date.now();
-    if(speedInfoEl) speedInfoEl.textContent = '';
-}
+// 缓存状态轮询（速度显示已移除）
 setInterval(()=>{
-    const now = Date.now();
-    const dt = (now - speedState.windowStart) / 1000;
-    let spdText = '0 B/s';
     if(!hls){
-        if(speedInfoEl) speedInfoEl.textContent = '';
         if(statusRow) statusRow.textContent = '缓存状态：等待播放…';
         return;
-    }
-    if(dt >= 1){
-        spdText = fmtSpeed(speedState.bytes / dt);
-        if(speedInfoEl) speedInfoEl.textContent = spdText;
-        speedState.bytes = 0;
-        speedState.windowStart = now;
-    }else if(speedInfoEl && speedInfoEl.textContent){
-        spdText = speedInfoEl.textContent;
     }
     const st = getCacheStatus();
     if(st){
@@ -631,32 +587,61 @@ setInterval(()=>{
             cacheDoneLogged = true;
             addLog('整片缓存完成（' + fmtDur(st.duration) + '）');
         }
-        if(statusRow) statusRow.textContent = '缓存状态：' + st.pct.toFixed(1) + '%（' + fmtDur(st.end) + ' / ' + fmtDur(st.duration) + '） · ' + spdText;
+        if(statusRow) statusRow.textContent = '缓存状态：' + st.pct.toFixed(1) + '%（' + fmtDur(st.end) + ' / ' + fmtDur(st.duration) + '）';
     }else{
         if(statusRow) statusRow.textContent = '缓存状态：加载中…';
     }
 }, 500);
 
-// 窗口内全屏：视频铺满当前浏览器窗口（不调用系统全屏API）
-const fsBtn = document.getElementById('fsBtn');
-if(fsBtn){
-    fsBtn.onclick = ()=>{
-        if(art && art.fullscreenWeb && art.fullscreenWeb.toggle){
-            art.fullscreenWeb.toggle();
-        }else if(art){
-            const on = document.body.classList.toggle('player-fs');
-            fsBtn.textContent = on ? '退出窗口全屏' : '窗口全屏';
-            fsBtn.classList.toggle('active', on);
-            syncSideHeight();
-        }
-    };
-}
 
 if(animeTypeBarEl) initTypeBar();
 renderHistory();
 if(animeFilterEl) animeFilterEl.addEventListener('input', renderAnimeCards);
 
 initArtPlayer();
+
+// 移动端：播放器向下滚动时固定在视口顶部（占位符保持布局不跳动）
+(function(){
+    const vb = document.getElementById('video-box');
+    if(!vb) return;
+    const ph = document.createElement('div');
+    ph.id = 'videoBoxPh';
+    ph.style.display = 'none';
+    vb.parentNode.insertBefore(ph, vb);
+    const mq = window.matchMedia('(max-width:900px)');
+    const check = ()=>{
+        if(!mq.matches || document.body.classList.contains('player-fs')){
+            if(vb.classList.contains('vb-fixed')){
+                vb.classList.remove('vb-fixed');
+                ph.style.display = 'none';
+            }
+            return;
+        }
+        if(window.scrollY <= 0){
+            if(vb.classList.contains('vb-fixed')){
+                vb.classList.remove('vb-fixed');
+                ph.style.display = 'none';
+            }
+            return;
+        }
+        if(ph.getBoundingClientRect().top <= 0){
+            if(!vb.classList.contains('vb-fixed')){
+                ph.style.height = vb.offsetHeight + 'px';
+                ph.style.display = 'block';
+                vb.classList.add('vb-fixed');
+            }
+        }else{
+            if(vb.classList.contains('vb-fixed')){
+                vb.classList.remove('vb-fixed');
+                ph.style.display = 'none';
+            }
+        }
+    };
+    window.addEventListener('scroll', check, {passive:true});
+    window.addEventListener('resize', check, {passive:true});
+    setInterval(check, 300);
+    check();
+})();
 
 const jsonUrl = getUrlParam('json');
 if(jsonUrl){
