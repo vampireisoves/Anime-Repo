@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>番剧在线播放器</title>
+<title>Anip在线观影</title>
 <style>
 *{box-sizing:border-box;margin:0;padding:0;color:#eee;font-family:system-ui}
 body{background:#111;padding:16px}
@@ -66,7 +66,7 @@ body{background:#111;padding:16px}
 
 <div id="loginOverlay" class="login-overlay">
     <div class="login-box">
-        <div class="login-title">番剧在线播放器</div>
+        <div class="login-title">Anip在线观影</div>
         <input id="loginPwd" class="login-input" type="password" placeholder="请输入访问密码">
         <div id="loginErr" class="login-err"></div>
         <button id="loginBtn" class="login-btn">进入</button>
@@ -76,7 +76,7 @@ body{background:#111;padding:16px}
 <!-- 本地静态hls，先加载库，再执行业务脚本 -->
 <script src="/static/hls.min.js"></script>
 <script>
-const LOGIN_PWD = "anip19941104";
+const LOGIN_PWDS = ["anip19941104", "hy19960414"];
 const loginOverlay = document.getElementById('loginOverlay');
 const loginPwd = document.getElementById('loginPwd');
 const loginBtn = document.getElementById('loginBtn');
@@ -91,7 +91,7 @@ function checkLogin(){
 }
 function doLogin(){
     if(!loginPwd || !loginOverlay) return;
-    if(loginPwd.value === LOGIN_PWD){
+    if(LOGIN_PWDS.includes(loginPwd.value)){
         sessionStorage.setItem('anip_authed', '1');
         loginOverlay.classList.add('hidden');
         loginErr.textContent = '';
