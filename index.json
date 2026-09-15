@@ -2,251 +2,351 @@
   {
     "title": "无职转生Ⅲ 到了异世界就拿出真本事 (2026)",
     "type": "动漫",
-    "jsonFile": "episodes/anime-59193.json"
+    "jsonFile": "episodes/anime-59193.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260704-1/a4db4b1e7c15af7e3d08d38eefecae83.jpg",
+    "posterColor": "#374c7e"
   },
   {
     "title": "逃出绝命街 The End of Oak Street (2026)",
     "type": "电影",
-    "jsonFile": "episodes/tt27165187.json"
+    "jsonFile": "episodes/tt27165187.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260914-1/f9161841f46fbc0f18490b61f861a001.jpg",
+    "posterColor": "#688fab"
   },
   {
     "title": "七王国的骑士 第一季 A Knight of the Seven Kingdoms Season 1 (2026)",
     "type": "剧集",
-    "jsonFile": "episodes/tt27497448.json"
+    "jsonFile": "episodes/tt27497448.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260119-1/74f80271a040502f91e5aa3826f6cf23.jpg",
+    "posterColor": "#726440"
   },
   {
     "title": "小黄人与大怪兽 Minions & Monsters (2026)",
     "type": "电影",
-    "jsonFile": "episodes/tt32890033.json"
+    "jsonFile": "episodes/tt32890033.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260812-1/9478e8165bd574603301a85b3f93df34.jpg",
+    "posterColor": "#fc7d9d"
   },
   {
     "title": "星球大战：曼达洛人与古古 Star Wars: The Mandalorian & Grogu (2026)",
     "type": "电影",
-    "jsonFile": "episodes/tt30825738.json"
+    "jsonFile": "episodes/tt30825738.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260721-1/a6a73bc8a15a915fd0df943e3b6085cd.jpg",
+    "posterColor": "#c29a57"
   },
   {
     "title": "玩具总动员5 Toy Story 5 (2026)",
     "type": "电影",
-    "jsonFile": "episodes/tt29355505.json"
+    "jsonFile": "episodes/tt29355505.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260818-1/3abda8222fe04331d2cbe844d3ff5436.jpg",
+    "posterColor": "#d5ba89"
   },
   {
     "title": "给阿嬷的情书 (2026)",
     "type": "电影",
-    "jsonFile": "episodes/tt41791573.json"
+    "jsonFile": "episodes/tt41791573.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260507-1/480c3d0be5ccddded905360b07a42f13.jpg",
+    "posterColor": "#287e8b"
   },
   {
     "title": "诺曼底72小时 Pressure (2026)",
     "type": "电影",
-    "jsonFile": "episodes/tt32547691.json"
+    "jsonFile": "episodes/tt32547691.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260619-1/09e16e1bbb9affc9035fa5cd5d112d3e.jpg",
+    "posterColor": "#2d7885"
   },
   {
     "title": "迈克尔·杰克逊：巨星之路 Michael (2026)",
     "type": "电影",
-    "jsonFile": "episodes/tt11378946.json"
+    "jsonFile": "episodes/tt11378946.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260423-1/cd70d02700140d86522faecde920e91a.jpg",
+    "posterColor": "#84472e"
   },
   {
     "title": "河狸变身计划 Hoppers (2026)",
     "type": "电影",
-    "jsonFile": "episodes/tt26443616.json"
+    "jsonFile": "episodes/tt26443616.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260321-1/447b6d4edee1580c14cffd23081f6028.jpg",
+    "posterColor": "#2a8ba8"
   },
   {
     "title": "镖人：风起大漠 (2026)",
     "type": "电影",
-    "jsonFile": "episodes/tt32649961.json"
+    "jsonFile": "episodes/tt32649961.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260218-1/2b9723c9a017dd9ef436e8f6ec36f325.jpg",
+    "posterColor": "#8d4c25"
   },
   {
     "title": "深夜怪谈会6 (2026)",
     "type": "综艺",
-    "jsonFile": "episodes/vod-83410.json"
+    "jsonFile": "episodes/vod-83410.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260624-1/7cd849fd8a568088f5b0d6c2ab835d19.png",
+    "posterColor": "#991924"
   },
   {
     "title": "感谢对战 ～大小姐才不玩格斗游戏～ (2026)",
     "type": "动漫",
-    "jsonFile": "episodes/vod-83662.json"
+    "jsonFile": "episodes/vod-83662.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260707-1/5d30c59d143470506d57aac17ebeee2a.jpg",
+    "posterColor": "#e487c0"
   },
   {
     "title": "拯救替身千金的是冷酷无情冰之王子的爱 (2026)",
     "type": "动漫",
-    "jsonFile": "episodes/vod-83663.json"
+    "jsonFile": "episodes/vod-83663.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260707-1/1f4af06bb630eab60a06755012be4d7c.jpg",
+    "posterColor": "#695f8e"
   },
   {
     "title": "心动的信号第九季 (2026)",
     "type": "综艺",
-    "jsonFile": "episodes/vod-85201.json"
+    "jsonFile": "episodes/vod-85201.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260731-1/5c211e1438bf847e3cfe334c7eabebf1.jpg",
+    "posterColor": "#cba297"
   },
   {
     "title": "交锋 (2026)",
     "type": "剧集",
-    "jsonFile": "episodes/vod-87408.json"
+    "jsonFile": "episodes/vod-87408.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260906-1/a6a02a1768d9a6bc82c1e82cada0ba36.jpg",
+    "posterColor": "#902d23"
   },
   {
     "title": "星期三 第二季 Wednesday Season 2 (2025)",
     "type": "剧集",
-    "jsonFile": "episodes/tt25754350.json"
+    "jsonFile": "episodes/tt25754350.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250806-1/1bc9e27b1f3f4b9c7f5cfcaad0ad81a4.jpg",
+    "posterColor": "#4c456d"
   },
   {
     "title": "无职转生Ⅱ 到了异世界就拿出真本事 Part 2 (2024)",
     "type": "动漫",
-    "jsonFile": "episodes/tt28283826-2.json"
+    "jsonFile": "episodes/tt28283826-2.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250213-1/9b4a03c4d0ca24c64757ef76fbd50b73.jpg",
+    "posterColor": "#317598"
   },
   {
     "title": "无职转生Ⅱ 到了异世界就拿出真本事 Part.1 (2023)",
     "type": "动漫",
-    "jsonFile": "episodes/tt28283826.json"
+    "jsonFile": "episodes/tt28283826.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250208-1/13909709b6102f3faffb773f707b2533.jpg",
+    "posterColor": "#5aa9c9"
   },
   {
     "title": "国王排名 勇气的宝箱 (2023)",
     "type": "动漫",
-    "jsonFile": "episodes/tt27504251.json"
+    "jsonFile": "episodes/tt27504251.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250209-1/5e65620ce76e31dab3158205f6ea33ee.jpg",
+    "posterColor": "#deb72a"
   },
   {
     "title": "遮天 (2023)",
     "type": "动漫",
-    "jsonFile": "episodes/vod-9575.json"
+    "jsonFile": "episodes/vod-9575.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250218-1/88be664c16ef83c7f9dcb19e64af2a40.jpg",
+    "posterColor": "#395e79"
   },
   {
     "title": "星期三 第一季 Wednesday Season 1 (2022)",
     "type": "剧集",
-    "jsonFile": "episodes/tt13443470.json"
+    "jsonFile": "episodes/tt13443470.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250511-1/384d7d50cd0415d658a6be3dc46f220a.jpg",
+    "posterColor": "#3a4178"
   },
   {
     "title": "无职转生：到了异世界就拿出真本事 (2021)",
     "type": "动漫",
-    "jsonFile": "episodes/tt13293588.json"
+    "jsonFile": "episodes/tt13293588.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250215-1/09651af88184ee93d7a36fa930ad41b5.jpg",
+    "posterColor": "#99a64e"
   },
   {
     "title": "无职转生：到了异世界就拿出真本事 Part.2 第2クール (2021)",
     "type": "动漫",
-    "jsonFile": "episodes/tt15553038.json"
+    "jsonFile": "episodes/tt15553038.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250923-1/945dcd2c7e7afc6cea6401674fae3a6e.jpg",
+    "posterColor": "#cdb867"
   },
   {
     "title": "国王排名 (2021)",
     "type": "动漫",
-    "jsonFile": "episodes/tt13409432.json"
+    "jsonFile": "episodes/tt13409432.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250207-1/2b9236e93ff5486d4ec036dce6655ab7.jpg",
+    "posterColor": "#a32234"
   },
   {
     "title": "行尸走肉 第十一季 The Walking Dead Season 11 (2021)",
     "type": "剧集",
-    "jsonFile": "episodes/tt11156952.json"
+    "jsonFile": "episodes/tt11156952.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250310-1/407ad59d66d6ab23cc3d4c7fefc9e4c7.jpg",
+    "posterColor": "#a69265"
   },
   {
     "title": "权力的游戏 第八季 Game of Thrones Season 8 (2019)",
     "type": "剧集",
-    "jsonFile": "episodes/tt5924366.json"
+    "jsonFile": "episodes/tt5924366.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250213-1/c2649ffb1bf3e95219a9c58d42d0ef82.jpg",
+    "posterColor": "#819db0"
   },
   {
     "title": "行尸走肉 第十季 The Walking Dead Season 10 (2019)",
     "type": "剧集",
-    "jsonFile": "episodes/tt9728352.json"
+    "jsonFile": "episodes/tt9728352.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250310-1/7b93cb6aabe1fb9a5da6dc9ceefd108a.jpg",
+    "posterColor": "#84722f"
   },
   {
     "title": "行尸走肉 第九季 The Walking Dead Season 9 (2018)",
     "type": "剧集",
-    "jsonFile": "episodes/tt7901208.json"
+    "jsonFile": "episodes/tt7901208.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250310-1/b157daadb8879ac5892bd03da3083a60.jpg",
+    "posterColor": "#aa080f"
   },
   {
     "title": "权力的游戏 第七季 Game of Thrones Season 7 (2017)",
     "type": "剧集",
-    "jsonFile": "episodes/tt5654088.json"
+    "jsonFile": "episodes/tt5654088.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250214-1/7879d9ce0f6ec2829b300787e55e42c6.jpg",
+    "posterColor": "#3b5278"
   },
   {
     "title": "行尸走肉 第八季 The Walking Dead Season 8 (2017)",
     "type": "剧集",
-    "jsonFile": "episodes/tt6156390.json"
+    "jsonFile": "episodes/tt6156390.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250310-1/298d7722a880dbaaf92bd87f2b117ed3.jpg",
+    "posterColor": "#7e4f34"
   },
   {
     "title": "权力的游戏 第六季 Game of Thrones Season 6 (2016)",
     "type": "剧集",
-    "jsonFile": "episodes/tt3658014.json"
+    "jsonFile": "episodes/tt3658014.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250213-1/1a27c3bd9fa302e2bd6985eea184411e.jpg",
+    "posterColor": "#326580"
   },
   {
     "title": "行尸走肉 第七季 The Walking Dead Season 7 (2016)",
     "type": "剧集",
-    "jsonFile": "episodes/tt5164772.json"
+    "jsonFile": "episodes/tt5164772.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250310-1/c5341c59be5ae2a03df0f2ee563de4cd.jpg",
+    "posterColor": "#c6564a"
   },
   {
     "title": "权力的游戏 第五季 Game of Thrones Season 5 (2015)",
     "type": "剧集",
-    "jsonFile": "episodes/tt3658012.json"
+    "jsonFile": "episodes/tt3658012.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250213-1/7137c1a23e95936d979c9f1766819e7f.jpg",
+    "posterColor": "#dcd8c6"
   },
   {
     "title": "行尸走肉 第六季 The Walking Dead Season 6 (2015)",
     "type": "剧集",
-    "jsonFile": "episodes/tt4211958.json"
+    "jsonFile": "episodes/tt4211958.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250309-1/2b05b3938121ef338f467326bab5fdd0.jpg",
+    "posterColor": "#a4997b"
   },
   {
     "title": "权力的游戏 第四季 Game of Thrones Season 4 (2014)",
     "type": "剧集",
-    "jsonFile": "episodes/tt2816136.json"
+    "jsonFile": "episodes/tt2816136.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250213-1/cc168ad5d67581790163685085d1625d.jpg",
+    "posterColor": "#6c8e94"
   },
   {
     "title": "行尸走肉 第五季 The Walking Dead Season 5 (2014)",
     "type": "剧集",
-    "jsonFile": "episodes/tt3297776.json"
+    "jsonFile": "episodes/tt3297776.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250310-1/f8dc0a57788eab4d70ae3647eea596a5.jpg",
+    "posterColor": "#686a49"
   },
   {
     "title": "权力的游戏 第三季 Game of Thrones Season 3 (2013)",
     "type": "剧集",
-    "jsonFile": "episodes/tt2178782.json"
+    "jsonFile": "episodes/tt2178782.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250213-1/c05aaf47ff60c15f971a3864c0097995.jpg",
+    "posterColor": "#e7e1dd"
   },
   {
     "title": "行尸走肉 第四季 The Walking Dead Season 4 (2013)",
     "type": "剧集",
-    "jsonFile": "episodes/tt2795750.json"
+    "jsonFile": "episodes/tt2795750.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250310-1/90c774e580dac0e89057ee507097e5fe.jpg",
+    "posterColor": "#446e64"
   },
   {
     "title": "权力的游戏 第二季 Game of Thrones Season 2 (2012)",
     "type": "剧集",
-    "jsonFile": "episodes/tt1971833.json"
+    "jsonFile": "episodes/tt1971833.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250213-1/5a3c48b699385a91d2ab6ac7572feb65.jpg",
+    "posterColor": "#933d20"
   },
   {
     "title": "行尸走肉 第三季 The Walking Dead Season 3 (2012)",
     "type": "剧集",
-    "jsonFile": "episodes/tt2107527.json"
+    "jsonFile": "episodes/tt2107527.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250310-1/ecc4807aaa5c41a166927dc77bbbeefb.jpg",
+    "posterColor": "#95896c"
   },
   {
     "title": "权力的游戏 第一季 Game of Thrones Season 1 (2011)",
     "type": "剧集",
-    "jsonFile": "episodes/tt0944947.json"
+    "jsonFile": "episodes/tt0944947.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250213-1/9eb62b6bde3025a6061864da08f855fc.jpg",
+    "posterColor": "#734c40"
   },
   {
     "title": "行尸走肉 第二季 The Walking Dead Season 2 (2011)",
     "type": "剧集",
-    "jsonFile": "episodes/tt1790548.json"
+    "jsonFile": "episodes/tt1790548.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250310-1/a4abd8cec5697aaec8ce02dee7273cbb.jpg",
+    "posterColor": "#82795b"
   },
   {
     "title": "三国 (2010)",
     "type": "剧集",
-    "jsonFile": "episodes/tt1514753.json"
+    "jsonFile": "episodes/tt1514753.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250810-1/4f08cb674f6c8159dcb9ed8b5901ee78.jpg",
+    "posterColor": "#6495aa"
   },
   {
     "title": "行尸走肉 第一季 The Walking Dead Season 1 (2010)",
     "type": "剧集",
-    "jsonFile": "episodes/tt1520211.json"
+    "jsonFile": "episodes/tt1520211.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250310-1/29c31864ea3307ad3f693f7c2c74d38f.jpg",
+    "posterColor": "#80774e"
   },
   {
     "title": "犬夜叉 (2000)",
     "type": "动漫",
-    "jsonFile": "episodes/tt0290223.json"
+    "jsonFile": "episodes/tt0290223.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250317-1/080c173707bf838786916ac65e4c22ab.jpg",
+    "posterColor": "#7098ca"
   },
   {
     "title": "水浒传 (1998)",
     "type": "剧集",
-    "jsonFile": "episodes/tt1388431.json"
+    "jsonFile": "episodes/tt1388431.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250214-1/63ef64ebf067f067c335b2d0bf8cc889.jpg",
+    "posterColor": "#8c392f"
   },
   {
     "title": "三国演义 (1994)",
     "type": "剧集",
-    "jsonFile": "episodes/tt0108914.json"
+    "jsonFile": "episodes/tt0108914.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250411-1/12379b8d65b73a9dfdd131176888c37e.jpg",
+    "posterColor": "#416a7e"
   },
   {
     "title": "红楼梦 (1987)",
     "type": "剧集",
-    "jsonFile": "episodes/tt1162595.json"
+    "jsonFile": "episodes/tt1162595.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250422-1/a9702b85f62ef5624f91a874ca750251.jpg",
+    "posterColor": "#bca091"
   },
   {
     "title": "西游记 (1986)",
     "type": "剧集",
-    "jsonFile": "episodes/tt1163129.json"
+    "jsonFile": "episodes/tt1163129.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250608-1/dd5b8190ff81944a29f6bc0cabfec3c9.jpg",
+    "posterColor": "#897241"
   }
 ]
