@@ -1,5 +1,30 @@
 [
   {
+    "title": "无职转生Ⅲ 到了异世界就拿出真本事 (2026)",
+    "type": "动漫",
+    "jsonFile": "episodes/anime-59193.json"
+  },
+  {
+    "title": "逃出绝命街 The End of Oak Street (2026)",
+    "type": "电影",
+    "jsonFile": "episodes/tt27165187.json"
+  },
+  {
+    "title": "无职转生Ⅱ 到了异世界就拿出真本事 Part 2 (2024)",
+    "type": "动漫",
+    "jsonFile": "episodes/tt28283826-2.json"
+  },
+  {
+    "title": "无职转生Ⅱ 到了异世界就拿出真本事 Part.1 (2023)",
+    "type": "动漫",
+    "jsonFile": "episodes/tt28283826.json"
+  },
+  {
+    "title": "国王排名 勇气的宝箱 (2023)",
+    "type": "动漫",
+    "jsonFile": "episodes/tt27504251.json"
+  },
+  {
     "title": "无职转生：到了异世界就拿出真本事 (2021)",
     "type": "动漫",
     "jsonFile": "episodes/tt13293588.json"
@@ -10,43 +35,18 @@
     "jsonFile": "episodes/tt15553038.json"
   },
   {
-    "title": "无职转生Ⅱ 到了异世界就拿出真本事 Part.1 (2023)",
-    "type": "动漫",
-    "jsonFile": "episodes/tt28283826.json"
-  },
-  {
-    "title": "无职转生Ⅱ 到了异世界就拿出真本事 Part 2 (2024)",
-    "type": "动漫",
-    "jsonFile": "episodes/tt28283826-2.json"
-  },
-  {
-    "title": "无职转生Ⅲ 到了异世界就拿出真本事 (2026)",
-    "type": "动漫",
-    "jsonFile": "episodes/anime-59193.json"
-  },
-  {
     "title": "国王排名 (2021)",
     "type": "动漫",
     "jsonFile": "episodes/tt13409432.json"
   },
   {
-    "title": "国王排名 勇气的宝箱 (2023)",
-    "type": "动漫",
-    "jsonFile": "episodes/tt27504251.json"
+    "title": "三国 (2010)",
+    "type": "剧集",
+    "jsonFile": "episodes/tt1514753.json"
   },
   {
     "title": "犬夜叉 (2000)",
     "type": "动漫",
     "jsonFile": "episodes/tt0290223.json"
-  },
-  {
-    "title": "逃出绝命街 The End of Oak Street (2026)",
-    "type": "电影",
-    "jsonFile": "episodes/tt27165187.json"
-  },
-  {
-    "title": "三国 (2010)",
-    "type": "剧集",
-    "jsonFile": "episodes/tt1514753.json"
   }
 ]
