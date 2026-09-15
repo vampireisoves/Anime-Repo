@@ -224,11 +224,193 @@
     "posterColor": "#be8d78"
   },
   {
+    "title": "云雀叫天录 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/tt32046615.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260914-1/698ccf88f331e2d77a636753536f57fc.jpg",
+    "posterColor": "#08ab9d"
+  },
+  {
+    "title": "永恒之家 Forever Home (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/tt39319550.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260915-1/fdc8ba532400960a4e5af944db6fb0db.jpg",
+    "posterColor": "#2f4284"
+  },
+  {
+    "title": "一万元舞台2026 (2026)",
+    "type": "综艺",
+    "jsonFile": "episodes/vod-83290.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260616-1/5af78353eba9a51729e81f0e816245ac.jpg",
+    "posterColor": "#3d75f3"
+  },
+  {
+    "title": "恋爱战争 (2026)",
+    "type": "综艺",
+    "jsonFile": "episodes/vod-83420.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260624-1/9334414c21e3aa743122a8ebf47ed7f5.jpg",
+    "posterColor": "#d4035b"
+  },
+  {
+    "title": "舞蹈新风暴 (2026)",
+    "type": "综艺",
+    "jsonFile": "episodes/vod-86652.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260825-1/3d466b43c81ad0cdfae41d8d5d6f7b1d.jpg",
+    "posterColor": "#cd9a35"
+  },
+  {
+    "title": "哥哥来啦 (2026)",
+    "type": "综艺",
+    "jsonFile": "episodes/vod-87468.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260907-1/03e13c1fb9c7af06fe3c6567aa50a7ce.jpg",
+    "posterColor": "#1f7ffb"
+  },
+  {
+    "title": "为爱正名 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-87960.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260915-1/ea4feb21173e7c6d23780f2b63fcd841.jpg",
+    "posterColor": "#845f2f"
+  },
+  {
+    "title": "风，带有香气 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/tt41652364.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260330-1/24f377bb88a907994c25998f76854351.webp",
+    "posterColor": "#8cc5d5"
+  },
+  {
+    "title": "百日成王 (2026)",
+    "type": "动漫",
+    "jsonFile": "episodes/tt43609776.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260703-1/36d0c69b3f4a2917c8e8ecd2edb35cb8.jpg",
+    "posterColor": "#ac3346"
+  },
+  {
+    "title": "密室大逃脱第八季 (2026)",
+    "type": "综艺",
+    "jsonFile": "episodes/vod-83736.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260708-1/ead5b1d70d258346c874116b03bbb211.jpg",
+    "posterColor": "#ffbe30"
+  },
+  {
+    "title": "伦敦合伙人 (2026)",
+    "type": "综艺",
+    "jsonFile": "episodes/vod-85641.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260808-1/60a791845268cfe5130003f169957254.jpg",
+    "posterColor": "#60afde"
+  },
+  {
+    "title": "加油！汪汪 (2026)",
+    "type": "综艺",
+    "jsonFile": "episodes/vod-85824.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260811-1/de59d9c293f662d9c809d3975594b998.jpg",
+    "posterColor": "#fadc72"
+  },
+  {
+    "title": "不想睡的星期五 (2026)",
+    "type": "综艺",
+    "jsonFile": "episodes/vod-85940.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260813-1/61ee49d300eaeb68abb4d71c3f9154ca.jpg",
+    "posterColor": "#431f93"
+  },
+  {
+    "title": "花儿与少年2026 (2026)",
+    "type": "综艺",
+    "jsonFile": "episodes/vod-87277.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260904-1/5d66af3a1c2062b097a2f386b39a147b.jpg",
+    "posterColor": "#bccf7d"
+  },
+  {
+    "title": "梦回缘 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-87959.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260915-1/6e7bf9bad0fd12659a2a20e7c183835f.jpg",
+    "posterColor": "#854e36"
+  },
+  {
+    "title": "北斗神拳 拳王军杂兵们的挽歌 (2026)",
+    "type": "动漫",
+    "jsonFile": "episodes/tt38983087.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260713-1/110a4e299e36508a63bc4af6570cde9d.jpg",
+    "posterColor": "#b10206"
+  },
+  {
+    "title": "欺诈游戏动漫 Liar Game (2026)",
+    "type": "动漫",
+    "jsonFile": "episodes/tt39229633.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260407-1/89a8c25aa69b6da2a7ab7ca5e53e6223.webp",
+    "posterColor": "#7b4737"
+  },
+  {
+    "title": "一饭封神第二季 (2026)",
+    "type": "综艺",
+    "jsonFile": "episodes/vod-84684.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260723-1/1a6273dc10026fd629524b86a6a44b92.jpg",
+    "posterColor": "#ad1405"
+  },
+  {
+    "title": "大哥小助理 (2026)",
+    "type": "综艺",
+    "jsonFile": "episodes/vod-85990.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260814-1/4fa8a043dc6adb59215509cf3551d1b0.jpg",
+    "posterColor": "#1d66ff"
+  },
+  {
+    "title": "浮生之白蛇前缘 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-87154.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260902-1/4961a544593556fe0105a4a68029d702.jpg",
+    "posterColor": "#75919a"
+  },
+  {
+    "title": "九品猎妖官 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-87281.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260904-1/e11c37c95dbecee10efc64c4dff87dc5.jpg",
+    "posterColor": "#50608c"
+  },
+  {
+    "title": "济公之降龙除妖 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-87469.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260907-1/3d44babef03dc0bcf686c9bab6478f9f.jpg",
+    "posterColor": "#af8069"
+  },
+  {
+    "title": "独剑九天 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-87588.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260909-1/cea6abbf3d87db0a5c441eaee218018f.jpg",
+    "posterColor": "#667396"
+  },
+  {
+    "title": "熔城 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-87780.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260912-1/6f8d96f364594375e9df3b064eac107d.jpg",
+    "posterColor": "#795139"
+  },
+  {
     "title": "星期三 第二季 Wednesday Season 2 (2025)",
     "type": "剧集",
     "jsonFile": "episodes/tt25754350.json",
     "poster": "https://vod.xiguazyimg.com/upload/vod/20250806-1/1bc9e27b1f3f4b9c7f5cfcaad0ad81a4.jpg",
     "posterColor": "#4c456d"
+  },
+  {
+    "title": "宝岛西米乐 (2025)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-80314.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260309-1/010ac0d4e89e20ae018246182dc87ec8.jpg",
+    "posterColor": "#a06d57"
+  },
+  {
+    "title": "豆腐妈妈 (2025)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-80747.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260325-1/6dce0f21aa951c40fb99303e4a197c88.jpg",
+    "posterColor": "#78513a"
   },
   {
     "title": "无职转生Ⅱ 到了异世界就拿出真本事 Part 2 (2024)",
@@ -264,6 +446,13 @@
     "jsonFile": "episodes/vod-12280.json",
     "poster": "https://vod.xiguazyimg.com/upload/vod/20250224-1/085918428e83b91ec3b96ce6d547c9c6.jpg",
     "posterColor": "#8b9f50"
+  },
+  {
+    "title": "南诏王 (2023)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-87781.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260912-1/0d80a1252213ddcba20d64a549947136.jpg",
+    "posterColor": "#8c4e30"
   },
   {
     "title": "星期三 第一季 Wednesday Season 1 (2022)",
@@ -308,11 +497,32 @@
     "posterColor": "#a69265"
   },
   {
+    "title": "毛雪汪 (2021)",
+    "type": "综艺",
+    "jsonFile": "episodes/vod-34517.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250415-1/94f9692a9234a467d10c8d25695592eb.jpg",
+    "posterColor": "#5e58b5"
+  },
+  {
     "title": "全民星攻略 (2020)",
     "type": "综艺",
     "jsonFile": "episodes/vod-12343.json",
     "poster": "https://vod.xiguazyimg.com/upload/vod/20250224-1/44bc1b319dda95562266f9c889c6ef73.jpg",
     "posterColor": "#7c4c37"
+  },
+  {
+    "title": "11点热吵店 (2020)",
+    "type": "综艺",
+    "jsonFile": "episodes/vod-10939.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250221-1/e64a0218b7f723367b00d0c508d15e15.jpg",
+    "posterColor": "#a6695b"
+  },
+  {
+    "title": "武神主宰 (2020)",
+    "type": "动漫",
+    "jsonFile": "episodes/tt20769560.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260206-1/385d83110a9502667d2f82748fa66140.jpg",
+    "posterColor": "#716242"
   },
   {
     "title": "权力的游戏 第八季 Game of Thrones Season 8 (2019)",
