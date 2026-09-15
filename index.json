@@ -10,6 +10,56 @@
     "jsonFile": "episodes/tt27165187.json"
   },
   {
+    "title": "七王国的骑士 第一季 A Knight of the Seven Kingdoms Season 1 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/tt27497448.json"
+  },
+  {
+    "title": "小黄人与大怪兽 Minions & Monsters (2026)",
+    "type": "电影",
+    "jsonFile": "episodes/tt32890033.json"
+  },
+  {
+    "title": "星球大战：曼达洛人与古古 Star Wars: The Mandalorian & Grogu (2026)",
+    "type": "电影",
+    "jsonFile": "episodes/tt30825738.json"
+  },
+  {
+    "title": "玩具总动员5 Toy Story 5 (2026)",
+    "type": "电影",
+    "jsonFile": "episodes/tt29355505.json"
+  },
+  {
+    "title": "给阿嬷的情书 (2026)",
+    "type": "电影",
+    "jsonFile": "episodes/tt41791573.json"
+  },
+  {
+    "title": "诺曼底72小时 Pressure (2026)",
+    "type": "电影",
+    "jsonFile": "episodes/tt32547691.json"
+  },
+  {
+    "title": "迈克尔·杰克逊：巨星之路 Michael (2026)",
+    "type": "电影",
+    "jsonFile": "episodes/tt11378946.json"
+  },
+  {
+    "title": "河狸变身计划 Hoppers (2026)",
+    "type": "电影",
+    "jsonFile": "episodes/tt26443616.json"
+  },
+  {
+    "title": "镖人：风起大漠 (2026)",
+    "type": "电影",
+    "jsonFile": "episodes/tt32649961.json"
+  },
+  {
+    "title": "星期三 第二季 Wednesday Season 2 (2025)",
+    "type": "剧集",
+    "jsonFile": "episodes/tt25754350.json"
+  },
+  {
     "title": "无职转生Ⅱ 到了异世界就拿出真本事 Part 2 (2024)",
     "type": "动漫",
     "jsonFile": "episodes/tt28283826-2.json"
@@ -23,6 +73,11 @@
     "title": "国王排名 勇气的宝箱 (2023)",
     "type": "动漫",
     "jsonFile": "episodes/tt27504251.json"
+  },
+  {
+    "title": "星期三 第一季 Wednesday Season 1 (2022)",
+    "type": "剧集",
+    "jsonFile": "episodes/tt13443470.json"
   },
   {
     "title": "无职转生：到了异世界就拿出真本事 (2021)",
@@ -40,13 +95,128 @@
     "jsonFile": "episodes/tt13409432.json"
   },
   {
+    "title": "行尸走肉 第十一季 The Walking Dead Season 11 (2021)",
+    "type": "剧集",
+    "jsonFile": "episodes/tt11156952.json"
+  },
+  {
+    "title": "权力的游戏 第八季 Game of Thrones Season 8 (2019)",
+    "type": "剧集",
+    "jsonFile": "episodes/tt5924366.json"
+  },
+  {
+    "title": "行尸走肉 第十季 The Walking Dead Season 10 (2019)",
+    "type": "剧集",
+    "jsonFile": "episodes/tt9728352.json"
+  },
+  {
+    "title": "行尸走肉 第九季 The Walking Dead Season 9 (2018)",
+    "type": "剧集",
+    "jsonFile": "episodes/tt7901208.json"
+  },
+  {
+    "title": "权力的游戏 第七季 Game of Thrones Season 7 (2017)",
+    "type": "剧集",
+    "jsonFile": "episodes/tt5654088.json"
+  },
+  {
+    "title": "行尸走肉 第八季 The Walking Dead Season 8 (2017)",
+    "type": "剧集",
+    "jsonFile": "episodes/tt6156390.json"
+  },
+  {
+    "title": "权力的游戏 第六季 Game of Thrones Season 6 (2016)",
+    "type": "剧集",
+    "jsonFile": "episodes/tt3658014.json"
+  },
+  {
+    "title": "行尸走肉 第七季 The Walking Dead Season 7 (2016)",
+    "type": "剧集",
+    "jsonFile": "episodes/tt5164772.json"
+  },
+  {
+    "title": "权力的游戏 第五季 Game of Thrones Season 5 (2015)",
+    "type": "剧集",
+    "jsonFile": "episodes/tt3658012.json"
+  },
+  {
+    "title": "行尸走肉 第六季 The Walking Dead Season 6 (2015)",
+    "type": "剧集",
+    "jsonFile": "episodes/tt4211958.json"
+  },
+  {
+    "title": "权力的游戏 第四季 Game of Thrones Season 4 (2014)",
+    "type": "剧集",
+    "jsonFile": "episodes/tt2816136.json"
+  },
+  {
+    "title": "行尸走肉 第五季 The Walking Dead Season 5 (2014)",
+    "type": "剧集",
+    "jsonFile": "episodes/tt3297776.json"
+  },
+  {
+    "title": "权力的游戏 第三季 Game of Thrones Season 3 (2013)",
+    "type": "剧集",
+    "jsonFile": "episodes/tt2178782.json"
+  },
+  {
+    "title": "行尸走肉 第四季 The Walking Dead Season 4 (2013)",
+    "type": "剧集",
+    "jsonFile": "episodes/tt2795750.json"
+  },
+  {
+    "title": "权力的游戏 第二季 Game of Thrones Season 2 (2012)",
+    "type": "剧集",
+    "jsonFile": "episodes/tt1971833.json"
+  },
+  {
+    "title": "行尸走肉 第三季 The Walking Dead Season 3 (2012)",
+    "type": "剧集",
+    "jsonFile": "episodes/tt2107527.json"
+  },
+  {
+    "title": "权力的游戏 第一季 Game of Thrones Season 1 (2011)",
+    "type": "剧集",
+    "jsonFile": "episodes/tt0944947.json"
+  },
+  {
+    "title": "行尸走肉 第二季 The Walking Dead Season 2 (2011)",
+    "type": "剧集",
+    "jsonFile": "episodes/tt1790548.json"
+  },
+  {
     "title": "三国 (2010)",
     "type": "剧集",
     "jsonFile": "episodes/tt1514753.json"
   },
   {
+    "title": "行尸走肉 第一季 The Walking Dead Season 1 (2010)",
+    "type": "剧集",
+    "jsonFile": "episodes/tt1520211.json"
+  },
+  {
     "title": "犬夜叉 (2000)",
     "type": "动漫",
     "jsonFile": "episodes/tt0290223.json"
+  },
+  {
+    "title": "水浒传 (1998)",
+    "type": "剧集",
+    "jsonFile": "episodes/tt1388431.json"
+  },
+  {
+    "title": "三国演义 (1994)",
+    "type": "剧集",
+    "jsonFile": "episodes/tt0108914.json"
+  },
+  {
+    "title": "红楼梦 (1987)",
+    "type": "剧集",
+    "jsonFile": "episodes/tt1162595.json"
+  },
+  {
+    "title": "西游记 (1986)",
+    "type": "剧集",
+    "jsonFile": "episodes/tt1163129.json"
   }
 ]
