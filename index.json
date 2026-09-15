@@ -133,6 +133,97 @@
     "posterColor": "#2f4f84"
   },
   {
+    "title": "从犯规开始吧？ (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-87965.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260915-1/c8bfdbf9ce6d8261bc9a9c143ba36bbc.jpg",
+    "posterColor": "#7e92b3"
+  },
+  {
+    "title": "美国老爸第二十二季 (2026)",
+    "type": "动漫",
+    "jsonFile": "episodes/vod-83071.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260601-1/6f68cb0263099b245262cc928336b58a.jpg",
+    "posterColor": "#f03d34"
+  },
+  {
+    "title": "密室大逃脱第八季大神版 (2026)",
+    "type": "综艺",
+    "jsonFile": "episodes/vod-83735.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260708-1/45365b98f090b9ab2515ef26fb6b96f9.jpg",
+    "posterColor": "#9b6348"
+  },
+  {
+    "title": "一念永恒完结季 (2026)",
+    "type": "动漫",
+    "jsonFile": "episodes/vod-84615.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260722-1/3325eae02b7e4a23a3b49aab8c38bc6e.jpg",
+    "posterColor": "#90b2c1"
+  },
+  {
+    "title": "爱·回家之三代同糖国语 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-85766.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260810-1/4147a08278080aa58ed0da63c60ba026.jpg",
+    "posterColor": "#b48071"
+  },
+  {
+    "title": "爱·回家之三代同糖粤语 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-85767.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260810-1/74436ac168b6b21625540387373dd527.jpg",
+    "posterColor": "#b48071"
+  },
+  {
+    "title": "生逢其时 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-87216.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260903-1/16aee1dd92e09b1820ef5ae581ebdd6a.jpg",
+    "posterColor": "#a06135"
+  },
+  {
+    "title": "新兵第四季 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-87284.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260904-1/af61e29fff9d7c31e330155679950ee4.jpg",
+    "posterColor": "#988e71"
+  },
+  {
+    "title": "兰香如故 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-87720.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260911-1/b1d05bb7f031df0725fe6c37b8317d1a.jpg",
+    "posterColor": "#149e7f"
+  },
+  {
+    "title": "不擅交际的未亡人雪女与诅咒戒指 (2026)",
+    "type": "动漫",
+    "jsonFile": "episodes/vod-87963.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260915-1/af0e35eccb48c72b3a05ee364dc24965.jpg",
+    "posterColor": "#bf586a"
+  },
+  {
+    "title": "黑色诡计～操控审判的辩护人 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-84552.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260721-1/8fe1245744c0958fcb5b05c03a1b3041.jpg",
+    "posterColor": "#87422b"
+  },
+  {
+    "title": "冬城猎凶 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-87650.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260910-1/380281c69783ffa37e7f596da5687215.jpg",
+    "posterColor": "#764a3d"
+  },
+  {
+    "title": "东游令 (2026)",
+    "type": "电影",
+    "jsonFile": "episodes/vod-87962.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260915-1/bc25c338ca1fe9c423abe328b09700b1.jpg",
+    "posterColor": "#be8d78"
+  },
+  {
     "title": "星期三 第二季 Wednesday Season 2 (2025)",
     "type": "剧集",
     "jsonFile": "episodes/tt25754350.json",
@@ -168,11 +259,25 @@
     "posterColor": "#395e79"
   },
   {
+    "title": "郊廉出发吧！ (2023)",
+    "type": "综艺",
+    "jsonFile": "episodes/vod-12280.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250224-1/085918428e83b91ec3b96ce6d547c9c6.jpg",
+    "posterColor": "#8b9f50"
+  },
+  {
     "title": "星期三 第一季 Wednesday Season 1 (2022)",
     "type": "剧集",
     "jsonFile": "episodes/tt13443470.json",
     "poster": "https://vod.xiguazyimg.com/upload/vod/20250511-1/384d7d50cd0415d658a6be3dc46f220a.jpg",
     "posterColor": "#3a4178"
+  },
+  {
+    "title": "小姐不熙娣 (2022)",
+    "type": "综艺",
+    "jsonFile": "episodes/vod-12284.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250224-1/b366d80d675013eb6e525b45a3e64b97.jpg",
+    "posterColor": "#ee8b5b"
   },
   {
     "title": "无职转生：到了异世界就拿出真本事 (2021)",
@@ -203,6 +308,13 @@
     "posterColor": "#a69265"
   },
   {
+    "title": "全民星攻略 (2020)",
+    "type": "综艺",
+    "jsonFile": "episodes/vod-12343.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250224-1/44bc1b319dda95562266f9c889c6ef73.jpg",
+    "posterColor": "#7c4c37"
+  },
+  {
     "title": "权力的游戏 第八季 Game of Thrones Season 8 (2019)",
     "type": "剧集",
     "jsonFile": "episodes/tt5924366.json",
@@ -222,6 +334,13 @@
     "jsonFile": "episodes/tt7901208.json",
     "poster": "https://vod.xiguazyimg.com/upload/vod/20250310-1/b157daadb8879ac5892bd03da3083a60.jpg",
     "posterColor": "#aa080f"
+  },
+  {
+    "title": "特战英雄榜 (2018)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-86491.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260822-1/ef6e1d52074310d9064fc2889c2c74a6.jpg",
+    "posterColor": "#334b80"
   },
   {
     "title": "权力的游戏 第七季 Game of Thrones Season 7 (2017)",
@@ -280,6 +399,13 @@
     "posterColor": "#686a49"
   },
   {
+    "title": "综艺玩很大 (2014)",
+    "type": "综艺",
+    "jsonFile": "episodes/vod-12159.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250224-1/25b22f0a6bf56dd970f4b46f46bf7b67.jpg",
+    "posterColor": "#fce828"
+  },
+  {
     "title": "权力的游戏 第三季 Game of Thrones Season 3 (2013)",
     "type": "剧集",
     "jsonFile": "episodes/tt2178782.json",
@@ -322,6 +448,13 @@
     "posterColor": "#82795b"
   },
   {
+    "title": "女人我最大 (2011)",
+    "type": "综艺",
+    "jsonFile": "episodes/vod-7905.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250215-1/700fda4500716ff3b9ae2e97536b4c1b.jpg",
+    "posterColor": "#d0a2c2"
+  },
+  {
     "title": "三国 (2010)",
     "type": "剧集",
     "jsonFile": "episodes/tt1514753.json",
@@ -334,6 +467,20 @@
     "jsonFile": "episodes/tt1520211.json",
     "poster": "https://vod.xiguazyimg.com/upload/vod/20250310-1/29c31864ea3307ad3f693f7c2c74d38f.jpg",
     "posterColor": "#80774e"
+  },
+  {
+    "title": "食尚玩家 (2007)",
+    "type": "综艺",
+    "jsonFile": "episodes/vod-12335.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250224-1/01d8824cb688ae429b8ab2c0e0da7db9.jpg",
+    "posterColor": "#eab33e"
+  },
+  {
+    "title": "型男大主厨 (2006)",
+    "type": "综艺",
+    "jsonFile": "episodes/vod-12266.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250224-1/82efa531071bc45831e62197f83d85f8.jpg",
+    "posterColor": "#d3dba0"
   },
   {
     "title": "犬夜叉 (2000)",
