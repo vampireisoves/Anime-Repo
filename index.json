@@ -4675,6 +4675,174 @@
     "posterColor": "#8e533e"
   },
   {
+    "title": "最后目击 Last Seen (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/tt6037988.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260909-1/d631402ea1a2ccc2532504a710bd9ac6.jpg",
+    "posterColor": "#b6a06f"
+  },
+  {
+    "title": "旋转亮片 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-83528.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260701-1/3330b1482091b3e1c4d0171199be6a53.jpg",
+    "posterColor": "#2c4887"
+  },
+  {
+    "title": "侠探杰克第四季 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-85882.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260812-1/ba4eeb0fc7219f57f8c38fb6b161621f.jpg",
+    "posterColor": "#17459b"
+  },
+  {
+    "title": "只要有空第五季 (2026)",
+    "type": "综艺",
+    "jsonFile": "episodes/vod-85883.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260812-1/1092e81fe131a03ccab042f236c90fae.jpg",
+    "posterColor": "#eecb76"
+  },
+  {
+    "title": "宠宠冲冲冲 (2026)",
+    "type": "综艺",
+    "jsonFile": "episodes/vod-85941.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260813-1/8b1a6d1e44c732698ed4fc0c10b64c92.jpg",
+    "posterColor": "#49aae2"
+  },
+  {
+    "title": "女警出更第二季 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-85989.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260814-1/1dcf22d90b51a22580a7d4bd4636eed0.jpg",
+    "posterColor": "#8c4627"
+  },
+  {
+    "title": "滚烫夜话 (2026)",
+    "type": "综艺",
+    "jsonFile": "episodes/vod-86715.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260826-1/0439eb1556a20086b36dd6b6b3b4220f.jpg",
+    "posterColor": "#3f5c73"
+  },
+  {
+    "title": "冷宫弃妃她权倾朝野 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-87586.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260909-1/bd743493f938ca403ece7f0a5267e0fa.jpg",
+    "posterColor": "#be4635"
+  },
+  {
+    "title": "韩国制造第二季 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-87591.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260909-1/01a121feb1b9302516e7bd6176ea993d.jpg",
+    "posterColor": "#47516b"
+  },
+  {
+    "title": "爱情契约 SPYCRAFT - The Series (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/tt21403116.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260701-1/e72c976701b1e84cab44173c309d1bb7.jpg",
+    "posterColor": "#7e5f54"
+  },
+  {
+    "title": "新攻壳机动队 The Ghost in the Shell (2026)",
+    "type": "动漫",
+    "jsonFile": "episodes/tt36517689.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260707-1/fdc7a7306d60099038e76ff31254f006.jpg",
+    "posterColor": "#794939"
+  },
+  {
+    "title": "伟大的导游3 (2026)",
+    "type": "综艺",
+    "jsonFile": "episodes/vod-83308.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260617-1/6ab5b18e30466464d3e27fba5c5bfd19.jpg",
+    "posterColor": "#6db9e1"
+  },
+  {
+    "title": "再见黑色 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-83733.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260708-1/f1f0d87c9d7f85f080766e6f840c6626.jpg",
+    "posterColor": "#59986b"
+  },
+  {
+    "title": "你的喜欢无与伦比 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-84165.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260715-1/b65967699c10b778ce254b7bd29aee11.jpg",
+    "posterColor": "#04c4a7"
+  },
+  {
+    "title": "顾长歌：我！天命大反派 (2026)",
+    "type": "动漫",
+    "jsonFile": "episodes/vod-85011.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260729-1/9536ebeb6b5524188282bb76b91c8ce6.jpg",
+    "posterColor": "#4f3b77"
+  },
+  {
+    "title": "足球教练第四季 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-85464.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260805-1/8c7350730781118726b01855b71f424b.jpg",
+    "posterColor": "#29478a"
+  },
+  {
+    "title": "第二次恋爱才完美第二季 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-87097.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260902-1/275c4f70d50764f24830ddc6407427bd.jpg",
+    "posterColor": "#7396a4"
+  },
+  {
+    "title": "登登登邓氏三宝 Dang! (2026)",
+    "type": "动漫",
+    "jsonFile": "episodes/tt40003445.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260909-1/332192029204c2b5e99e259c5ee29c0a.jpg",
+    "posterColor": "#4e617f"
+  },
+  {
+    "title": "穿越时空成仙帝，系统迟到八万年 (2026)",
+    "type": "动漫",
+    "jsonFile": "episodes/vod-81727.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260507-1/361ca431d875b8fc6b7ebceda71e9e74.jpg",
+    "posterColor": "#487186"
+  },
+  {
+    "title": "李熊猫 (2026)",
+    "type": "动漫",
+    "jsonFile": "episodes/vod-85006.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260729-1/5bfe32c7bea2fabe5b6b7d79eabfc1c3.jpg",
+    "posterColor": "#334d85"
+  },
+  {
+    "title": "有兽焉第六季 (2026)",
+    "type": "动漫",
+    "jsonFile": "episodes/vod-85463.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260805-1/a6eba47cef9e00dac7ed8b2312fd96ee.jpg",
+    "posterColor": "#5cdfd0"
+  },
+  {
+    "title": "爆谷一周4 (2026)",
+    "type": "综艺",
+    "jsonFile": "episodes/vod-86186.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260817-1/ff182d6c7a8c67ec3aa285b39befaafd.jpg",
+    "posterColor": "#755244"
+  },
+  {
+    "title": "一秒百年修为，我直接无敌 (2026)",
+    "type": "短剧",
+    "jsonFile": "episodes/vod-87583.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260909-1/a676d0cc166b9c5e1c6128b51df63751.jpg",
+    "posterColor": "#925737"
+  },
+  {
+    "title": "八百度近视穿越，我撩动了高傲摄政王 (2026)",
+    "type": "短剧",
+    "jsonFile": "episodes/vod-87584.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260909-1/6e3732de8717c4ae313f6023c02f901f.jpg",
+    "posterColor": "#3b5f78"
+  },
+  {
     "title": "星期三 第二季 Wednesday Season 2 (2025)",
     "type": "剧集",
     "jsonFile": "episodes/tt25754350.json",
@@ -4969,6 +5137,27 @@
     "posterColor": "#caae81"
   },
   {
+    "title": "海上心狱 On the Sea (2025)",
+    "type": "电影",
+    "jsonFile": "episodes/tt31936369.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260909-1/5d121d57f46a5db612397b35feddc5cf.jpg",
+    "posterColor": "#c19e8d"
+  },
+  {
+    "title": "斗罗大陆5重生唐三动态漫画 (2025)",
+    "type": "动漫",
+    "jsonFile": "episodes/vod-63402.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250910-1/73fcdeedbcd8766d9c3a0f71045eaea5.jpg",
+    "posterColor": "#59b2d0"
+  },
+  {
+    "title": "全民转职：无职的我终结了神明！ (2025)",
+    "type": "动漫",
+    "jsonFile": "episodes/vod-81921.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260515-1/5ffe69f85ea48f0eb24ac8df67887e90.jpg",
+    "posterColor": "#5f5280"
+  },
+  {
     "title": "无职转生Ⅱ 到了异世界就拿出真本事 Part 2 (2024)",
     "type": "动漫",
     "jsonFile": "episodes/tt28283826-2.json",
@@ -5065,6 +5254,13 @@
     "jsonFile": "episodes/vod-87712.json",
     "poster": "https://vod.xiguazyimg.com/upload/vod/20260911-1/26fdb4321c5e6f9ae2c0a03b978c6819.jpg",
     "posterColor": "#87512b"
+  },
+  {
+    "title": "神豪之天降系统动态漫画第一季 (2024)",
+    "type": "动漫",
+    "jsonFile": "episodes/vod-62848.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250906-1/de1619eb0ef6847d25236b97d4fef342.jpg",
+    "posterColor": "#c78c6c"
   },
   {
     "title": "无职转生Ⅱ 到了异世界就拿出真本事 Part.1 (2023)",
@@ -5177,6 +5373,13 @@
     "jsonFile": "episodes/vod-87593.json",
     "poster": "https://vod.xiguazyimg.com/upload/vod/20260909-1/d923bb4ea0a739166f7fce68d578cb6b.jpg",
     "posterColor": "#7c5a4d"
+  },
+  {
+    "title": "师兄啊师兄 (2023)",
+    "type": "动漫",
+    "jsonFile": "episodes/vod-10317.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250220-1/04331e099eff8feaadc8289a4e89e5a7.jpg",
+    "posterColor": "#7c8dae"
   },
   {
     "title": "星期三 第一季 Wednesday Season 1 (2022)",
@@ -5401,6 +5604,13 @@
     "jsonFile": "episodes/vod-46499.json",
     "poster": "https://vod.xiguazyimg.com/upload/vod/20250529-1/00759aa6abdbe96756ad1204e55dd0fb.jpg",
     "posterColor": "#7c533f"
+  },
+  {
+    "title": "同床异梦2 (2017)",
+    "type": "综艺",
+    "jsonFile": "episodes/vod-73132.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20251202-1/50052448c5b68602ac48375f0dc1fde3.jpg",
+    "posterColor": "#f6120b"
   },
   {
     "title": "权力的游戏 第六季 Game of Thrones Season 6 (2016)",
