@@ -238,6 +238,12 @@ function renderEpList(){
 
 function bindHlsEvents(h){
     h.on(Hls.Events.MANIFEST_PARSED,()=>{ try{ if(art) art.play().catch(()=>{}); }catch(e){} });
+    h.on(Hls.Events.FRAG_LOADED,(e,data)=>{
+        const st = data && data.frag && data.frag.stats;
+        if(st && st.loaded){
+            speedState.bytes += st.loaded;
+        }
+    });
     let hlsErrCount = 0;
     h.on(Hls.Events.ERROR, (e, data)=>{
         if(!data || !data.fatal) return;
@@ -329,6 +335,7 @@ function playEp(idx){
         hls = null;
     }
     cacheDoneLogged = false;
+    resetSpeed();
     addLog('开始播放：' + (ep.title || ('第' + (idx+1) + '集')));
     if(Hls.isSupported()) {
         hls = new Hls(HLSCONFIG);
@@ -582,19 +589,39 @@ function getCacheStatus(){
 }
 renderLogs();
 
-// 缓存状态轮询（速度显示已移除）
+// 缓存状态轮询（含实时缓存速度，显示于状态行末尾）
+const speedState = {bytes: 0, windowStart: 0};
+let lastSpeedText = '';
+function fmtSpeed(bps){
+    if(bps >= 1048576) return (bps/1048576).toFixed(2) + ' MB/s';
+    if(bps >= 1024) return Math.round(bps/1024) + ' KB/s';
+    return Math.round(bps) + ' B/s';
+}
+function resetSpeed(){
+    speedState.bytes = 0;
+    speedState.windowStart = Date.now();
+    lastSpeedText = '';
+}
 setInterval(()=>{
+    const now = Date.now();
+    const dt = (now - speedState.windowStart) / 1000;
     if(!hls){
         if(statusRow) statusRow.textContent = '缓存状态：等待播放…';
         return;
     }
+    if(dt >= 1){
+        lastSpeedText = fmtSpeed(speedState.bytes / dt);
+        speedState.bytes = 0;
+        speedState.windowStart = now;
+    }
+    const spdPart = lastSpeedText ? ' · ' + lastSpeedText : '';
     const st = getCacheStatus();
     if(st){
         if(st.pct >= 99.5 && !cacheDoneLogged){
             cacheDoneLogged = true;
             addLog('整片缓存完成（' + fmtDur(st.duration) + '）');
         }
-        if(statusRow) statusRow.textContent = '缓存状态：' + st.pct.toFixed(1) + '%（' + fmtDur(st.end) + ' / ' + fmtDur(st.duration) + '）';
+        if(statusRow) statusRow.textContent = '缓存状态：' + st.pct.toFixed(1) + '%（' + fmtDur(st.end) + ' / ' + fmtDur(st.duration) + '）' + spdPart;
     }else{
         if(statusRow) statusRow.textContent = '缓存状态：加载中…';
     }
