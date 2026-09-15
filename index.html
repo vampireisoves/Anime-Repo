@@ -82,17 +82,9 @@ body{background:var(--bg);padding:16px}
 .login-err{font-size:13px;color:var(--danger);min-height:16px;text-align:center}
 .login-btn{padding:10px;background:var(--accent);border:none;border-radius:6px;font-size:15px;cursor:pointer;color:#fff}
 .login-btn:hover{background:var(--accent-hover)}
-body.player-fs{padding:0;overflow:hidden;height:100vh}
-body.player-fs .container{max-width:none;height:100vh;display:block;padding:0}
-body.player-fs .side{display:none}
-body.player-fs .history-wrap{display:none}
-body.player-fs .all-anime-wrap{display:none}
-body.player-fs #video-box{height:100vh;padding-bottom:0;border-radius:0}
-body.player-fs #artBox{width:100%;height:100%}
 @media (max-width:900px){
     .container{grid-template-columns:1fr;gap:12px}
     #video-box.vb-fixed{position:fixed;top:0;left:0;right:0;z-index:50;border-radius:0;margin:0}
-    body.player-fs #video-box.vb-fixed{position:relative}
     .login-box{width:min(320px,92vw)}
     .anime-card-list{grid-template-columns:repeat(auto-fill,minmax(160px,1fr))}
 }
@@ -180,7 +172,6 @@ let art = null;
 const epListEl = document.getElementById('epList');
 const errBox = document.getElementById('errBox');
 const animeTitleEl = document.getElementById('animeTitle');
-const allAnimeWrap = document.getElementById('allAnimeWrap');
 const animeCardList = document.getElementById('animeCardList');
 const animeFilterEl = document.getElementById('animeFilter');
 const animeTypeBarEl = document.getElementById('animeTypeBar');
@@ -387,7 +378,6 @@ document.addEventListener("visibilitychange", ()=>{
 });
 
 const HISTORY_KEY = 'anip_history';
-const historyWrap = document.getElementById('historyWrap');
 const historyList = document.getElementById('historyList');
 
 function getHistory(){
