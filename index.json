@@ -112,6 +112,27 @@
     "posterColor": "#902d23"
   },
   {
+    "title": "打生桩 (2026)",
+    "type": "电影",
+    "jsonFile": "episodes/vod-87964.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260915-1/bed2f7a73bce35a67c4a2129bd33dfef.jpg",
+    "posterColor": "#44516f"
+  },
+  {
+    "title": "死有对证粤语 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-87475.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260907-1/6596b7dd37206e8eaa4bb344f55b0e55.jpg",
+    "posterColor": "#2f4f84"
+  },
+  {
+    "title": "死有对证国语 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-87474.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260907-1/5c6e25072ac1f5289d67c72c38591d62.jpg",
+    "posterColor": "#2f4f84"
+  },
+  {
     "title": "星期三 第二季 Wednesday Season 2 (2025)",
     "type": "剧集",
     "jsonFile": "episodes/tt25754350.json",

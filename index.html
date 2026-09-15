@@ -216,7 +216,7 @@ const animeTypeBarEl = document.getElementById('animeTypeBar');
 let hls = null;
 const HLSCONFIG = {enableWorker:true, lowLatencyMode:false, maxBufferLength:Infinity, maxMaxBufferLength:Infinity, maxBufferSize:Infinity, maxBufferHole:3, fragLoadingConcurrency:8, fragLoadingMaxRetry:6, fragLoadingRetryDelay:1000, fragLoadingTimeOut:15000, fragLoadingMaxRetryTimeout:60000};
 let repoAnimeList = [];
-let currentType = "全部";
+let currentType = "最近更新";
 let currentJsonFile = "";
 let pendingSeek = null;
 
@@ -345,7 +345,7 @@ async function applyPosterBg(posterUrl, posterColor){
     setDynamicBg(hex ? posterCss(hex) : DEFAULT_BG);
 }
 
-const TYPE_LIST = ["全部", "电影", "剧集", "动漫", "综艺", "短剧", "体育"];
+const TYPE_LIST = ["最近更新", "全部", "电影", "剧集", "动漫", "综艺", "短剧", "体育"];
 
 // 安全防护：如果Hls不存在直接报错提示
 if(typeof Hls === "undefined"){
@@ -577,7 +577,7 @@ function saveHistory(){
             pos = pendingSeek.pos || 0;
         }
         h.unshift({title: animeName, jsonFile: jf, epTitle: episodes[currentEpIndex] ? episodes[currentEpIndex].title : '', epIndex: currentEpIndex, pos: pos, time: Date.now()});
-        localStorage.setItem(HISTORY_KEY, JSON.stringify(h.slice(0, 20)));
+        localStorage.setItem(HISTORY_KEY, JSON.stringify(h.slice(0, 3)));
     }catch(e){}
 }
 
@@ -605,7 +605,7 @@ function renderHistory(){
         return;
     }
     historyList.innerHTML = '';
-    h.forEach((item, idx) => {
+    h.slice(0, 3).forEach((item, idx) => {
         const div = document.createElement('div');
         div.className = 'history-item';
         const t = document.createElement('span');
@@ -670,7 +670,14 @@ function initTypeBar(){
 function renderAnimeCards(){
     const kw = animeFilterEl.value.trim().toLowerCase();
     const kwMatched = kw ? repoAnimeList.filter(item => item.title.toLowerCase().includes(kw)) : repoAnimeList;
-    const matched = currentType === "全部" ? kwMatched : kwMatched.filter(item => (item.type || "动漫") === currentType);
+    let matched;
+    if(currentType === "最近更新"){
+        matched = kwMatched.slice(0, 12);
+    }else if(currentType === "全部"){
+        matched = kwMatched;
+    }else{
+        matched = kwMatched.filter(item => (item.type || "动漫") === currentType);
+    }
     animeCardList.innerHTML = '';
     if(matched.length === 0){
         animeCardList.innerHTML = '<div class="anime-card loading">未找到匹配的番剧</div>';
