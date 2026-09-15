@@ -615,13 +615,22 @@ setInterval(()=>{
         speedState.windowStart = now;
     }
     const spdPart = lastSpeedText ? ' · ' + lastSpeedText : '';
+    let fragPart = '';
+    try{
+        const lv = hls.levels && hls.levels[0];
+        if(lv && lv.details && lv.details.fragments && lv.details.fragments.length){
+            const tf = lv.details.fragments.length;
+            const lf = lv.details.fragments.filter(f => f.stats && f.stats.loaded > 0).length;
+            fragPart = ' · 分片 ' + lf + '/' + tf;
+        }
+    }catch(e){}
     const st = getCacheStatus();
     if(st){
         if(st.pct >= 99.5 && !cacheDoneLogged){
             cacheDoneLogged = true;
             addLog('整片缓存完成（' + fmtDur(st.duration) + '）');
         }
-        if(statusRow) statusRow.textContent = '缓存状态：' + st.pct.toFixed(1) + '%（' + fmtDur(st.end) + ' / ' + fmtDur(st.duration) + '）' + spdPart;
+        if(statusRow) statusRow.textContent = '缓存状态：' + st.pct.toFixed(1) + '%（' + fmtDur(st.end) + ' / ' + fmtDur(st.duration) + '）' + spdPart + fragPart;
     }else{
         if(statusRow) statusRow.textContent = '缓存状态：加载中…';
     }
