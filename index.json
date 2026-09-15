@@ -55,6 +55,31 @@
     "jsonFile": "episodes/tt32649961.json"
   },
   {
+    "title": "深夜怪谈会6 (2026)",
+    "type": "综艺",
+    "jsonFile": "episodes/vod-83410.json"
+  },
+  {
+    "title": "感谢对战 ～大小姐才不玩格斗游戏～ (2026)",
+    "type": "动漫",
+    "jsonFile": "episodes/vod-83662.json"
+  },
+  {
+    "title": "拯救替身千金的是冷酷无情冰之王子的爱 (2026)",
+    "type": "动漫",
+    "jsonFile": "episodes/vod-83663.json"
+  },
+  {
+    "title": "心动的信号第九季 (2026)",
+    "type": "综艺",
+    "jsonFile": "episodes/vod-85201.json"
+  },
+  {
+    "title": "交锋 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-87408.json"
+  },
+  {
     "title": "星期三 第二季 Wednesday Season 2 (2025)",
     "type": "剧集",
     "jsonFile": "episodes/tt25754350.json"
@@ -73,6 +98,11 @@
     "title": "国王排名 勇气的宝箱 (2023)",
     "type": "动漫",
     "jsonFile": "episodes/tt27504251.json"
+  },
+  {
+    "title": "遮天 (2023)",
+    "type": "动漫",
+    "jsonFile": "episodes/vod-9575.json"
   },
   {
     "title": "星期三 第一季 Wednesday Season 1 (2022)",
