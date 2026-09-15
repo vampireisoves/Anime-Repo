@@ -337,6 +337,16 @@ function initArtPlayer(){
             hotkeys: false
         });
         player = art.video;
+        player.addEventListener('ended', ()=>{
+            if(episodes.length && currentEpIndex < episodes.length - 1){
+                addLog('本集播放完毕，自动连播下一集');
+                currentEpIndex++;
+                playEp(currentEpIndex);
+                renderEpList();
+            }else if(episodes.length){
+                addLog('全部剧集播放完毕');
+            }
+        });
         addLog('播放器初始化完成（ArtPlayer ' + (Artplayer.version || '') + '）');
     }catch(e){
         errBox.textContent = '播放器初始化失败：' + (e && e.message ? e.message : e);
