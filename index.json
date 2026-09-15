@@ -525,6 +525,209 @@
     "posterColor": "#aa2920"
   },
   {
+    "title": "第六感 B side (2026)",
+    "type": "综艺",
+    "jsonFile": "episodes/tt36003065.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260915-1/6eb6434366dbaaeb3a745bd22548c41d.jpg",
+    "posterColor": "#ac7255"
+  },
+  {
+    "title": "镇灵 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/tt45115286.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260908-1/bf158bf50304a895bea42e82aadd3cb2.jpg",
+    "posterColor": "#8c4a27"
+  },
+  {
+    "title": "明明已经杀了丈夫 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-83650.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260707-1/9b9946c11aa667a3da91c84066cc6674.jpg",
+    "posterColor": "#793a67"
+  },
+  {
+    "title": "麻辣教师第二季 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-84554.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260721-1/4cd15463a0ec1397a68e4f6dad78fbe0.jpg",
+    "posterColor": "#a80b12"
+  },
+  {
+    "title": "三嫁公主 (2026)",
+    "type": "动漫",
+    "jsonFile": "episodes/vod-84602.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260722-1/cf16451fa8a4e135ee689bb0e75e4699.jpg",
+    "posterColor": "#bb9c5f"
+  },
+  {
+    "title": "王子与乞丐2026 (2026)",
+    "type": "综艺",
+    "jsonFile": "episodes/vod-85001.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260728-1/7fd0e91f3eb89722760297addbdcb97c.jpg",
+    "posterColor": "#916e2b"
+  },
+  {
+    "title": "阳角群体里的芹泽，在我面前不太对劲 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-85822.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260811-1/9f8f225f2bc1626a80b7ea5a3a2eee98.jpg",
+    "posterColor": "#a28579"
+  },
+  {
+    "title": "微风襟袖同卿心 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-87589.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260909-1/5204790f6d19327925d5ad9e243f3c2e.jpg",
+    "posterColor": "#9e3d1b"
+  },
+  {
+    "title": "男寝攻略 (2026)",
+    "type": "短剧",
+    "jsonFile": "episodes/vod-87956.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260915-1/a7b5e1a02f31928a13446fa76ef2f454.jpg",
+    "posterColor": "#835a46"
+  },
+  {
+    "title": "年年岁岁 (2026)",
+    "type": "短剧",
+    "jsonFile": "episodes/tt32515825.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260915-1/c36559f8a435f78b399080e5a922b1ee.jpg",
+    "posterColor": "#82799f"
+  },
+  {
+    "title": "苏婉的救赎：嫁村霸后一胎三宝 (2026)",
+    "type": "短剧",
+    "jsonFile": "episodes/vod-87947.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260915-1/e9dfef4144716fe12898ac5833573564.jpg",
+    "posterColor": "#d1ac62"
+  },
+  {
+    "title": "一夕换颜，半生惊寒 (2026)",
+    "type": "短剧",
+    "jsonFile": "episodes/vod-87948.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260915-1/d76cad5b450d9d1ca924d0f8f2d8b10d.jpg",
+    "posterColor": "#86462d"
+  },
+  {
+    "title": "不在考场 (2026)",
+    "type": "短剧",
+    "jsonFile": "episodes/vod-87949.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260915-1/bdd1cba20f2089795b250571e303c593.jpg",
+    "posterColor": "#396a7a"
+  },
+  {
+    "title": "凤女灼华 (2026)",
+    "type": "短剧",
+    "jsonFile": "episodes/vod-87950.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260915-1/69769016c9a1ab946b90cb3fa9d5dc17.jpg",
+    "posterColor": "#cf6c4c"
+  },
+  {
+    "title": "南山雪落爱意沉 (2026)",
+    "type": "短剧",
+    "jsonFile": "episodes/vod-87951.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260915-1/23b6c17646d2833c420aef571e38bbff.jpg",
+    "posterColor": "#34647e"
+  },
+  {
+    "title": "你不姓，有的是人姓 (2026)",
+    "type": "短剧",
+    "jsonFile": "episodes/vod-87952.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260915-1/f0a414aa0f7737a66767889863a3bb10.jpg",
+    "posterColor": "#794d3a"
+  },
+  {
+    "title": "退婚后，我转头嫁给乞丐 (2026)",
+    "type": "短剧",
+    "jsonFile": "episodes/vod-87953.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260915-1/4c0f45503f76591a0bad679a648b959b.jpg",
+    "posterColor": "#923821"
+  },
+  {
+    "title": "女配想回家 (2026)",
+    "type": "短剧",
+    "jsonFile": "episodes/vod-87954.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260915-1/0d58daf1f683fc557b672fd9e98f1c5a.jpg",
+    "posterColor": "#73543f"
+  },
+  {
+    "title": "一抹千秋色 (2026)",
+    "type": "短剧",
+    "jsonFile": "episodes/vod-87955.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260915-1/6324c1a6afdbde63550df37bf8a51913.jpg",
+    "posterColor": "#8b764f"
+  },
+  {
+    "title": "素掌定山河 (2026)",
+    "type": "短剧",
+    "jsonFile": "episodes/vod-87936.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260915-1/d81f7a14a652442bb893ed00b753fa3d.jpg",
+    "posterColor": "#657d89"
+  },
+  {
+    "title": "缘定今生：错过的爱终重逢 (2026)",
+    "type": "短剧",
+    "jsonFile": "episodes/vod-87937.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260915-1/410ba810c03f4730262beea6512510ba.jpg",
+    "posterColor": "#897b64"
+  },
+  {
+    "title": "驸马爷是只狗 (2026)",
+    "type": "短剧",
+    "jsonFile": "episodes/vod-87938.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260915-1/1600dcbbb9a6960125c3f9687c095249.jpg",
+    "posterColor": "#935243"
+  },
+  {
+    "title": "扑进权臣怀里哭，他红温了 (2026)",
+    "type": "短剧",
+    "jsonFile": "episodes/vod-87939.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260915-1/60441ffaa151d7a779388e3e927f8fa4.jpg",
+    "posterColor": "#8b4728"
+  },
+  {
+    "title": "末世，我靠抽卡统治废土 (2026)",
+    "type": "短剧",
+    "jsonFile": "episodes/vod-87940.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260915-1/6d4070cb23b89d6bd48a74a08a8e7e9e.jpg",
+    "posterColor": "#b08855"
+  },
+  {
+    "title": "小师妹哭哭唧唧，但一剑毁天灭地 (2026)",
+    "type": "短剧",
+    "jsonFile": "episodes/vod-87941.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260915-1/f91afe91c04d46f0b95bfa76c773f4cd.jpg",
+    "posterColor": "#b07c72"
+  },
+  {
+    "title": "霍去病 (2026)",
+    "type": "短剧",
+    "jsonFile": "episodes/vod-87942.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260915-1/e8964e01ed74dde02643769f43980b8d.jpg",
+    "posterColor": "#9e8a6a"
+  },
+  {
+    "title": "贵族游戏 (2026)",
+    "type": "短剧",
+    "jsonFile": "episodes/vod-87943.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260915-1/6665c9b9882b5d6e4a40f7f6498e7649.jpg",
+    "posterColor": "#7c5137"
+  },
+  {
+    "title": "诡异游戏：我竟然能看到弹幕 (2026)",
+    "type": "短剧",
+    "jsonFile": "episodes/vod-87944.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260915-1/23b04c2b51cb9e4ceeea2566d7c5820b.jpg",
+    "posterColor": "#a40e1b"
+  },
+  {
+    "title": "这货的心真脏 (2026)",
+    "type": "短剧",
+    "jsonFile": "episodes/vod-87945.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260915-1/52f2d796806d2cceb7f9f432468595c3.jpg",
+    "posterColor": "#d08070"
+  },
+  {
     "title": "星期三 第二季 Wednesday Season 2 (2025)",
     "type": "剧集",
     "jsonFile": "episodes/tt25754350.json",
@@ -782,6 +985,13 @@
     "jsonFile": "episodes/tt4211958.json",
     "poster": "https://vod.xiguazyimg.com/upload/vod/20250309-1/2b05b3938121ef338f467326bab5fdd0.jpg",
     "posterColor": "#a4997b"
+  },
+  {
+    "title": "萌妃自救改命计划 (2015)",
+    "type": "动漫",
+    "jsonFile": "episodes/vod-62704.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250905-1/6abf8db208492fb6bfe03bc8d1b1542b.jpg",
+    "posterColor": "#e2b5a9"
   },
   {
     "title": "权力的游戏 第四季 Game of Thrones Season 4 (2014)",
