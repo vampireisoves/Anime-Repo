@@ -5900,6 +5900,118 @@
     "posterColor": "#815439"
   },
   {
+    "title": "求救信号2026 Mayday (2026)",
+    "type": "电影",
+    "jsonFile": "episodes/tt28014327.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260904-1/3de2b9febb5e3ddfe777e9864ada840c.jpg",
+    "posterColor": "#767e5e"
+  },
+  {
+    "title": "核战边缘 The Brink of War (2026)",
+    "type": "电影",
+    "jsonFile": "episodes/tt33070884.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260904-1/7a3599730d0361756e7584f8dc4d0a39.jpg",
+    "posterColor": "#3a6782"
+  },
+  {
+    "title": "祝山 (2026)",
+    "type": "电影",
+    "jsonFile": "episodes/vod-87217.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260903-1/90e7a6b8338de7c056694c7fa845dd43.jpg",
+    "posterColor": "#793a6d"
+  },
+  {
+    "title": "特立独行 (2026)",
+    "type": "电影",
+    "jsonFile": "episodes/vod-87272.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260904-1/f92ac2845e5627eeaec0846201472164.jpg",
+    "posterColor": "#cfa800"
+  },
+  {
+    "title": "祭弑 (2026)",
+    "type": "电影",
+    "jsonFile": "episodes/vod-87279.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260904-1/9b2874d64b72c933dde68f4a3697a5bc.jpg",
+    "posterColor": "#951d26"
+  },
+  {
+    "title": "失控的关系 (2026)",
+    "type": "电影",
+    "jsonFile": "episodes/vod-87343.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260905-1/779db81de5338eba303b2a496a426a91.jpg",
+    "posterColor": "#963f1c"
+  },
+  {
+    "title": "战时离婚指南 (2026)",
+    "type": "电影",
+    "jsonFile": "episodes/vod-87344.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260905-1/cc97d0c6955a61974cf292f5ec93c8ea.jpg",
+    "posterColor": "#ea7b74"
+  },
+  {
+    "title": "我要你的性 I Want Your Sex (2026)",
+    "type": "电影",
+    "jsonFile": "episodes/tt32332915.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260901-1/fb5af66d87fb7dd3586939270834d529.jpg",
+    "posterColor": "#ff0fc9"
+  },
+  {
+    "title": "逃亡者 The Runner (2026)",
+    "type": "电影",
+    "jsonFile": "episodes/tt34564059.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260902-1/c919822f9554aef2ec1ce5e5d9837885.jpg",
+    "posterColor": "#bd964e"
+  },
+  {
+    "title": "脑波猎场 The Wrong Girls (2026)",
+    "type": "电影",
+    "jsonFile": "episodes/tt35060353.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260901-1/1ece1bf312111a77b5b03bea0f843f4d.jpg",
+    "posterColor": "#92845a"
+  },
+  {
+    "title": "诈死游戏 Just Play Dead (2026)",
+    "type": "电影",
+    "jsonFile": "episodes/tt36948232.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260902-1/65cd763968c6f38fb932b065ab061aec.jpg",
+    "posterColor": "#8c563b"
+  },
+  {
+    "title": "乌女山怪谈 (2026)",
+    "type": "电影",
+    "jsonFile": "episodes/vod-87089.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260901-1/cd32260e51887425ea23e1888e219316.jpg",
+    "posterColor": "#8b2830"
+  },
+  {
+    "title": "家1 (2026)",
+    "type": "电影",
+    "jsonFile": "episodes/vod-87092.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260901-1/a7db1405a05c6c3176b98648bc2fd025.jpg",
+    "posterColor": "#9e6715"
+  },
+  {
+    "title": "那年我们18岁 (2026)",
+    "type": "电影",
+    "jsonFile": "episodes/vod-87093.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260901-1/10a6a904b049bcfce1680ec199f99dbd.jpg",
+    "posterColor": "#a3623d"
+  },
+  {
+    "title": "机动战士高达 闪光的哈萨维 喀耳刻的魔女 (2026)",
+    "type": "电影",
+    "jsonFile": "episodes/vod-87095.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260901-1/ef5aa0cdc3aa258fd103d049caac87da.jpg",
+    "posterColor": "#39697a"
+  },
+  {
+    "title": "小气鬼2026 (2026)",
+    "type": "电影",
+    "jsonFile": "episodes/vod-87135.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260902-1/9e3739da1d9f4442f483cf2b649e49dc.jpg",
+    "posterColor": "#c98e0b"
+  },
+  {
     "title": "星期三 第二季 Wednesday Season 2 (2025)",
     "type": "剧集",
     "jsonFile": "episodes/tt25754350.json",
@@ -6222,6 +6334,20 @@
     "posterColor": "#4c3e74"
   },
   {
+    "title": "祸水 (2025)",
+    "type": "电影",
+    "jsonFile": "episodes/vod-87213.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260903-1/bbbd008c54255a9b0408c0b8137ad603.jpg",
+    "posterColor": "#744c3f"
+  },
+  {
+    "title": "诅咒2025 (2025)",
+    "type": "电影",
+    "jsonFile": "episodes/vod-87280.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260904-1/528e3891b45fffa88383932d8c5f6ea7.jpg",
+    "posterColor": "#893d2a"
+  },
+  {
     "title": "无职转生Ⅱ 到了异世界就拿出真本事 Part 2 (2024)",
     "type": "动漫",
     "jsonFile": "episodes/tt28283826-2.json",
@@ -6325,6 +6451,13 @@
     "jsonFile": "episodes/vod-62848.json",
     "poster": "https://vod.xiguazyimg.com/upload/vod/20250906-1/de1619eb0ef6847d25236b97d4fef342.jpg",
     "posterColor": "#c78c6c"
+  },
+  {
+    "title": "温柔 (2024)",
+    "type": "电影",
+    "jsonFile": "episodes/vod-87094.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260901-1/8edda8e26429a8f760a1d2d87fc9d21c.jpg",
+    "posterColor": "#d22a02"
   },
   {
     "title": "无职转生Ⅱ 到了异世界就拿出真本事 Part.1 (2023)",
@@ -6955,6 +7088,13 @@
     "jsonFile": "episodes/tt1163129.json",
     "poster": "https://vod.xiguazyimg.com/upload/vod/20250608-1/dd5b8190ff81944a29f6bc0cabfec3c9.jpg",
     "posterColor": "#897241"
+  },
+  {
+    "title": "梅蕾特 (1982)",
+    "type": "电影",
+    "jsonFile": "episodes/vod-87285.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260904-1/fe2dd662dd1a92cfcc5bfe176aed9e8e.jpg",
+    "posterColor": "#724f40"
   },
   {
     "title": "姐姐家的产地直送3 (2026(韩国))",
