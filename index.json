@@ -1,5 +1,12 @@
 [
   {
+    "title": "热血部落 (2030)",
+    "type": "电影",
+    "jsonFile": "episodes/vod-87533.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260908-1/044798cc6b9feac8901e46419b8b18a5.jpg",
+    "posterColor": "#864f2c"
+  },
+  {
     "title": "无职转生Ⅲ 到了异世界就拿出真本事 (2026)",
     "type": "动漫",
     "jsonFile": "episodes/anime-59193.json",
@@ -5009,6 +5016,825 @@
     "jsonFile": "episodes/vod-87561.json",
     "poster": "https://vod.xiguazyimg.com/upload/vod/20260909-1/ac1ac7aa2ce5ab7e2f0ead310df5d943.jpg",
     "posterColor": "#b07e6a"
+  },
+  {
+    "title": "凡女归来：天界仙君别跪了 (2026)",
+    "type": "短剧",
+    "jsonFile": "episodes/vod-88009.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260916-1/e081f86a32f88fd7a6930a37d50c097a.jpg",
+    "posterColor": "#3b6977"
+  },
+  {
+    "title": "枫华翻盘 (2026)",
+    "type": "短剧",
+    "jsonFile": "episodes/vod-88010.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260916-1/90904a9c0a292889b4a2e7d23ee3c6c3.jpg",
+    "posterColor": "#af8641"
+  },
+  {
+    "title": "闺中仙状元郎 (2026)",
+    "type": "短剧",
+    "jsonFile": "episodes/vod-88011.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260916-1/f05fdc3f6e06aabc3bc380bf67cde5f0.jpg",
+    "posterColor": "#864d2c"
+  },
+  {
+    "title": "拒绝亲戚！我的房子我做主 (2026)",
+    "type": "短剧",
+    "jsonFile": "episodes/vod-88012.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260916-1/19fb71eff97cea849d028870f94e0b1f.jpg",
+    "posterColor": "#98805e"
+  },
+  {
+    "title": "一盒枇杷 (2026)",
+    "type": "短剧",
+    "jsonFile": "episodes/vod-88013.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260916-1/e5c078641208ade5ceacaeebb0c45163.jpg",
+    "posterColor": "#b28425"
+  },
+  {
+    "title": "帮你拉货是情分？断你物流才本分 (2026)",
+    "type": "短剧",
+    "jsonFile": "episodes/vod-88014.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260916-1/781cda9950a3788d6032a3b1dba77c53.jpg",
+    "posterColor": "#35637e"
+  },
+  {
+    "title": "芳华岁月 (2026)",
+    "type": "短剧",
+    "jsonFile": "episodes/vod-88015.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260916-1/dac23caa379628143781d2e58701f003.jpg",
+    "posterColor": "#bb9b60"
+  },
+  {
+    "title": "兽王的心尖宠 (2026)",
+    "type": "短剧",
+    "jsonFile": "episodes/vod-88016.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260916-1/94eb512faa91bfc22b0ba9ced861161a.jpg",
+    "posterColor": "#945842"
+  },
+  {
+    "title": "我在兽世捡男神 (2026)",
+    "type": "短剧",
+    "jsonFile": "episodes/vod-88017.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260916-1/67f8455b781b92796f1f2db56b90fb71.jpg",
+    "posterColor": "#91624e"
+  },
+  {
+    "title": "小丑皇 (2026)",
+    "type": "短剧",
+    "jsonFile": "episodes/vod-88018.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260916-1/55d8450e5954b84d63880477143e9dfd.jpg",
+    "posterColor": "#4b6192"
+  },
+  {
+    "title": "7月8日 2026美加墨世界杯八分之一决赛 阿根廷VS埃及 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83727.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260708-1/bf5829bc9ba0c3a17120eb966d39984d.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "7月8日 2026美加墨世界杯八分之一决赛 瑞士VS哥伦比亚 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83730.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260708-1/81cbdca9f7d1e508369dd3b905250c99.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "7月10日 2026美加墨世界杯四分之一决赛 法国VS摩洛哥 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83862.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260710-1/c0b1f4897295263677a243ff5853f6c8.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "7月11日 2026美加墨世界杯四分之一决赛 西班牙VS比利时 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83916.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260711-1/057b30b737e89cce19f1670ac1775161.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "7月12日 2026美加墨世界杯四分之一决赛 挪威VS英格兰 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83976.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260712-1/8f9056dcf1f3ffb1e45a6e58691471e9.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "7月12日 2026美加墨世界杯四分之一决赛 阿根廷VS瑞士 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83977.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260712-1/553c8ffd14a4230fb8f612deb6233f89.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "7月15日 2026美加墨世界杯半决赛 法国VS西班牙 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-84155.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260715-1/638a580b62e5b672f32a5f1db5ade3b9.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "7月16日 2026美加墨世界杯半决赛 英格兰VS阿根廷 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-84229.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260716-1/04c303cb298cbeb8803b6f6830705931.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "7月19日 2026美加墨世界杯三四名决赛 法国VS英格兰 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-84428.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260719-1/403528118119fcecd10701b0e1907b30.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "7月20日 2026美加墨世界杯 决赛 西班牙VS阿根廷 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-84483.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260720-1/49ad73a2c530e0f37be77fa1c91a219c.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "7月3日 2026美加墨世界杯十六分之一决赛 瑞士VS阿尔及利亚 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83566.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260703-1/87c44aca42305f18d3926842b63b2bc1.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "7月4日 2026美加墨世界杯十六分之一决赛 澳大利亚VS埃及 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83579.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260704-1/d1ae42ba7fc8b570b27b4b532dfbda20.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "7月4日 2026美加墨世界杯十六分之一决赛 阿根廷VS佛得角 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83580.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260704-1/06d8a8fa1f784b68a2429e0dcda11553.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "7月4日 2026美加墨世界杯十六分之一决赛 哥伦比亚VS加纳 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83584.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260704-1/600087ecacacc3f701747e49fa9f23cb.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "7月5日 2026美加墨世界杯十六分之一决赛 加拿大VS摩洛哥 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83599.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260705-1/3948c450ea2b35fcceda799b413033cc.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "7月5日 2026美加墨世界杯十六分之一决赛 巴拉圭VS法国 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83600.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260705-1/eefbe8cdefad29f13861cb486be3751d.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "7月6日 2026美加墨世界杯八分之一决赛 巴西VS挪威 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83620.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260706-1/61dfb8f0464c497d7cc48898be57bde6.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "7月6日 2026美加墨世界杯八分之一决赛 墨西哥VS英格兰 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83630.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260706-1/f56861ad34adafd288bfb530d1a8d45e.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "7月7日 2026美加墨世界杯八分之一决赛 葡萄牙VS西班牙 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83643.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260707-1/875ad8ef3a65cb07286d2c073a65fa50.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "7月7日 2026美加墨世界杯八分之一决赛 美国VS比利时 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83651.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260707-1/7ca5ebf65cccc267ea085c01c3e96029.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "6月30日 2026美加墨世界杯十六分之一决赛 巴西VS日本 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83507.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260630-1/c6a1f5d41745fc156f769ccc0c128104.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "6月30日 2026美加墨世界杯十六分之一决赛 荷兰VS摩洛哥 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83511.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260630-1/7939dabfc321130b5c6c16f9ef463ca7.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "7月1日 2026美加墨世界杯十六分之一决赛 法国VS瑞典 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83514.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260701-1/8d3c3e72f31f6a2433f310dfa362b42a.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "7月1日 2026美加墨世界杯十六分之一决赛 科特迪瓦VS挪威 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83517.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260701-1/51d2ccac5e23ac8195f60e86d4687326.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "7月1日 2026美加墨世界杯十六分之一决赛 墨西哥VS厄瓜多尔 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83521.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260701-1/8e28206a19238011c242d8c605e1712c.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "7月2日 2026美加墨世界杯十六分之一决赛 英格兰VS刚果（金） (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83530.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260702-1/3a0ab2eef436454d6d39a6d639a5d919.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "7月2日 2026美加墨世界杯十六分之一决赛 比利时VS塞内加尔 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83531.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260702-1/fddbd5fba3a36a0ede60c84d26bed22d.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "7月2日 2026美加墨世界杯十六分之一决赛 美国VS波黑 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83542.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260702-1/c2594789f890d8f15b09b124e719b8d8.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "7月3日 2026美加墨世界杯十六分之一决赛 西班牙VS奥地利 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83553.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260703-1/fd817efe1345d1a144d1ac256f069e6f.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "7月3日 2026美加墨世界杯十六分之一决赛 葡萄牙VS克罗地亚 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83558.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260703-1/8cb7417943cd96b5aa93d2a8c7d8f441.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "6月27日 2026美加墨世界杯小组赛 埃及VS伊朗 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83479.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260627-1/9167b04e7a87cb14940219fef1599256.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "6月27日 2026美加墨世界杯小组赛 新西兰VS比利时 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83480.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260627-1/ae2374d626f247337b35dcfd2a66a3d7.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "6月28日 2026美加墨世界杯小组赛 巴拿马VS英格兰 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83483.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260628-1/a171482151104a69468c4554ab022b2c.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "6月28日 2026美加墨世界杯小组赛 刚果(金)VS乌兹别克斯坦 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83484.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260628-1/5ef23aa8d07d72e36efdfe8008ea9513.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "6月28日 2026美加墨世界杯小组赛 克罗地亚VS加纳 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83485.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260628-1/ca587a58a05617af277c6c730189b4a9.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "6月28日 2026美加墨世界杯小组赛 哥伦比亚VS葡萄牙 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83487.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260628-1/370905e39a555228ef62635c74799721.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "6月28日 2026美加墨世界杯小组赛 约旦VS阿根廷 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83491.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260628-1/10c0ded7db4199f6f0c3537bd9161301.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "6月28日 2026美加墨世界杯小组赛 阿尔及利亚VS奥地利 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83492.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260628-1/f251c2fa66f459dcb62f2a9ef544cc25.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "6月29日 2026美加墨世界杯十六分之一决赛 南非VS加拿大 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83495.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260629-1/595c29b7e32ed50e689c847be25aade3.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "6月30日 2026美加墨世界杯十六分之一决赛 德国VS巴拉圭 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83506.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260630-1/78ec773fa4cd61b905f66a28605bca8e.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "6月13日 2026美加墨世界杯小组赛 美国VS巴拉圭 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83255.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260613-1/a0b19f6cd7334b1e3ef8422e26c52dbb.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月26日 2026美加墨世界杯小组赛 日本VS瑞典 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83445.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260626-1/e063be3307661be5dd213dd9629dbb68.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月26日 2026美加墨世界杯小组赛 巴拉圭VS澳大利亚 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83450.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260626-1/e206512f086227caa41964c90691379d.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月26日 2026美加墨世界杯小组赛 土耳其VS美国 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83451.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260626-1/8daf22e40e1ba53da689718b1b003992.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月26日 2026美加墨世界杯小组赛 荷兰VS突尼斯 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83461.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260626-1/d72c12904f461da72d924b0f93edc81e.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月26日 2026美加墨世界杯小组赛 库拉索VS科特迪瓦 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83462.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260626-1/f166e992a830e101ae412091a84879d1.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月27日 2026美加墨世界杯小组赛 挪威VS法国 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83469.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260627-1/5fa60d526580292105d9d0d35a58e5b8.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "6月27日 2026美加墨世界杯小组赛 塞内加尔VS伊拉克 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83470.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260627-1/22b7943f8d975e61387bda9f3255bbbd.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "6月27日 2026美加墨世界杯小组赛 乌拉圭VS西班牙 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83471.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260627-1/8f2c6aa43a837cac0da140566258cff6.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "6月27日 2026美加墨世界杯小组赛 佛得角VS沙特阿拉伯 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83472.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260627-1/7c4cd40328d768699b6dbd92da3f0342.jpg",
+    "posterColor": "#957c51"
+  },
+  {
+    "title": "6月24日 2026美加墨世界杯小组赛 葡萄牙VS乌兹别克斯坦 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83406.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260624-1/7f06feddf5b69a3237fbba78561dff0f.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月24日 2026美加墨世界杯小组赛 英格兰VS加纳 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83407.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260624-1/d2b18635738eee91b95c1c30280d6ce9.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月24日 2026美加墨世界杯小组赛 哥伦比亚VS刚果(金) (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83412.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260624-1/56086f90e6463303ccb5826723da9c6e.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月25日 2026美加墨世界杯小组赛 波黑VS卡塔尔 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83423.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260625-1/db86a442c55f3eacbc36ffc2c9de9dc7.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月25日 2026美加墨世界杯小组赛 瑞士VS加拿大 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83424.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260625-1/2b26b1a5f1b2d9ac3bf64e7f89ef5a0a.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月25日 2026美加墨世界杯小组赛 捷克VS墨西哥 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83434.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260625-1/9ffa0eeec1eff6c6cf7993da83da7dcc.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月25日 2026美加墨世界杯小组赛 苏格兰VS巴西 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83435.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260625-1/5c3feafabce2bcca855196519bce538b.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月25日 2026美加墨世界杯小组赛 摩洛哥VS海地 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83436.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260625-1/1af0d9a96d09ba7da99069bfff2eb98d.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月25日 2026美加墨世界杯小组赛 南非VS韩国 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83437.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260625-1/409353da98e16817bcc4646d615d3215.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月26日 2026美加墨世界杯小组赛 厄瓜多尔VS德国 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83444.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260626-1/dc05e767cfebcc310385be26630e0422.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月21日 2026美加墨世界杯小组赛 突尼斯VS日本 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83368.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260621-1/620fc9bda7460351ac6a457355b2f6f6.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月22日 2026美加墨世界杯小组赛 比利时VS伊朗 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83369.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260622-1/afb0281442dd77a737b6ce1e7d82c2d3.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月22日 2026美加墨世界杯小组赛 乌拉圭VS佛得角 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83370.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260622-1/adc237a083988d7faafc8797d57d6d90.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月22日 2026美加墨世界杯小组赛 西班牙VS沙特阿拉伯 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83371.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260622-1/b0ade9845b2057a513268c645f2f39f8.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月22日 2026美加墨世界杯小组赛 新西兰VS埃及 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83375.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260622-1/9b09f30216d0b74cc7a0fade9e3ea44a.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月23日 2026美加墨世界杯小组赛 阿根廷VS奥地利 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83392.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260623-1/8885512a9a2c3b0dcc3d01b8e446a1e4.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月23日 2026美加墨世界杯小组赛 法国VS伊拉克 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83393.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260623-1/f37c2e952dc39d70f449fef40beb7a2a.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月23日 2026美加墨世界杯小组赛 挪威VS塞内加尔 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83396.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260623-1/2ccf823db5d7d301a75da97887b7313b.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月23日 2026美加墨世界杯小组赛 约旦VS阿尔及利亚 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83399.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260623-1/ca628fdd65c79a1c83e8135f844bc54e.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月24日 2026美加墨世界杯小组赛 巴拿马VS克罗地亚 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83405.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260624-1/f7559d9592ba2c833db8bbe085f56f59.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月19日 2026美加墨世界杯小组赛 捷克VS南非 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83329.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260619-1/6ce50a842dfcf062879d0478e4ed84a2.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月19日 2026美加墨世界杯小组赛 瑞士VS波黑 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83330.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260619-1/f25f407a5e39f03723d09f36d25732ce.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月19日 2026美加墨世界杯小组赛 墨西哥VS韩国 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83331.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260619-1/b8a28dfa739d94e821d66cad1cbfe5a2.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月20日 2026美加墨世界杯小组赛 美国VS澳大利亚 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83344.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260620-1/644fe849072acd89b915c22089ffda28.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月20日 2026美加墨世界杯小组赛 苏格兰VS摩洛哥 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83345.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260620-1/63dd66f95acd4e904613e1901aa4321b.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月20日 2026美加墨世界杯小组赛 巴西VS海地 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83350.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260620-1/e1eb3a6a5f2023a7d7272734f7e2eed6.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月20日 2026美加墨世界杯小组赛 土耳其VS巴拉圭 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83355.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260620-1/ead9e044b30faacf5b7058d2820e6dea.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月21日 2026美加墨世界杯小组赛 荷兰VS瑞典 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83362.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260621-1/b6cd041209f189652efdc4eb6e55db91.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月21日 2026美加墨世界杯小组赛 德国VS科特迪瓦 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83363.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260621-1/a6c362fc929a472e09f014ceb7581eec.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月21日 2026美加墨世界杯小组赛 厄瓜多尔VS库拉索 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83364.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260621-1/43f249717c5c0fe2357e6b2d5f02d56d.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月16日 2026美加墨世界杯小组赛 伊朗VS新西兰 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83289.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260616-1/1d2242099936265a348eac2afecc2bb8.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月17日 2026美加墨世界杯小组赛 伊拉克VS挪威 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83297.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260617-1/f70115cd00d859470e92d063d5a3f1a0.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月17日 2026美加墨世界杯小组赛 法国VS塞内加尔 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83298.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260617-1/ea819d546d298a52bd77c8bb17a6cbfb.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月17日 2026美加墨世界杯小组赛 阿根廷VS阿尔及利亚 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83306.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260617-1/f4321acc7e61ae2520cf047630eebefd.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月17日 2026美加墨世界杯小组赛 奥地利VS约旦 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83307.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260617-1/4195c1c5f4d24c62c069bbda59bd6466.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月18日 2026美加墨世界杯小组赛 加纳VS巴拿马 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83312.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260618-1/d1fa6e7e7243d5f5c441ecf3ad430be5.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月18日 2026美加墨世界杯小组赛 葡萄牙VS刚果(金) (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83313.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260618-1/ef83f708d2330bfc7925afba22e23f78.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月18日 2026美加墨世界杯小组赛 英格兰VS克罗地亚 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83315.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260618-1/1f4e7d576e8ddade056be330326b78ce.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月18日 2026美加墨世界杯小组赛 乌兹别克斯坦VS哥伦比亚 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83320.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260618-1/423469fb94bcb29f2ec18e6e0e84fe3f.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月19日 2026美加墨世界杯小组赛 加拿大VS卡塔尔 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83328.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260619-1/fa5441249434e2ab867f76b3e4a9097c.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月12日 2026美加墨世界杯小组赛 墨西哥VS南非 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83243.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260612-1/bd8ae25ef9bfe403dd67c6025cbe4dd8.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月12日 2026美加墨世界杯小组赛 韩国VS捷克 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83244.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260612-1/60baf2f5fe10415d14c3569e908c3ef4.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "2026美加墨世界杯 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83248.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260612-1/b1e20a0c13f422681e8e092b91ac7adb.jpg",
+    "posterColor": "#525e71"
+  },
+  {
+    "title": "6月13日 2026美加墨世界杯小组赛 加拿大VS波黑 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83254.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260613-1/d73912f18430595da33eb949b0e3c1f9.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月14日 2026美加墨世界杯小组赛 卡塔尔VS瑞士 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83261.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260614-1/f72de33347297e0feea556bc60e22e73.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月14日 2026美加墨世界杯小组赛 海地VS苏格兰 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83262.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260614-1/493be46903e624d1cd3e3d39c10aa73e.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月14日 2026美加墨世界杯小组赛 巴西VS摩洛哥 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83263.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260614-1/e4967eed8b2cbf624f51a7c9ed16c4c1.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月16日 2026美加墨世界杯小组赛 西班牙VS佛得角 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83284.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260616-1/f46bec03e9c3b7b2a20f55b0eb038e49.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月16日 2026美加墨世界杯小组赛 比利时VS埃及 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83285.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260616-1/07d15e223ea07b0cd4a0ed8e37cf1c26.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月16日 2026美加墨世界杯小组赛 沙特阿拉伯VS乌拉圭 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83286.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260616-1/acd15ea9bf9e991d43c59db137fd21da.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月15日 2026美加墨世界杯小组赛 荷兰VS日本 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83266.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260615-1/3ffa6c4e089393f14de25c817a9ddd64.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月15日 2026美加墨世界杯小组赛 德国VS库拉索 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83267.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260615-1/38a0ca50096c05c7be0bbf2d3cfcd065.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月15日 2026美加墨世界杯小组赛 科特迪瓦VS厄瓜多尔 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83273.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260615-1/f72fe0c3f029320c42762d73468e4348.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "6月15日 2026美加墨世界杯小组赛 瑞典VS突尼斯 (2026)",
+    "type": "体育",
+    "jsonFile": "episodes/vod-83274.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260615-1/cb3087f62e791fab8ac62585e5cfbc85.jpeg",
+    "posterColor": "#0f172a"
+  },
+  {
+    "title": "海洋奇缘：启航 Moana (2026)",
+    "type": "电影",
+    "jsonFile": "episodes/tt27419466.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260908-1/4f8d98a2a61f7c0012cbaba86ee98722.jpg",
+    "posterColor": "#5a91ac"
+  },
+  {
+    "title": "富士子 Fujiko (2026)",
+    "type": "电影",
+    "jsonFile": "episodes/tt41653540.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260908-1/cbbac26ededbb1bf7cf8cc687715e130.jpg",
+    "posterColor": "#ffc737"
+  },
+  {
+    "title": "盒子里的羊 (2026)",
+    "type": "电影",
+    "jsonFile": "episodes/vod-87535.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260908-1/1cfcbbd4f61e2de40de099c5141bd0f6.jpg",
+    "posterColor": "#4f6d47"
   },
   {
     "title": "星期三 第二季 Wednesday Season 2 (2025)",
