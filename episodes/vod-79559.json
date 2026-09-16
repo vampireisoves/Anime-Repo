@@ -1,0 +1,12 @@
+{
+  "title": "最终测试",
+  "type": "电影",
+  "episodes": [
+    {
+      "title": "第01集",
+      "src": "https://svip.xgplay18.com/2026-02-02/10842_T56GttipvZGH8KoIGt/index.m3u8"
+    }
+  ],
+  "poster": "https://vod.xiguazyimg.com/upload/vod/20260202-1/e9ae37885d6f8af266178af2362fed8a.webp",
+  "posterColor": "#6e999d"
+}
