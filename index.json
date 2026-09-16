@@ -5837,6 +5837,69 @@
     "posterColor": "#4f6d47"
   },
   {
+    "title": "苍蝇2026 Moscas (2026)",
+    "type": "电影",
+    "jsonFile": "episodes/tt43634525.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260906-1/aac9943ce1b37943927667bb7ed2a1e2.jpg",
+    "posterColor": "#00b252"
+  },
+  {
+    "title": "冬歇 Midwinter Break (2026)",
+    "type": "电影",
+    "jsonFile": "episodes/tt7374950.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260907-1/ca431a678e2a393308d7fd1cd34c0caf.jpg",
+    "posterColor": "#a6ac66"
+  },
+  {
+    "title": "和平精英：地铁逃生2026 (2026)",
+    "type": "电影",
+    "jsonFile": "episodes/vod-87346.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260905-1/cb93546b4f88f10b7bcef3ff6daf9c4a.jpg",
+    "posterColor": "#495269"
+  },
+  {
+    "title": "阴风诡影 (2026)",
+    "type": "电影",
+    "jsonFile": "episodes/vod-87402.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260906-1/8366c81aba33026b8ebcf992bb80f404.jpg",
+    "posterColor": "#70a5b5"
+  },
+  {
+    "title": "空枪 (2026)",
+    "type": "电影",
+    "jsonFile": "episodes/vod-87404.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260906-1/7e3c692cbb3befded40afff8eacd4858.jpg",
+    "posterColor": "#8b6a27"
+  },
+  {
+    "title": "山竹刀 (2026)",
+    "type": "电影",
+    "jsonFile": "episodes/vod-87406.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260906-1/6bd3bf9f2c639c993ba4ac641d654fd7.jpg",
+    "posterColor": "#8a3928"
+  },
+  {
+    "title": "未来2026 (2026)",
+    "type": "电影",
+    "jsonFile": "episodes/vod-87411.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260906-1/51bc56571cfe5e1a5a2e8f8968b98af5.jpg",
+    "posterColor": "#3f5474"
+  },
+  {
+    "title": "心犬相随 (2026)",
+    "type": "电影",
+    "jsonFile": "episodes/vod-87473.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260907-1/861d95f5322cbfa1093f0d89b58669d2.jpg",
+    "posterColor": "#956950"
+  },
+  {
+    "title": "奇门遁甲：逢凶化吉 (2026)",
+    "type": "电影",
+    "jsonFile": "episodes/vod-87476.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260908-1/13147e2f8ab9673b9db4594bbe54a251.jpg",
+    "posterColor": "#815439"
+  },
+  {
     "title": "星期三 第二季 Wednesday Season 2 (2025)",
     "type": "剧集",
     "jsonFile": "episodes/tt25754350.json",
@@ -6150,6 +6213,13 @@
     "jsonFile": "episodes/vod-81921.json",
     "poster": "https://vod.xiguazyimg.com/upload/vod/20260515-1/5ffe69f85ea48f0eb24ac8df67887e90.jpg",
     "posterColor": "#5f5280"
+  },
+  {
+    "title": "两个女导演 Nervous Energy (2025)",
+    "type": "电影",
+    "jsonFile": "episodes/tt35381163.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260907-1/5a791311a24e68cdb3b8eaefdbe5355f.jpg",
+    "posterColor": "#4c3e74"
   },
   {
     "title": "无职转生Ⅱ 到了异世界就拿出真本事 Part 2 (2024)",
