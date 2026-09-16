@@ -4,5 +4,10 @@
   "episodes": [
     {"title": "第*集", "src": "https://***.m3u8"},
     {"title": "第*集", "src": "https://***.m3u8"}
-  ]
+  ],
+  "uptime": "2026-09-16 21:13:25",
+  "opyear": "2026",
+  "poster": "https://***/poster.jpg",
+  "posterColor": "#123456",
+  "TMDb": "tt0000000"
 }
