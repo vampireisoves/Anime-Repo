@@ -490,6 +490,7 @@
     "type": "动漫",
     "jsonFile": "episodes/vod-83803.json",
     "poster": "https://vod.xiguazyimg.com/upload/vod/20260709-1/495b62b5addaa2142117af1764db978b.jpg",
+    "posterColor": "#84614f",
     "uptime": "2026-09-16 23:42:03",
     "opyear": "2026"
   },
