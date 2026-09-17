@@ -1549,10 +1549,18 @@
     {
       "title": "20260914",
       "src": "https://svip.xgplay17.com/2026-09-15/39456_pXkezahB94xqvCewdQ/index.m3u8"
+    },
+    {
+      "title": "20260915",
+      "src": "https://svip.xgplay17.com/2026-09-16/39574_xJzS79H84TG_XH0yU7/index.m3u8"
+    },
+    {
+      "title": "20260916",
+      "src": "https://svip.xgplay17.com/2026-09-17/39719_ga5nc2kN1DMbl5HQhG/index.m3u8"
     }
   ],
   "poster": "https://vod.xiguazyimg.com/upload/vod/20250221-1/e64a0218b7f723367b00d0c508d15e15.jpg",
   "posterColor": "#a6695b",
-  "uptime": "2026-09-16 13:52:21",
+  "uptime": "2026-09-17 13:50:31",
   "opyear": "2020"
 }

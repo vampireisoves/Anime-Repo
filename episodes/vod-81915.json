@@ -1005,10 +1005,18 @@
     {
       "title": "20260914",
       "src": "https://svip.xgplay17.com/2026-09-15/39416_3I652xDOag4hH3jodH/index.m3u8"
+    },
+    {
+      "title": "20260915",
+      "src": "https://svip.xgplay17.com/2026-09-16/39532_MkWOL6-yqGIpKhBeUM/index.m3u8"
+    },
+    {
+      "title": "20260916",
+      "src": "https://svip.xgplay17.com/2026-09-17/39646_WUbZjeEktmeZSfE3om/index.m3u8"
     }
   ],
   "poster": "https://vod.xiguazyimg.com/upload/vod/20260515-1/8aa6b32c9c117d85f5818a72ed7913b1.jpg",
   "posterColor": "#902341",
-  "uptime": "2026-09-16 11:36:29",
+  "uptime": "2026-09-17 11:45:05",
   "opyear": "2009"
 }
