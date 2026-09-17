@@ -85,14 +85,21 @@
     {
       "title": "第21集",
       "src": "https://svip.xgplay17.com/2026-09-16/39517_enssgAem6Bzs18VuXj/index.m3u8"
+<<<<<<< HEAD
     },
     {
       "title": "第22集",
       "src": "https://svip.xgplay17.com/2026-09-17/39618_Ekgo0InJ_dNcqLGndD/index.m3u8"
+=======
+>>>>>>> 971195289a3a8a7fb39f804a0fca227724b2fcab
     }
   ],
   "poster": "https://vod.xiguazyimg.com/upload/vod/20260715-1/6dc3a9756d94aa2a490009d5a07a4578.jpg",
   "posterColor": "#824031",
+<<<<<<< HEAD
   "uptime": "2026-09-17 11:12:17",
+=======
+  "uptime": "2026-09-16 11:10:37",
+>>>>>>> 971195289a3a8a7fb39f804a0fca227724b2fcab
   "opyear": "2026"
 }

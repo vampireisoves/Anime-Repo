@@ -77,6 +77,7 @@
     {
       "title": "第19集",
       "src": "https://svip.xgplay20.com/2026-09-16/47785_Vwc1uvZ9WULvbvBGWX/index.m3u8"
+<<<<<<< HEAD
     },
     {
       "title": "第20集",
@@ -85,10 +86,16 @@
     {
       "title": "第21集",
       "src": "https://svip.xgplay17.com/2026-09-17/39735_xaYDNLNksJjd-DxTGz/index.m3u8"
+=======
+>>>>>>> 971195289a3a8a7fb39f804a0fca227724b2fcab
     }
   ],
   "poster": "https://vod.xiguazyimg.com/upload/vod/20260903-1/16aee1dd92e09b1820ef5ae581ebdd6a.jpg",
   "posterColor": "#a06135",
+<<<<<<< HEAD
   "uptime": "2026-09-17 19:54:38",
+=======
+  "uptime": "2026-09-16 20:03:32",
+>>>>>>> 971195289a3a8a7fb39f804a0fca227724b2fcab
   "opyear": "2026"
 }

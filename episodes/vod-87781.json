@@ -65,6 +65,7 @@
     {
       "title": "第16集",
       "src": "https://svip.xgplay17.com/2026-09-16/39539_xSIrvdMahGPdYCb7OD/index.m3u8"
+<<<<<<< HEAD
     },
     {
       "title": "第17集",
@@ -73,10 +74,16 @@
     {
       "title": "第18集",
       "src": "https://svip.xgplay17.com/2026-09-17/39693_cbN36OyQMo1yGxTbU0/index.m3u8"
+=======
+>>>>>>> 971195289a3a8a7fb39f804a0fca227724b2fcab
     }
   ],
   "poster": "https://vod.xiguazyimg.com/upload/vod/20260912-1/0d80a1252213ddcba20d64a549947136.jpg",
   "posterColor": "#8c4e30",
+<<<<<<< HEAD
   "uptime": "2026-09-17 12:10:44",
+=======
+  "uptime": "2026-09-16 12:01:09",
+>>>>>>> 971195289a3a8a7fb39f804a0fca227724b2fcab
   "opyear": "2023"
 }

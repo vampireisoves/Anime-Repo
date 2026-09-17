@@ -365,6 +365,7 @@
     {
       "title": "20260916超前彩蛋",
       "src": "https://svip.xgplay17.com/2026-09-16/39538_3ryY_RBDtGkNjwhK5v/index.m3u8"
+<<<<<<< HEAD
     },
     {
       "title": "20260917加更上",
@@ -373,10 +374,16 @@
     {
       "title": "20260917加更下",
       "src": "https://svip.xgplay17.com/2026-09-17/39705_hL07i7dVynWfpyb1bm/index.m3u8"
+=======
+>>>>>>> 971195289a3a8a7fb39f804a0fca227724b2fcab
     }
   ],
   "poster": "https://vod.xiguazyimg.com/upload/vod/20260731-1/5c211e1438bf847e3cfe334c7eabebf1.jpg",
   "posterColor": "#cba297",
+<<<<<<< HEAD
   "uptime": "2026-09-17 12:49:13",
+=======
+  "uptime": "2026-09-16 11:58:41",
+>>>>>>> 971195289a3a8a7fb39f804a0fca227724b2fcab
   "opyear": "2026"
 }

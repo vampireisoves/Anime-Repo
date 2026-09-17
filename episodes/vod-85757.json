@@ -25,14 +25,21 @@
     {
       "title": "第06集",
       "src": "https://svip.xgplay17.com/2026-09-07/38465_1WiE6rTf6Qi1CFFS8y/index.m3u8"
+<<<<<<< HEAD
     },
     {
       "title": "第07集",
       "src": "https://svip.xgplay20.com/2026-09-17/47805_eKXtlbdZSECODNXMWt/index.m3u8"
+=======
+>>>>>>> 971195289a3a8a7fb39f804a0fca227724b2fcab
     }
   ],
   "poster": "https://vod.xiguazyimg.com/upload/vod/20260810-1/45a4c94c6e54247e1e8f61bb3e8d85d8.jpg",
   "posterColor": "#865947",
+<<<<<<< HEAD
   "uptime": "2026-09-17 11:17:02",
+=======
+  "uptime": "2026-09-07 17:23:45",
+>>>>>>> 971195289a3a8a7fb39f804a0fca227724b2fcab
   "opyear": "2026"
 }

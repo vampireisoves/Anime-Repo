@@ -57,14 +57,21 @@
     {
       "title": "20260916送机篇",
       "src": "https://svip.xgplay17.com/2026-09-16/39552_gyBZ2xVF2klTO9EEsc/index.m3u8"
+<<<<<<< HEAD
     },
     {
       "title": "20260917超前营业",
       "src": "https://svip.xgplay17.com/2026-09-17/39694_ayjh4dz8b_1GjE-bAM/index.m3u8"
+=======
+>>>>>>> 971195289a3a8a7fb39f804a0fca227724b2fcab
     }
   ],
   "poster": "https://vod.xiguazyimg.com/upload/vod/20260904-1/5d66af3a1c2062b097a2f386b39a147b.jpg",
   "posterColor": "#bccf7d",
+<<<<<<< HEAD
   "uptime": "2026-09-17 12:22:47",
+=======
+  "uptime": "2026-09-16 12:26:04",
+>>>>>>> 971195289a3a8a7fb39f804a0fca227724b2fcab
   "opyear": "2026"
 }

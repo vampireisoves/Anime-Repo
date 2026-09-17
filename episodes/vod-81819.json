@@ -569,14 +569,21 @@
     {
       "title": "20260915",
       "src": "https://svip.xgplay17.com/2026-09-16/39529_6CSJgdZ8Nn2ulHCPe2/index.m3u8"
+<<<<<<< HEAD
     },
     {
       "title": "20260916",
       "src": "https://svip.xgplay17.com/2026-09-17/39643_KRI089hoC_h2S5ho-r/index.m3u8"
+=======
+>>>>>>> 971195289a3a8a7fb39f804a0fca227724b2fcab
     }
   ],
   "poster": "https://vod.xiguazyimg.com/upload/vod/20260513-1/bbeb94fc3697c1c5b50572f63787de2c.jpg",
   "posterColor": "#337e97",
+<<<<<<< HEAD
   "uptime": "2026-09-17 11:44:07",
+=======
+  "uptime": "2026-09-16 11:35:31",
+>>>>>>> 971195289a3a8a7fb39f804a0fca227724b2fcab
   "opyear": "2026"
 }

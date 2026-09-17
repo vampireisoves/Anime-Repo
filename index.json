@@ -3,10 +3,10 @@
     "title": "关索岭 (2026)",
     "type": "电影",
     "jsonFile": "episodes/vod-88097.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260917-1/b2b8dccebd2254b40453cd41504d6e20.jpg",
-    "uptime": "2026-09-17 19:18:21",
-    "opyear": "2026",
-    "posterColor": "#8d4f25"
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260917-1/cb59b952ee6ad8bcf32a8b47e0b6619c.jpg",
+    "posterColor": "#8d4f25",
+    "uptime": "2026-09-17 20:18:33",
+    "opyear": "2026"
   },
   {
     "title": "黑白清道夫 (2026)",
@@ -705,24 +705,6 @@
     "opyear": "2026"
   },
   {
-    "title": "死有对证粤语 (2026)",
-    "type": "剧集",
-    "jsonFile": "episodes/vod-87475.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260907-1/6596b7dd37206e8eaa4bb344f55b0e55.jpg",
-    "posterColor": "#2f4f84",
-    "uptime": "2026-09-16 20:38:50",
-    "opyear": "2026"
-  },
-  {
-    "title": "死有对证国语 (2026)",
-    "type": "剧集",
-    "jsonFile": "episodes/vod-87474.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260907-1/5c6e25072ac1f5289d67c72c38591d62.jpg",
-    "posterColor": "#2f4f84",
-    "uptime": "2026-09-16 20:38:37",
-    "opyear": "2026"
-  },
-  {
     "title": "灵境行者 (2026)",
     "type": "动漫",
     "jsonFile": "episodes/vod-87212.json",
@@ -741,42 +723,6 @@
     "opyear": "2026"
   },
   {
-    "title": "爱·回家之三代同糖粤语 (2026)",
-    "type": "剧集",
-    "jsonFile": "episodes/vod-85767.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260810-1/74436ac168b6b21625540387373dd527.jpg",
-    "posterColor": "#b48071",
-    "uptime": "2026-09-16 20:06:00",
-    "opyear": "2026"
-  },
-  {
-    "title": "爱·回家之三代同糖国语 (2026)",
-    "type": "剧集",
-    "jsonFile": "episodes/vod-85766.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260810-1/4147a08278080aa58ed0da63c60ba026.jpg",
-    "posterColor": "#b48071",
-    "uptime": "2026-09-16 20:05:42",
-    "opyear": "2026"
-  },
-  {
-    "title": "特战英雄榜 (2018)",
-    "type": "剧集",
-    "jsonFile": "episodes/vod-86491.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260822-1/ef6e1d52074310d9064fc2889c2c74a6.jpg",
-    "posterColor": "#334b80",
-    "uptime": "2026-09-16 20:04:39",
-    "opyear": "2018"
-  },
-  {
-    "title": "生逢其时 (2026)",
-    "type": "剧集",
-    "jsonFile": "episodes/vod-87216.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260903-1/16aee1dd92e09b1820ef5ae581ebdd6a.jpg",
-    "posterColor": "#a06135",
-    "uptime": "2026-09-16 20:03:32",
-    "opyear": "2026"
-  },
-  {
     "title": "动起来！从前有只猫 (2025)",
     "type": "动漫",
     "jsonFile": "episodes/vod-67603.json",
@@ -784,24 +730,6 @@
     "posterColor": "#caae81",
     "uptime": "2026-09-16 19:13:34",
     "opyear": "2025"
-  },
-  {
-    "title": "兰香如故 (2026)",
-    "type": "剧集",
-    "jsonFile": "episodes/vod-87720.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260911-1/b1d05bb7f031df0725fe6c37b8317d1a.jpg",
-    "posterColor": "#149e7f",
-    "uptime": "2026-09-16 18:46:52",
-    "opyear": "2026"
-  },
-  {
-    "title": "交锋 (2026)",
-    "type": "剧集",
-    "jsonFile": "episodes/vod-87408.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260906-1/a6a02a1768d9a6bc82c1e82cada0ba36.jpg",
-    "posterColor": "#902d23",
-    "uptime": "2026-09-16 18:46:31",
-    "opyear": "2026"
   },
   {
     "title": "只是一起吃顿饭 (2026)",
@@ -858,15 +786,6 @@
     "uptime": "2026-09-16 18:00:01",
     "opyear": "2026",
     "TMDb": "tt33539520"
-  },
-  {
-    "title": "冬城猎凶 (2026)",
-    "type": "剧集",
-    "jsonFile": "episodes/vod-87650.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260910-1/380281c69783ffa37e7f596da5687215.jpg",
-    "posterColor": "#764a3d",
-    "uptime": "2026-09-16 17:59:18",
-    "opyear": "2026"
   },
   {
     "title": "女警出更第二季 (2026)",
@@ -960,43 +879,6 @@
     "opyear": "2026"
   },
   {
-    "title": "家庭关系证明书 (2026)",
-    "type": "剧集",
-    "jsonFile": "episodes/vod-83647.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260707-1/3f54380bf1a80c7404e2c790beabc501.jpg",
-    "posterColor": "#48456e",
-    "uptime": "2026-09-16 14:40:41",
-    "opyear": "2026"
-  },
-  {
-    "title": "风，带有香气 (2026)",
-    "type": "剧集",
-    "jsonFile": "episodes/vod-80816.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260330-1/24f377bb88a907994c25998f76854351.webp",
-    "posterColor": "#8cc5d5",
-    "uptime": "2026-09-16 14:40:25",
-    "opyear": "2026",
-    "TMDb": "tt41652364"
-  },
-  {
-    "title": "娱乐百分百 (1997)",
-    "type": "综艺",
-    "jsonFile": "episodes/vod-12243.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20250224-1/a0e7351cd61d945202972808f8000904.jpg",
-    "posterColor": "#ffe752",
-    "uptime": "2026-09-16 13:55:32",
-    "opyear": "1997"
-  },
-  {
-    "title": "型男大主厨 (2006)",
-    "type": "综艺",
-    "jsonFile": "episodes/vod-12266.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20250224-1/82efa531071bc45831e62197f83d85f8.jpg",
-    "posterColor": "#d3dba0",
-    "uptime": "2026-09-16 13:55:05",
-    "opyear": "2006"
-  },
-  {
     "title": "小姐不熙娣 (2022)",
     "type": "综艺",
     "jsonFile": "episodes/vod-12284.json",
@@ -1004,69 +886,6 @@
     "posterColor": "#ee8b5b",
     "uptime": "2026-09-16 13:54:50",
     "opyear": "2022"
-  },
-  {
-    "title": "食尚玩家 (2007)",
-    "type": "综艺",
-    "jsonFile": "episodes/vod-12335.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20250224-1/01d8824cb688ae429b8ab2c0e0da7db9.jpg",
-    "posterColor": "#eab33e",
-    "uptime": "2026-09-16 13:54:32",
-    "opyear": "2007"
-  },
-  {
-    "title": "全民星攻略 (2020)",
-    "type": "综艺",
-    "jsonFile": "episodes/vod-12343.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20250224-1/44bc1b319dda95562266f9c889c6ef73.jpg",
-    "posterColor": "#7c4c37",
-    "uptime": "2026-09-16 13:54:16",
-    "opyear": "2020"
-  },
-  {
-    "title": "女人我最大 (2011)",
-    "type": "综艺",
-    "jsonFile": "episodes/vod-7905.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20250215-1/700fda4500716ff3b9ae2e97536b4c1b.jpg",
-    "posterColor": "#d0a2c2",
-    "uptime": "2026-09-16 13:54:00",
-    "opyear": "2011"
-  },
-  {
-    "title": "豆腐妈妈 (2025)",
-    "type": "剧集",
-    "jsonFile": "episodes/vod-80747.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260325-1/6dce0f21aa951c40fb99303e4a197c88.jpg",
-    "posterColor": "#78513a",
-    "uptime": "2026-09-16 13:53:30",
-    "opyear": "2025"
-  },
-  {
-    "title": "宝岛西米乐 (2025)",
-    "type": "剧集",
-    "jsonFile": "episodes/vod-80314.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260309-1/010ac0d4e89e20ae018246182dc87ec8.jpg",
-    "posterColor": "#a06d57",
-    "uptime": "2026-09-16 13:53:15",
-    "opyear": "2025"
-  },
-  {
-    "title": "11点热吵店 (2020)",
-    "type": "综艺",
-    "jsonFile": "episodes/vod-10939.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20250221-1/e64a0218b7f723367b00d0c508d15e15.jpg",
-    "posterColor": "#a6695b",
-    "uptime": "2026-09-16 13:52:21",
-    "opyear": "2020"
-  },
-  {
-    "title": "一饭封神第二季 (2026)",
-    "type": "综艺",
-    "jsonFile": "episodes/vod-84684.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260723-1/1a6273dc10026fd629524b86a6a44b92.jpg",
-    "posterColor": "#ad1405",
-    "uptime": "2026-09-16 12:59:05",
-    "opyear": "2026"
   },
   {
     "title": "食神·百厨大战 (2026)",
@@ -1097,49 +916,12 @@
     "opyear": "2026"
   },
   {
-    "title": "暗恋小说家 (2026)",
-    "type": "剧集",
-    "jsonFile": "episodes/vod-88024.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260916-1/27f3b271a3864f6e29cf5c25ee40b762.jpg",
-    "posterColor": "#9f7a65",
-    "uptime": "2026-09-16 12:48:42",
-    "opyear": "2026"
-  },
-  {
-    "title": "云雀叫天录 (2026)",
-    "type": "剧集",
-    "jsonFile": "episodes/vod-87900.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260914-1/698ccf88f331e2d77a636753536f57fc.jpg",
-    "posterColor": "#08ab9d",
-    "uptime": "2026-09-16 12:34:02",
-    "opyear": "2026",
-    "TMDb": "tt32046615"
-  },
-  {
-    "title": "心动双重奏 (2026)",
-    "type": "综艺",
-    "jsonFile": "episodes/vod-85009.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260729-1/98f762ea49aaef73b42e9b17ec9ca9c1.jpg",
-    "posterColor": "#99dee7",
-    "uptime": "2026-09-16 12:33:21",
-    "opyear": "2026"
-  },
-  {
     "title": "舞蹈新风暴 (2026)",
     "type": "综艺",
     "jsonFile": "episodes/vod-86652.json",
     "poster": "https://vod.xiguazyimg.com/upload/vod/20260825-1/3d466b43c81ad0cdfae41d8d5d6f7b1d.jpg",
     "posterColor": "#cd9a35",
     "uptime": "2026-09-16 12:33:00",
-    "opyear": "2026"
-  },
-  {
-    "title": "我家那闺女2026 (2026)",
-    "type": "综艺",
-    "jsonFile": "episodes/vod-86430.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260821-1/5df4f91a289c9e5d222bfe0a2844c756.jpg",
-    "posterColor": "#dc7fc0",
-    "uptime": "2026-09-16 12:32:32",
     "opyear": "2026"
   },
   {
@@ -1161,30 +943,12 @@
     "opyear": "2026"
   },
   {
-    "title": "姐姐当家第二季 (2026)",
-    "type": "综艺",
-    "jsonFile": "episodes/vod-83917.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260711-1/58858de035d1a30677f1da0cd127917c.jpg",
-    "posterColor": "#e2b4a5",
-    "uptime": "2026-09-16 12:28:18",
-    "opyear": "2026"
-  },
-  {
     "title": "密室大逃脱第八季 (2026)",
     "type": "综艺",
     "jsonFile": "episodes/vod-83736.json",
     "poster": "https://vod.xiguazyimg.com/upload/vod/20260708-1/ead5b1d70d258346c874116b03bbb211.jpg",
     "posterColor": "#ffbe30",
     "uptime": "2026-09-16 12:27:16",
-    "opyear": "2026"
-  },
-  {
-    "title": "花儿与少年2026 (2026)",
-    "type": "综艺",
-    "jsonFile": "episodes/vod-87277.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260904-1/5d66af3a1c2062b097a2f386b39a147b.jpg",
-    "posterColor": "#bccf7d",
-    "uptime": "2026-09-16 12:26:04",
     "opyear": "2026"
   },
   {
@@ -1197,69 +961,6 @@
     "opyear": "2026"
   },
   {
-    "title": "不想睡的星期五 (2026)",
-    "type": "综艺",
-    "jsonFile": "episodes/vod-85940.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260813-1/61ee49d300eaeb68abb4d71c3f9154ca.jpg",
-    "posterColor": "#431f93",
-    "uptime": "2026-09-16 12:24:10",
-    "opyear": "2026"
-  },
-  {
-    "title": "为爱正名 (2026)",
-    "type": "剧集",
-    "jsonFile": "episodes/vod-87960.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260915-1/ea4feb21173e7c6d23780f2b63fcd841.jpg",
-    "posterColor": "#845f2f",
-    "uptime": "2026-09-16 12:22:12",
-    "opyear": "2026"
-  },
-  {
-    "title": "熔城 (2026)",
-    "type": "剧集",
-    "jsonFile": "episodes/vod-87780.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260912-1/6f8d96f364594375e9df3b064eac107d.jpg",
-    "posterColor": "#795139",
-    "uptime": "2026-09-16 12:21:55",
-    "opyear": "2026"
-  },
-  {
-    "title": "九品猎妖官 (2026)",
-    "type": "剧集",
-    "jsonFile": "episodes/vod-87281.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260904-1/e11c37c95dbecee10efc64c4dff87dc5.jpg",
-    "posterColor": "#50608c",
-    "uptime": "2026-09-16 12:21:34",
-    "opyear": "2026"
-  },
-  {
-    "title": "济公之降龙除妖 (2026)",
-    "type": "剧集",
-    "jsonFile": "episodes/vod-87469.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260907-1/3d44babef03dc0bcf686c9bab6478f9f.jpg",
-    "posterColor": "#af8069",
-    "uptime": "2026-09-16 12:21:18",
-    "opyear": "2026"
-  },
-  {
-    "title": "浮生之白蛇前缘 (2026)",
-    "type": "剧集",
-    "jsonFile": "episodes/vod-87154.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260902-1/4961a544593556fe0105a4a68029d702.jpg",
-    "posterColor": "#75919a",
-    "uptime": "2026-09-16 12:21:02",
-    "opyear": "2026"
-  },
-  {
-    "title": "独剑九天 (2026)",
-    "type": "剧集",
-    "jsonFile": "episodes/vod-87588.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260909-1/cea6abbf3d87db0a5c441eaee218018f.jpg",
-    "posterColor": "#667396",
-    "uptime": "2026-09-16 12:20:47",
-    "opyear": "2026"
-  },
-  {
     "title": "斗罗大陆5重生唐三动态漫画 (2025)",
     "type": "动漫",
     "jsonFile": "episodes/vod-63402.json",
@@ -1267,24 +968,6 @@
     "posterColor": "#59b2d0",
     "uptime": "2026-09-16 12:04:32",
     "opyear": "2025"
-  },
-  {
-    "title": "南诏王 (2023)",
-    "type": "剧集",
-    "jsonFile": "episodes/vod-87781.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260912-1/0d80a1252213ddcba20d64a549947136.jpg",
-    "posterColor": "#8c4e30",
-    "uptime": "2026-09-16 12:01:09",
-    "opyear": "2023"
-  },
-  {
-    "title": "心动的信号第九季 (2026)",
-    "type": "综艺",
-    "jsonFile": "episodes/vod-85201.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260731-1/5c211e1438bf847e3cfe334c7eabebf1.jpg",
-    "posterColor": "#cba297",
-    "uptime": "2026-09-16 11:58:41",
-    "opyear": "2026"
   },
   {
     "title": "大哥小助理 (2026)",
@@ -1378,24 +1061,6 @@
     "TMDb": "tt21403116"
   },
   {
-    "title": "笑动剧场2026 (2023)",
-    "type": "综艺",
-    "jsonFile": "episodes/vod-81896.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260514-1/ec52d526f5d5ffd5591f2336539ae94b.jpg",
-    "posterColor": "#cc8728",
-    "uptime": "2026-09-16 11:38:29",
-    "opyear": "2023"
-  },
-  {
-    "title": "人气美食2026 (2007)",
-    "type": "综艺",
-    "jsonFile": "episodes/vod-81897.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260514-1/c030a0e02245cd587afc7d4e04d8524d.jpg",
-    "posterColor": "#ff822f",
-    "uptime": "2026-09-16 11:38:11",
-    "opyear": "2007"
-  },
-  {
     "title": "金牌调解2026 (2011)",
     "type": "综艺",
     "jsonFile": "episodes/vod-81898.json",
@@ -1403,24 +1068,6 @@
     "posterColor": "#b08476",
     "uptime": "2026-09-16 11:36:59",
     "opyear": "2011"
-  },
-  {
-    "title": "健康大问诊2026 (2026)",
-    "type": "综艺",
-    "jsonFile": "episodes/vod-81821.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260513-1/5ee523992fff1e4ae464ef1f70be98f9.jpg",
-    "posterColor": "#cb8379",
-    "uptime": "2026-09-16 11:36:43",
-    "opyear": "2026"
-  },
-  {
-    "title": "欢乐集结号2026 (2009)",
-    "type": "综艺",
-    "jsonFile": "episodes/vod-81915.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260515-1/8aa6b32c9c117d85f5818a72ed7913b1.jpg",
-    "posterColor": "#902341",
-    "uptime": "2026-09-16 11:36:29",
-    "opyear": "2009"
   },
   {
     "title": "顾长歌：我！天命大反派 (2026)",
@@ -1432,15 +1079,6 @@
     "opyear": "2026"
   },
   {
-    "title": "x诊所2026 (2026)",
-    "type": "综艺",
-    "jsonFile": "episodes/vod-81819.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260513-1/bbeb94fc3697c1c5b50572f63787de2c.jpg",
-    "posterColor": "#337e97",
-    "uptime": "2026-09-16 11:35:31",
-    "opyear": "2026"
-  },
-  {
     "title": "有兽焉第六季 (2026)",
     "type": "动漫",
     "jsonFile": "episodes/vod-85463.json",
@@ -1448,16 +1086,6 @@
     "posterColor": "#5cdfd0",
     "uptime": "2026-09-16 11:30:50",
     "opyear": "2026"
-  },
-  {
-    "title": "我们愉快的好日子 (2026)",
-    "type": "剧集",
-    "jsonFile": "episodes/vod-80824.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260331-1/eebef68421fd43274219a8a0998e67f3.webp",
-    "posterColor": "#abc9d4",
-    "uptime": "2026-09-16 11:30:35",
-    "opyear": "2026",
-    "TMDb": "tt40529758"
   },
   {
     "title": "苏东坡与杭州的故事 (2026)",
@@ -1512,33 +1140,6 @@
     "poster": "https://vod.xiguazyimg.com/upload/vod/20260903-1/d4f081fc192e54c78c52ef8d27c7d8d9.jpg",
     "posterColor": "#844f55",
     "uptime": "2026-09-16 11:11:14",
-    "opyear": "2026"
-  },
-  {
-    "title": "猪猪侠之失控纪元 (2026)",
-    "type": "动漫",
-    "jsonFile": "episodes/vod-86795.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260828-1/139807e37dceaa22abd3816bcf539c56.jpg",
-    "posterColor": "#eba393",
-    "uptime": "2026-09-16 11:11:00",
-    "opyear": "2026"
-  },
-  {
-    "title": "我怎么会嫁给一个反派 (2026)",
-    "type": "动漫",
-    "jsonFile": "episodes/vod-84156.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260715-1/6dc3a9756d94aa2a490009d5a07a4578.jpg",
-    "posterColor": "#824031",
-    "uptime": "2026-09-16 11:10:37",
-    "opyear": "2026"
-  },
-  {
-    "title": "天赐娘子·小镖师 (2026)",
-    "type": "剧集",
-    "jsonFile": "episodes/vod-87655.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260910-1/26bad1a75e74e11ee89e1f571e0d6a7a.jpg",
-    "posterColor": "#9eb0ba",
-    "uptime": "2026-09-16 11:10:21",
     "opyear": "2026"
   },
   {
@@ -1629,24 +1230,6 @@
     "poster": "https://vod.xiguazyimg.com/upload/vod/20260724-1/cc1e162c5b7bf224edbd5e3d1fa9eca6.jpg",
     "posterColor": "#a97a6b",
     "uptime": "2026-09-16 11:04:03",
-    "opyear": "2026"
-  },
-  {
-    "title": "冰封末世，我打造完美领地 (2025)",
-    "type": "动漫",
-    "jsonFile": "episodes/vod-81914.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260515-1/74f8ea9fb44ebdb38d5f4bbe58909df8.jpg",
-    "posterColor": "#4b6dac",
-    "uptime": "2026-09-16 11:03:44",
-    "opyear": "2025"
-  },
-  {
-    "title": "汤米和塔彭丝 (2026)",
-    "type": "剧集",
-    "jsonFile": "episodes/vod-88019.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260916-1/1106335b9264dc9a3eb1f0bad452e372.jpg",
-    "posterColor": "#7c12a1",
-    "uptime": "2026-09-16 11:01:26",
     "opyear": "2026"
   },
   {
@@ -2281,15 +1864,6 @@
     "opyear": "2026"
   },
   {
-    "title": "毛雪汪 (2021)",
-    "type": "综艺",
-    "jsonFile": "episodes/vod-34517.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20250415-1/94f9692a9234a467d10c8d25695592eb.jpg",
-    "posterColor": "#5e58b5",
-    "uptime": "2026-09-15 12:24:57",
-    "opyear": "2021"
-  },
-  {
     "title": "伦敦合伙人 (2026)",
     "type": "综艺",
     "jsonFile": "episodes/vod-85641.json",
@@ -2384,15 +1958,6 @@
     "uptime": "2026-09-15 11:20:37",
     "opyear": "2026",
     "TMDb": "tt41278615"
-  },
-  {
-    "title": "欲望的陷阱2026 (2026)",
-    "type": "剧集",
-    "jsonFile": "episodes/vod-85823.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260811-1/640a93b8ce42f7e2cd3863d62403ad7d.jpg",
-    "posterColor": "#5c6983",
-    "uptime": "2026-09-15 11:20:23",
-    "opyear": "2026"
   },
   {
     "title": "万界独尊 (2022)",
@@ -2493,15 +2058,6 @@
     "poster": "https://vod.xiguazyimg.com/upload/vod/20250905-1/663b1f1f73b4f3880b33bf7bbd0209ab.jpg",
     "posterColor": "#9c6471",
     "uptime": "2026-09-15 11:08:33",
-    "opyear": "2025"
-  },
-  {
-    "title": "末日走私商：我用辣条换金砖 动态漫画 (2025)",
-    "type": "动漫",
-    "jsonFile": "episodes/vod-69154.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20251027-1/61db638047bd3104e37f3e6ea93ffe3a.jpg",
-    "posterColor": "#402e85",
-    "uptime": "2026-09-15 11:08:17",
     "opyear": "2025"
   },
   {
@@ -3456,15 +3012,6 @@
     "poster": "https://vod.xiguazyimg.com/upload/vod/20260518-1/28a6bb563a355b0187cf3799286fbaad.jpg",
     "posterColor": "#cedbe1",
     "uptime": "2026-09-14 11:55:47",
-    "opyear": "2026"
-  },
-  {
-    "title": "一路向海的少年 (2026)",
-    "type": "综艺",
-    "jsonFile": "episodes/vod-85394.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260803-1/1f245b7191d739388200f2417b727aef.jpg",
-    "posterColor": "#d6af68",
-    "uptime": "2026-09-14 11:38:56",
     "opyear": "2026"
   },
   {
@@ -4681,24 +4228,6 @@
     "opyear": "2025"
   },
   {
-    "title": "我开启了神话宠兽时代 (2025)",
-    "type": "动漫",
-    "jsonFile": "episodes/vod-81925.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260515-1/9407f962435b566e63fa0405159ca04f.jpg",
-    "posterColor": "#a94839",
-    "uptime": "2026-09-13 11:11:57",
-    "opyear": "2025"
-  },
-  {
-    "title": "太古神尊 (2026)",
-    "type": "动漫",
-    "jsonFile": "episodes/vod-85126.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260730-1/16d3d659c1a493d0c968c943597b1fee.jpg",
-    "posterColor": "#706c88",
-    "uptime": "2026-09-13 11:11:40",
-    "opyear": "2026"
-  },
-  {
     "title": "深渊之上 (2026)",
     "type": "动漫",
     "jsonFile": "episodes/vod-87347.json",
@@ -4767,15 +4296,6 @@
     "poster": "https://vod.xiguazyimg.com/upload/vod/20260816-1/c6dda24f45f5bd19350c4809e786dc04.jpg",
     "posterColor": "#834a30",
     "uptime": "2026-09-13 11:04:23",
-    "opyear": "2026"
-  },
-  {
-    "title": "星辰帝女：逆转命运之歌 (2026)",
-    "type": "动漫",
-    "jsonFile": "episodes/vod-81859.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260514-1/872da6cd05eeade7e84e0eaac94c893f.jpg",
-    "posterColor": "#c09e92",
-    "uptime": "2026-09-13 11:04:06",
     "opyear": "2026"
   },
   {
@@ -5504,15 +5024,6 @@
     "opyear": "2024"
   },
   {
-    "title": "娜就聊姐姐 (2026)",
-    "type": "综艺",
-    "jsonFile": "episodes/vod-87210.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260903-1/e78afd132e3dade1598d5cc45a4f9e49.jpg",
-    "posterColor": "#d38dee",
-    "uptime": "2026-09-12 12:22:58",
-    "opyear": "2026"
-  },
-  {
     "title": "快乐老家 (2026)",
     "type": "综艺",
     "jsonFile": "episodes/vod-83433.json",
@@ -5537,15 +5048,6 @@
     "poster": "https://vod.xiguazyimg.com/upload/vod/20260802-1/5f2d01b619a16a647259773e3d10475e.jpg",
     "posterColor": "#2e7088",
     "uptime": "2026-09-12 12:22:03",
-    "opyear": "2026"
-  },
-  {
-    "title": "脱口秀和Ta的朋友们第三季 (2026)",
-    "type": "综艺",
-    "jsonFile": "episodes/vod-83351.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260620-1/c8f406f12087578d44280ac91ad002fc.jpg",
-    "posterColor": "#b6cb78",
-    "uptime": "2026-09-12 12:05:35",
     "opyear": "2026"
   },
   {
@@ -5619,15 +5121,6 @@
     "posterColor": "#853f2e",
     "uptime": "2026-09-12 11:34:19",
     "opyear": "2026"
-  },
-  {
-    "title": "原来我早就无敌了动态漫 (2023)",
-    "type": "动漫",
-    "jsonFile": "episodes/vod-62863.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20250906-1/b8e9b16a7db5e7e1993e68919e2e8aa1.jpg",
-    "posterColor": "#4868a0",
-    "uptime": "2026-09-12 11:34:05",
-    "opyear": "2023"
   },
   {
     "title": "异能觉醒：我成全球最强存在 (2025)",
@@ -5708,15 +5201,6 @@
     "poster": "https://vod.xiguazyimg.com/upload/vod/20260516-1/6ee83380f6a80e5016935955518b9570.jpg",
     "posterColor": "#41268c",
     "uptime": "2026-09-12 11:29:47",
-    "opyear": "2025"
-  },
-  {
-    "title": "全民转职：我组建了BOSS军团 (2025)",
-    "type": "动漫",
-    "jsonFile": "episodes/vod-81920.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260515-1/e79d48df59c5e367dfc027f95e7ad95a.jpg",
-    "posterColor": "#334a7f",
-    "uptime": "2026-09-12 11:29:24",
     "opyear": "2025"
   },
   {
@@ -6581,15 +6065,6 @@
     "opyear": "2026"
   },
   {
-    "title": "狐妖小红娘黄风岭篇 (2026)",
-    "type": "动漫",
-    "jsonFile": "episodes/vod-87718.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260911-1/edc5f5338228b61b44eb3c5df1f36ee6.jpg",
-    "posterColor": "#e19d80",
-    "uptime": "2026-09-11 13:16:25",
-    "opyear": "2026"
-  },
-  {
     "title": "姐姐家的产地直送3 (2026(韩国))",
     "type": "综艺",
     "jsonFile": "episodes/vod-81144.json",
@@ -6617,15 +6092,6 @@
     "opyear": "2026"
   },
   {
-    "title": "爱情保卫战 (2010)",
-    "type": "综艺",
-    "jsonFile": "episodes/vod-9684.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20250219-1/fa103b6e26364dce99869b0c059f5532.jpg",
-    "posterColor": "#ea2d59",
-    "uptime": "2026-09-11 12:15:11",
-    "opyear": "2010"
-  },
-  {
     "title": "聊斋之花烬 (2026)",
     "type": "剧集",
     "jsonFile": "episodes/vod-87717.json",
@@ -6641,15 +6107,6 @@
     "poster": "https://vod.xiguazyimg.com/upload/vod/20260911-1/39246435f8743dea616f3361c06b977f.jpg",
     "posterColor": "#d8b9a5",
     "uptime": "2026-09-11 12:00:00",
-    "opyear": "2026"
-  },
-  {
-    "title": "雪王来了！ (2026)",
-    "type": "动漫",
-    "jsonFile": "episodes/vod-86428.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260821-1/d64202bb36d31644a1b3aa6e6a42d8a9.jpg",
-    "posterColor": "#ed9777",
-    "uptime": "2026-09-11 11:53:20",
     "opyear": "2026"
   },
   {
@@ -6877,15 +6334,6 @@
     "posterColor": "#5570bc",
     "uptime": "2026-09-11 11:06:08",
     "opyear": "2024"
-  },
-  {
-    "title": "机械飞升 (2026)",
-    "type": "动漫",
-    "jsonFile": "episodes/vod-86731.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260827-1/c83147e9b8d0a4646ce38ba53d147b3d.jpg",
-    "posterColor": "#3b4e78",
-    "uptime": "2026-09-11 11:04:42",
-    "opyear": "2026"
   },
   {
     "title": "高武：登陆未来一万年动态漫画 (2023)",
@@ -7493,48 +6941,12 @@
     "opyear": "2026"
   },
   {
-    "title": "与你相恋到生命尽头 (2026)",
-    "type": "动漫",
-    "jsonFile": "episodes/vod-83661.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260707-1/5f5dbc305c2bb6bd60ba0f34af0a51e8.jpg",
-    "posterColor": "#6cc1ff",
-    "uptime": "2026-09-10 20:50:18",
-    "opyear": "2026"
-  },
-  {
-    "title": "文豪野犬汪第二季 (2026)",
-    "type": "动漫",
-    "jsonFile": "episodes/vod-83550.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260702-1/87aa6cd83fd46e9530c09779ed2561b1.jpg",
-    "posterColor": "#efdaa9",
-    "uptime": "2026-09-10 20:49:47",
-    "opyear": "2026"
-  },
-  {
-    "title": "令和的斑小姐 (2026)",
-    "type": "动漫",
-    "jsonFile": "episodes/vod-83562.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260703-1/6d95bd88315e284d7dce5b7642c0abbe.jpg",
-    "posterColor": "#24398e",
-    "uptime": "2026-09-10 20:47:18",
-    "opyear": "2026"
-  },
-  {
     "title": "星际迷航：奇异新世界第四季 (2026)",
     "type": "剧集",
     "jsonFile": "episodes/vod-84685.json",
     "poster": "https://vod.xiguazyimg.com/upload/vod/20260723-1/db491c6784e773e3007c7db5b851c252.jpg",
     "posterColor": "#1e6295",
     "uptime": "2026-09-10 20:43:03",
-    "opyear": "2026"
-  },
-  {
-    "title": "要再做一次夫妇吗？～伪装夫妇～ (2026)",
-    "type": "剧集",
-    "jsonFile": "episodes/vod-83659.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260707-1/bc1c411a41cd5e477ca55371471d29b3.jpg",
-    "posterColor": "#3b97b9",
-    "uptime": "2026-09-10 20:39:03",
     "opyear": "2026"
   },
   {
@@ -7556,33 +6968,6 @@
     "opyear": "2026"
   },
   {
-    "title": "我要看见你 (2026)",
-    "type": "剧集",
-    "jsonFile": "episodes/vod-87654.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260910-1/7477a756fb13a590c1e21fca19400b85.jpg",
-    "posterColor": "#a7b6d2",
-    "uptime": "2026-09-10 19:53:38",
-    "opyear": "2026"
-  },
-  {
-    "title": "诛仙第四季 (2026)",
-    "type": "动漫",
-    "jsonFile": "episodes/vod-86424.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260821-1/a0efa2470aa08040828ac22b6ec927aa.jpg",
-    "posterColor": "#6c83b1",
-    "uptime": "2026-09-10 19:23:36",
-    "opyear": "2026"
-  },
-  {
-    "title": "完美世界 (2021)",
-    "type": "动漫",
-    "jsonFile": "episodes/vod-8462.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20250216-1/c9a75f66b76c0c1aa02439cd8a135390.jpg",
-    "posterColor": "#885139",
-    "uptime": "2026-09-10 19:23:22",
-    "opyear": "2021"
-  },
-  {
     "title": "掌舵少女 Crew Girl (2026)",
     "type": "剧集",
     "jsonFile": "episodes/vod-87653.json",
@@ -7602,30 +6987,12 @@
     "opyear": "2026"
   },
   {
-    "title": "中头奖还是要上班 (2026)",
-    "type": "剧集",
-    "jsonFile": "episodes/vod-87652.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260910-1/e2388240533556cc66f2a76abe68510e.jpg",
-    "posterColor": "#506794",
-    "uptime": "2026-09-10 18:36:05",
-    "opyear": "2026"
-  },
-  {
     "title": "第一声啼哭 母子救命急救班 (2026)",
     "type": "剧集",
     "jsonFile": "episodes/vod-83815.json",
     "poster": "https://vod.xiguazyimg.com/upload/vod/20260709-1/1da4b37bda5574aeeb6c125ece18b469.jpg",
     "posterColor": "#813249",
     "uptime": "2026-09-10 18:35:33",
-    "opyear": "2026"
-  },
-  {
-    "title": "时光代理人第三季 (2026)",
-    "type": "动漫",
-    "jsonFile": "episodes/vod-85987.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260814-1/859e36fb4ade54a426ee46521cf154f7.jpg",
-    "posterColor": "#546471",
-    "uptime": "2026-09-10 18:10:54",
     "opyear": "2026"
   },
   {
@@ -7684,15 +7051,6 @@
     "TMDb": "tt40104578"
   },
   {
-    "title": "双星家游园 (2026)",
-    "type": "综艺",
-    "jsonFile": "episodes/vod-87271.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260904-1/39c09e9558de29c120c7448e1e71fbf9.jpg",
-    "posterColor": "#c3aa4e",
-    "uptime": "2026-09-10 13:53:04",
-    "opyear": "2026"
-  },
-  {
     "title": "青春碎片 The Shards (2026)",
     "type": "剧集",
     "jsonFile": "episodes/vod-85502.json",
@@ -7709,15 +7067,6 @@
     "poster": "https://vod.xiguazyimg.com/upload/vod/20260702-1/26ffd8b80b4e6a26b3c4768ad5b00ce9.jpg",
     "posterColor": "#5c6f8d",
     "uptime": "2026-09-10 13:44:46",
-    "opyear": "2026"
-  },
-  {
-    "title": "大追踪〜警视厅SSBC强行犯系〜第二季 (2026)",
-    "type": "剧集",
-    "jsonFile": "episodes/vod-84677.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260723-1/4321029516491107db97e96bc0fd9b9c.jpg",
-    "posterColor": "#ed0587",
-    "uptime": "2026-09-10 13:43:51",
     "opyear": "2026"
   },
   {
@@ -7739,60 +7088,6 @@
     "opyear": "2026"
   },
   {
-    "title": "乡下大叔成为剑圣第二季 (2026)",
-    "type": "动漫",
-    "jsonFile": "episodes/vod-83807.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260709-1/1d206e98eb0388619a851529bd80bd22.jpg",
-    "posterColor": "#a5c3d6",
-    "uptime": "2026-09-10 11:50:32",
-    "opyear": "2026"
-  },
-  {
-    "title": "换座位后，发现身后的男生好像喜欢我 (2026)",
-    "type": "剧集",
-    "jsonFile": "episodes/vod-85501.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260806-1/be836a24e1b8db51b5c06e6a2d3b19df.jpg",
-    "posterColor": "#48556b",
-    "uptime": "2026-09-10 11:49:18",
-    "opyear": "2026"
-  },
-  {
-    "title": "诸界末日在线动态漫 (2025)",
-    "type": "动漫",
-    "jsonFile": "episodes/vod-72941.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20251129-1/aeb1c76942a5ebebf2897842b0fcab3e.jpg",
-    "posterColor": "#833542",
-    "uptime": "2026-09-10 11:11:31",
-    "opyear": "2025"
-  },
-  {
-    "title": "仙武帝尊动态漫 (2021)",
-    "type": "动漫",
-    "jsonFile": "episodes/vod-79843.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260212-1/e1bb56b1b0880c5443df93aed47a87a6.jpg",
-    "posterColor": "#69bcd7",
-    "uptime": "2026-09-10 11:10:43",
-    "opyear": "2021"
-  },
-  {
-    "title": "师尊：这个冲师逆徒才不是圣子 (2025)",
-    "type": "动漫",
-    "jsonFile": "episodes/vod-81923.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260515-1/3429558a050e8470461a256ed520048c.jpg",
-    "posterColor": "#a56677",
-    "uptime": "2026-09-10 11:09:15",
-    "opyear": "2025"
-  },
-  {
-    "title": "锦绣钱途 (2026)",
-    "type": "动漫",
-    "jsonFile": "episodes/vod-81857.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260514-1/73963ab8381804372d2b06053d9322b4.jpg",
-    "posterColor": "#c5a161",
-    "uptime": "2026-09-10 11:04:55",
-    "opyear": "2026"
-  },
-  {
     "title": "无情的拳头 Tarung: Unforgiven (2026)",
     "type": "电影",
     "jsonFile": "episodes/vod-87648.json",
@@ -7801,69 +7096,6 @@
     "uptime": "2026-09-10 11:03:17",
     "opyear": "2026",
     "TMDb": "tt37673293"
-  },
-  {
-    "title": "我独自盗墓 (2026)",
-    "type": "动漫",
-    "jsonFile": "episodes/vod-83802.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260709-1/5ff20d6fe0c7c91918543a549eff239f.jpg",
-    "posterColor": "#44587d",
-    "uptime": "2026-09-10 11:02:50",
-    "opyear": "2026"
-  },
-  {
-    "title": "逆天邪神 (2023)",
-    "type": "动漫",
-    "jsonFile": "episodes/vod-37383.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20250425-1/e8433566f85af07b404a2d07569ee08b.jpg",
-    "posterColor": "#7ab4c6",
-    "uptime": "2026-09-10 11:02:20",
-    "opyear": "2023"
-  },
-  {
-    "title": "雷霆三人行 (2026)",
-    "type": "动漫",
-    "jsonFile": "episodes/vod-83808.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260709-1/5f0d974c8f2eb41e4c0a3bafdf90be07.jpg",
-    "posterColor": "#853b2d",
-    "uptime": "2026-09-10 11:02:03",
-    "opyear": "2026"
-  },
-  {
-    "title": "花样少年少女第二季 (2026)",
-    "type": "动漫",
-    "jsonFile": "episodes/vod-83532.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260702-1/9b0cff1f6a9f84c8d48ffb509a8473c0.jpg",
-    "posterColor": "#8a99c8",
-    "uptime": "2026-09-10 11:01:44",
-    "opyear": "2026"
-  },
-  {
-    "title": "疯了吧！这座城市的人都在找死 (2026)",
-    "type": "动漫",
-    "jsonFile": "episodes/vod-87211.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260903-1/55e77a4584a0cd2fe6d853479de5d5f6.jpg",
-    "posterColor": "#33517f",
-    "uptime": "2026-09-10 11:00:57",
-    "opyear": "2026"
-  },
-  {
-    "title": "东大高武学院 (2026)",
-    "type": "动漫",
-    "jsonFile": "episodes/vod-84232.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260716-1/0b60f2ee2fa6a1508de250d7e9b7234c.jpg",
-    "posterColor": "#a6795f",
-    "uptime": "2026-09-10 11:00:43",
-    "opyear": "2026"
-  },
-  {
-    "title": "丹道至尊 (2023)",
-    "type": "动漫",
-    "jsonFile": "episodes/vod-34519.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20250415-1/2641d95372ad60cafffa341599817b84.jpg",
-    "posterColor": "#9aa6b9",
-    "uptime": "2026-09-10 11:00:25",
-    "opyear": "2023"
   },
   {
     "title": "红墙相思错 (2026)",
@@ -8305,15 +7537,6 @@
     "posterColor": "#7c5a4d",
     "uptime": "2026-09-09 23:26:15",
     "opyear": "2023"
-  },
-  {
-    "title": "新男友 (2026)",
-    "type": "剧集",
-    "jsonFile": "episodes/vod-85557.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260806-1/366909a499346f568e686c983e9a57a0.jpg",
-    "posterColor": "#774b3c",
-    "uptime": "2026-09-09 23:25:05",
-    "opyear": "2026"
   },
   {
     "title": "我为什么又结婚了？ Why Did I Get Married Again? (2026)",
@@ -9564,15 +8787,6 @@
     "uptime": "2026-09-07 19:43:39",
     "opyear": "2026",
     "TMDb": "tt7374950"
-  },
-  {
-    "title": "没有人会想念我们第二季 (2026)",
-    "type": "剧集",
-    "jsonFile": "episodes/vod-85757.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260810-1/45a4c94c6e54247e1e8f61bb3e8d85d8.jpg",
-    "posterColor": "#865947",
-    "uptime": "2026-09-07 17:23:45",
-    "opyear": "2026"
   },
   {
     "title": "两个女导演 Nervous Energy (2025)",
@@ -14803,16 +14017,6 @@
     "opyear": "2024"
   },
   {
-    "title": "牧师妻之死 Death of the Pastor's Wife (2026)",
-    "type": "电影",
-    "jsonFile": "episodes/vod-86721.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260826-1/7377618a27a422620d5c4b9ca64c7a24.jpg",
-    "posterColor": "#3f7469",
-    "uptime": "2026-08-29 19:12:38",
-    "opyear": "2026",
-    "TMDb": "tt44113382"
-  },
-  {
     "title": "盲眼御兽师：我的灵宠全是上古神 (2026)",
     "type": "动漫",
     "jsonFile": "episodes/vod-86306.json",
@@ -14910,26 +14114,6 @@
     "posterColor": "#6188b3",
     "uptime": "2026-08-29 11:05:46",
     "opyear": "2026"
-  },
-  {
-    "title": "寂静的朋友国语 Silent Friend (2025)",
-    "type": "电影",
-    "jsonFile": "episodes/vod-86912.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260829-1/1495f5d445878f465a7cbb5676a8c6cf.jpg",
-    "posterColor": "#40724b",
-    "uptime": "2026-08-29 10:59:45",
-    "opyear": "2025",
-    "TMDb": "tt27811632"
-  },
-  {
-    "title": "寂静的朋友粤语 Silent Friend (2025)",
-    "type": "电影",
-    "jsonFile": "episodes/vod-86911.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260829-1/1c29822ee771cdf625ab6e81cf808452.jpg",
-    "posterColor": "#40724b",
-    "uptime": "2026-08-29 10:58:38",
-    "opyear": "2025",
-    "TMDb": "tt27811632"
   },
   {
     "title": "疯狂升级系统 (2024)",
@@ -26434,6 +25618,22 @@
     "TMDb": "tt13409432"
   },
   {
+    "title": "谁说没灵根不能修仙的？之无灵证道第五季 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/anime-2d289874.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260901-1/73835eb0e8e976844d99e8280789d82b.jpg",
+    "posterColor": "#88472a",
+    "opyear": "2026"
+  },
+  {
+    "title": "谁说没灵根不能修仙的？之无灵证道第四季 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/anime-6c91d7df.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260901-1/898855e40e4260fde2c8540c6c30680f.jpg",
+    "posterColor": "#88462b",
+    "opyear": "2026"
+  },
+  {
     "title": "谜印女子 La desconocida: La última masacre (2026)",
     "type": "电影",
     "jsonFile": "episodes/tt21831460.json",
@@ -28104,22 +27304,6 @@
     "poster": "https://vod.xiguazyimg.com/upload/vod/20260821-1/f65fcee5526b8c9ffe0064e1e888a455.jpg",
     "posterColor": "#925020",
     "TMDb": "tt9000310"
-  },
-  {
-    "title": "谁说没灵根不能修仙的？之无灵证道第五季 (2026)",
-    "type": "剧集",
-    "jsonFile": "episodes/anime-2d289874.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260901-1/73835eb0e8e976844d99e8280789d82b.jpg",
-    "posterColor": "#88472a",
-    "opyear": "2026"
-  },
-  {
-    "title": "谁说没灵根不能修仙的？之无灵证道第四季 (2026)",
-    "type": "剧集",
-    "jsonFile": "episodes/anime-6c91d7df.json",
-    "poster": "https://vod.xiguazyimg.com/upload/vod/20260901-1/898855e40e4260fde2c8540c6c30680f.jpg",
-    "posterColor": "#88462b",
-    "opyear": "2026"
   },
   {
     "title": "团战之夜 Good Luck, Have Fun, Don't Die (2025)",

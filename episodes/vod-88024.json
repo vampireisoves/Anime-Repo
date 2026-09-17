@@ -13,14 +13,21 @@
     {
       "title": "第03集",
       "src": "https://svip.xgplay17.com/2026-09-16/39566_8yLw-Jok--d7oDfhfe/index.m3u8"
+<<<<<<< HEAD
     },
     {
       "title": "第04集",
       "src": "https://svip.xgplay17.com/2026-09-17/39614_7FLqSynISA7T91W41g/index.m3u8"
+=======
+>>>>>>> 971195289a3a8a7fb39f804a0fca227724b2fcab
     }
   ],
   "poster": "https://vod.xiguazyimg.com/upload/vod/20260916-1/27f3b271a3864f6e29cf5c25ee40b762.jpg",
   "posterColor": "#9f7a65",
+<<<<<<< HEAD
   "uptime": "2026-09-17 11:11:06",
+=======
+  "uptime": "2026-09-16 12:48:42",
+>>>>>>> 971195289a3a8a7fb39f804a0fca227724b2fcab
   "opyear": "2026"
 }

@@ -481,15 +481,22 @@
     {
       "title": "第120集",
       "src": "https://svip.xgplay17.com/2026-09-16/39527_pPC7WDSERic-1WeYBF/index.m3u8"
+<<<<<<< HEAD
     },
     {
       "title": "第121集",
       "src": "https://svip.xgplay20.com/2026-09-17/47806_1Hb7CGTOCiXpoh-lRt/index.m3u8"
+=======
+>>>>>>> 971195289a3a8a7fb39f804a0fca227724b2fcab
     }
   ],
   "poster": "https://vod.xiguazyimg.com/upload/vod/20260331-1/eebef68421fd43274219a8a0998e67f3.webp",
   "posterColor": "#abc9d4",
+<<<<<<< HEAD
   "uptime": "2026-09-17 11:17:17",
+=======
+  "uptime": "2026-09-16 11:30:35",
+>>>>>>> 971195289a3a8a7fb39f804a0fca227724b2fcab
   "opyear": "2026",
   "TMDb": "tt40529758"
 }
