@@ -520,12 +520,66 @@
     "opyear": "2026"
   },
   {
+    "title": "济公之降龙除妖 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-87469.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260907-1/3d44babef03dc0bcf686c9bab6478f9f.jpg",
+    "posterColor": "#af8069",
+    "uptime": "2026-09-17 12:09:11",
+    "opyear": "2026"
+  },
+  {
+    "title": "浮生之白蛇前缘 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-87154.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260902-1/4961a544593556fe0105a4a68029d702.jpg",
+    "posterColor": "#75919a",
+    "uptime": "2026-09-17 12:08:56",
+    "opyear": "2026"
+  },
+  {
+    "title": "独剑九天 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-87588.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260909-1/cea6abbf3d87db0a5c441eaee218018f.jpg",
+    "posterColor": "#667396",
+    "uptime": "2026-09-17 12:08:33",
+    "opyear": "2026"
+  },
+  {
     "title": "一瓯春 (2026)",
     "type": "剧集",
     "jsonFile": "episodes/vod-88089.json",
     "poster": "https://vod.xiguazyimg.com/upload/vod/20260917-1/5da8324bdb843e44eb4f8c30638fff77.jpg",
     "posterColor": "#af0329",
     "uptime": "2026-09-17 12:06:36",
+    "opyear": "2026"
+  },
+  {
+    "title": "姐姐当家第二季 (2026)",
+    "type": "综艺",
+    "jsonFile": "episodes/vod-83917.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260711-1/58858de035d1a30677f1da0cd127917c.jpg",
+    "posterColor": "#e2b4a5",
+    "uptime": "2026-09-17 12:04:46",
+    "opyear": "2026"
+  },
+  {
+    "title": "一路向海的少年 (2026)",
+    "type": "综艺",
+    "jsonFile": "episodes/vod-85394.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260803-1/1f245b7191d739388200f2417b727aef.jpg",
+    "posterColor": "#d6af68",
+    "uptime": "2026-09-17 12:01:16",
+    "opyear": "2026"
+  },
+  {
+    "title": "脱口秀和Ta的朋友们第三季 (2026)",
+    "type": "综艺",
+    "jsonFile": "episodes/vod-83351.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260620-1/c8f406f12087578d44280ac91ad002fc.jpg",
+    "posterColor": "#b6cb78",
+    "uptime": "2026-09-17 12:01:00",
     "opyear": "2026"
   },
   {
@@ -536,6 +590,60 @@
     "posterColor": "#84412e",
     "uptime": "2026-09-17 11:48:50",
     "opyear": "2026"
+  },
+  {
+    "title": "笑动剧场2026 (2023)",
+    "type": "综艺",
+    "jsonFile": "episodes/vod-81896.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260514-1/ec52d526f5d5ffd5591f2336539ae94b.jpg",
+    "posterColor": "#cc8728",
+    "uptime": "2026-09-17 11:46:13",
+    "opyear": "2023"
+  },
+  {
+    "title": "人气美食2026 (2007)",
+    "type": "综艺",
+    "jsonFile": "episodes/vod-81897.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260514-1/c030a0e02245cd587afc7d4e04d8524d.jpg",
+    "posterColor": "#ff822f",
+    "uptime": "2026-09-17 11:45:51",
+    "opyear": "2007"
+  },
+  {
+    "title": "健康大问诊2026 (2026)",
+    "type": "综艺",
+    "jsonFile": "episodes/vod-81821.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260513-1/5ee523992fff1e4ae464ef1f70be98f9.jpg",
+    "posterColor": "#cb8379",
+    "uptime": "2026-09-17 11:45:21",
+    "opyear": "2026"
+  },
+  {
+    "title": "欢乐集结号2026 (2009)",
+    "type": "综艺",
+    "jsonFile": "episodes/vod-81915.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260515-1/8aa6b32c9c117d85f5818a72ed7913b1.jpg",
+    "posterColor": "#902341",
+    "uptime": "2026-09-17 11:45:05",
+    "opyear": "2009"
+  },
+  {
+    "title": "疯了吧！这座城市的人都在找死 (2026)",
+    "type": "动漫",
+    "jsonFile": "episodes/vod-87211.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260903-1/55e77a4584a0cd2fe6d853479de5d5f6.jpg",
+    "posterColor": "#33517f",
+    "uptime": "2026-09-17 11:44:45",
+    "opyear": "2026"
+  },
+  {
+    "title": "爱情保卫战 (2010)",
+    "type": "综艺",
+    "jsonFile": "episodes/vod-9684.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250219-1/fa103b6e26364dce99869b0c059f5532.jpg",
+    "posterColor": "#ea2d59",
+    "uptime": "2026-09-17 11:44:24",
+    "opyear": "2010"
   },
   {
     "title": "爱情决胜点 (2026)",
