@@ -553,8 +553,14 @@
     {
       "title": "20260914",
       "src": "https://svip.xgplay17.com/2026-09-15/39418_OFJ8nqRWSJRcZZN3x3/index.m3u8"
+    },
+    {
+      "title": "20260915",
+      "src": "https://svip.xgplay17.com/2026-09-16/39535_vbE83K07g8HHLTYyiI/index.m3u8"
     }
   ],
   "poster": "https://vod.xiguazyimg.com/upload/vod/20260514-1/c030a0e02245cd587afc7d4e04d8524d.jpg",
-  "posterColor": "#ff822f"
+  "posterColor": "#ff822f",
+  "uptime": "2026-09-16 11:38:11",
+  "opyear": "2007"
 }

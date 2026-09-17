@@ -33,8 +33,18 @@
     {
       "title": "第08集",
       "src": "https://svip.xgplay17.com/2026-09-10/38889_XUu20VKQBfkBoGNHCR/index.m3u8"
+    },
+    {
+      "title": "第09集",
+      "src": "https://svip.xgplay20.com/2026-09-16/47801_n4g4FAOw1QbMpY6z9l/index.m3u8"
     }
   ],
   "poster": "https://vod.xiguazyimg.com/upload/vod/20260820-1/a6f59a48ee82bf9bba6d0f981e42d3aa.jpg",
-  "posterColor": "#b6d2e6"
+  "posterColor": "#b6d2e6",
+<<<<<<< HEAD
+  "uptime": "2026-09-16 23:34:36",
+=======
+  "uptime": "2026-09-10 23:45:38",
+>>>>>>> 4772e3df8af1d6322be6a7dcf65336cce50c6865
+  "opyear": "2026"
 }

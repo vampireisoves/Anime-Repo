@@ -1,0 +1,18 @@
+{
+  "title": "希望 Hope (2026)",
+  "type": "电影",
+  "episodes": [
+    {
+      "title": "第01集",
+      "src": "https://svip.xgplay20.com/2026-09-12/47668_0rqTLh7vQnzLcygAIy/index.m3u8"
+    }
+  ],
+  "poster": "https://vod.xiguazyimg.com/upload/vod/20260912-1/eeb599021e207ea86cd0c7c367ebab2b.jpg",
+  "posterColor": "#3e6174",
+<<<<<<< HEAD:episodes/vod-87783.json
+  "uptime": "2026-09-12 18:59:38",
+  "opyear": "2026",
+=======
+>>>>>>> 4772e3df8af1d6322be6a7dcf65336cce50c6865:episodes/tt27369017.json
+  "TMDb": "tt27369017"
+}

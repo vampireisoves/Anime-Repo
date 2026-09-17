@@ -437,8 +437,14 @@
     {
       "title": "20260910",
       "src": "https://svip.xgplay17.com/2026-09-11/38945_b3pt8N6-FrbDoG6IGI/index.m3u8"
+    },
+    {
+      "title": "20260915",
+      "src": "https://svip.xgplay17.com/2026-09-16/39533_DNY9uTJhhXwR74pZ5J/index.m3u8"
     }
   ],
   "poster": "https://vod.xiguazyimg.com/upload/vod/20260513-1/5ee523992fff1e4ae464ef1f70be98f9.jpg",
-  "posterColor": "#cb8379"
+  "posterColor": "#cb8379",
+  "uptime": "2026-09-16 11:36:43",
+  "opyear": "2026"
 }

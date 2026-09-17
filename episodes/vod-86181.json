@@ -1,0 +1,34 @@
+{
+  "title": "爱的三次方 Love Mocktail 3 (2026)",
+  "type": "剧集",
+  "episodes": [
+    {
+      "title": "第01集",
+      "src": "https://svip.xgplay20.com/2026-08-17/45291_ltVdjHVfDdHd84yEJr/index.m3u8"
+    },
+    {
+      "title": "第02集",
+      "src": "https://svip.xgplay17.com/2026-08-23/36807_JgdmX5AbRJou-b_upQ/index.m3u8"
+    },
+    {
+      "title": "第03集",
+      "src": "https://svip.xgplay20.com/2026-08-31/46945_a0hxldRRynrNbuokpD/index.m3u8"
+    },
+    {
+      "title": "第04集",
+      "src": "https://svip.xgplay20.com/2026-09-07/47380_43tlyky5FJKqSWlUDw/index.m3u8"
+    },
+    {
+      "title": "第05集",
+      "src": "https://svip.xgplay20.com/2026-09-14/47700_FdtAa4X7aFOFv1lReD/index.m3u8"
+    }
+  ],
+  "poster": "https://vod.xiguazyimg.com/upload/vod/20260819-1/7820382b7c41511baa6511586abe7254.jpg",
+  "posterColor": "#7c8c3e",
+<<<<<<< HEAD:episodes/vod-86181.json
+  "uptime": "2026-09-14 12:16:01",
+  "opyear": "2026",
+=======
+>>>>>>> 4772e3df8af1d6322be6a7dcf65336cce50c6865:episodes/tt29470608.json
+  "TMDb": "tt29470608"
+}

@@ -1,0 +1,34 @@
+{
+  "title": "绿灯军团 Lanterns (2026)",
+  "type": "剧集",
+  "episodes": [
+    {
+      "title": "第01集",
+      "src": "https://svip.xgplay20.com/2026-08-17/45298_YxOAbtWB9IY-U22bJP/index.m3u8"
+    },
+    {
+      "title": "第02集",
+      "src": "https://svip.xgplay20.com/2026-08-24/46337_zCrvt2lt7hj0gssmn7/index.m3u8"
+    },
+    {
+      "title": "第03集",
+      "src": "https://svip.xgplay20.com/2026-08-31/46952_38QFoMHmzOyDsV24dm/index.m3u8"
+    },
+    {
+      "title": "第04集",
+      "src": "https://svip.xgplay20.com/2026-09-07/47386_Y-5voWm2dYhRs2gmHP/index.m3u8"
+    },
+    {
+      "title": "第05集",
+      "src": "https://svip.xgplay20.com/2026-09-14/47705_n3sUM8xPC1UVlA2u8d/index.m3u8"
+    }
+  ],
+  "poster": "https://vod.xiguazyimg.com/upload/vod/20260817-1/5b921103129c48983ce6aabe6fa9c9c4.jpg",
+  "posterColor": "#61674c",
+<<<<<<< HEAD:episodes/vod-86182.json
+  "uptime": "2026-09-14 12:22:14",
+  "opyear": "2026",
+=======
+>>>>>>> 4772e3df8af1d6322be6a7dcf65336cce50c6865:episodes/tt26545992.json
+  "TMDb": "tt26545992"
+}

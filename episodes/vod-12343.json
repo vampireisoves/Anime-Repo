@@ -1321,8 +1321,14 @@
     {
       "title": "20260914",
       "src": "https://svip.xgplay17.com/2026-09-15/39461_sn5sTjozf64ZK5IUy0/index.m3u8"
+    },
+    {
+      "title": "20260915",
+      "src": "https://svip.xgplay17.com/2026-09-16/39578_CF5932z1J1GfzfiL1w/index.m3u8"
     }
   ],
   "poster": "https://vod.xiguazyimg.com/upload/vod/20250224-1/44bc1b319dda95562266f9c889c6ef73.jpg",
-  "posterColor": "#7c4c37"
+  "posterColor": "#7c4c37",
+  "uptime": "2026-09-16 13:54:16",
+  "opyear": "2020"
 }

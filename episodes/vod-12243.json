@@ -1125,8 +1125,14 @@
     {
       "title": "20260911",
       "src": "https://svip.xgplay17.com/2026-09-12/39133_3lo0phZZwrGBwppH9V/index.m3u8"
+    },
+    {
+      "title": "20260915",
+      "src": "https://svip.xgplay17.com/2026-09-16/39582_80k30oKFUpTu6YbukM/index.m3u8"
     }
   ],
   "poster": "https://vod.xiguazyimg.com/upload/vod/20250224-1/a0e7351cd61d945202972808f8000904.jpg",
-  "posterColor": "#ffe752"
+  "posterColor": "#ffe752",
+  "uptime": "2026-09-16 13:55:32",
+  "opyear": "1997"
 }
