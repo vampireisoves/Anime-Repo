@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Anip在线观影</title>
+<title>Anip-Online</title>
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0b0f1a">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f3f4f6">
 <link rel="icon" href="static/favicon.ico" sizes="48x48">
@@ -82,7 +82,6 @@ body::after{
 
 /* ============ 剧集列表头部（标题 + 搜索） ============ */
 .list-head{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
-.filter-wrap{position:relative;margin-left:auto;width:min(300px,100%)}
 .filter-wrap .anime-filter{width:100%;padding-right:36px}
 .filter-clear{
     position:absolute;right:8px;top:50%;transform:translateY(-50%);
@@ -199,8 +198,9 @@ body::after{
 
 /* ============ 剧集列表 ============ */
 .all-anime-wrap h3{margin-bottom:14px}
-.anime-type-bar{position:sticky;top:0;z-index:5;display:flex;gap:8px;margin-bottom:14px;padding:10px 0;flex-wrap:wrap;background:color-mix(in srgb,var(--card) 90%,transparent);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid transparent;transition:border-color .3s,box-shadow .3s}
-.anime-type-bar.is-stuck{border-bottom-color:var(--border);box-shadow:0 8px 24px rgba(0,0,0,.18)}
+.anime-type-bar{position:sticky;top:8px;z-index:5;display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:14px;padding:8px 10px;background:var(--card2);border:1px solid var(--border);border-radius:14px;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);box-shadow:var(--shadow);transition:border-color .3s,box-shadow .3s}
+.anime-type-bar.is-stuck{border-color:color-mix(in srgb,var(--accent) 55%,var(--border));box-shadow:0 10px 30px var(--glow)}
+.filter-wrap{position:relative;margin-left:auto;width:min(220px,100%)}
 .type-btn{
     padding:6px 16px;background:var(--panel);border:1px solid var(--border);border-radius:999px;
     cursor:pointer;font-size:13px;color:var(--text2);transition:.22s;display:inline-flex;align-items:center;gap:6px;
@@ -324,14 +324,12 @@ body .all-anime-wrap{animation-delay:.12s}
 </div>
 
 <section id="allAnimeWrap" class="all-anime-wrap">
-    <div class="list-head">
-        <h3>剧集列表<span class="sec-count" id="animeTotalCount">0</span></h3>
-        <div class="filter-wrap">
+    <div id="animeTypeBar" class="anime-type-bar">
+        <div id="filterWrap" class="filter-wrap">
             <input id="animeFilter" class="anime-filter" type="text" placeholder="搜索番剧标题…">
             <button id="filterClear" class="filter-clear" type="button" title="清空搜索">✕</button>
         </div>
     </div>
-    <div id="animeTypeBar" class="anime-type-bar"></div>
     <div id="animeCardList" class="anime-card-list"></div>
 </section>
 
@@ -910,7 +908,9 @@ function bindHistoryClear(){
     };
 }
 
+let filterWrapEl = null;
 function initTypeBar(){
+    if(!filterWrapEl) filterWrapEl = document.getElementById('filterWrap');
     animeTypeBarEl.innerHTML = '';
     TYPE_LIST.forEach(type => {
         const btn = document.createElement("button");
@@ -919,10 +919,9 @@ function initTypeBar(){
         if(type === '播放历史'){
             cnt = getHistory().length;
         }else{
-            const total = type === '最近更新' ? Math.min(repoAnimeList.length, 35)
-                        : type === '全部' ? repoAnimeList.length
+            const total = type === '最近更新' || type === '全部' ? repoAnimeList.length
                         : repoAnimeList.filter(x => (x.type || '动漫') === type).length;
-            cnt = Math.min(total, 35);
+            cnt = total;
         }
         const label = document.createElement("span");
         label.textContent = type;
@@ -939,7 +938,11 @@ function initTypeBar(){
         };
         animeTypeBarEl.appendChild(btn);
     });
-    [...animeTypeBarEl.children].forEach(b => b.classList.toggle('active', b.textContent.includes(currentType)));
+    if(filterWrapEl) animeTypeBarEl.appendChild(filterWrapEl);
+    [...animeTypeBarEl.children].forEach(b => {
+        if(!b.classList || !b.classList.contains('type-btn')) return;
+        b.classList.toggle('active', b.textContent.includes(currentType));
+    });
 }
 
 function buildCard(item, idx){
@@ -1045,6 +1048,7 @@ async function loadRepoAnimeList(force){
     });
     if(animeTotalCountEl) animeTotalCountEl.textContent = repoAnimeList.length;
     allPageSize = 35;
+    if(animeTypeBarEl) initTypeBar();
     renderAnimeCards();
 }
 const allWrapEl = document.getElementById('allAnimeWrap');
