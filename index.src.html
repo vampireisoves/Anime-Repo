@@ -789,7 +789,7 @@ function saveHistory(){
             pos = pendingSeek.pos || 0;
         }
         h.unshift({title: animeName, jsonFile: jf, epTitle: episodes[currentEpIndex] ? episodes[currentEpIndex].title : '', epIndex: currentEpIndex, pos: pos, duration: 0, time: Date.now()});
-        _persistHist(h.slice(0, 3));
+        _persistHist(h.slice(0, 35));
     }catch(e){}
 }
 
@@ -820,10 +820,9 @@ function fmtDur(s){
 function renderHistoryCards(){
     const h = getHistory();
     const kw = animeFilterEl.value.trim().toLowerCase();
-    const matched = kw ? h.filter(x => (x.title || '').toLowerCase().includes(kw)) : h;
-    let headHtml = '<div class="history-head"><h3>播放历史<span class="sec-count">' + h.length + '</span></h3>';
-    if(h.length > 0) headHtml += '<button id="historyClearBtn" class="history-clear-btn" type="button">清空全部</button>';
-    headHtml += '</div>';
+    const matched = kw ? h.filter(x => (x.title || '').toLowerCase().includes(kw)) : h.slice(0, 35);
+    let headHtml = '';
+    if(h.length > 0) headHtml += '<div class="history-head" style="justify-content:flex-end"><button id="historyClearBtn" class="history-clear-btn" type="button">清空全部</button></div>';
     animeCardList.innerHTML = headHtml;
     if(matched.length === 0){
         animeCardList.innerHTML += '<div class="anime-card loading">' + (h.length === 0 ? '暂无播放记录，快去挑一部吧' : '未找到匹配的播放记录') + '</div>';
