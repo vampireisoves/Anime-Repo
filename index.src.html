@@ -95,7 +95,7 @@ body::after{
 
 /* ============ 悬浮播放器 ============ */
 .float-player{
-    position:fixed;z-index:200;width:min(900px,94vw);
+    position:fixed;z-index:200;width:min(1100px,94vw);
     background:var(--card);border:1px solid var(--border);border-radius:var(--radius);
     box-shadow:0 24px 80px rgba(0,0,0,.55),0 0 0 1px rgba(255,255,255,.05),0 0 60px var(--glow);
     backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);
@@ -167,7 +167,7 @@ body::after{
 .err-text:not(:empty){display:block}
 
 /* ============ 通用区块 ============ */
-.all-anime-wrap{max-width:1400px;margin:18px auto 0;background:var(--card);padding:16px 18px;border-radius:var(--radius);border:1px solid var(--border);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);box-shadow:var(--shadow);flex:1 1 auto;min-height:0;overflow-y:auto;scrollbar-width:thin}
+.all-anime-wrap{width:100%;margin:18px 0 0;background:var(--card);padding:16px 18px;border-radius:var(--radius);border:1px solid var(--border);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);box-shadow:var(--shadow);flex:1 1 auto;min-height:0;overflow-y:auto;scrollbar-width:thin}
 .all-anime-wrap h3{margin:0;font-size:16px;letter-spacing:1px;font-family:var(--font-display);font-weight:400;display:inline-flex;align-items:center;gap:10px}
 .all-anime-wrap h3::before{content:"";width:4px;height:16px;border-radius:3px;background:var(--grad)}
 .sec-count{font-family:"MiSans","PingFang SC",system-ui,sans-serif;font-size:11px;font-weight:600;color:var(--accent3);background:var(--panel);padding:1px 9px;border-radius:999px;letter-spacing:.5px}
@@ -222,7 +222,7 @@ body::after{
 .anime-card.loading{color:var(--text3);cursor:default;align-items:center;justify-content:center;animation:none;font-size:14px;border-style:dashed}
 
 /* ============ 页脚 ============ */
-.site-footer{max-width:1400px;margin:14px auto 0;padding-top:14px;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;flex:none}
+.site-footer{width:100%;margin:14px 0 0;padding-top:14px;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;flex:none}
 .site-footer p{font-size:12px;color:var(--text3);letter-spacing:.5px}
 .site-footer .dot{color:var(--accent3)}
 
@@ -1013,7 +1013,7 @@ initArtPlayer();
             return;
         }
         const vw = window.innerWidth, vh = window.innerHeight;
-        const w = Math.min(900, vw * 0.94);
+        const w = Math.min(1100, vw * 0.94);
         let l = saved && saved.x != null ? saved.x : Math.max(12, (vw - w) / 2);
         let t = saved && saved.y != null ? saved.y : Math.max(12, vh * 0.08);
         l = Math.min(Math.max(l, 8), vw - w - 8);
