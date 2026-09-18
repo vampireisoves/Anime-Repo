@@ -93,19 +93,40 @@ body::after{
 .anime-filter:focus{border-color:var(--accent);box-shadow:0 0 0 3px var(--glow);background-color:var(--card)}
 .anime-filter::placeholder{color:var(--text3)}
 
-.container{max-width:1400px;margin:18px auto 0;display:grid;grid-template-columns:1fr 340px;gap:16px;align-items:start;position:relative;z-index:1;flex:none}
+/* ============ 悬浮播放器 ============ */
+.float-player{
+    position:fixed;z-index:200;width:min(900px,94vw);
+    background:var(--card);border:1px solid var(--border);border-radius:var(--radius);
+    box-shadow:0 24px 80px rgba(0,0,0,.55),0 0 0 1px rgba(255,255,255,.05),0 0 60px var(--glow);
+    backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);
+    display:flex;flex-direction:column;overflow:hidden;
+    animation:fpIn .3s cubic-bezier(.2,.7,.3,1) backwards;
+}
+@keyframes fpIn{from{opacity:0;transform:scale(.96) translateY(10px)}to{opacity:1;transform:scale(1) translateY(0)}}
+.fp-head{
+    display:flex;align-items:center;gap:10px;padding:9px 14px;
+    background:color-mix(in srgb,var(--panel) 70%,transparent);
+    border-bottom:1px solid var(--border);cursor:move;user-select:none;-webkit-user-select:none;
+    flex-shrink:0;
+}
+.fp-head:active{cursor:grabbing}
+.anime-title{
+    flex:1;min-width:0;display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+    font-size:13.5px;font-weight:600;color:var(--text);
+    font-family:var(--font-display);letter-spacing:.5px;
+}
+.anime-title .at-count{color:var(--text2);background:var(--panel2)}
+.fp-close{
+    flex-shrink:0;width:26px;height:26px;border:none;border-radius:50%;
+    background:var(--panel2);color:var(--text2);font-size:13px;line-height:1;
+    cursor:pointer;transition:.2s;display:flex;align-items:center;justify-content:center;
+}
+.fp-close:hover{background:var(--danger);color:#fff;transform:rotate(90deg)}
+.fp-body{display:grid;grid-template-columns:1fr 300px;gap:14px;padding:14px;min-height:0}
 
 /* ============ 播放器 ============ */
 #video-box{position:relative;width:100%;background:#000;border-radius:var(--radius);padding-bottom:56.25%;overflow:hidden;box-shadow:var(--shadow),0 0 0 1px rgba(255,255,255,.06),0 0 40px var(--glow)}
 #artBox{position:absolute;top:0;left:0;width:100%;height:100%;display:block;background:#000}
-.anime-title-overlay{
-    position:absolute;top:0;left:0;right:0;z-index:2;padding:14px 18px;
-    display:flex;align-items:center;gap:10px;flex-wrap:wrap;
-    font-size:14px;font-weight:600;color:#fff;
-    background:linear-gradient(180deg,rgba(0,0,0,.8),rgba(0,0,0,0));
-    pointer-events:none;text-shadow:0 1px 3px rgba(0,0,0,.5);
-    font-family:var(--font-display);letter-spacing:.5px;
-}
 .at-badge{
     pointer-events:auto;flex-shrink:0;font-family:"MiSans","PingFang SC",system-ui,sans-serif;
     font-size:11px;font-weight:600;letter-spacing:1px;color:#fff;
@@ -223,19 +244,24 @@ body::after{
 .login-card button:hover{filter:brightness(1.12);transform:translateY(-1px)}
 .login-card button:active{transform:translateY(0)}
 .login-err{min-height:16px;font-size:12px;color:var(--danger);letter-spacing:1px}
-body:not(.authed) .container,body:not(.authed) .all-anime-wrap,body:not(.authed) .site-footer,body:not(.authed) .refresh-btn{display:none !important}
+body:not(.authed) .float-player,body:not(.authed) .all-anime-wrap,body:not(.authed) .site-footer,body:not(.authed) .refresh-btn{display:none !important}
 
 /* ============ 内容入场 ============ */
-body .container{animation:contentIn .55s cubic-bezier(.2,.7,.3,1) backwards}
+body .float-player{animation:fpIn .3s cubic-bezier(.2,.7,.3,1) backwards}
 body .all-anime-wrap{animation:contentIn .55s cubic-bezier(.2,.7,.3,1) both}
 body .all-anime-wrap{animation-delay:.12s}
 @keyframes contentIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
 
 @media (max-width:1100px){
-    .container{grid-template-columns:1fr;gap:12px}
-    #video-box.vb-fixed{position:fixed;top:0;left:0;right:0;z-index:50;border-radius:0;margin:0}
+    .fp-body{grid-template-columns:1fr;gap:12px}
     .anime-card-list{grid-template-columns:repeat(auto-fill,minmax(160px,1fr))}
     .list-head .anime-filter{width:100%;margin-left:0}
+}
+@media (max-width:900px){
+    .float-player{left:0 !important;top:0 !important;width:100vw;height:100dvh;border-radius:0;border:none}
+    .float-player{animation:none}
+    .fp-body{padding:10px;gap:10px;grid-template-columns:1fr;min-height:0;flex:1}
+    .side{height:auto !important}
 }
 @media (max-width:560px){
     .anime-filter{width:min(210px,60vw);padding:8px 12px 8px 34px;background-position:12px center}
@@ -263,18 +289,24 @@ body .all-anime-wrap{animation-delay:.12s}
     </div>
 </div>
 
-<main class="container">
-    <div id="video-box" style="display:none">
-        <div id="animeTitle" class="anime-title-overlay">选择下方番剧开始播放</div>
-        <div id="artBox"></div>
+<!-- 悬浮播放器（点击项目后弹出） -->
+<div id="floatPlayer" class="float-player" style="display:none">
+    <div id="fpHead" class="fp-head">
+        <div id="animeTitle" class="anime-title">选择番剧开始播放</div>
+        <button id="fpClose" class="fp-close" type="button" title="关闭播放器">✕</button>
     </div>
-    <aside class="side" style="display:none">
-        <div class="ep-wrap">
-            <div class="info-text">播放列表<span class="ep-count" id="epCount">0 集</span></div>
-            <div id="epList" class="ep-list"></div>
+    <div class="fp-body">
+        <div id="video-box" style="display:none">
+            <div id="artBox"></div>
         </div>
-    </aside>
-</main>
+        <aside class="side" style="display:none">
+            <div class="ep-wrap">
+                <div class="info-text">播放列表<span class="ep-count" id="epCount">0 集</span></div>
+                <div id="epList" class="ep-list"></div>
+            </div>
+        </aside>
+    </div>
+</div>
 
 <section id="allAnimeWrap" class="all-anime-wrap">
     <div class="list-head">
@@ -474,15 +506,14 @@ async function loadJson(jsonUrl){
         if(saved !== null) currentEpIndex = parseInt(saved);
         else currentEpIndex = 0;
         epCollapseOpen = false;
+        const fp = document.getElementById('floatPlayer');
+        if(fp) fp.style.display = '';
+        if(window.__fpPlace) window.__fpPlace();
         const vb = document.getElementById('video-box');
-        if(vb){
-            vb.style.display = '';
-            vb.classList.remove('vb-fixed');
-            const phEl = document.getElementById('videoBoxPh');
-            if(phEl){ phEl.style.display = 'none'; phEl.style.height = ''; }
-        }
+        if(vb) vb.style.display = '';
         const sideEl = document.querySelector('.side');
         if(sideEl) sideEl.style.display = '';
+        if(!art || art.destroyed) initArtPlayer();
         renderEpList();
         playEp(currentEpIndex);
         syncSideHeight();
@@ -944,47 +975,69 @@ if(animeFilterEl) animeFilterEl.addEventListener('input', renderAnimeCards);
 
 initArtPlayer();
 
-// 移动端：播放器向下滚动时固定在视口顶部（占位符保持布局不跳动）
+// 悬浮播放器：关闭 / 拖动 / 初始定位
 (function(){
-    const vb = document.getElementById('video-box');
-    if(!vb) return;
-    const ph = document.createElement('div');
-    ph.id = 'videoBoxPh';
-    ph.style.display = 'none';
-    vb.parentNode.insertBefore(ph, vb);
-    const mq = window.matchMedia('(max-width:1100px)');
-    const check = ()=>{
-        if(!mq.matches || document.body.classList.contains('player-fs')){
-            if(vb.classList.contains('vb-fixed')){
-                vb.classList.remove('vb-fixed');
-                ph.style.display = 'none';
-            }
+    const fp = document.getElementById('floatPlayer');
+    if(!fp) return;
+    const head = document.getElementById('fpHead');
+    const closeBtn = document.getElementById('fpClose');
+    if(closeBtn){
+        closeBtn.onclick = ()=>{
+            if(art && !art.destroyed){ try{ art.destroy(); }catch(e){} }
+            art = null; player = null;
+            fp.style.display = 'none';
+            const vb = document.getElementById('video-box');
+            if(vb) vb.style.display = 'none';
+            const side = document.querySelector('.side');
+            if(side) side.style.display = 'none';
+            document.getElementById('animeTitle').textContent = '选择番剧开始播放';
+        };
+    }
+    const posKey = 'anip_fp_pos';
+    let saved = null;
+    try{ saved = JSON.parse(localStorage.getItem(posKey) || 'null'); }catch(e){}
+    const place = ()=>{
+        if(window.innerWidth <= 900){
+            fp.style.left = '0px'; fp.style.top = '0px';
             return;
         }
-        if(window.scrollY <= 0){
-            if(vb.classList.contains('vb-fixed')){
-                vb.classList.remove('vb-fixed');
-                ph.style.display = 'none';
-            }
-            return;
-        }
-        if(ph.getBoundingClientRect().top <= 0){
-            if(!vb.classList.contains('vb-fixed')){
-                ph.style.height = vb.offsetHeight + 'px';
-                ph.style.display = 'block';
-                vb.classList.add('vb-fixed');
-            }
-        }else{
-            if(vb.classList.contains('vb-fixed')){
-                vb.classList.remove('vb-fixed');
-                ph.style.display = 'none';
-            }
-        }
+        const vw = window.innerWidth, vh = window.innerHeight;
+        const w = Math.min(900, vw * 0.94);
+        let l = saved && saved.x != null ? saved.x : Math.max(12, (vw - w) / 2);
+        let t = saved && saved.y != null ? saved.y : Math.max(12, vh * 0.08);
+        l = Math.min(Math.max(l, 8), vw - w - 8);
+        t = Math.min(Math.max(t, 8), vh - 60);
+        fp.style.left = l + 'px'; fp.style.top = t + 'px';
     };
-    window.addEventListener('scroll', check, {passive:true});
-    window.addEventListener('resize', check, {passive:true});
-    setInterval(check, 300);
-    check();
+    if(head){
+        let drag = null;
+        head.addEventListener('pointerdown', e =>{
+            if(e.target.closest('.fp-close')) return;
+            if(window.innerWidth <= 900) return;
+            const r = fp.getBoundingClientRect();
+            drag = { dx: e.clientX - r.left, dy: e.clientY - r.top, moved: false };
+            head.setPointerCapture(e.pointerId);
+        });
+        head.addEventListener('pointermove', e =>{
+            if(!drag) return;
+            const vw = window.innerWidth, vh = window.innerHeight;
+            const w = fp.offsetWidth;
+            let l = e.clientX - drag.dx, t = e.clientY - drag.dy;
+            l = Math.min(Math.max(l, 8), vw - w - 8);
+            t = Math.min(Math.max(t, 8), vh - 60);
+            fp.style.left = l + 'px'; fp.style.top = t + 'px';
+            drag.moved = true;
+        });
+        head.addEventListener('pointerup', e =>{
+            if(drag && drag.moved){
+                try{ localStorage.setItem(posKey, JSON.stringify({x: parseInt(fp.style.left), y: parseInt(fp.style.top)})); }catch(err){}
+            }
+            drag = null;
+        });
+    }
+    place();
+    window.__fpPlace = place;
+    window.addEventListener('resize', ()=>{ if(window.innerWidth <= 900 || fp.style.display !== 'none') place(); });
 })();
 
 /* ============ 悬浮刷新按钮 ============ */
@@ -1036,7 +1089,7 @@ const jsonUrl = getUrlParam('json');
 if(jsonUrl){
     loadJson(jsonUrl);
 }else{
-    animeTitleEl.innerHTML = '<span class="at-badge">就绪</span>选择下方番剧开始播放';
+    animeTitleEl.innerHTML = '<span class="at-badge">就绪</span>选择番剧开始播放';
     errBox.textContent = "";
     loadRepoAnimeList();
 }

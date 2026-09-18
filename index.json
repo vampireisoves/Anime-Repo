@@ -1,5 +1,50 @@
 [
   {
+    "title": "法证先锋6之幸存者的救赎国语 (2024)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-39.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250121-1/f01bc1fe5c22a68756910c40c1f6fa71.jpg",
+    "posterColor": "#51758b",
+    "uptime": "2026-09-18 15:31:57",
+    "opyear": "2024"
+  },
+  {
+    "title": "法证先锋6之幸存者的救赎粤语 (2024)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-38.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250121-1/814c005e781b97e7b9ede3c515951d2e.jpg",
+    "posterColor": "#51758b",
+    "uptime": "2026-09-18 15:31:31",
+    "opyear": "2024"
+  },
+  {
+    "title": "法证先锋5粤语 (2022)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-454.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250122-1/121b6a404c240b25495ee7f1cd4428be.jpg",
+    "posterColor": "#435370",
+    "uptime": "2026-09-18 15:29:00",
+    "opyear": "2022"
+  },
+  {
+    "title": "法证先锋5国语 (2022)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-455.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250122-1/b9a5952b8222e3abd9faf0ed14184cff.jpg",
+    "posterColor": "#435370",
+    "uptime": "2026-09-18 15:28:33",
+    "opyear": "2022"
+  },
+  {
+    "title": "法证先锋4粤语 (2020)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-3448.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250205-1/b71c702080afb868592cf054bda95149.jpg",
+    "posterColor": "#43626f",
+    "uptime": "2026-09-18 15:27:00",
+    "opyear": "2020"
+  },
+  {
     "title": "交锋 (2026)",
     "type": "剧集",
     "jsonFile": "episodes/vod-87408.json",
