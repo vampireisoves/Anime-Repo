@@ -524,11 +524,11 @@ async function loadJson(jsonUrl){
         epCollapseOpen = false;
         const fp = document.getElementById('floatPlayer');
         if(fp) fp.style.display = '';
-        if(window.__fpPlace) window.__fpPlace();
         const vb = document.getElementById('video-box');
         if(vb) vb.style.display = '';
         const sideEl = document.querySelector('.side');
         if(sideEl) sideEl.style.display = '';
+        if(window.__fpPlace) window.__fpPlace();
         if(!art || art.destroyed) initArtPlayer();
         renderEpList();
         playEp(currentEpIndex);
@@ -1143,9 +1143,6 @@ initArtPlayer();
             document.getElementById('animeTitle').textContent = '选择番剧开始播放';
         };
     }
-    const posKey = 'anip_fp_pos';
-    let saved = null;
-    try{ saved = JSON.parse(localStorage.getItem(posKey) || 'null'); }catch(e){}
     const place = ()=>{
         if(window.innerWidth <= 900){
             fp.style.left = '0px'; fp.style.top = '0px'; fp.style.width = '100vw';
@@ -1157,11 +1154,13 @@ initArtPlayer();
         let w = Math.min(vw * 0.96, (vh - top - 24 - headPad) / 0.5625 + 314);
         w = Math.min(Math.max(w, 320), 1900);
         fp.style.width = w + 'px';
-        let l = saved && saved.x != null ? saved.x : Math.max(12, (vw - w) / 2);
-        let t = saved && saved.y != null ? saved.y : Math.max(12, top);
-        l = Math.min(Math.max(l, 8), vw - w - 8);
-        t = Math.min(Math.max(t, 8), vh - 60);
-        fp.style.left = l + 'px'; fp.style.top = t + 'px';
+        // 每次打开固定居中
+        const l = Math.max(12, (vw - w) / 2);
+        fp.style.left = l + 'px';
+        let h = fp.offsetHeight;
+        if(h < 80) h = 45 + 28 + (w - 342) * 0.5625; // 头部 + body 内边距 + 16:9 播放器兜底
+        const t = Math.max(8, Math.min(Math.max(8, (vh - h) / 2), vh - 60));
+        fp.style.top = t + 'px';
     };
     if(head){
         let drag = null;
@@ -1183,9 +1182,6 @@ initArtPlayer();
             drag.moved = true;
         });
         head.addEventListener('pointerup', e =>{
-            if(drag && drag.moved){
-                try{ localStorage.setItem(posKey, JSON.stringify({x: parseInt(fp.style.left), y: parseInt(fp.style.top)})); }catch(err){}
-            }
             drag = null;
         });
     }
