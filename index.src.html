@@ -57,7 +57,9 @@ html{scrollbar-color:var(--panel2) transparent}
 *::-webkit-scrollbar-track{background:transparent}
 *::-webkit-scrollbar-thumb{background:var(--panel2);border-radius:999px;border:2px solid transparent;background-clip:content-box}
 *::-webkit-scrollbar-thumb:hover{background:var(--hover);border:2px solid transparent;background-clip:content-box}
+html,body{height:100%;overflow:hidden}
 body{
+    display:flex;flex-direction:column;
     background:
         radial-gradient(1100px 500px at 85% -10%, var(--glow), transparent 60%),
         radial-gradient(900px 500px at -10% 20%, rgba(124,58,237,.16), transparent 55%),
@@ -91,7 +93,7 @@ body::after{
 .anime-filter:focus{border-color:var(--accent);box-shadow:0 0 0 3px var(--glow);background-color:var(--card)}
 .anime-filter::placeholder{color:var(--text3)}
 
-.container{max-width:1400px;margin:18px auto 0;display:grid;grid-template-columns:1fr 340px;gap:16px;align-items:start;position:relative;z-index:1}
+.container{max-width:1400px;margin:18px auto 0;display:grid;grid-template-columns:1fr 340px;gap:16px;align-items:start;position:relative;z-index:1;flex:none}
 
 /* ============ 播放器 ============ */
 #video-box{position:relative;width:100%;background:#000;border-radius:var(--radius);padding-bottom:56.25%;overflow:hidden;box-shadow:var(--shadow),0 0 0 1px rgba(255,255,255,.06),0 0 40px var(--glow)}
@@ -144,7 +146,7 @@ body::after{
 .err-text:not(:empty){display:block}
 
 /* ============ 通用区块 ============ */
-.all-anime-wrap{max-width:1400px;margin:18px auto 0;background:var(--card);padding:16px 18px;border-radius:var(--radius);border:1px solid var(--border);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);box-shadow:var(--shadow)}
+.all-anime-wrap{max-width:1400px;margin:18px auto 0;background:var(--card);padding:16px 18px;border-radius:var(--radius);border:1px solid var(--border);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);box-shadow:var(--shadow);flex:1 1 auto;min-height:0;overflow-y:auto;scrollbar-width:thin}
 .all-anime-wrap h3{margin:0;font-size:16px;letter-spacing:1px;font-family:var(--font-display);font-weight:400;display:inline-flex;align-items:center;gap:10px}
 .all-anime-wrap h3::before{content:"";width:4px;height:16px;border-radius:3px;background:var(--grad)}
 .sec-count{font-family:"MiSans","PingFang SC",system-ui,sans-serif;font-size:11px;font-weight:600;color:var(--accent3);background:var(--panel);padding:1px 9px;border-radius:999px;letter-spacing:.5px}
@@ -199,7 +201,7 @@ body::after{
 .anime-card.loading{color:var(--text3);cursor:default;align-items:center;justify-content:center;animation:none;font-size:14px;border-style:dashed}
 
 /* ============ 页脚 ============ */
-.site-footer{max-width:1400px;margin:26px auto 6px;padding-top:18px;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.site-footer{max-width:1400px;margin:14px auto 0;padding-top:14px;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;flex:none}
 .site-footer p{font-size:12px;color:var(--text3);letter-spacing:.5px}
 .site-footer .dot{color:var(--accent3)}
 
@@ -822,7 +824,7 @@ function initTypeBar(){
         if(type === '播放历史'){
             cnt = getHistory().length;
         }else if(type === '最近更新'){
-            cnt = Math.min(repoAnimeList.length, 12);
+            cnt = Math.min(repoAnimeList.length, 20);
         }else if(type === '全部'){
             cnt = repoAnimeList.length;
         }else{
@@ -853,7 +855,7 @@ function renderAnimeCards(){
         renderHistoryCards();
         return;
     }else if(currentType === "最近更新"){
-        matched = kwMatched.slice(0, 12);
+        matched = kwMatched.slice(0, 20);
     }else if(currentType === "全部"){
         matched = kwMatched;
     }else{
