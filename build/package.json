@@ -1,0 +1,10 @@
+{
+  "name": "anip-obfuscate",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Anip index.html 混淆工具（构建期依赖）",
+  "main": "obfuscate.js",
+  "dependencies": {
+    "javascript-obfuscator": "^4.1.1"
+  }
+}

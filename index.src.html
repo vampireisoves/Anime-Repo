@@ -6,10 +6,10 @@
 <title>Anip在线观影</title>
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0b0f1a">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f3f4f6">
-<link rel="icon" href="/static/favicon.ico" sizes="48x48">
-<link rel="icon" type="image/png" sizes="32x32" href="/static/favicon.png">
-<link rel="icon" type="image/png" sizes="192x192" href="/static/favicon-192.png">
-<link rel="apple-touch-icon" href="/static/favicon-192.png">
+<link rel="icon" href="static/favicon.ico" sizes="48x48">
+<link rel="icon" type="image/png" sizes="32x32" href="static/favicon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="static/favicon-192.png">
+<link rel="apple-touch-icon" href="static/favicon-192.png">
 <style>
 /* ============ 字体：标题用得意黑（CDN 加载失败自动回退系统字体） ============ */
 @font-face{
@@ -209,6 +209,20 @@ body::after{
 .refresh-btn.spinning{animation:refreshSpin .8s ease}
 @keyframes refreshSpin{to{transform:rotate(360deg)}}
 
+/* ============ 访问密码 ============ */
+.login-overlay{position:fixed;inset:0;z-index:9999;display:flex;align-items:center;justify-content:center;background:radial-gradient(1000px 500px at 80% -10%,rgba(37,99,235,.28),transparent 60%),radial-gradient(800px 500px at -10% 20%,rgba(124,58,237,.14),transparent 55%),var(--bg)}
+.login-overlay.hidden{display:none}
+.login-card{width:320px;padding:38px 34px 30px;background:var(--card);border:1px solid var(--border);border-radius:20px;box-shadow:var(--shadow),0 0 60px var(--glow);display:flex;flex-direction:column;align-items:center;gap:14px;animation:contentIn .5s cubic-bezier(.2,.7,.3,1) backwards}
+.login-logo{font-size:34px;font-weight:900;letter-spacing:2px;background:var(--grad);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.login-title{font-size:13px;color:var(--text3);letter-spacing:6px;margin-bottom:6px}
+.login-card input{width:100%;padding:12px 14px;background:var(--panel);border:1px solid var(--border);border-radius:11px;font-size:14px;color:var(--text);outline:none;box-sizing:border-box;text-align:center;letter-spacing:2px;transition:.2s}
+.login-card input:focus{border-color:var(--accent);box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 18%,transparent)}
+.login-card button{width:100%;padding:11px;border:none;border-radius:11px;background:var(--grad);color:#fff;font-size:15px;font-weight:700;letter-spacing:8px;cursor:pointer;transition:.2s}
+.login-card button:hover{filter:brightness(1.12);transform:translateY(-1px)}
+.login-card button:active{transform:translateY(0)}
+.login-err{min-height:16px;font-size:12px;color:var(--danger);letter-spacing:1px}
+body:not(.authed) .container,body:not(.authed) .all-anime-wrap,body:not(.authed) .site-footer,body:not(.authed) .refresh-btn{display:none !important}
+
 /* ============ 内容入场 ============ */
 body .container{animation:contentIn .55s cubic-bezier(.2,.7,.3,1) backwards}
 body .all-anime-wrap{animation:contentIn .55s cubic-bezier(.2,.7,.3,1) both}
@@ -235,6 +249,17 @@ body .all-anime-wrap{animation-delay:.12s}
 <div id="bgA" class="bg-layer"></div>
 <div id="bgB" class="bg-layer"></div>
 <div id="errBox" class="err-text"></div>
+
+<!-- 访问密码遮罩 -->
+<div id="loginOverlay" class="login-overlay">
+    <div class="login-card">
+        <div class="login-logo">Anip</div>
+        <div class="login-title">在线观影</div>
+        <input id="loginPwd" type="password" placeholder="请输入访问密码" autocomplete="off" spellcheck="false">
+        <button id="loginBtn" type="button">进 入</button>
+        <div id="loginErr" class="login-err"></div>
+    </div>
+</div>
 
 <main class="container">
     <div id="video-box" style="display:none">
@@ -266,8 +291,8 @@ body .all-anime-wrap{animation-delay:.12s}
 <button id="refreshBtn" class="refresh-btn" type="button" title="刷新数据">↻</button>
 
 <!-- 本地静态库，先加载库，再执行业务脚本 -->
-<script src="/static/hls.min.js"></script>
-<script src="/static/artplayer.min.js"></script>
+<script src="static/hls.min.js"></script>
+<script src="static/artplayer.min.js"></script>
 <script>
 function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
 
@@ -648,7 +673,6 @@ document.addEventListener("visibilitychange", ()=>{
 });
 
 const HISTORY_KEY = 'anip_history';
-const IS_DESKTOP = !!(window.__anip_desktop__);
 let _histMem = null;
 
 function getHistory(){
@@ -659,26 +683,7 @@ function getHistory(){
 function _persistHist(h){
     _histMem = h;
     try{ localStorage.setItem(HISTORY_KEY, JSON.stringify(h)); }catch(e){}
-    if(IS_DESKTOP){
-        try{ fetch('/api/history', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(h)}).catch(()=>{}); }catch(e){}
-    }
 }
-(async function(){
-    if(IS_DESKTOP){
-        try{
-            const r = await fetch('/api/history');
-            const h = await r.json();
-            if(Array.isArray(h)){
-                _histMem = h;
-                try{ localStorage.setItem(HISTORY_KEY, JSON.stringify(h)); }catch(e){}
-                if(currentType === '播放历史'){
-                    renderAnimeCards();
-                    if(animeTypeBarEl) initTypeBar();
-                }
-            }
-        }catch(e){}
-    }
-})();
 
 function saveHistory(){
     try{
@@ -776,7 +781,7 @@ function renderHistoryCards(){
         };
         card.appendChild(del);
         card.onclick = ()=>{
-            const url = '/' + String(item.jsonFile).replace(/^\//, '');
+            const url = String(item.jsonFile).replace(/^\//, '');
             try{ localStorage.setItem('lastEp_' + btoa(url), String(item.epIndex)); }catch(e){}
             pendingSeek = {jsonFile: item.jsonFile, epIndex: item.epIndex, pos: item.pos || 0};
             loadJson(url);
@@ -881,7 +886,7 @@ function renderAnimeCards(){
         up.textContent = fmtUptime(item.uptime, item.opyear);
         body.appendChild(up);
         card.appendChild(body);
-        card.onclick = ()=> loadJson(`/${item.jsonFile}`);
+        card.onclick = ()=> loadJson(item.jsonFile);
         animeCardList.appendChild(card);
     });
 }
@@ -889,7 +894,7 @@ function renderAnimeCards(){
 async function loadRepoAnimeList(){
     animeCardList.innerHTML = '<div class="anime-card loading">读取剧集列表中…</div>';
     try{
-        const resp = await fetch(`/index.json`);
+        const resp = await fetch('index.json');
         const fileArr = await resp.json();
         if(!Array.isArray(fileArr)){
             animeCardList.innerHTML = '<div class="anime-card loading">剧集清单读取异常</div>';
@@ -989,6 +994,41 @@ if(refreshBtn) refreshBtn.onclick = ()=>{
     loadRepoAnimeList();
     setTimeout(()=>refreshBtn.classList.remove('spinning'), 900);
 };
+
+/* ============ 访问密码 ============ */
+const LOGIN_PWDS = ['anip19941104','hy19960414','test123456','wmx123456'];
+const loginOverlayEl = document.getElementById('loginOverlay');
+function tryLogin(){
+    const v = String(document.getElementById('loginPwd').value || '').trim();
+    const err = document.getElementById('loginErr');
+    if(!v){ if(err) err.textContent = '请输入密码'; return; }
+    if(LOGIN_PWDS.indexOf(v) >= 0){
+        try{ sessionStorage.setItem('anip_authed', '1'); }catch(e){}
+        document.body.classList.add('authed');
+        if(loginOverlayEl) loginOverlayEl.classList.add('hidden');
+        if(err) err.textContent = '';
+        const inp = document.getElementById('loginPwd');
+        if(inp) inp.value = '';
+    }else{
+        if(err) err.textContent = '密码错误';
+    }
+}
+(function(){
+    let authed = false;
+    try{ authed = sessionStorage.getItem('anip_authed') === '1'; }catch(e){}
+    if(authed){
+        document.body.classList.add('authed');
+        if(loginOverlayEl) loginOverlayEl.classList.add('hidden');
+        return;
+    }
+    const btn = document.getElementById('loginBtn');
+    const inp = document.getElementById('loginPwd');
+    if(btn) btn.onclick = tryLogin;
+    if(inp){
+        inp.addEventListener('keydown', e => { if(e.key === 'Enter') tryLogin(); });
+        setTimeout(() => inp.focus(), 100);
+    }
+})();
 
 const jsonUrl = getUrlParam('json');
 if(jsonUrl){

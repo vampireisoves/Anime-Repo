@@ -1,18 +1,18 @@
+# 桌面版 / 爬虫产物（已放弃，不提交）
+electron/
 西瓜资源影视爬虫.exe
 imdb_cache.json
 url.txt
-episodes/模板.json
+crawler_log.txt
+version.txt
+
+# 数据备份 / 临时文件
 index.json.bak
 index.json.tmp
-version.txt
-crawler_log.txt
-electron/node_modules/
-electron/dist/
-electron/web/
-electron/build/build/node_modules/
+episodes/模板.json
+
+# 构建依赖
+build/node_modules/
 build/package-lock.json
-build.bat
-/build
-crawler_log.txt
-/electron
+index.src.html
 crawler_log.txt
