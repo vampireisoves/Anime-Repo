@@ -823,12 +823,11 @@ function initTypeBar(){
         let cnt = '';
         if(type === '播放历史'){
             cnt = getHistory().length;
-        }else if(type === '最近更新'){
-            cnt = Math.min(repoAnimeList.length, 20);
-        }else if(type === '全部'){
-            cnt = repoAnimeList.length;
         }else{
-            cnt = repoAnimeList.filter(x => (x.type || '动漫') === type).length;
+            const total = type === '最近更新' ? Math.min(repoAnimeList.length, 35)
+                        : type === '全部' ? repoAnimeList.length
+                        : repoAnimeList.filter(x => (x.type || '动漫') === type).length;
+            cnt = Math.min(total, 35);
         }
         const label = document.createElement("span");
         label.textContent = type;
@@ -855,11 +854,12 @@ function renderAnimeCards(){
         renderHistoryCards();
         return;
     }else if(currentType === "最近更新"){
-        matched = kwMatched.slice(0, 20);
+        matched = kwMatched.slice(0, 35);
     }else if(currentType === "全部"){
-        matched = kwMatched;
+        matched = kw ? kwMatched : kwMatched.slice(0, 35);
     }else{
         matched = kwMatched.filter(item => (item.type || "动漫") === currentType);
+        if(!kw) matched = matched.slice(0, 35);
     }
     animeCardList.innerHTML = '';
     if(matched.length === 0){
