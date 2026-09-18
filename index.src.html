@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anip在线观影</title>
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0b0f1a">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#f3f4f6">
+<link rel="icon" href="/static/favicon.ico" sizes="48x48">
+<link rel="icon" type="image/png" sizes="32x32" href="/static/favicon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/static/favicon-192.png">
+<link rel="apple-touch-icon" href="/static/favicon-192.png">
+<style>
+/* ============ 字体：标题用得意黑（CDN 加载失败自动回退系统字体） ============ */
+@font-face{
+    font-family:'Smiley Sans';
+    src:url('https://cdn.jsdelivr.net/npm/smiley-sans@latest/dist/woff2/smiley-sans.woff2') format('woff2');
+    font-weight:400;font-style:normal;font-display:swap;
+}
+:root{
+    --accent:#2563eb; --accent2:#7c3aed; --accent3:#06b6d4;
+    --accent-hover:#1d4ed8; --danger:#ff6b6b; --ok:#4ade80;
+    --bg:#0b0f1a; --bg2:#131a2e;
+    --card:rgba(255,255,255,.045); --card2:rgba(255,255,255,.06);
+    --panel:rgba(255,255,255,.07); --panel2:rgba(255,255,255,.1);
+    --hover:rgba(255,255,255,.12);
+    --border:rgba(255,255,255,.09);
+    --text:#f1f5f9; --text2:#94a3b8; --text3:#64748b;
+    --overlay:rgba(8,10,18,.78);
+    --glow:rgba(37,99,235,.35);
+    --grad:linear-gradient(135deg,#2563eb,#7c3aed 55%,#06b6d4);
+    --shadow:0 10px 30px rgba(0,0,0,.35);
+    --radius:16px;
+    --font-display:'Smiley Sans','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;
+    color-scheme:dark;
+}
+@media (prefers-color-scheme: light){
+    :root{
+        --accent:#2563eb; --accent2:#7c3aed; --accent3:#0891b2;
+        --accent-hover:#1d4ed8; --danger:#e11d48; --ok:#16a34a;
+        --bg:#f6f8fc; --bg2:#e9edfb;
+        --card:rgba(255,255,255,.72); --card2:rgba(255,255,255,.85);
+        --panel:rgba(15,23,42,.045); --panel2:rgba(15,23,42,.07);
+        --hover:rgba(15,23,42,.09);
+        --border:rgba(15,23,42,.1);
+        --text:#0f172a; --text2:#475569; --text3:#94a3b8;
+        --overlay:rgba(244,247,252,.82);
+        --glow:rgba(37,99,235,.18);
+        --shadow:0 10px 30px rgba(15,23,42,.1);
+        color-scheme:light;
+    }
+}
+*{box-sizing:border-box;margin:0;padding:0;color:var(--text);font-family:"MiSans","HarmonyOS Sans SC","PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif}
+html{scrollbar-color:var(--panel2) transparent}
+/* 自定义滚动条（Chrome/Edge/Safari） */
+*::-webkit-scrollbar{width:8px;height:8px}
+*::-webkit-scrollbar-track{background:transparent}
+*::-webkit-scrollbar-thumb{background:var(--panel2);border-radius:999px;border:2px solid transparent;background-clip:content-box}
+*::-webkit-scrollbar-thumb:hover{background:var(--hover);border:2px solid transparent;background-clip:content-box}
+body{
+    background:
+        radial-gradient(1100px 500px at 85% -10%, var(--glow), transparent 60%),
+        radial-gradient(900px 500px at -10% 20%, rgba(124,58,237,.16), transparent 55%),
+        linear-gradient(160deg, var(--bg), var(--bg2));
+    background-attachment:fixed;
+    min-height:100vh;
+    padding:0 20px 20px;
+}
+body::before{
+    content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
+    background:
+        radial-gradient(600px 300px at 10% 85%, var(--glow), transparent 60%),
+        radial-gradient(500px 260px at 95% 60%, rgba(6,182,212,.1), transparent 55%);
+}
+/* 噪点纹理，增强暗色质感 */
+body::after{
+    content:"";position:fixed;inset:0;z-index:3;pointer-events:none;opacity:.03;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.7'/%3E%3C/svg%3E");
+}
+
+/* ============ 剧集列表头部（标题 + 搜索） ============ */
+.list-head{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.list-head .anime-filter{margin-left:auto;width:min(300px,100%)}
+.anime-filter{
+    width:min(340px,100%);padding:9px 16px 9px 40px;
+    background:var(--panel);border:1px solid var(--border);border-radius:999px;
+    font-size:13px;color:var(--text);outline:none;transition:.25s;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15' height='15' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2.4' stroke-linecap='round'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='m20 20-3.5-3.5'/%3E%3C/svg%3E");
+    background-repeat:no-repeat;background-position:15px center;
+}
+.anime-filter:focus{border-color:var(--accent);box-shadow:0 0 0 3px var(--glow);background-color:var(--card)}
+.anime-filter::placeholder{color:var(--text3)}
+
+.container{max-width:1400px;margin:18px auto 0;display:grid;grid-template-columns:1fr 340px;gap:16px;align-items:start;position:relative;z-index:1}
+
+/* ============ 播放器 ============ */
+#video-box{position:relative;width:100%;background:#000;border-radius:var(--radius);padding-bottom:56.25%;overflow:hidden;box-shadow:var(--shadow),0 0 0 1px rgba(255,255,255,.06),0 0 40px var(--glow)}
+#artBox{position:absolute;top:0;left:0;width:100%;height:100%;display:block;background:#000}
+.anime-title-overlay{
+    position:absolute;top:0;left:0;right:0;z-index:2;padding:14px 18px;
+    display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+    font-size:14px;font-weight:600;color:#fff;
+    background:linear-gradient(180deg,rgba(0,0,0,.8),rgba(0,0,0,0));
+    pointer-events:none;text-shadow:0 1px 3px rgba(0,0,0,.5);
+    font-family:var(--font-display);letter-spacing:.5px;
+}
+.at-badge{
+    pointer-events:auto;flex-shrink:0;font-family:"MiSans","PingFang SC",system-ui,sans-serif;
+    font-size:11px;font-weight:600;letter-spacing:1px;color:#fff;
+    padding:3px 10px;border-radius:999px;background:var(--grad);
+    box-shadow:0 2px 10px rgba(37,99,235,.45);
+}
+.at-count{margin-left:auto;font-family:"MiSans","PingFang SC",system-ui,sans-serif;font-size:11px;font-weight:400;color:rgba(255,255,255,.72);letter-spacing:1px;background:rgba(255,255,255,.14);padding:3px 10px;border-radius:999px;text-shadow:none;backdrop-filter:blur(6px)}
+
+/* ============ 侧栏播放列表 ============ */
+.side{display:flex;flex-direction:column;gap:12px;min-height:0}
+.ep-wrap{background:var(--card);padding:14px;border-radius:var(--radius);border:1px solid var(--border);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);box-shadow:var(--shadow);display:flex;flex-direction:column;gap:12px;flex:1;min-height:0}
+.info-text{font-size:12px;font-weight:700;letter-spacing:2px;color:var(--text2);display:flex;align-items:center;gap:8px;text-transform:uppercase}
+.info-text::before{content:"";width:3px;height:13px;border-radius:2px;background:var(--grad)}
+.ep-count{margin-left:auto;font-size:11px;font-weight:500;color:var(--text3);background:var(--panel);padding:2px 9px;border-radius:999px;letter-spacing:1px}
+.ep-list{display:flex;flex-direction:column;gap:6px;flex:1;min-height:0;overflow-y:auto;padding-right:4px;scrollbar-width:thin}
+.ep-more-btn{margin-top:2px;padding:7px 12px;background:var(--panel);border:1px solid var(--border);border-radius:10px;cursor:pointer;font-size:12px;color:var(--text2);transition:.2s;width:100%;text-align:center;flex-shrink:0}
+.ep-more-btn:hover{background:var(--hover);color:var(--text)}
+.ep-item{
+    position:relative;display:flex;align-items:center;gap:10px;
+    padding:9px 12px;background:var(--panel);border:1px solid transparent;border-radius:10px;
+    cursor:pointer;transition:.22s;min-height:40px;font-size:13.5px;line-height:20px;color:var(--text2);overflow:hidden;
+}
+.ep-item::before{content:"";position:absolute;left:0;top:8px;bottom:8px;width:3px;border-radius:3px;background:var(--grad);opacity:0;transform:scaleY(.4);transition:.25s}
+.ep-item:hover{background:var(--hover);color:var(--text);border-color:var(--border);transform:translateX(2px)}
+.ep-item:hover::before{opacity:.5;transform:scaleY(1)}
+.ep-no{flex-shrink:0;font-size:11px;font-weight:700;color:var(--text3);font-variant-numeric:tabular-nums;min-width:26px;text-align:center;background:var(--panel2);border-radius:7px;padding:2px 0;transition:.22s}
+.ep-tt{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ep-item.active{
+    background:linear-gradient(90deg,rgba(37,99,235,.22),rgba(124,58,237,.10) 60%,transparent);
+    border-color:rgba(37,99,235,.5);color:#fff;font-weight:600;
+    box-shadow:0 4px 18px var(--glow),inset 0 0 0 1px rgba(255,255,255,.03);
+}
+.ep-item.active::before{opacity:1;transform:scaleY(1)}
+.ep-item.active .ep-no{background:var(--grad);color:#fff;box-shadow:0 2px 10px var(--glow)}
+.ep-item.active::after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 20%,rgba(255,255,255,.12) 50%,transparent 80%);transform:translateX(-100%);animation:epShine 2.8s ease-in-out infinite}
+@keyframes epShine{0%,60%{transform:translateX(-100%)}100%{transform:translateX(100%)}}
+.err-text{position:fixed;top:12px;left:50%;transform:translateX(-50%);z-index:70;font-size:13px;color:#fff;background:rgba(220,38,38,.92);padding:8px 16px;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,.3);display:none;max-width:min(90vw,560px);text-align:center;line-height:1.5;backdrop-filter:blur(6px)}
+.err-text:not(:empty){display:block}
+
+/* ============ 通用区块 ============ */
+.all-anime-wrap{max-width:1400px;margin:18px auto 0;background:var(--card);padding:16px 18px;border-radius:var(--radius);border:1px solid var(--border);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);box-shadow:var(--shadow)}
+.all-anime-wrap h3{margin:0;font-size:16px;letter-spacing:1px;font-family:var(--font-display);font-weight:400;display:inline-flex;align-items:center;gap:10px}
+.all-anime-wrap h3::before{content:"";width:4px;height:16px;border-radius:3px;background:var(--grad)}
+.sec-count{font-family:"MiSans","PingFang SC",system-ui,sans-serif;font-size:11px;font-weight:600;color:var(--accent3);background:var(--panel);padding:1px 9px;border-radius:999px;letter-spacing:.5px}
+.history-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+
+/* 历史 */
+.history-clear-btn{padding:5px 14px;background:var(--panel);border:1px solid var(--border);border-radius:999px;cursor:pointer;font-size:12px;color:var(--text2);transition:.2s}
+.history-clear-btn:hover{background:var(--hover);color:var(--danger);border-color:var(--danger)}
+.history-clear-btn.confirming{background:var(--danger);color:#fff;border-color:var(--danger);animation:btnPulse .9s ease-in-out infinite}
+@keyframes btnPulse{0%,100%{box-shadow:0 0 0 0 rgba(255,107,107,.4)}50%{box-shadow:0 0 0 6px rgba(255,107,107,0)}}
+.history-del-btn{flex-shrink:0;width:24px;height:24px;line-height:22px;text-align:center;border:none;background:transparent;color:var(--text3);font-size:13px;cursor:pointer;border-radius:7px;transition:.2s;padding:0}
+.history-del-btn:hover{background:var(--danger);color:#fff;transform:scale(1.08)}
+.history-prog{position:absolute;left:0;bottom:0;height:3px;border-radius:3px;background:var(--grad);opacity:.85;z-index:2}
+.anime-card.history-card{position:relative;overflow:hidden}
+.anime-card.history-card .history-del-btn{position:absolute;top:6px;right:6px;z-index:2;background:rgba(0,0,0,.45);color:#fff;border-radius:50%;width:22px;height:22px;line-height:20px;opacity:0;transition:.2s}
+.anime-card.history-card:hover .history-del-btn{opacity:1}
+.history-empty{font-size:14px;color:var(--text3);padding:14px 4px;display:flex;align-items:center;gap:8px}
+.history-empty::before{content:"🎬";font-size:16px}
+
+/* ============ 剧集列表 ============ */
+.all-anime-wrap h3{margin-bottom:14px}
+.anime-type-bar{display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap}
+.type-btn{
+    padding:6px 16px;background:var(--panel);border:1px solid var(--border);border-radius:999px;
+    cursor:pointer;font-size:13px;color:var(--text2);transition:.22s;display:inline-flex;align-items:center;gap:6px;
+}
+.type-btn:hover{background:var(--hover);color:var(--text);transform:translateY(-1px)}
+.type-btn.active{background:var(--grad);border-color:transparent;color:#fff;box-shadow:0 4px 14px var(--glow);font-weight:600}
+.type-cnt{font-size:10px;font-weight:700;background:rgba(255,255,255,.16);padding:0 6px;border-radius:999px;line-height:16px}
+.type-btn:not(.active) .type-cnt{background:var(--panel2);color:var(--text3)}
+.anime-card-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}
+.anime-card{
+    position:relative;border-radius:14px;cursor:pointer;overflow:hidden;
+    border:1px solid var(--border);background:var(--panel);
+    min-height:150px;transition:transform .3s cubic-bezier(.2,.7,.3,1),box-shadow .3s,border-color .3s;
+    animation:cardIn .5s cubic-bezier(.2,.7,.3,1) both;
+    display:flex;flex-direction:column;justify-content:flex-end;
+    box-shadow:0 4px 14px rgba(0,0,0,.18);
+}
+@keyframes cardIn{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+.anime-card:hover{transform:translateY(-5px) scale(1.015);box-shadow:0 16px 36px var(--glow);border-color:var(--accent)}
+.anime-card::after{content:"";position:absolute;inset:0;pointer-events:none;border-radius:inherit;padding:1px;background:linear-gradient(135deg,rgba(37,99,235,.7),rgba(124,58,237,.5),transparent 60%);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;opacity:0;transition:.3s}
+.anime-card:hover::after{opacity:1}
+.card-bg{position:absolute;inset:0;background-size:cover;background-position:center;transition:transform .55s cubic-bezier(.2,.7,.3,1);z-index:0}
+.anime-card:hover .card-bg{transform:scale(1.08)}
+.card-body{position:relative;z-index:1;padding:38px 12px 11px;background:linear-gradient(180deg,transparent,var(--overlay) 55%);display:flex;flex-direction:column;gap:6px}
+.card-title{font-size:14.5px;font-weight:700;line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;text-shadow:0 1px 4px rgba(0,0,0,.5)}
+.card-meta{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.card-update{font-size:12.5px;color:var(--text3);line-height:1.4;letter-spacing:.3px;text-shadow:0 1px 3px rgba(0,0,0,.45);display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
+.card-tag{font-size:10px;font-weight:600;letter-spacing:1px;color:#fff;background:var(--grad);padding:2px 8px;border-radius:999px;font-style:normal}
+.card-count{font-size:10px;color:var(--text2);background:rgba(255,255,255,.14);padding:2px 8px;border-radius:999px;font-style:normal;backdrop-filter:blur(4px)}
+.anime-card.loading{color:var(--text3);cursor:default;align-items:center;justify-content:center;animation:none;font-size:14px;border-style:dashed}
+
+/* ============ 页脚 ============ */
+.site-footer{max-width:1400px;margin:26px auto 6px;padding-top:18px;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.site-footer p{font-size:12px;color:var(--text3);letter-spacing:.5px}
+.site-footer .dot{color:var(--accent3)}
+
+/* ============ 悬浮刷新按钮 ============ */
+.refresh-btn{position:fixed;right:22px;bottom:22px;z-index:80;width:48px;height:48px;border-radius:50%;border:1px solid var(--border);background:var(--card);color:var(--text);font-size:22px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:var(--shadow),0 4px 18px rgba(0,0,0,.25);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);transition:.25s}
+.refresh-btn:hover{color:#fff;background:var(--grad);transform:scale(1.1);box-shadow:0 6px 24px var(--glow)}
+.refresh-btn.spinning{animation:refreshSpin .8s ease}
+@keyframes refreshSpin{to{transform:rotate(360deg)}}
+
+/* ============ 内容入场 ============ */
+body .container{animation:contentIn .55s cubic-bezier(.2,.7,.3,1) backwards}
+body .all-anime-wrap{animation:contentIn .55s cubic-bezier(.2,.7,.3,1) both}
+body .all-anime-wrap{animation-delay:.12s}
+@keyframes contentIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+
+@media (max-width:1100px){
+    .container{grid-template-columns:1fr;gap:12px}
+    #video-box.vb-fixed{position:fixed;top:0;left:0;right:0;z-index:50;border-radius:0;margin:0}
+    .anime-card-list{grid-template-columns:repeat(auto-fill,minmax(160px,1fr))}
+    .list-head .anime-filter{width:100%;margin-left:0}
+}
+@media (max-width:560px){
+    .anime-filter{width:min(210px,60vw);padding:8px 12px 8px 34px;background-position:12px center}
+}
+
+.bg-layer{position:fixed;inset:0;z-index:0;pointer-events:none;background-position:center;background-size:cover;transition:opacity 1.3s ease;-webkit-transition:opacity 1.3s ease}
+#bgA{opacity:1}
+#bgB{opacity:0}
+</style>
+</head>
+<body>
+<!-- 顶部导航已移除：搜索栏移至剧集列表右侧 -->
+<div id="bgA" class="bg-layer"></div>
+<div id="bgB" class="bg-layer"></div>
+<div id="errBox" class="err-text"></div>
+
+<main class="container">
+    <div id="video-box" style="display:none">
+        <div id="animeTitle" class="anime-title-overlay">选择下方番剧开始播放</div>
+        <div id="artBox"></div>
+    </div>
+    <aside class="side" style="display:none">
+        <div class="ep-wrap">
+            <div class="info-text">播放列表<span class="ep-count" id="epCount">0 集</span></div>
+            <div id="epList" class="ep-list"></div>
+        </div>
+    </aside>
+</main>
+
+<section id="allAnimeWrap" class="all-anime-wrap">
+    <div class="list-head">
+        <h3>剧集列表<span class="sec-count" id="animeTotalCount">0</span></h3>
+        <input id="animeFilter" class="anime-filter" type="text" placeholder="搜索番剧标题…">
+    </div>
+    <div id="animeTypeBar" class="anime-type-bar"></div>
+    <div id="animeCardList" class="anime-card-list"></div>
+</section>
+
+<footer class="site-footer">
+    <p><span class="dot">●</span> Anip 在线观影 · 私人影视站</p>
+    <p>HLS 流媒体 · 自适应缓存 · 断点续播</p>
+</footer>
+
+<button id="refreshBtn" class="refresh-btn" type="button" title="刷新数据">↻</button>
+
+<!-- 本地静态库，先加载库，再执行业务脚本 -->
+<script src="/static/hls.min.js"></script>
+<script src="/static/artplayer.min.js"></script>
+<script>
+function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+
+let episodes = [];
+let animeName = "";
+let currentEpIndex = 0;
+let player = null;
+let art = null;
+const epListEl = document.getElementById('epList');
+const epCountEl = document.getElementById('epCount');
+const errBox = document.getElementById('errBox');
+const animeTitleEl = document.getElementById('animeTitle');
+const animeCardList = document.getElementById('animeCardList');
+const animeFilterEl = document.getElementById('animeFilter');
+const animeTypeBarEl = document.getElementById('animeTypeBar');
+const animeTotalCountEl = document.getElementById('animeTotalCount');
+let hls = null;
+const HLSCONFIG = {enableWorker:false, lowLatencyMode:false, maxBufferLength:Infinity, maxMaxBufferLength:Infinity, maxBufferSize:Infinity, maxBufferHole:3, fragLoadingConcurrency:8, fragLoadingMaxRetry:6, fragLoadingRetryDelay:1000, fragLoadingTimeOut:15000, fragLoadingMaxRetryTimeout:60000};
+let repoAnimeList = [];
+let currentType = "最近更新";
+let currentJsonFile = "";
+let pendingSeek = null;
+
+// ===== 动态背景：从当前播放项目海报取色并平滑过渡 =====
+const bgA = document.getElementById('bgA');
+const bgB = document.getElementById('bgB');
+const DEFAULT_BG = 'radial-gradient(1100px 500px at 85% -10%, rgba(37,99,235,.35), transparent 60%),radial-gradient(900px 500px at -10% 20%, rgba(124,58,237,.16), transparent 55%),linear-gradient(160deg, #0b0f1a, #131a2e)';
+let bgFlip = false;
+let bgReqId = 0;
+if(bgA) bgA.style.background = DEFAULT_BG;
+
+function hexToRgb(hex){
+    const m = /^#?([0-9a-f]{6})$/i.exec(hex || '');
+    if(!m) return null;
+    const n = parseInt(m[1], 16);
+    return [n >> 16 & 255, n >> 8 & 255, n & 255];
+}
+function rgbToHsl(r, g, b){
+    r /= 255; g /= 255; b /= 255;
+    const mx = Math.max(r, g, b), mn = Math.min(r, g, b);
+    let h = 0, s = 0;
+    const l = (mx + mn) / 2;
+    if(mx !== mn){
+        const d = mx - mn;
+        s = l > .5 ? d / (2 - mx - mn) : d / (mx + mn);
+        if(mx === r) h = ((g - b) / d + (g < b ? 6 : 0)) / 6;
+        else if(mx === g) h = ((b - r) / d + 2) / 6;
+        else h = ((r - g) / d + 4) / 6;
+    }
+    return [h, s, l];
+}
+function hslToRgb(h, s, l){
+    if(s === 0){
+        const v = Math.round(l * 255);
+        return [v, v, v];
+    }
+    const q = l < .5 ? l * (1 + s) : l + s - l * s;
+    const p = 2 * l - q;
+    const hue = (t) => {
+        if(t < 0) t += 1;
+        if(t > 1) t -= 1;
+        if(t < 1/6) return p + (q - p) * 6 * t;
+        if(t < 1/2) return q;
+        if(t < 2/3) return p + (q - p) * (2/3 - t) * 6;
+        return p;
+    };
+    return [Math.round(hue(h + 1/3) * 255), Math.round(hue(h) * 255), Math.round(hue(h - 1/3) * 255)];
+}
+function shadeHex(hex, dl){
+    const rgb = hexToRgb(hex);
+    if(!rgb) return hex;
+    let [h, s, l] = rgbToHsl(rgb[0], rgb[1], rgb[2]);
+    l = Math.min(.95, Math.max(.06, l + dl));
+    const [r, g, b] = hslToRgb(h, s, l);
+    return '#' + [r, g, b].map(v => v.toString(16).padStart(2, '0')).join('');
+}
+function posterCss(hex){
+    const rgb = hexToRgb(hex);
+    if(!rgb) return DEFAULT_BG;
+    const a = (c, o) => 'rgba(' + c[0] + ',' + c[1] + ',' + c[2] + ',' + o + ')';
+    return 'radial-gradient(1100px 500px at 85% -10%, ' + a(rgb, .42) + ', transparent 60%),' +
+           'radial-gradient(900px 500px at -10% 20%, ' + a(rgb, .30) + ', transparent 55%),' +
+           'linear-gradient(160deg, ' + shadeHex(hex, -.18) + ', ' + hex + ' 55%, ' + shadeHex(hex, .12) + ')';
+}
+function setDynamicBg(css){
+    if(!bgA || !bgB) return;
+    const front = bgFlip ? bgA : bgB;
+    const back = bgFlip ? bgB : bgA;
+    front.style.background = css;
+    front.style.opacity = '1';
+    back.style.opacity = '0';
+    bgFlip = !bgFlip;
+}
+function loadPosterImage(url){
+    return new Promise((resolve, reject) => {
+        const img = new Image();
+        img.crossOrigin = 'anonymous';
+        img.onload = () => resolve(img);
+        img.onerror = () => reject(new Error('海报加载失败'));
+        img.src = url;
+    });
+}
+function extractPaletteFromImg(img){
+    const c = document.createElement('canvas');
+    c.width = 64; c.height = 64;
+    const ctx = c.getContext('2d', {willReadFrequently: true});
+    ctx.drawImage(img, 0, 0, 64, 64);
+    const data = ctx.getImageData(0, 0, 64, 64).data;
+    const buckets = {};
+    let n = 0;
+    for(let i = 0; i < data.length; i += 4){
+        const [h, s, l] = rgbToHsl(data[i], data[i + 1], data[i + 2]);
+        if(l < .08 || l > .92 || s < .12) continue;
+        const hb = Math.floor(h * 12) % 12;
+        (buckets[hb] = buckets[hb] || []).push([data[i], data[i + 1], data[i + 2]]);
+        n++;
+    }
+    if(n === 0) return '#0b0f1a';
+    let best = null, bestLen = -1;
+    for(const k in buckets){
+        if(buckets[k].length > bestLen){
+            bestLen = buckets[k].length;
+            best = buckets[k];
+        }
+    }
+    let sr = 0, sg = 0, sb = 0;
+    best.forEach(p => { sr += p[0]; sg += p[1]; sb += p[2]; });
+    let [h, s, l] = rgbToHsl(sr / best.length, sg / best.length, sb / best.length);
+    s = Math.min(1, s * 1.25);
+    l = Math.max(l, .35);
+    const [r, g, b] = hslToRgb(h, s, l);
+    return '#' + [r, g, b].map(v => v.toString(16).padStart(2, '0')).join('');
+}
+async function applyPosterBg(posterUrl, posterColor){
+    const id = ++bgReqId;
+    let hex = null;
+    if(posterColor && /^#[0-9a-f]{6}$/i.test(posterColor)){
+        hex = posterColor;
+    }else if(posterUrl && /^https?:\/\//.test(posterUrl)){
+        try{
+            const img = await loadPosterImage(posterUrl);
+            hex = extractPaletteFromImg(img);
+        }catch(e){ hex = null; }
+    }
+    if(id !== bgReqId) return;
+    setDynamicBg(hex ? posterCss(hex) : DEFAULT_BG);
+}
+
+const TYPE_LIST = ["播放历史", "最近更新", "全部", "电影", "剧集", "动漫", "综艺", "短剧", "体育"];
+
+// 安全防护：如果Hls不存在直接报错提示
+if(typeof Hls === "undefined"){
+    errBox.textContent = "错误：hls.js 库加载失败";
+}
+
+function getUrlParam(key){
+    const params = new URLSearchParams(location.search);
+    return params.get(key);
+}
+
+async function loadJson(jsonUrl){
+    currentJsonFile = jsonUrl;
+    errBox.textContent = "加载中...";
+    animeTitleEl.innerHTML = '<span class="at-badge">加载中</span>加载番剧信息...';
+    try{
+        const res = await fetch(jsonUrl);
+        if(!res.ok) throw new Error(`HTTP ${res.status}`);
+        const data = await res.json();
+        animeName = data.title;
+        episodes = data.episodes;
+        const repoEntry = repoAnimeList.find(x => x.jsonFile === String(jsonUrl).replace(/^\//, ''));
+        const typeTag = (repoEntry && repoEntry.type) || data.type || '动漫';
+        animeTitleEl.innerHTML = '<span class="at-badge">' + esc(typeTag) + '</span><span>' + esc(animeName) + '</span><span class="at-count">共 ' + episodes.length + ' 集</span>';
+        applyPosterBg((repoEntry && repoEntry.poster) || data.poster, (repoEntry && repoEntry.posterColor) || data.posterColor);
+        const savedKey = `lastEp_${btoa(jsonUrl)}`;
+        const saved = localStorage.getItem(savedKey);
+        if(saved !== null) currentEpIndex = parseInt(saved);
+        else currentEpIndex = 0;
+        epCollapseOpen = false;
+        const vb = document.getElementById('video-box');
+        if(vb){
+            vb.style.display = '';
+            vb.classList.remove('vb-fixed');
+            const phEl = document.getElementById('videoBoxPh');
+            if(phEl){ phEl.style.display = 'none'; phEl.style.height = ''; }
+        }
+        const sideEl = document.querySelector('.side');
+        if(sideEl) sideEl.style.display = '';
+        renderEpList();
+        playEp(currentEpIndex);
+        syncSideHeight();
+        errBox.textContent = "";
+    }catch(e){
+        errBox.textContent = `JSON读取失败: ${e.message}`;
+        console.error("加载json错误：",e);
+    }
+}
+
+function fmtUptime(u, y){
+    if(u){
+        const s = String(u).trim();
+        return s.length > 16 ? s.slice(0, 16) : s;
+    }
+    return y ? String(y) : '未知';
+}
+let epCollapseOpen = false;
+function renderEpList(){
+    epListEl.innerHTML = '';
+    if(epCountEl) epCountEl.textContent = episodes.length + ' 集';
+    const isMobile = window.matchMedia('(max-width:1100px)').matches;
+    const COLLAPSE = 8;
+    const showAll = !isMobile || epCollapseOpen || episodes.length <= COLLAPSE;
+    const list = showAll ? episodes : episodes.slice(0, COLLAPSE);
+    list.forEach((ep,idx)=>{
+        const div = document.createElement('div');
+        div.className = "ep-item" + (idx === currentEpIndex ? " active":"");
+        const no = document.createElement('span');
+        no.className = 'ep-no';
+        no.textContent = String(idx + 1).padStart(2, '0');
+        const tt = document.createElement('span');
+        tt.className = 'ep-tt';
+        tt.textContent = ep.title;
+        div.appendChild(no);
+        div.appendChild(tt);
+        div.onclick = ()=>{
+            currentEpIndex = idx;
+            playEp(currentEpIndex);
+            renderEpList();
+        }
+        epListEl.appendChild(div);
+    })
+    const active = epListEl.querySelector('.ep-item.active');
+    if(active) active.scrollIntoView({block:'nearest'});
+    if(isMobile && episodes.length > COLLAPSE){
+        const btn = document.createElement('button');
+        btn.className = 'ep-more-btn';
+        btn.type = 'button';
+        btn.textContent = showAll ? '收起列表 ▲' : '展开全部（' + episodes.length + ' 集）▼';
+        btn.onclick = ()=>{ epCollapseOpen = !epCollapseOpen; renderEpList(); };
+        epListEl.appendChild(btn);
+    }
+}
+
+function bindHlsEvents(h){
+    h.on(Hls.Events.MANIFEST_PARSED,()=>{ try{ if(art) art.play().catch(()=>{}); }catch(e){} });
+    let hlsErrCount = 0;
+    h.on(Hls.Events.ERROR, (e, data)=>{
+        if(!data || !data.fatal) return;
+        hlsErrCount++;
+        if(hlsErrCount > 5){
+            errBox.textContent = '播放错误：' + (data.details || '未知错误') + '，已停止重试，请刷新或重选';
+            return;
+        }
+        if(data.type === Hls.ErrorTypes.NETWORK_ERROR){
+            errBox.textContent = '网络错误(' + (data.details || '') + ')，自动重连中…';
+            h.startLoad();
+        }else if(data.type === Hls.ErrorTypes.MEDIA_ERROR){
+            errBox.textContent = '媒体错误(' + (data.details || '') + ')，尝试恢复…';
+            h.recoverMediaError();
+        }else{
+            errBox.textContent = '播放错误：' + (data.details || data.type || '未知');
+            try{ h.destroy(); }catch(e){}
+            if(hls === h) hls = null;
+        }
+    });
+}
+let artInitTries = 0;
+function initArtPlayer(){
+    if(typeof Artplayer === "undefined"){
+        if(artInitTries < 20){
+            artInitTries++;
+            setTimeout(initArtPlayer, 500);
+            return;
+        }
+        errBox.textContent = "ArtPlayer 库未加载（static/artplayer.min.js 未找到或未部署），请确认文件存在后刷新";
+        return;
+    }
+    try{
+        art = new Artplayer({
+            container: '#artBox',
+            url: '',
+            autoplay: false,
+            theme: '#2563eb',
+            volume: 1,
+            pip: true,
+            screenshot: true,
+            setting: true,
+            flip: true,
+            playbackRate: true,
+            aspectRatio: true,
+            miniProgressBar: true,
+            mutex: true,
+            backdrop: true,
+            playsInline: true,
+            airplay: true,
+            fullscreen: false,
+            fullscreenWeb: true,
+            hotkeys: false
+        });
+        player = art.video;
+        player.addEventListener('ended', ()=>{
+            if(episodes.length && currentEpIndex < episodes.length - 1){
+                currentEpIndex++;
+                playEp(currentEpIndex);
+                renderEpList();
+            }
+        });
+    }catch(e){
+        errBox.textContent = '播放器初始化失败：' + (e && e.message ? e.message : e);
+    }
+}
+let artInitWait = 0;
+function playEp(idx){
+    if(!art || !player){
+        if(typeof Artplayer === "undefined"){
+            errBox.textContent = "ArtPlayer 库未加载（static/artplayer.min.js 未找到或未部署），请确认文件存在后刷新";
+            return;
+        }
+        if(artInitWait < 20){
+            artInitWait++;
+            errBox.textContent = "播放器初始化中…";
+            setTimeout(()=>{ playEp(idx); }, 500);
+            return;
+        }
+        errBox.textContent = "播放器初始化失败，请刷新页面";
+        return;
+    }
+    artInitWait = 0;
+    const ep = episodes[idx];
+    if(hls){
+        try{ hls.destroy(); }catch(e){}
+        hls = null;
+    }
+    if(Hls.isSupported()) {
+        hls = new Hls(HLSCONFIG);
+        hls.loadSource(ep.src);
+        hls.attachMedia(player);
+        bindHlsEvents(hls);
+    }else if(player.canPlayType('application/vnd.apple.mpegurl')){
+        player.src = ep.src;
+        if(art.play) art.play().catch(()=>{});
+    }else{
+        errBox.textContent = '浏览器不支持 HLS 播放';
+    }
+    const savedKey = `lastEp_${btoa(currentJsonFile)}`;
+    localStorage.setItem(savedKey, idx.toString());
+    saveHistory();
+    if(currentType === "播放历史") renderAnimeCards();
+    const jf = String(currentJsonFile).replace(/^\//, '');
+    if(pendingSeek && pendingSeek.jsonFile === jf && pendingSeek.epIndex === idx){
+        const sec = pendingSeek.pos || 0;
+        pendingSeek = null;
+        const doSeek = ()=>{ try{ if(!isNaN(sec) && sec > 0) player.currentTime = sec; }catch(e){} };
+        if(player.readyState >= 1){ doSeek(); }
+        else{ player.addEventListener('loadedmetadata', doSeek, {once:true}); }
+    }
+}
+
+document.addEventListener('keydown',e=>{
+    const tag = (e.target && e.target.tagName) || '';
+    if(tag === 'INPUT' || tag === 'TEXTAREA') return;
+    if(e.repeat) return;
+    if(e.key === "ArrowLeft"){
+        e.preventDefault();
+        if(player){
+            player.currentTime = Math.max(0, (player.currentTime || 0) - 5);
+        }
+    }else if(e.key === "ArrowRight"){
+        e.preventDefault();
+        if(player){
+            player.currentTime = (player.currentTime || 0) + 5;
+        }
+    }
+})
+
+document.addEventListener("visibilitychange", ()=>{
+    if (!document.hidden && player && !player.paused && hls) hls.startLoad();
+});
+
+const HISTORY_KEY = 'anip_history';
+const IS_DESKTOP = !!(window.__anip_desktop__);
+let _histMem = null;
+
+function getHistory(){
+    if(_histMem !== null) return _histMem;
+    try{ return JSON.parse(localStorage.getItem(HISTORY_KEY)) || []; }
+    catch(e){ return []; }
+}
+function _persistHist(h){
+    _histMem = h;
+    try{ localStorage.setItem(HISTORY_KEY, JSON.stringify(h)); }catch(e){}
+    if(IS_DESKTOP){
+        try{ fetch('/api/history', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(h)}).catch(()=>{}); }catch(e){}
+    }
+}
+(async function(){
+    if(IS_DESKTOP){
+        try{
+            const r = await fetch('/api/history');
+            const h = await r.json();
+            if(Array.isArray(h)){
+                _histMem = h;
+                try{ localStorage.setItem(HISTORY_KEY, JSON.stringify(h)); }catch(e){}
+                if(currentType === '播放历史'){
+                    renderAnimeCards();
+                    if(animeTypeBarEl) initTypeBar();
+                }
+            }
+        }catch(e){}
+    }
+})();
+
+function saveHistory(){
+    try{
+        const jf = String(currentJsonFile).replace(/^\//, '');
+        const h = getHistory().filter(x => x.jsonFile !== jf);
+        let pos = 0;
+        if(pendingSeek && pendingSeek.jsonFile === jf && pendingSeek.epIndex === currentEpIndex){
+            pos = pendingSeek.pos || 0;
+        }
+        h.unshift({title: animeName, jsonFile: jf, epTitle: episodes[currentEpIndex] ? episodes[currentEpIndex].title : '', epIndex: currentEpIndex, pos: pos, duration: 0, time: Date.now()});
+        _persistHist(h.slice(0, 3));
+    }catch(e){}
+}
+
+function updateHistoryPos(){
+    try{
+        const jf = String(currentJsonFile).replace(/^\//, '');
+        const h = getHistory();
+        const item = h.find(x => x.jsonFile === jf && x.epIndex === currentEpIndex);
+        if(item && player && !isNaN(player.currentTime) && player.currentTime > 0){
+            item.pos = player.currentTime;
+            if(!isNaN(player.duration) && player.duration > 0) item.duration = player.duration;
+            _persistHist(h);
+        }
+    }catch(e){}
+}
+function fmtTime(t){
+    const d = new Date(t);
+    const pad = n => String(n).padStart(2, '0');
+    return d.getFullYear() + '-' + pad(d.getMonth()+1) + '-' + pad(d.getDate()) + ' ' + pad(d.getHours()) + ':' + pad(d.getMinutes());
+}
+function fmtDur(s){
+    if(!isFinite(s) || s < 0) return '--:--';
+    s = Math.round(s);
+    const h = Math.floor(s/3600), m = Math.floor((s%3600)/60), sec = s%60;
+    const pad = n => String(n).padStart(2,'0');
+    return (h>0 ? h+':'+pad(m) : m) + ':' + pad(sec);
+}
+function renderHistoryCards(){
+    const h = getHistory();
+    const kw = animeFilterEl.value.trim().toLowerCase();
+    const matched = kw ? h.filter(x => (x.title || '').toLowerCase().includes(kw)) : h;
+    let headHtml = '<div class="history-head"><h3>播放历史<span class="sec-count">' + h.length + '</span></h3>';
+    if(h.length > 0) headHtml += '<button id="historyClearBtn" class="history-clear-btn" type="button">清空全部</button>';
+    headHtml += '</div>';
+    animeCardList.innerHTML = headHtml;
+    if(matched.length === 0){
+        animeCardList.innerHTML += '<div class="anime-card loading">' + (h.length === 0 ? '暂无播放记录，快去挑一部吧' : '未找到匹配的播放记录') + '</div>';
+        bindHistoryClear();
+        return;
+    }
+    matched.forEach((item, idx) => {
+        const card = document.createElement('div');
+        card.className = 'anime-card history-card';
+        card.style.animationDelay = Math.min(idx * 35, 520) + 'ms';
+        const body = document.createElement('div');
+        body.className = 'card-body';
+        const t = document.createElement('span');
+        t.className = 'card-title';
+        t.textContent = item.title || '';
+        body.appendChild(t);
+        const meta = document.createElement('span');
+        meta.className = 'card-meta';
+        const tag = document.createElement('i');
+        tag.className = 'card-tag';
+        tag.textContent = item.epTitle || ('第' + String((item.epIndex || 0) + 1).padStart(2, '0') + '集');
+        meta.appendChild(tag);
+        const cnt = document.createElement('i');
+        cnt.className = 'card-count';
+        let metaText = fmtTime(item.time);
+        if(item.pos > 0) metaText += ' · 已看 ' + fmtDur(item.pos);
+        cnt.textContent = metaText;
+        meta.appendChild(cnt);
+        body.appendChild(meta);
+        card.appendChild(body);
+        if(item.pos > 0 && item.duration > 0){
+            const pct = Math.min(100, Math.round(item.pos / item.duration * 100));
+            const prog = document.createElement('span');
+            prog.className = 'history-prog';
+            prog.style.width = pct + '%';
+            card.appendChild(prog);
+        }
+        const del = document.createElement('button');
+        del.className = 'history-del-btn';
+        del.type = 'button';
+        del.textContent = '✕';
+        del.title = '删除该条记录';
+        del.onclick = (ev)=>{
+            ev.stopPropagation();
+            const jf = String(item.jsonFile).replace(/^\//, '');
+            const nh = getHistory().filter(x => String(x.jsonFile).replace(/^\//, '') !== jf || x.epIndex !== item.epIndex);
+            _persistHist(nh);
+            renderHistoryCards();
+            if(animeTypeBarEl) initTypeBar();
+        };
+        card.appendChild(del);
+        card.onclick = ()=>{
+            const url = '/' + String(item.jsonFile).replace(/^\//, '');
+            try{ localStorage.setItem('lastEp_' + btoa(url), String(item.epIndex)); }catch(e){}
+            pendingSeek = {jsonFile: item.jsonFile, epIndex: item.epIndex, pos: item.pos || 0};
+            loadJson(url);
+        };
+        animeCardList.appendChild(card);
+    });
+    bindHistoryClear();
+}
+let clearArm = false;
+function bindHistoryClear(){
+    const clearBtn = document.getElementById('historyClearBtn');
+    if(!clearBtn) return;
+    clearBtn.onclick = ()=>{
+        if(!clearArm){
+            clearArm = true;
+            clearBtn.classList.add('confirming');
+            clearBtn.textContent = '再点一次确认';
+            setTimeout(()=>{
+                clearArm = false;
+                clearBtn.classList.remove('confirming');
+                clearBtn.textContent = '清空全部';
+            }, 4000);
+            return;
+        }
+        _persistHist([]);
+        clearArm = false;
+        renderHistoryCards();
+        if(animeTypeBarEl) initTypeBar();
+    };
+}
+
+function initTypeBar(){
+    animeTypeBarEl.innerHTML = '';
+    TYPE_LIST.forEach(type => {
+        const btn = document.createElement("button");
+        btn.className = "type-btn";
+        let cnt = '';
+        if(type === '播放历史'){
+            cnt = getHistory().length;
+        }else if(type === '最近更新'){
+            cnt = Math.min(repoAnimeList.length, 12);
+        }else if(type === '全部'){
+            cnt = repoAnimeList.length;
+        }else{
+            cnt = repoAnimeList.filter(x => (x.type || '动漫') === type).length;
+        }
+        const label = document.createElement("span");
+        label.textContent = type;
+        btn.appendChild(label);
+        const cntEl = document.createElement("span");
+        cntEl.className = "type-cnt";
+        cntEl.textContent = cnt || '';
+        btn.appendChild(cntEl);
+        btn.onclick = ()=>{
+            currentType = type;
+            initTypeBar();
+            renderAnimeCards();
+        };
+        animeTypeBarEl.appendChild(btn);
+    });
+    [...animeTypeBarEl.children].forEach(b => b.classList.toggle('active', b.textContent.includes(currentType)));
+}
+
+function renderAnimeCards(){
+    const kw = animeFilterEl.value.trim().toLowerCase();
+    const kwMatched = kw ? repoAnimeList.filter(item => item.title.toLowerCase().includes(kw)) : repoAnimeList;
+    let matched;
+    if(currentType === "播放历史"){
+        renderHistoryCards();
+        return;
+    }else if(currentType === "最近更新"){
+        matched = kwMatched.slice(0, 12);
+    }else if(currentType === "全部"){
+        matched = kwMatched;
+    }else{
+        matched = kwMatched.filter(item => (item.type || "动漫") === currentType);
+    }
+    animeCardList.innerHTML = '';
+    if(matched.length === 0){
+        animeCardList.innerHTML = '<div class="anime-card loading">未找到匹配的番剧</div>';
+        return;
+    }
+    matched.forEach((item, idx) => {
+        const card = document.createElement("div");
+        card.className = "anime-card";
+        card.style.animationDelay = Math.min(idx * 35, 520) + 'ms';
+        if(item.poster && /^https?:\/\//.test(item.poster)){
+            const safeUrl = item.poster.replace(/["'\\]/g, '');
+            const bg = document.createElement("span");
+            bg.className = "card-bg";
+            bg.style.backgroundImage = 'url("' + safeUrl + '")';
+            card.appendChild(bg);
+        }
+        const body = document.createElement("div");
+        body.className = "card-body";
+        const t = document.createElement("span");
+        t.className = "card-title";
+        t.textContent = item.title;
+        body.appendChild(t);
+        const up = document.createElement("span");
+        up.className = "card-update";
+        up.textContent = fmtUptime(item.uptime, item.opyear);
+        body.appendChild(up);
+        card.appendChild(body);
+        card.onclick = ()=> loadJson(`/${item.jsonFile}`);
+        animeCardList.appendChild(card);
+    });
+}
+
+async function loadRepoAnimeList(){
+    animeCardList.innerHTML = '<div class="anime-card loading">读取剧集列表中…</div>';
+    try{
+        const resp = await fetch(`/index.json`);
+        const fileArr = await resp.json();
+        if(!Array.isArray(fileArr)){
+            animeCardList.innerHTML = '<div class="anime-card loading">剧集清单读取异常</div>';
+            return;
+        }
+        if(fileArr.length === 0){
+            animeCardList.innerHTML = '<div class="anime-card loading">清单为空，请检查index.json</div>';
+            return;
+        }
+        repoAnimeList = fileArr.slice().sort((a, b) => {
+            const ua = a.uptime || '', ub = b.uptime || '';
+            if(ua && ub) return ub.localeCompare(ua);
+            if(ua) return -1;
+            if(ub) return 1;
+            const ya = String(a.opyear || ''), yb = String(b.opyear || '');
+            if(ya && yb) return yb.localeCompare(ya);
+            if(ya) return -1;
+            if(yb) return 1;
+            return 0;
+        });
+        if(animeTotalCountEl) animeTotalCountEl.textContent = repoAnimeList.length;
+        renderAnimeCards();
+    }catch(err){
+        animeCardList.innerHTML = '<div class="anime-card loading">获取剧集列表失败：'+err.message+'</div>';
+    }
+}
+
+function syncSideHeight(){
+    const vb = document.getElementById('video-box');
+    const side = document.querySelector('.side');
+    if(vb && side){
+        if(window.innerWidth < 900){
+            side.style.height = '';
+        }else{
+            side.style.height = vb.offsetHeight + 'px';
+        }
+    }
+}
+syncSideHeight();
+window.addEventListener('resize', syncSideHeight);
+setInterval(()=>{ if(player && !player.paused && episodes.length) updateHistoryPos(); }, 5000);
+
+if(animeTypeBarEl) initTypeBar();
+if(animeFilterEl) animeFilterEl.addEventListener('input', renderAnimeCards);
+
+initArtPlayer();
+
+// 移动端：播放器向下滚动时固定在视口顶部（占位符保持布局不跳动）
+(function(){
+    const vb = document.getElementById('video-box');
+    if(!vb) return;
+    const ph = document.createElement('div');
+    ph.id = 'videoBoxPh';
+    ph.style.display = 'none';
+    vb.parentNode.insertBefore(ph, vb);
+    const mq = window.matchMedia('(max-width:1100px)');
+    const check = ()=>{
+        if(!mq.matches || document.body.classList.contains('player-fs')){
+            if(vb.classList.contains('vb-fixed')){
+                vb.classList.remove('vb-fixed');
+                ph.style.display = 'none';
+            }
+            return;
+        }
+        if(window.scrollY <= 0){
+            if(vb.classList.contains('vb-fixed')){
+                vb.classList.remove('vb-fixed');
+                ph.style.display = 'none';
+            }
+            return;
+        }
+        if(ph.getBoundingClientRect().top <= 0){
+            if(!vb.classList.contains('vb-fixed')){
+                ph.style.height = vb.offsetHeight + 'px';
+                ph.style.display = 'block';
+                vb.classList.add('vb-fixed');
+            }
+        }else{
+            if(vb.classList.contains('vb-fixed')){
+                vb.classList.remove('vb-fixed');
+                ph.style.display = 'none';
+            }
+        }
+    };
+    window.addEventListener('scroll', check, {passive:true});
+    window.addEventListener('resize', check, {passive:true});
+    setInterval(check, 300);
+    check();
+})();
+
+/* ============ 悬浮刷新按钮 ============ */
+const refreshBtn = document.getElementById('refreshBtn');
+if(refreshBtn) refreshBtn.onclick = ()=>{
+    refreshBtn.classList.remove('spinning');
+    void refreshBtn.offsetWidth;
+    refreshBtn.classList.add('spinning');
+    loadRepoAnimeList();
+    setTimeout(()=>refreshBtn.classList.remove('spinning'), 900);
+};
+
+const jsonUrl = getUrlParam('json');
+if(jsonUrl){
+    loadJson(jsonUrl);
+}else{
+    animeTitleEl.innerHTML = '<span class="at-badge">就绪</span>选择下方番剧开始播放';
+    errBox.textContent = "";
+    loadRepoAnimeList();
+}
+</script>
+</body>
+</html>
