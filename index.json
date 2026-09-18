@@ -45,6 +45,112 @@
     "opyear": "2020"
   },
   {
+    "title": "法证先锋4国语 (2020)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-3449.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250205-1/183febc21163b11acfb119ab81545bb2.jpg",
+    "posterColor": "#43626f",
+    "uptime": "2026-09-18 15:26:38",
+    "opyear": "2020"
+  },
+  {
+    "title": "法证先锋3粤语 (2011)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-3187.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250204-1/571f276b3eda899e99426151f85376d3.jpg",
+    "posterColor": "#906b56",
+    "uptime": "2026-09-18 15:25:45",
+    "opyear": "2011"
+  },
+  {
+    "title": "法证先锋3国语 (2011)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-3188.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250204-1/5ab84c9b94b03bc3978f2e04f8e44f62.jpg",
+    "posterColor": "#906b56",
+    "uptime": "2026-09-18 15:25:18",
+    "opyear": "2011"
+  },
+  {
+    "title": "法证先锋2粤语 (2008)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-3450.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250205-1/2620ed1b04d36f1e8ce044b8418f5ade.jpg",
+    "posterColor": "#725240",
+    "uptime": "2026-09-18 15:24:02",
+    "opyear": "2008"
+  },
+  {
+    "title": "法证先锋2国语 (2008)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-3451.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250205-1/942ad181b418ddb882dfdf0b2440b217.jpg",
+    "posterColor": "#725240",
+    "uptime": "2026-09-18 15:23:35",
+    "opyear": "2008"
+  },
+  {
+    "title": "法证先锋粤语 (2006)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-3185.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250204-1/daceaeca752957152e7af8367e519ea4.jpg",
+    "posterColor": "#41766b",
+    "uptime": "2026-09-18 15:21:24",
+    "opyear": "2006"
+  },
+  {
+    "title": "法证先锋国语 (2006)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-3186.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20250204-1/de78bcc5dc82409520233c9534146d1c.jpg",
+    "posterColor": "#41766b",
+    "uptime": "2026-09-18 15:20:20",
+    "opyear": "2006"
+  },
+  {
+    "title": "剧场版 紧急审讯室 (2025)",
+    "type": "电影",
+    "jsonFile": "episodes/vod-88104.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260918-1/5283bb81b2eb79b71addd2a5a8923313.jpg",
+    "uptime": "2026-09-18 13:42:09",
+    "opyear": "2025"
+  },
+  {
+    "title": "黑帮领地第二季 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-88103.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260918-1/e07f52703c0b0fd8d24956afeae44e11.jpg",
+    "uptime": "2026-09-18 13:38:32",
+    "opyear": "2026"
+  },
+  {
+    "title": "不识陌生人 Seni Taniyorum (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-88102.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260918-1/660c4681b2b674d5710d1e26fb5dda86.jpg",
+    "uptime": "2026-09-18 13:37:59",
+    "opyear": "2026",
+    "TMDb": "tt39397536"
+  },
+  {
+    "title": "你我对抗全世界 (2026)",
+    "type": "电影",
+    "jsonFile": "episodes/vod-88100.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260918-1/4a4829b2def612850c62217ba0459bc7.png",
+    "posterColor": "#864d3e",
+    "uptime": "2026-09-18 12:01:41",
+    "opyear": "2026"
+  },
+  {
+    "title": "阎魔的宠妃 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/vod-88101.json",
+    "poster": "https://vod.xiguazyimg.com/upload/vod/20260918-1/3e13ad914acc527ea2d872a53b88fb79.jpg",
+    "posterColor": "#ad827d",
+    "uptime": "2026-09-18 11:49:12",
+    "opyear": "2026"
+  },
+  {
     "title": "交锋 (2026)",
     "type": "剧集",
     "jsonFile": "episodes/vod-87408.json",
