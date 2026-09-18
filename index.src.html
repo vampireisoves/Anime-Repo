@@ -66,7 +66,7 @@ body{
         linear-gradient(160deg, var(--bg), var(--bg2));
     background-attachment:fixed;
     min-height:100vh;
-    padding:0 12px 20px;
+    padding:12px;
 }
 body::before{
     content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
@@ -178,7 +178,7 @@ body::after{
 .err-text:not(:empty){display:block}
 
 /* ============ 通用区块 ============ */
-.all-anime-wrap{width:100%;margin:18px 0 0;background:var(--card);padding:16px 18px;border-radius:var(--radius);border:1px solid var(--border);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);box-shadow:var(--shadow);flex:1 1 auto;min-height:0;overflow-y:auto;scrollbar-width:thin}
+.all-anime-wrap{width:100%;margin:0;background:var(--card);padding:16px 18px;border-radius:var(--radius);border:1px solid var(--border);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);box-shadow:var(--shadow);flex:1 1 auto;min-height:0;overflow-y:auto;scrollbar-width:thin}
 .all-anime-wrap h3{margin:0;font-size:16px;letter-spacing:1px;font-family:var(--font-display);font-weight:400;display:inline-flex;align-items:center;gap:10px}
 .all-anime-wrap h3::before{content:"";width:4px;height:16px;border-radius:3px;background:var(--grad)}
 .sec-count{font-family:"MiSans","PingFang SC",system-ui,sans-serif;font-size:11px;font-weight:600;color:var(--accent3);background:var(--panel);padding:1px 9px;border-radius:999px;letter-spacing:.5px}
@@ -272,6 +272,10 @@ body .all-anime-wrap{animation-delay:.12s}
     .fp-body{grid-template-columns:1fr;gap:12px}
     .anime-card-list{grid-template-columns:repeat(auto-fill,minmax(160px,1fr))}
     .filter-wrap{width:100%;margin-left:0}
+}
+@media (min-width:901px) and (max-width:1100px){
+    .float-player{max-height:calc(100dvh - 24px)}
+    .fp-body{grid-template-rows:auto minmax(0,1fr)}
 }
 @media (max-width:900px){
     .float-player{left:0 !important;top:0 !important;width:100vw;height:100dvh;border-radius:0;border:none}
@@ -530,11 +534,11 @@ async function loadJson(jsonUrl){
         if(vb) vb.style.display = '';
         const sideEl = document.querySelector('.side');
         if(sideEl) sideEl.style.display = '';
-        if(window.__fpPlace) window.__fpPlace();
         if(!art || art.destroyed) initArtPlayer();
         renderEpList();
         playEp(currentEpIndex);
         syncSideHeight();
+        if(window.__fpPlace) window.__fpPlace();
         errBox.textContent = "";
     }catch(e){
         errBox.textContent = `JSON读取失败: ${e.message}`;
@@ -1177,17 +1181,18 @@ initArtPlayer();
             return;
         }
         const vw = window.innerWidth, vh = window.innerHeight;
-        const top = Math.max(10, vh * 0.06);
+        const M = 12; // 四周边距
         const headPad = 74; // 标题栏 + 内边距
-        let w = Math.min(vw - 24, (vh - top - 24 - headPad) / 0.5625 + 314);
+        let w = Math.min(vw - M * 2, (vh - M * 2 - headPad) / 0.5625 + 314);
         w = Math.min(Math.max(w, 320), 1900);
         fp.style.width = w + 'px';
-        // 每次打开固定居中，四周留 12px 边距
-        const l = Math.max(12, (vw - w) / 2);
+        // 每次打开固定居中，四周保持 12px 边距
+        const l = Math.max(M, (vw - w) / 2);
         fp.style.left = l + 'px';
         let h = fp.offsetHeight;
         if(h < 80) h = 45 + 28 + (w - 342) * 0.5625; // 头部 + body 内边距 + 16:9 播放器兜底
-        const t = Math.max(8, Math.min(Math.max(8, (vh - h) / 2), vh - 60));
+        const maxT = vh - h - M;
+        const t = Math.max(M, Math.min(Math.max(M, (vh - h) / 2), maxT));
         fp.style.top = t + 'px';
     };
     if(head){
