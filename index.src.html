@@ -983,7 +983,18 @@ initArtPlayer();
     const closeBtn = document.getElementById('fpClose');
     if(closeBtn){
         closeBtn.onclick = ()=>{
-            if(art && !art.destroyed){ try{ art.destroy(); }catch(e){} }
+            document.querySelectorAll('video').forEach(v=>{
+                try{ v.pause(); }catch(e){}
+                try{ v.removeAttribute('src'); }catch(e){}
+                try{ v.load(); }catch(e){}
+            });
+            if(hls){
+                try{ hls.destroy(); }catch(e){}
+                hls = null;
+            }
+            if(art){
+                try{ if(!art.destroyed) art.destroy(); }catch(e){}
+            }
             art = null; player = null;
             fp.style.display = 'none';
             const vb = document.getElementById('video-box');
