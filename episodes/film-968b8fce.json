@@ -1,0 +1,39 @@
+{
+  "title": "ALIUS - 特定事件调查档案 - (2026)",
+  "type": "剧集",
+  "sources": [
+    {
+      "name": "360资源",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://vod1.maowushi.com/20260720/pq6ZbOQ5/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://vod1.maowushi.com/20260727/qHCgLKip/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://vod1.maowushi.com/20260803/DcRFq8VX/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://vod1.maowushi.com/20260810/otxvKUA2/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://vod1.maowushi.com/20260817/F7xH3vcN/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://vod1.maowushi.com/20260824/SjVm9pUK/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://www.imgzy360.com:7788/upload/vod/20260720-1/5f44669ed3d9ccead745fd447c165954.webp",
+  "posterColor": "#3b6777",
+  "uptime": "2026-08-24 13:30:02",
+  "opyear": "2026"
+}

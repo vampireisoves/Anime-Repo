@@ -1,0 +1,35 @@
+{
+  "title": "踮起脚尖 (2026)",
+  "type": "电影",
+  "sources": [
+    {
+      "name": "虎牙资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://1080p.huyall.com/play/dL9Z5r4e/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://1080p.huyall.com/play/dL9Z0RWe/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://1080p.huyall.com/play/dL9ZwGAe/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://1080p.huyall.com/play/dJ68Mnod/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://1080p.huyall.com/play/bmZq5ond/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://image.huyajs.com/cover/4461d27bb39fe88d3e2f7e2aab9c6232.jpg",
+  "posterColor": "#7d653a",
+  "uptime": "2026-06-26 17:09:02",
+  "opyear": "2026"
+}

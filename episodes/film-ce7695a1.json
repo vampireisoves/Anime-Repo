@@ -1,0 +1,47 @@
+{
+  "title": "超棒的我们 第二季 (2026)",
+  "type": "综艺",
+  "sources": [
+    {
+      "name": "光速资源站",
+      "episodes": [
+        {
+          "title": "先导片",
+          "src": "https://v.gsuus.com/play/dR6Pxkwd/index.m3u8"
+        },
+        {
+          "title": "第01集",
+          "src": "https://v.gsuus.com/play/dBBP5Ood/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://v.gsuus.com/play/bqxlGVpa/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://v.gsuus.com/play/aAD1MBje/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://v.gsuus.com/play/en5OJEDd/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://v.gsuus.com/play/erk9WkWa/index.m3u8"
+        },
+        {
+          "title": "第07集",
+          "src": "https://v.gsuus.com/play/erkYZ96a/index.m3u8"
+        },
+        {
+          "title": "第08集",
+          "src": "https://v.gsuus.com/play/dwpkk4we/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://img.guangsuimage.com/cover/be7e14e5fdde96bbee86960a5a007e4b.jpg",
+  "posterColor": "#80bcda",
+  "uptime": "2026-09-18 12:26:03",
+  "opyear": "2026"
+}

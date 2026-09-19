@@ -3,256 +3,984 @@
   "type": "综艺",
   "sources": [
     {
-      "name": "天涯影视资源站",
+      "name": "樱花资源站",
       "episodes": [
         {
-          "title": "20260729第1期上美食竞技纯享版",
-          "src": "https://tyyszywvod2.com/videos/202607/29/6a698f51096a8ef47c793b46/2e4gga/index.m3u8"
+          "title": "20260729先导片",
+          "src": "https://vod12.wgslsw.com/20260730/QRQZkgAS2e90/index.m3u8"
         },
         {
           "title": "20260729第1期上",
-          "src": "https://tyyszywvod2.com/videos/202607/29/6a699163096a8ef47c793c63/af2c8f/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260730/NUJcLiF2Up86/index.m3u8"
+        },
+        {
+          "title": "20260729第1期上美食竞技纯享版",
+          "src": "https://vod12.wgslsw.com/20260730/BZYLeqxi1t88/index.m3u8"
         },
         {
           "title": "20260729第1期中",
-          "src": "https://tyyszywvod2.com/videos/202607/29/6a69914e096a8ef47c793c61/bc76ab/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260730/e0Y3cx5anu86/index.m3u8"
         },
         {
           "title": "20260729第1期中美食竞技纯享版",
-          "src": "https://tyyszywvod2.com/videos/202607/29/6a69916c096a8ef47c793c65/724edc/index.m3u8"
-        },
-        {
-          "title": "20260729先导片",
-          "src": "https://tyyszywvod2.com/videos/202607/29/6a699152096a8ef47c793c62/b64e53/index.m3u8"
-        },
-        {
-          "title": "20260730第1期下纯享版",
-          "src": "https://tyyszywvod2.com/videos/202607/30/6a6af7bc096a8ef47c79fedd/d34d27/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260730/CAAW55MTVG86/index.m3u8"
         },
         {
           "title": "20260730第1期下",
-          "src": "https://tyyszywvod2.com/videos/202607/30/6a6af7a8096a8ef47c79fedc/a4bg57/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260731/NyBQ7AzZFt96/index.m3u8"
+        },
+        {
+          "title": "20260730第1期下纯享版",
+          "src": "https://vod12.wgslsw.com/20260731/HCUXnL66rJ97/index.m3u8"
         },
         {
           "title": "20260731第1期加更",
-          "src": "https://tyyszywvod2.com/videos/202607/31/6a6c3208e9e107f436337f37/g25g8a/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260801/cvTqFeWpxr92/index.m3u8"
         },
         {
           "title": "20260801一饭小馆第1期",
-          "src": "https://tyyszywvod2.com/videos/202608/01/6a6dc91fe9e107f436341ab0/b0e654/index.m3u8"
-        },
-        {
-          "title": "20260803准备开饭",
-          "src": "https://tyyszywvod2.com/videos/202608/03/6a702242096a8ef47c7cad08/9915e3/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260802/LX9rqM9sm986/index.m3u8"
         },
         {
           "title": "20260803家常菜第1期",
-          "src": "https://tyyszywvod2.com/videos/202608/03/6a702268096a8ef47c7cad1c/774c3d/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260804/Pu9PrG68Js86/index.m3u8"
         },
         {
           "title": "20260803陪看第1期",
-          "src": "https://tyyszywvod2.com/videos/202608/03/6a702249096a8ef47c7cad09/e72fgb/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260804/vrh8PgiSRt95/index.m3u8"
         },
         {
-          "title": "20260805第2期上纯享",
-          "src": "https://tyyszywvod2.com/videos/202608/06/6a734850807e92f4be1a81a7/896g3g/index.m3u8"
-        },
-        {
-          "title": "20260805陪看第2期",
-          "src": "https://tyyszywvod2.com/videos/202608/06/6a734855807e92f4be1a81b0/991714/index.m3u8"
+          "title": "20260803准备开饭",
+          "src": "https://vod12.wgslsw.com/20260804/fLCuCqY6gW89/index.m3u8"
         },
         {
           "title": "20260805第2期上",
-          "src": "https://tyyszywvod2.com/videos/202608/06/6a73486a807e92f4be1a81cb/f37ce1/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260806/nemfPSDrHE87/index.m3u8"
         },
         {
-          "title": "20260806第2期下纯享",
-          "src": "https://tyyszywvod2.com/videos/202608/07/6a75c236d420c4f5014c33b1/3cf69a/index.m3u8"
+          "title": "20260805第2期上纯享",
+          "src": "https://vod12.wgslsw.com/20260806/nxs8NphUKE97/index.m3u8"
+        },
+        {
+          "title": "20260805陪看第2期",
+          "src": "https://vod12.wgslsw.com/20260806/ae3znyARQe86/index.m3u8"
         },
         {
           "title": "20260807第2期加更",
-          "src": "https://tyyszywvod2.com/videos/202608/07/6a75c227d420c4f5014c33b0/344e53/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260808/HRMnfh7Yzi94/index.m3u8"
+        },
+        {
+          "title": "20260806第2期下纯享",
+          "src": "https://vod12.wgslsw.com/20260808/fQGVTUgZtd87/index.m3u8"
         },
         {
           "title": "20260808一饭小馆第2期",
-          "src": "https://tyyszywvod2.com/videos/202608/08/6a76c31eebb0a3f500beaf40/cee481/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260809/g8uQxax4Xw90/index.m3u8"
         },
         {
           "title": "20260809家常菜第2期",
-          "src": "https://tyyszywvod2.com/videos/202608/09/6a7821161e5c4ff435d89414/2e6f5f/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260810/aUXT5ksPLL97/index.m3u8"
         },
         {
           "title": "20260812第3期上",
-          "src": "https://tyyszywvod2.com/videos/202608/12/6a7c6616b86465f47d5d17cd/480592/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260813/1ie5NqE4Du87/index.m3u8"
         },
         {
           "title": "20260812第3期上纯享",
-          "src": "https://tyyszywvod2.com/videos/202608/13/6a7dbfdb096a8ef47c838cbf/6b82c8/index.m3u8"
-        },
-        {
-          "title": "20260813第3期下纯享",
-          "src": "https://tyyszywvod2.com/videos/202608/13/6a7dbfe3096a8ef47c838cc0/72fgc5/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260814/hURgFk4XFQ90/index.m3u8"
         },
         {
           "title": "20260813第3期下",
-          "src": "https://tyyszywvod2.com/videos/202608/13/6a7dbfcf096a8ef47c838cbe/bb0707/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260814/giWqMC4zZg88/index.m3u8"
+        },
+        {
+          "title": "20260813第3期下纯享",
+          "src": "https://vod12.wgslsw.com/20260814/A4te1T64S790/index.m3u8"
         },
         {
           "title": "20260815一饭小馆第3期",
-          "src": "https://tyyszywvod2.com/videos/202608/15/6a802391807e92f4be20ddc6/81b7cb/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260816/tb4ZQHPmx286/index.m3u8"
         },
         {
           "title": "20260816家常菜第3期",
-          "src": "https://tyyszywvod2.com/videos/202608/16/6a8158ead420c4f501518b5a/001770/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260817/Jcuj917mNG87/index.m3u8"
         },
         {
           "title": "20260817特别加更第2期",
-          "src": "https://tyyszywvod2.com/videos/202608/17/6a829b3b111492f4c5a40881/d1c791/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260818/wxKB3SQZnj88/index.m3u8"
         },
         {
           "title": "20260819第4期上",
-          "src": "https://tyyszywvod2.com/videos/202608/20/6a869bbb807e92f4be239aa4/dc41db/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260821/93jmUJwN1295/index.m3u8"
         },
         {
           "title": "20260819第4期上美食竞技纯享版",
-          "src": "https://tyyszywvod2.com/videos/202608/20/6a869bd1d420c4f50153e68f/a951a9/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260821/U3jHnDEKGy90/index.m3u8"
         },
         {
           "title": "20260821第4期加更",
-          "src": "https://tyyszywvod2.com/videos/202608/22/6a888871ebb0a3f500c6cfb3/d7b332/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260822/E6bdMJ6hGK91/index.m3u8"
         },
         {
           "title": "20260822一饭小馆第4期",
-          "src": "https://tyyszywvod2.com/videos/202608/23/6a8a9155b86465f47d63d315/b8dgd7/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260824/pHd48zGUaY94/index.m3u8"
         },
         {
           "title": "20260823第4期",
-          "src": "https://tyyszywvod2.com/videos/202608/23/6a8a90afb86465f47d63d112/50c75e/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260824/1ZjYf7czzA96/index.m3u8"
         },
         {
           "title": "20260824陪看第3期",
-          "src": "https://tyyszywvod2.com/videos/202608/24/6a8be6a2807e92f4be26855b/b399b2/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260825/FFsRkWu77a88/index.m3u8"
         },
         {
           "title": "20260826第5期上",
-          "src": "https://tyyszywvod2.com/videos/202608/27/6a8fc0c0096a8ef47c8c3202/b74a8e/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260828/CEBQEdQXKU95/index.m3u8"
         },
         {
           "title": "20260826第5期上纯享",
-          "src": "https://tyyszywvod2.com/videos/202608/27/6a8fc080096a8ef47c8c31f9/3568e6/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260828/XHZ5dJD2Rx96/index.m3u8"
         },
         {
           "title": "20260827第5期下",
-          "src": "https://tyyszywvod2.com/videos/202608/29/6a927466e9e107f43646770f/88f5ed/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260830/ctaPcyPr0r89/index.m3u8"
         },
         {
           "title": "20260827第5期下美食竞技纯享版",
-          "src": "https://tyyszywvod2.com/videos/202608/29/6a927452e9e107f43646770c/d70704/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260830/KRMff7vdQC90/index.m3u8"
         },
         {
           "title": "20260828第5期加更",
-          "src": "https://tyyszywvod2.com/videos/202608/29/6a927457e9e107f43646770d/505715/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260830/WWA7qXgpwb95/index.m3u8"
         },
         {
           "title": "20260829一饭小馆第5期",
-          "src": "https://tyyszywvod2.com/videos/202608/30/6a93cd57ebb0a3f500cc63fd/f42bbg/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260831/TiuL6yf3xR87/index.m3u8"
         },
         {
           "title": "20260830一饭家常菜第5期",
-          "src": "https://tyyszywvod2.com/videos/202608/30/6a93cd79ebb0a3f500cc6404/a1923a/index.m3u8"
-        },
-        {
-          "title": "20260902第6期上纯享",
-          "src": "https://tyyszywvod2.com/videos/202609/02/6a982694111492f4c5ae3c25/b7b757/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260831/aPChhwRtsS88/index.m3u8"
         },
         {
           "title": "20260902第6期上",
-          "src": "https://tyyszywvod2.com/videos/202609/02/6a982602111492f4c5ae3be7/190e5b/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260903/763kx6P7Rc97/index.m3u8"
+        },
+        {
+          "title": "20260902第6期上纯享",
+          "src": "https://vod12.wgslsw.com/20260903/WbpA3BUfRb96/index.m3u8"
         },
         {
           "title": "20260903第6期下",
-          "src": "https://tyyszywvod2.com/videos/202609/03/6a996639111492f4c5aee21a/b2g1b7/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260904/74chZYvUfB89/index.m3u8"
         },
         {
           "title": "20260903第6期下纯享",
-          "src": "https://tyyszywvod2.com/videos/202609/03/6a996629111492f4c5aee211/5c47gf/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260904/mDGPVtvWNA87/index.m3u8"
         },
         {
           "title": "20260904第6期加更",
-          "src": "https://tyyszywvod2.com/videos/202609/05/6a9ba73dd420c4f5015e0a17/34d27e/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260906/aKst7w3BGw94/index.m3u8"
         },
         {
           "title": "20260905一饭小馆第6期",
-          "src": "https://tyyszywvod2.com/videos/202609/05/6a9ba733d420c4f5015e0a15/gbf5db/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260906/T9Ggj8VdTk93/index.m3u8"
         },
         {
           "title": "20260906特别加更",
-          "src": "https://tyyszywvod2.com/videos/202609/07/6a9e4057b86465f47d6d1ff7/b94704/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260908/3zwbBJtHZe86/index.m3u8"
         },
         {
           "title": "20260907陪看第4期",
-          "src": "https://tyyszywvod2.com/videos/202609/08/6a9fb907b86465f47d6dd76f/ac6ff6/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260909/hUWiSs2p3n86/index.m3u8"
         },
         {
           "title": "20260908陪看第5期",
-          "src": "https://tyyszywvod2.com/videos/202609/08/6a9fb912b86465f47d6dd771/a68a67/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260909/ey7EXrCNBY95/index.m3u8"
         },
         {
           "title": "20260909第7期上",
-          "src": "https://tyyszywvod2.com/videos/202609/12/6aa4d19bb86465f47d7013db/90da17/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260913/qDx3L9PC9087/index.m3u8"
         },
         {
           "title": "20260909第7期上纯享",
-          "src": "https://tyyszywvod2.com/videos/202609/12/6aa4d27ab86465f47d7014d9/1633cb/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260913/eBMdPRYkyz94/index.m3u8"
         },
         {
           "title": "20260910第7期下",
-          "src": "https://tyyszywvod2.com/videos/202609/12/6aa4d285b86465f47d7014e7/6f4e6d/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260913/H1tfykj31795/index.m3u8"
         },
         {
           "title": "20260911第7期加更",
-          "src": "https://tyyszywvod2.com/videos/202609/12/6aa4d267b86465f47d7014c7/18f175/index.m3u8"
-        },
-        {
-          "title": "20260913回顾特辑",
-          "src": "https://tyyszywvod2.com/videos/202609/13/6aa64a0d096a8ef47c96bda6/8cfb28/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260913/e3ykD0tFkj86/index.m3u8"
         },
         {
           "title": "20260913第7期",
-          "src": "https://tyyszywvod2.com/videos/202609/13/6aa64a41096a8ef47c96bdab/7g4865/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260914/ZtQXdZbdzH94/index.m3u8"
+        },
+        {
+          "title": "20260913回顾特辑",
+          "src": "https://vod12.wgslsw.com/20260914/dh92quFnpG91/index.m3u8"
         },
         {
           "title": "20260914封神陪看第6期",
-          "src": "https://tyyszywvod2.com/videos/202609/14/6aa81164111492f4c5b5ee6b/2d23ca/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260915/JuPiu6vYHz87/index.m3u8"
         },
         {
           "title": "20260915陪看第7期",
-          "src": "https://tyyszywvod2.com/videos/202609/15/6aa8e1a01e5c4ff435ef52c4/dac7bd/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260916/CNdxK7XVvH87/index.m3u8"
         },
         {
           "title": "20260916第8期上",
-          "src": "https://tyyszywvod2.com/videos/202609/16/6aaa6e69096a8ef47c9859bc/d39291/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260917/bbiPEULzE889/index.m3u8"
         },
         {
           "title": "20260916第8期上纯享",
-          "src": "https://tyyszywvod2.com/videos/202609/16/6aaa6f74096a8ef47c9859d4/52cc43/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260917/uZKSwxvbsx89/index.m3u8"
         },
         {
           "title": "20260917第8期下",
-          "src": "https://tyyszywvod2.com/videos/202609/17/6aabdf87e9e107f436524c49/8accbg/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260918/KWvT0hDheL87/index.m3u8"
         },
         {
           "title": "20260917第8期下纯享",
-          "src": "https://tyyszywvod2.com/videos/202609/17/6aabdf90e9e107f436524c4a/dfe85e/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260918/0ym5MY65ea88/index.m3u8"
         },
         {
           "title": "20260918第8期加更",
-          "src": "https://tyyszywvod2.com/videos/202609/19/6aad6faf807e92f4be3637d9/5bbd56/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260919/g0xxHqrYXU91/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "牛牛资源",
+      "episodes": [
+        {
+          "title": "20260729第1期中美食竞技纯享版",
+          "src": "https://v13.gghijk.com/yyv13/202607/29/55aXT9DySS27/video/index.m3u8"
+        },
+        {
+          "title": "20260729第1期中",
+          "src": "https://v13.gghijk.com/yyv13/202607/29/4tPjRtJywH27/video/index.m3u8"
+        },
+        {
+          "title": "20260729第1期上",
+          "src": "https://v14.gghijk.com/yyv14/202607/29/ZbDdh8859p27/video/index.m3u8"
+        },
+        {
+          "title": "20260729第1期上美食竞技纯享版",
+          "src": "https://v14.gghijk.com/yyv14/202607/29/2mwifKFyA627/video/index.m3u8"
+        },
+        {
+          "title": "20260730第1期下纯享版",
+          "src": "https://v14.gghijk.com/yyv14/202607/30/bRu2Hkbm4i27/video/index.m3u8"
+        },
+        {
+          "title": "20260730第1期下",
+          "src": "https://v13.gghijk.com/yyv13/202607/30/EP1eNZrtQz27/video/index.m3u8"
+        },
+        {
+          "title": "20260731第1期加更",
+          "src": "https://v14.gghijk.com/yyv14/202607/31/Wz7eeWviKz27/video/index.m3u8"
+        },
+        {
+          "title": "20260801一饭小馆第1期",
+          "src": "https://v13.gghijk.com/yyv13/202608/01/M3GrWSRnVw27/video/index.m3u8"
+        },
+        {
+          "title": "20260803陪看第1期",
+          "src": "https://v14.gghijk.com/yyv14/202608/03/Mv1QDETMTL27/video/index.m3u8"
+        },
+        {
+          "title": "20260803家常菜第1期",
+          "src": "https://v14.gghijk.com/yyv14/202608/03/hVFHSR1s0U27/video/index.m3u8"
+        },
+        {
+          "title": "20260803准备开饭",
+          "src": "https://v14.gghijk.com/yyv14/202608/03/2xKsSsKSga27/video/index.m3u8"
+        },
+        {
+          "title": "20260805第2期上纯享",
+          "src": "https://v13.gghijk.com/yyv13/202608/05/Emvfk14K1A27/video/index.m3u8"
+        },
+        {
+          "title": "20260805第2期上",
+          "src": "https://v14.gghijk.com/yyv14/202608/05/gMZ87BUSZX27/video/index.m3u8"
+        },
+        {
+          "title": "20260805陪看第2期",
+          "src": "https://v13.gghijk.com/yyv13/202608/05/D2iEH4BsZx27/video/index.m3u8"
+        },
+        {
+          "title": "20260806第2期下纯享",
+          "src": "https://v14.gghijk.com/yyv14/202608/07/HD9qHHytcm27/video/index.m3u8"
+        },
+        {
+          "title": "20260807第2期加更",
+          "src": "https://v14.gghijk.com/yyv14/202608/07/JHfQLxmbCs27/video/index.m3u8"
+        },
+        {
+          "title": "20260808一饭小馆第2期",
+          "src": "https://v13.gghijk.com/yyv13/202608/08/adC7wUpqB327/video/index.m3u8"
+        },
+        {
+          "title": "20260809家常菜第2期",
+          "src": "https://v13.gghijk.com/yyv13/202608/09/SYeKh0DYyR27/video/index.m3u8"
+        },
+        {
+          "title": "20260812第3期上",
+          "src": "https://v13.gghijk.com/yyv13/202608/12/eQc3gCc99L27/video/index.m3u8"
+        },
+        {
+          "title": "20260812第3期上纯享",
+          "src": "https://v13.gghijk.com/yyv13/202608/13/FSXG5CseXy27/video/index.m3u8"
+        },
+        {
+          "title": "20260813第3期下纯享",
+          "src": "https://v14.gghijk.com/yyv14/202608/13/BbLMK1ZTbH27/video/index.m3u8"
+        },
+        {
+          "title": "20260813第3期下",
+          "src": "https://v13.gghijk.com/yyv13/202608/13/GhMdAM4WE927/video/index.m3u8"
+        },
+        {
+          "title": "20260815一饭小馆第3期",
+          "src": "https://v13.gghijk.com/yyv13/202608/15/DH3fEq3yfK27/video/index.m3u8"
+        },
+        {
+          "title": "20260816家常菜第3期",
+          "src": "https://v14.gghijk.com/yyv14/202608/16/6cpACzeKcq27/video/index.m3u8"
+        },
+        {
+          "title": "20260817特别加更第2期",
+          "src": "https://v13.gghijk.com/yyv13/202608/17/zRePHuen4C27/video/index.m3u8"
+        },
+        {
+          "title": "20260819第4期上美食竞技纯享版",
+          "src": "https://v13.gghijk.com/yyv13/202608/20/cmwinV9gbN27/video/index.m3u8"
+        },
+        {
+          "title": "20260819第4期上",
+          "src": "https://v13.gghijk.com/yyv13/202608/20/JRgSNuQEca27/video/index.m3u8"
+        },
+        {
+          "title": "20260821第4期加更",
+          "src": "https://v13.gghijk.com/yyv13/202608/22/BgGGHgjHpp27/video/index.m3u8"
+        },
+        {
+          "title": "20260822一饭小馆第4期",
+          "src": "https://v13.gghijk.com/yyv13/202608/23/NLJmiKkKRf27/video/index.m3u8"
+        },
+        {
+          "title": "20260823第4期",
+          "src": "https://v13.gghijk.com/yyv13/202608/23/Zy0SMxaymg27/video/index.m3u8"
+        },
+        {
+          "title": "20260824陪看第3期",
+          "src": "https://v14.gghijk.com/yyv14/202608/24/U5LrgTn62327/video/index.m3u8"
+        },
+        {
+          "title": "20260826第5期上",
+          "src": "https://v13.gghijk.com/yyv13/202608/27/fnydDham4W27/video/index.m3u8"
+        },
+        {
+          "title": "20260826第5期上纯享",
+          "src": "https://v13.gghijk.com/yyv13/202608/27/tX3iwpaQpE27/video/index.m3u8"
+        },
+        {
+          "title": "20260827第5期下美食竞技纯享版",
+          "src": "https://v13.gghijk.com/yyv13/202608/29/Q9xvdEJ25Z27/video/index.m3u8"
+        },
+        {
+          "title": "20260827第5期下",
+          "src": "https://v14.gghijk.com/yyv14/202608/29/qGh0Cc3P8v27/video/index.m3u8"
+        },
+        {
+          "title": "20260828第5期加更",
+          "src": "https://v14.gghijk.com/yyv14/202608/29/p6zcsV1R3f27/video/index.m3u8"
+        },
+        {
+          "title": "20260829一饭小馆第5期",
+          "src": "https://v13.gghijk.com/yyv13/202608/30/F537Dx2LWc27/video/index.m3u8"
+        },
+        {
+          "title": "20260830一饭家常菜第5期",
+          "src": "https://v14.gghijk.com/yyv14/202608/30/UACgj9Xdvt27/video/index.m3u8"
+        },
+        {
+          "title": "20260902第6期上纯享",
+          "src": "https://v13.gghijk.com/yyv13/202609/02/WE3jFQW88b27/video/index.m3u8"
+        },
+        {
+          "title": "20260902第6期上",
+          "src": "https://v14.gghijk.com/yyv14/202609/02/mvZFNgQHQJ27/video/index.m3u8"
+        },
+        {
+          "title": "20260903第6期下纯享",
+          "src": "https://v14.gghijk.com/yyv14/202609/03/na7qGehZ4q27/video/index.m3u8"
+        },
+        {
+          "title": "20260903第6期下",
+          "src": "https://v13.gghijk.com/yyv13/202609/03/HQcQnYr5c527/video/index.m3u8"
+        },
+        {
+          "title": "20260904第6期加更",
+          "src": "https://v14.gghijk.com/yyv14/202609/05/kjkzX9HUPu27/video/index.m3u8"
+        },
+        {
+          "title": "20260905一饭小馆第6期",
+          "src": "https://v14.gghijk.com/yyv14/202609/05/8cGMfdEHXy27/video/index.m3u8"
+        },
+        {
+          "title": "20260906特别加更",
+          "src": "https://v15.gghijk.com/yyv15/202609/07/p7Ph5cNfCf27/video/index.m3u8"
+        },
+        {
+          "title": "20260907陪看第4期",
+          "src": "https://v14.gghijk.com/yyv14/202609/08/TEMD5i9ULA27/video/index.m3u8"
+        },
+        {
+          "title": "20260908陪看第5期",
+          "src": "https://v14.gghijk.com/yyv14/202609/08/2mz9wLN74027/video/index.m3u8"
+        },
+        {
+          "title": "20260909第7期上纯享",
+          "src": "https://v13.gghijk.com/yyv13/202609/12/f6HdEqTVNm27/video/index.m3u8"
+        },
+        {
+          "title": "20260909第7期上",
+          "src": "https://v14.gghijk.com/yyv14/202609/12/zkmgJAYhNM27/video/index.m3u8"
+        },
+        {
+          "title": "20260910第7期下",
+          "src": "https://v13.gghijk.com/yyv13/202609/12/C4zpGBX8v827/video/index.m3u8"
+        },
+        {
+          "title": "20260911第7期加更",
+          "src": "https://v13.gghijk.com/yyv13/202609/12/sr85SkFTeH27/video/index.m3u8"
+        },
+        {
+          "title": "20260913第7期",
+          "src": "https://v13.gghijk.com/yyv13/202609/13/TLhWheFCWJ27/video/index.m3u8"
+        },
+        {
+          "title": "20260913回顾特辑",
+          "src": "https://v14.gghijk.com/yyv14/202609/13/8vr33b49f227/video/index.m3u8"
+        },
+        {
+          "title": "20260914封神陪看第6期",
+          "src": "https://v15.gghijk.com/yyv15/202609/14/37MGAXX9Se27/video/index.m3u8"
+        },
+        {
+          "title": "20260915陪看第7期",
+          "src": "https://v14.gghijk.com/yyv14/202609/15/6WUT39HBqp27/video/index.m3u8"
+        },
+        {
+          "title": "20260916第8期上纯享",
+          "src": "https://v14.gghijk.com/yyv14/202609/16/yP20mQfJbv27/video/index.m3u8"
+        },
+        {
+          "title": "20260916第8期上",
+          "src": "https://v13.gghijk.com/yyv13/202609/16/Xutiv1rBhh27/video/index.m3u8"
+        },
+        {
+          "title": "20260917第8期下纯享",
+          "src": "https://v15.gghijk.com/yyv15/202609/17/DZmkHcFc4b27/video/index.m3u8"
+        },
+        {
+          "title": "20260917第8期下",
+          "src": "https://v15.gghijk.com/yyv15/202609/17/tTpVsbXa8c27/video/index.m3u8"
+        },
+        {
+          "title": "20260918第8期加更",
+          "src": "https://v14.gghijk.com/yyv14/202609/18/GU4B4GeFXu27/video/index.m3u8"
+        },
+        {
+          "title": "20260919主厨沉浸式逛吃澳门",
+          "src": "https://v13.gghijk.com/yyv13/202609/19/6heWaNWEAA27/video/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "百度资源网",
+      "episodes": [
+        {
+          "title": "20260730第1期下纯享版",
+          "src": "https://b3.bdzybf22.com/videos/202607/30/6a6af75483ea92c0f6ec3e2c/d3g2e8/index.m3u8"
+        },
+        {
+          "title": "20260730第1期下",
+          "src": "https://b3.bdzybf22.com/videos/202607/30/6a6af71183ea92c0f6ec3daa/4d73b3/index.m3u8"
+        },
+        {
+          "title": "20260731第1期加更",
+          "src": "https://b3.bdzybf22.com/videos/202607/31/6a6c3a3483ea92c0f6ede465/cg6850/index.m3u8"
+        },
+        {
+          "title": "20260801一饭小馆第1期",
+          "src": "https://b3.bdzybf22.com/videos/202608/01/6a6d99dc83ea92c0f6efc5bb/0fd7cg/index.m3u8"
+        },
+        {
+          "title": "20260803家常菜第1期",
+          "src": "https://b3.bdzybf22.com/videos/202608/03/6a70268cbbd92ac0f518a2fe/aabc4c/index.m3u8"
+        },
+        {
+          "title": "20260803准备开饭",
+          "src": "https://b3.bdzybf22.com/videos/202608/03/6a702679bbd92ac0f518a2d7/dbb233/index.m3u8"
+        },
+        {
+          "title": "20260803陪看第1期",
+          "src": "https://b3.bdzybf22.com/videos/202608/03/6a70266dbbd92ac0f518a26f/4fed3a/index.m3u8"
+        },
+        {
+          "title": "20260805第2期上",
+          "src": "https://b3.bdzybf22.com/videos/202608/05/6a734d9913f8cfc0dd0f2fce/652ccg/index.m3u8"
+        },
+        {
+          "title": "20260805陪看第2期",
+          "src": "https://b3.bdzybf22.com/videos/202608/05/6a734d8b13f8cfc0dd0f2fc2/fbe54a/index.m3u8"
+        },
+        {
+          "title": "20260805第2期上纯享",
+          "src": "https://b3.bdzybf22.com/videos/202608/05/6a734d8313f8cfc0dd0f2fb6/112c94/index.m3u8"
+        },
+        {
+          "title": "20260806第2期下纯享",
+          "src": "https://b3.bdzybf22.com/videos/202608/07/6a75c37813f8cfc0dd11ce27/c22b7g/index.m3u8"
+        },
+        {
+          "title": "20260807第2期加更",
+          "src": "https://b3.bdzybf22.com/videos/202608/07/6a75c3d213f8cfc0dd11cec4/fa056b/index.m3u8"
+        },
+        {
+          "title": "20260808一饭小馆第2期",
+          "src": "https://b3.bdzybf22.com/videos/202608/08/6a76c7c1bbd92ac0f51f5ef1/24b844/index.m3u8"
+        },
+        {
+          "title": "20260809家常菜第2期",
+          "src": "https://b3.bdzybf22.com/videos/202608/09/6a7820d0bbd92ac0f520fe56/ga8937/index.m3u8"
+        },
+        {
+          "title": "20260812第3期上",
+          "src": "https://b3.bdzybf22.com/videos/202608/12/6a7c653013f8cfc0dd179964/ga72g0/index.m3u8"
+        },
+        {
+          "title": "20260812第3期上纯享",
+          "src": "https://b3.bdzybf22.com/videos/202608/13/6a7dc3c483ea92c0f6fe521b/7b0e1c/index.m3u8"
+        },
+        {
+          "title": "20260813第3期下",
+          "src": "https://b3.bdzybf22.com/videos/202608/13/6a7dc3ae83ea92c0f6fe5203/518b4a/index.m3u8"
+        },
+        {
+          "title": "20260813第3期下纯享",
+          "src": "https://b3.bdzybf22.com/videos/202608/13/6a7dc3ce83ea92c0f6fe5227/84d71f/index.m3u8"
+        },
+        {
+          "title": "20260815一饭小馆第3期",
+          "src": "https://b3.bdzybf22.com/videos/202608/15/6a801f3983ea92c0f60168c0/c8ffcb/index.m3u8"
+        },
+        {
+          "title": "20260816家常菜第3期",
+          "src": "https://b3.bdzybf22.com/videos/202608/16/6a8158b713f8cfc0dd1c57b4/f9498f/index.m3u8"
+        },
+        {
+          "title": "20260817特别加更第2期",
+          "src": "https://b3.bdzybf22.com/videos/202608/17/6a829a1913f8cfc0dd1dfd0f/94gdb6/index.m3u8"
+        },
+        {
+          "title": "20260819第4期上",
+          "src": "https://b3.bdzybf22.com/videos/202608/20/6a869b5d83ea92c0f60661b8/1bf59e/index.m3u8"
+        },
+        {
+          "title": "20260819第4期上美食竞技纯享版",
+          "src": "https://b3.bdzybf22.com/videos/202608/20/6a869b7283ea92c0f60661d0/df9ggb/index.m3u8"
+        },
+        {
+          "title": "20260821第4期加更",
+          "src": "https://b3.bdzybf22.com/videos/202608/22/6a88867b83ea92c0f6090945/5fff6e/index.m3u8"
+        },
+        {
+          "title": "20260822一饭小馆第4期",
+          "src": "https://b3.bdzybf22.com/videos/202608/23/6a8a956283ea92c0f60b8319/84d3f8/index.m3u8"
+        },
+        {
+          "title": "20260823第4期",
+          "src": "https://b3.bdzybf22.com/videos/202608/23/6a8a94ae83ea92c0f60b8134/b87af9/index.m3u8"
+        },
+        {
+          "title": "20260824陪看第3期",
+          "src": "https://b3.bdzybf22.com/videos/202608/24/6a8be266bbd92ac0f53216bc/63e4a3/index.m3u8"
+        },
+        {
+          "title": "20260826第5期上",
+          "src": "https://b3.bdzybf22.com/videos/202608/27/6a8fbcc0bbd92ac0f5362d31/531671/index.m3u8"
+        },
+        {
+          "title": "20260826第5期上纯享",
+          "src": "https://b3.bdzybf22.com/videos/202608/27/6a8fbc8dbbd92ac0f5362c3e/9a93f9/index.m3u8"
+        },
+        {
+          "title": "20260827第5期下",
+          "src": "https://b3.bdzybf22.com/videos/202608/29/6a92796213f8cfc0dd2aa01f/074ca4/index.m3u8"
+        },
+        {
+          "title": "20260827第5期下美食竞技纯享版",
+          "src": "https://b3.bdzybf22.com/videos/202608/29/6a92794b13f8cfc0dd2aa007/5gb78c/index.m3u8"
+        },
+        {
+          "title": "20260828第5期加更",
+          "src": "https://b3.bdzybf22.com/videos/202608/29/6a92795613f8cfc0dd2aa013/62de63/index.m3u8"
+        },
+        {
+          "title": "20260829一饭小馆第5期",
+          "src": "https://b3.bdzybf22.com/videos/202608/30/6a93d30e13f8cfc0dd2bdd5f/g9720a/index.m3u8"
+        },
+        {
+          "title": "20260830一饭家常菜第5期",
+          "src": "https://b3.bdzybf22.com/videos/202608/30/6a93d32e83ea92c0f612e7c4/73adc3/index.m3u8"
+        },
+        {
+          "title": "20260902第6期上",
+          "src": "https://b3.bdzybf22.com/videos/202609/02/6a982c5913f8cfc0dd2f4f3e/gg6203/index.m3u8"
+        },
+        {
+          "title": "20260902第6期上纯享",
+          "src": "https://b3.bdzybf22.com/videos/202609/02/6a982c6913f8cfc0dd2f4f56/f44892/index.m3u8"
+        },
+        {
+          "title": "20260903第6期下",
+          "src": "https://b3.bdzybf22.com/videos/202609/03/6a99670013f8cfc0dd311c0a/20bd0b/index.m3u8"
+        },
+        {
+          "title": "20260903第6期下纯享",
+          "src": "https://b3.bdzybf22.com/videos/202609/03/6a9966f513f8cfc0dd311bfe/ddc9da/index.m3u8"
+        },
+        {
+          "title": "20260904第6期加更",
+          "src": "https://b3.bdzybf22.com/videos/202609/05/6a9ba84983ea92c0f6196574/31885g/index.m3u8"
+        },
+        {
+          "title": "20260905一饭小馆第6期",
+          "src": "https://b3.bdzybf22.com/videos/202609/05/6a9ba87183ea92c0f6196683/01115a/index.m3u8"
+        },
+        {
+          "title": "20260906特别加更",
+          "src": "https://b3.bdzybf22.com/videos/202609/07/6a9e431d13f8cfc0dd361d5c/a3bc0a/index.m3u8"
+        },
+        {
+          "title": "20260907陪看第4期",
+          "src": "https://b3.bdzybf22.com/videos/202609/08/6a9fb3f7bbd92ac0f5455616/415473/index.m3u8"
+        },
+        {
+          "title": "20260908陪看第5期",
+          "src": "https://b3.bdzybf22.com/videos/202609/08/6a9fb3dabbd92ac0f54555c4/56098a/index.m3u8"
+        },
+        {
+          "title": "20260909第7期上纯享",
+          "src": "https://b3.bdzybf22.com/videos/202609/12/6aa4d1d9b42238c0deaf4ce9/d96a6f/index.m3u8"
+        },
+        {
+          "title": "20260909第7期上",
+          "src": "https://b3.bdzybf22.com/videos/202609/12/6aa4d1eeb42238c0deaf4cf5/e90c85/index.m3u8"
+        },
+        {
+          "title": "20260910第7期下",
+          "src": "https://b3.bdzybf22.com/videos/202609/12/6aa4d1e313f8cfc0dd3b8b1a/c38475/index.m3u8"
+        },
+        {
+          "title": "20260911第7期加更",
+          "src": "https://b3.bdzybf22.com/videos/202609/12/6aa4d172b42238c0deaf4991/bfd110/index.m3u8"
+        },
+        {
+          "title": "20260913第7期",
+          "src": "https://b3.bdzybf22.com/videos/202609/13/6aa649d6b42238c0deb1025b/d0baf9/index.m3u8"
+        },
+        {
+          "title": "20260913回顾特辑",
+          "src": "https://b3.bdzybf22.com/videos/202609/13/6aa649f5b42238c0deb1039d/1agba7/index.m3u8"
+        },
+        {
+          "title": "20260914封神陪看第6期",
+          "src": "https://b3.bdzybf22.com/videos/202609/14/6aa80edcb42238c0deb314b7/af807b/index.m3u8"
+        },
+        {
+          "title": "20260915陪看第7期",
+          "src": "https://b3.bdzybf22.com/videos/202609/15/6aa8e3af83ea92c0f623efb4/8b92fb/index.m3u8"
+        },
+        {
+          "title": "20260916第8期上纯享",
+          "src": "https://b3.bdzybf22.com/videos/202609/16/6aaa6db1b42238c0deb4ee4c/5c5efg/index.m3u8"
+        },
+        {
+          "title": "20260916第8期上",
+          "src": "https://b3.bdzybf22.com/videos/202609/16/6aaa6df9b42238c0deb4f029/be438d/index.m3u8"
+        },
+        {
+          "title": "20260917第8期下",
+          "src": "https://b3.bdzybf22.com/videos/202609/17/6aabdfb113f8cfc0dd402ecb/54495c/index.m3u8"
+        },
+        {
+          "title": "20260917第8期下纯享",
+          "src": "https://b3.bdzybf22.com/videos/202609/17/6aabdfbc13f8cfc0dd402f3a/32e6d8/index.m3u8"
+        },
+        {
+          "title": "20260918第8期加更",
+          "src": "https://b3.bdzybf22.com/videos/202609/19/6aad6f8b13f8cfc0dd4198d4/g5b153/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "鸭鸭资源站",
+      "episodes": [
+        {
+          "title": "20260729第1期中美食竞技纯享版",
+          "src": "https://v13.rstuuv.com/yyv13/202607/29/55aXT9DySS27/video/index.m3u8"
+        },
+        {
+          "title": "20260729第1期中",
+          "src": "https://v13.rstuuv.com/yyv13/202607/29/4tPjRtJywH27/video/index.m3u8"
+        },
+        {
+          "title": "20260729第1期上",
+          "src": "https://v14.rstuuv.com/yyv14/202607/29/ZbDdh8859p27/video/index.m3u8"
+        },
+        {
+          "title": "20260729第1期上美食竞技纯享版",
+          "src": "https://v14.rstuuv.com/yyv14/202607/29/2mwifKFyA627/video/index.m3u8"
+        },
+        {
+          "title": "20260730第1期下纯享版",
+          "src": "https://v14.rstuuv.com/yyv14/202607/30/bRu2Hkbm4i27/video/index.m3u8"
+        },
+        {
+          "title": "20260730第1期下",
+          "src": "https://v13.rstuuv.com/yyv13/202607/30/EP1eNZrtQz27/video/index.m3u8"
+        },
+        {
+          "title": "20260731第1期加更",
+          "src": "https://v14.rstuuv.com/yyv14/202607/31/Wz7eeWviKz27/video/index.m3u8"
+        },
+        {
+          "title": "20260801一饭小馆第1期",
+          "src": "https://v13.rstuuv.com/yyv13/202608/01/M3GrWSRnVw27/video/index.m3u8"
+        },
+        {
+          "title": "20260803陪看第1期",
+          "src": "https://v14.rstuuv.com/yyv14/202608/03/Mv1QDETMTL27/video/index.m3u8"
+        },
+        {
+          "title": "20260803家常菜第1期",
+          "src": "https://v14.rstuuv.com/yyv14/202608/03/hVFHSR1s0U27/video/index.m3u8"
+        },
+        {
+          "title": "20260803准备开饭",
+          "src": "https://v14.rstuuv.com/yyv14/202608/03/2xKsSsKSga27/video/index.m3u8"
+        },
+        {
+          "title": "20260805第2期上纯享",
+          "src": "https://v13.rstuuv.com/yyv13/202608/05/Emvfk14K1A27/video/index.m3u8"
+        },
+        {
+          "title": "20260805第2期上",
+          "src": "https://v14.rstuuv.com/yyv14/202608/05/gMZ87BUSZX27/video/index.m3u8"
+        },
+        {
+          "title": "20260805陪看第2期",
+          "src": "https://v13.rstuuv.com/yyv13/202608/05/D2iEH4BsZx27/video/index.m3u8"
+        },
+        {
+          "title": "20260806第2期下纯享",
+          "src": "https://v14.rstuuv.com/yyv14/202608/07/HD9qHHytcm27/video/index.m3u8"
+        },
+        {
+          "title": "20260807第2期加更",
+          "src": "https://v14.rstuuv.com/yyv14/202608/07/JHfQLxmbCs27/video/index.m3u8"
+        },
+        {
+          "title": "20260808一饭小馆第2期",
+          "src": "https://v13.rstuuv.com/yyv13/202608/08/adC7wUpqB327/video/index.m3u8"
+        },
+        {
+          "title": "20260809家常菜第2期",
+          "src": "https://v13.rstuuv.com/yyv13/202608/09/SYeKh0DYyR27/video/index.m3u8"
+        },
+        {
+          "title": "20260812第3期上",
+          "src": "https://v13.rstuuv.com/yyv13/202608/12/eQc3gCc99L27/video/index.m3u8"
+        },
+        {
+          "title": "20260812第3期上纯享",
+          "src": "https://v13.rstuuv.com/yyv13/202608/13/FSXG5CseXy27/video/index.m3u8"
+        },
+        {
+          "title": "20260813第3期下纯享",
+          "src": "https://v14.rstuuv.com/yyv14/202608/13/BbLMK1ZTbH27/video/index.m3u8"
+        },
+        {
+          "title": "20260813第3期下",
+          "src": "https://v13.rstuuv.com/yyv13/202608/13/GhMdAM4WE927/video/index.m3u8"
+        },
+        {
+          "title": "20260815一饭小馆第3期",
+          "src": "https://v13.rstuuv.com/yyv13/202608/15/DH3fEq3yfK27/video/index.m3u8"
+        },
+        {
+          "title": "20260816家常菜第3期",
+          "src": "https://v14.rstuuv.com/yyv14/202608/16/6cpACzeKcq27/video/index.m3u8"
+        },
+        {
+          "title": "20260817特别加更第2期",
+          "src": "https://v13.rstuuv.com/yyv13/202608/17/zRePHuen4C27/video/index.m3u8"
+        },
+        {
+          "title": "20260819第4期上美食竞技纯享版",
+          "src": "https://v13.rstuuv.com/yyv13/202608/20/cmwinV9gbN27/video/index.m3u8"
+        },
+        {
+          "title": "20260819第4期上",
+          "src": "https://v13.rstuuv.com/yyv13/202608/20/JRgSNuQEca27/video/index.m3u8"
+        },
+        {
+          "title": "20260821第4期加更",
+          "src": "https://v13.rstuuv.com/yyv13/202608/22/BgGGHgjHpp27/video/index.m3u8"
+        },
+        {
+          "title": "20260822一饭小馆第4期",
+          "src": "https://v13.rstuuv.com/yyv13/202608/23/NLJmiKkKRf27/video/index.m3u8"
+        },
+        {
+          "title": "20260823第4期",
+          "src": "https://v13.rstuuv.com/yyv13/202608/23/Zy0SMxaymg27/video/index.m3u8"
+        },
+        {
+          "title": "20260824陪看第3期",
+          "src": "https://v14.rstuuv.com/yyv14/202608/24/U5LrgTn62327/video/index.m3u8"
+        },
+        {
+          "title": "20260826第5期上",
+          "src": "https://v13.rstuuv.com/yyv13/202608/27/fnydDham4W27/video/index.m3u8"
+        },
+        {
+          "title": "20260826第5期上纯享",
+          "src": "https://v13.rstuuv.com/yyv13/202608/27/tX3iwpaQpE27/video/index.m3u8"
+        },
+        {
+          "title": "20260827第5期下美食竞技纯享版",
+          "src": "https://v13.rstuuv.com/yyv13/202608/29/Q9xvdEJ25Z27/video/index.m3u8"
+        },
+        {
+          "title": "20260827第5期下",
+          "src": "https://v14.rstuuv.com/yyv14/202608/29/qGh0Cc3P8v27/video/index.m3u8"
+        },
+        {
+          "title": "20260828第5期加更",
+          "src": "https://v14.rstuuv.com/yyv14/202608/29/p6zcsV1R3f27/video/index.m3u8"
+        },
+        {
+          "title": "20260829一饭小馆第5期",
+          "src": "https://v13.rstuuv.com/yyv13/202608/30/F537Dx2LWc27/video/index.m3u8"
+        },
+        {
+          "title": "20260830一饭家常菜第5期",
+          "src": "https://v14.rstuuv.com/yyv14/202608/30/UACgj9Xdvt27/video/index.m3u8"
+        },
+        {
+          "title": "20260902第6期上纯享",
+          "src": "https://v13.rstuuv.com/yyv13/202609/02/WE3jFQW88b27/video/index.m3u8"
+        },
+        {
+          "title": "20260902第6期上",
+          "src": "https://v14.rstuuv.com/yyv14/202609/02/mvZFNgQHQJ27/video/index.m3u8"
+        },
+        {
+          "title": "20260903第6期下纯享",
+          "src": "https://v14.rstuuv.com/yyv14/202609/03/na7qGehZ4q27/video/index.m3u8"
+        },
+        {
+          "title": "20260903第6期下",
+          "src": "https://v13.rstuuv.com/yyv13/202609/03/HQcQnYr5c527/video/index.m3u8"
+        },
+        {
+          "title": "20260904第6期加更",
+          "src": "https://v14.rstuuv.com/yyv14/202609/05/kjkzX9HUPu27/video/index.m3u8"
+        },
+        {
+          "title": "20260905一饭小馆第6期",
+          "src": "https://v14.rstuuv.com/yyv14/202609/05/8cGMfdEHXy27/video/index.m3u8"
+        },
+        {
+          "title": "20260906特别加更",
+          "src": "https://v15.rstuuv.com/yyv15/202609/07/p7Ph5cNfCf27/video/index.m3u8"
+        },
+        {
+          "title": "20260907陪看第4期",
+          "src": "https://v14.rstuuv.com/yyv14/202609/08/TEMD5i9ULA27/video/index.m3u8"
+        },
+        {
+          "title": "20260908陪看第5期",
+          "src": "https://v14.rstuuv.com/yyv14/202609/08/2mz9wLN74027/video/index.m3u8"
+        },
+        {
+          "title": "20260909第7期上纯享",
+          "src": "https://v13.rstuuv.com/yyv13/202609/12/f6HdEqTVNm27/video/index.m3u8"
+        },
+        {
+          "title": "20260909第7期上",
+          "src": "https://v14.rstuuv.com/yyv14/202609/12/zkmgJAYhNM27/video/index.m3u8"
+        },
+        {
+          "title": "20260910第7期下",
+          "src": "https://v13.rstuuv.com/yyv13/202609/12/C4zpGBX8v827/video/index.m3u8"
+        },
+        {
+          "title": "20260911第7期加更",
+          "src": "https://v13.rstuuv.com/yyv13/202609/12/sr85SkFTeH27/video/index.m3u8"
+        },
+        {
+          "title": "20260913第7期",
+          "src": "https://v13.rstuuv.com/yyv13/202609/13/TLhWheFCWJ27/video/index.m3u8"
+        },
+        {
+          "title": "20260913回顾特辑",
+          "src": "https://v14.rstuuv.com/yyv14/202609/13/8vr33b49f227/video/index.m3u8"
+        },
+        {
+          "title": "20260914封神陪看第6期",
+          "src": "https://v15.rstuuv.com/yyv15/202609/14/37MGAXX9Se27/video/index.m3u8"
+        },
+        {
+          "title": "20260915陪看第7期",
+          "src": "https://v14.rstuuv.com/yyv14/202609/15/6WUT39HBqp27/video/index.m3u8"
+        },
+        {
+          "title": "20260916第8期上纯享",
+          "src": "https://v14.rstuuv.com/yyv14/202609/16/yP20mQfJbv27/video/index.m3u8"
+        },
+        {
+          "title": "20260916第8期上",
+          "src": "https://v13.rstuuv.com/yyv13/202609/16/Xutiv1rBhh27/video/index.m3u8"
+        },
+        {
+          "title": "20260917第8期下纯享",
+          "src": "https://v15.rstuuv.com/yyv15/202609/17/DZmkHcFc4b27/video/index.m3u8"
+        },
+        {
+          "title": "20260917第8期下",
+          "src": "https://v15.rstuuv.com/yyv15/202609/17/tTpVsbXa8c27/video/index.m3u8"
+        },
+        {
+          "title": "20260918第8期加更",
+          "src": "https://v14.rstuuv.com/yyv14/202609/18/GU4B4GeFXu27/video/index.m3u8"
+        },
+        {
+          "title": "20260919主厨沉浸式逛吃澳门",
+          "src": "https://v13.rstuuv.com/yyv13/202609/19/6heWaNWEAA27/video/index.m3u8"
         }
       ]
     }
   ],
-  "poster": "https://tyyswimg2.com/upload/vod/20260919-1/c79f8a0a4410a5984255d63de4dbeadc.jpg",
-  "uptime": "2026-09-19 02:36:48",
+  "poster": "https://pic.yayazy.info/upload/vod/20260919-1/28d34546be9490be52a15858c700107b.jpg",
+  "posterColor": "#ad1405",
+  "uptime": "2026-09-19 19:39:36",
   "opyear": "2026"
 }

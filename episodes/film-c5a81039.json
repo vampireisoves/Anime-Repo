@@ -1,0 +1,396 @@
+{
+  "title": "食神·百厨大战 (2026)",
+  "type": "综艺",
+  "sources": [
+    {
+      "name": "非凡资源站",
+      "episodes": [
+        {
+          "title": "第20260617期先导",
+          "src": "https://vod.ffzy-bofang.com/20260702/337_357a6fdf/index.m3u8"
+        },
+        {
+          "title": "第20260624期上",
+          "src": "https://vod.ffzy-bofang.com/20260702/338_819f46e5/index.m3u8"
+        },
+        {
+          "title": "第20260624期下",
+          "src": "https://vod.ffzy-bofang.com/20260702/339_04025959/index.m3u8"
+        },
+        {
+          "title": "第20260625期纯享",
+          "src": "https://vod.ffzy-bofang.com/20260702/340_40008b9a/index.m3u8"
+        },
+        {
+          "title": "第20260629期干饭",
+          "src": "https://vod.ffzy-bofang.com/20260702/341_3dd48ab3/index.m3u8"
+        },
+        {
+          "title": "第20260701期上",
+          "src": "https://vod.ffzy-bofang.com/20260702/342_58238e9a/index.m3u8"
+        },
+        {
+          "title": "第20260701期下",
+          "src": "https://vod.ffzy-bofang.com/20260702/343_3ad7c2eb/index.m3u8"
+        },
+        {
+          "title": "第20260708期上",
+          "src": "https://vod.ffzy-bofang.com/20260708/558_1bb91f73/index.m3u8"
+        },
+        {
+          "title": "第20260708期下",
+          "src": "https://vod.ffzy-bofang.com/20260708/559_3a077244/index.m3u8"
+        },
+        {
+          "title": "第20260709期纯享",
+          "src": "https://vod.ffzy-bofang.com/20260709/595_04ecb1fa/index.m3u8"
+        },
+        {
+          "title": "第20260709期干饭局",
+          "src": "https://vod.ffzy-bofang.com/20260709/596_b2eeb736/index.m3u8"
+        },
+        {
+          "title": "第20260715期上",
+          "src": "https://vod.ffzy-bofang.com/20260715/827_fa3a3c40/index.m3u8"
+        },
+        {
+          "title": "第20260715期下",
+          "src": "https://vod.ffzy-bofang.com/20260715/828_c2626d85/index.m3u8"
+        },
+        {
+          "title": "第20260716期纯享",
+          "src": "https://vod.ffzy-bofang.com/20260716/869_49c9adb1/index.m3u8"
+        },
+        {
+          "title": "第20260716期饭局",
+          "src": "https://vod.ffzy-bofang.com/20260716/870_22fb0cee/index.m3u8"
+        },
+        {
+          "title": "第20260722期抢先版",
+          "src": "https://vod.ffzy-bofang.com/20260722/1091_754dda4b/index.m3u8"
+        },
+        {
+          "title": "第20260722期上",
+          "src": "https://vod.ffzy-bofang.com/20260722/1092_6a2feef8/index.m3u8"
+        },
+        {
+          "title": "第20260722期下",
+          "src": "https://vod.ffzy-bofang.com/20260722/1093_68b1fbe7/index.m3u8"
+        },
+        {
+          "title": "第20260729期上",
+          "src": "https://vod.ffzy-bofang.com/20260729/1346_82965d4e/index.m3u8"
+        },
+        {
+          "title": "第20260729期下",
+          "src": "https://vod.ffzy-bofang.com/20260729/1347_0e55666a/index.m3u8"
+        },
+        {
+          "title": "第20260805期上",
+          "src": "https://vod.ffzy-bofang.com/20260805/1595_d88518ac/index.m3u8"
+        },
+        {
+          "title": "第20260805期下",
+          "src": "https://vod.ffzy-bofang.com/20260805/1596_309fee4e/index.m3u8"
+        },
+        {
+          "title": "第20260812期上",
+          "src": "https://vod.ffzy-bofang.com/20260812/1875_7e9e346d/index.m3u8"
+        },
+        {
+          "title": "第20260812期下",
+          "src": "https://vod.ffzy-bofang.com/20260812/1876_ba9a56ce/index.m3u8"
+        },
+        {
+          "title": "第20260819期上",
+          "src": "https://vod.ffzy-bofang.com/20260819/2173_7bc1ec1d/index.m3u8"
+        },
+        {
+          "title": "第20260819期下",
+          "src": "https://vod.ffzy-bofang.com/20260819/2174_d1a21da7/index.m3u8"
+        },
+        {
+          "title": "第20260820期纯享",
+          "src": "https://vod.ffzy-bofang.com/20260820/2214_f3d9de86/index.m3u8"
+        },
+        {
+          "title": "第20260820期干饭",
+          "src": "https://vod.ffzy-bofang.com/20260820/2216_5938b4d0/index.m3u8"
+        },
+        {
+          "title": "第20260826期上",
+          "src": "https://vod.ffzy-bofang.com/20260826/2433_0fe47339/index.m3u8"
+        },
+        {
+          "title": "第20260826期下",
+          "src": "https://vod.ffzy-bofang.com/20260826/2434_f708f064/index.m3u8"
+        },
+        {
+          "title": "第20260902期上",
+          "src": "https://vod.ffzy-bofang.com/20260902/2690_f6185f0e/index.m3u8"
+        },
+        {
+          "title": "第20260902期下",
+          "src": "https://vod.ffzy-bofang.com/20260902/2691_110eec23/index.m3u8"
+        },
+        {
+          "title": "第20260903期",
+          "src": "https://vod.ffzy-bofang.com/20260903/2728_5e751896/index.m3u8"
+        },
+        {
+          "title": "第20260909期上",
+          "src": "https://vod.ffzy-bofang.com/20260909/2940_8e930496/index.m3u8"
+        },
+        {
+          "title": "第20260909期下",
+          "src": "https://vod.ffzy-bofang.com/20260909/2941_4b21cf96/index.m3u8"
+        },
+        {
+          "title": "第20260916期",
+          "src": "https://vod.ffzy-bofang.com/20260917/3187_31c0c178/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "360资源",
+      "episodes": [
+        {
+          "title": "第20260617期先导",
+          "src": "https://vod1.maowushi.com/20260617/l7EkyQ0F/index.m3u8"
+        },
+        {
+          "title": "第20260624期上",
+          "src": "https://vod1.maowushi.com/20260624/dhDig9xV/index.m3u8"
+        },
+        {
+          "title": "第20260624期下",
+          "src": "https://vod1.maowushi.com/20260624/ufSGepUd/index.m3u8"
+        },
+        {
+          "title": "第20260625期下饭纯享",
+          "src": "https://vod1.maowushi.com/20260625/8jXYyxxx/index.m3u8"
+        },
+        {
+          "title": "第20260629期加更版",
+          "src": "https://vod1.maowushi.com/20260629/n16MYGez/index.m3u8"
+        },
+        {
+          "title": "第20260629期百厨干饭局",
+          "src": "https://vod1.maowushi.com/20260629/o6TWUlG0/index.m3u8"
+        },
+        {
+          "title": "第20260701期上",
+          "src": "https://vod1.maowushi.com/20260701/NipOfcKK/index.m3u8"
+        },
+        {
+          "title": "第20260701期下",
+          "src": "https://vod1.maowushi.com/20260701/FJUHLzRs/index.m3u8"
+        },
+        {
+          "title": "第20260702期下饭纯享",
+          "src": "https://vod1.maowushi.com/20260702/IJvt0nYm/index.m3u8"
+        },
+        {
+          "title": "第20260702期百厨干饭局",
+          "src": "https://vod1.maowushi.com/20260703/167Zs4E5/index.m3u8"
+        },
+        {
+          "title": "第20260708期上",
+          "src": "https://vod1.maowushi.com/20260708/h2yr8V8J/index.m3u8"
+        },
+        {
+          "title": "第20260708期下",
+          "src": "https://vod1.maowushi.com/20260708/5d0Rq4Zx/index.m3u8"
+        },
+        {
+          "title": "第20260709期百厨干饭局",
+          "src": "https://vod1.maowushi.com/20260709/RYbGpCcG/index.m3u8"
+        },
+        {
+          "title": "第20260709期下饭纯享",
+          "src": "https://vod1.maowushi.com/20260709/T0AM4F2l/index.m3u8"
+        },
+        {
+          "title": "第20260715期上",
+          "src": "https://vod1.maowushi.com/20260715/fENG2bc2/index.m3u8"
+        },
+        {
+          "title": "第20260715期下",
+          "src": "https://vod1.maowushi.com/20260715/SY5EiWVz/index.m3u8"
+        },
+        {
+          "title": "第20260716期下饭纯享",
+          "src": "https://vod1.maowushi.com/20260716/OXGbICPa/index.m3u8"
+        },
+        {
+          "title": "第20260716期百厨干饭局",
+          "src": "https://vod1.maowushi.com/20260716/JvG2W1sE/index.m3u8"
+        },
+        {
+          "title": "第20260722期上",
+          "src": "https://vod1.maowushi.com/20260722/YrPs9715/index.m3u8"
+        },
+        {
+          "title": "第20260722期下",
+          "src": "https://vod1.maowushi.com/20260722/ezgQDdZL/index.m3u8"
+        },
+        {
+          "title": "第20260722期抢先版",
+          "src": "https://vod1.maowushi.com/20260722/4YLU7XR4/index.m3u8"
+        },
+        {
+          "title": "第20260723期下饭纯享",
+          "src": "https://vod1.maowushi.com/20260723/qLkYEQRk/index.m3u8"
+        },
+        {
+          "title": "第20260723期百厨干饭局",
+          "src": "https://vod1.maowushi.com/20260723/EISOutps/index.m3u8"
+        },
+        {
+          "title": "第20260729期上",
+          "src": "https://vod1.maowushi.com/20260729/BCU4WZwm/index.m3u8"
+        },
+        {
+          "title": "第20260729期下",
+          "src": "https://vod1.maowushi.com/20260729/F1GVeqzf/index.m3u8"
+        },
+        {
+          "title": "第20260729期抢先版",
+          "src": "https://vod1.maowushi.com/20260730/wAk3h8iq/index.m3u8"
+        },
+        {
+          "title": "第20260730期下饭纯享",
+          "src": "https://vod1.maowushi.com/20260730/vRSliNgV/index.m3u8"
+        },
+        {
+          "title": "第20260730期百厨干饭局",
+          "src": "https://vod1.maowushi.com/20260730/RxXJuOkm/index.m3u8"
+        },
+        {
+          "title": "第20260805期上",
+          "src": "https://vod1.maowushi.com/20260805/CFAafcGT/index.m3u8"
+        },
+        {
+          "title": "第20260805期下",
+          "src": "https://vod1.maowushi.com/20260805/JJYC03jf/index.m3u8"
+        },
+        {
+          "title": "第20260805期抢先版",
+          "src": "https://vod1.maowushi.com/20260805/S0DW2UIE/index.m3u8"
+        },
+        {
+          "title": "第20260806期下饭纯享",
+          "src": "https://vod1.maowushi.com/20260806/6YFoqZih/index.m3u8"
+        },
+        {
+          "title": "第20260806期百厨干饭局",
+          "src": "https://vod1.maowushi.com/20260806/m2JrbEwH/index.m3u8"
+        },
+        {
+          "title": "第20260812期上",
+          "src": "https://vod1.maowushi.com/20260812/jUH6gow9/index.m3u8"
+        },
+        {
+          "title": "第20260812期下",
+          "src": "https://vod1.maowushi.com/20260812/8aV7t6ko/index.m3u8"
+        },
+        {
+          "title": "第20260812期抢先版EP09",
+          "src": "https://vod1.maowushi.com/20260812/aHQcrDcj/index.m3u8"
+        },
+        {
+          "title": "第20260813期下饭纯享",
+          "src": "https://vod1.maowushi.com/20260813/bdZnNkOh/index.m3u8"
+        },
+        {
+          "title": "第20260813期百厨干饭局",
+          "src": "https://vod1.maowushi.com/20260813/uftJKZqN/index.m3u8"
+        },
+        {
+          "title": "第20260819期上",
+          "src": "https://vod1.maowushi.com/20260819/OE8d62fq/index.m3u8"
+        },
+        {
+          "title": "第20260819期下",
+          "src": "https://vod1.maowushi.com/20260819/9JKPwT0h/index.m3u8"
+        },
+        {
+          "title": "第20260819期抢先版EP10",
+          "src": "https://vod1.maowushi.com/20260819/DY1HwuWt/index.m3u8"
+        },
+        {
+          "title": "第20260820期下饭纯享",
+          "src": "https://vod1.maowushi.com/20260820/rFVtcDI6/index.m3u8"
+        },
+        {
+          "title": "第20260820期百厨干饭局",
+          "src": "https://vod1.maowushi.com/20260820/GI5a4AKY/index.m3u8"
+        },
+        {
+          "title": "第20260826期上",
+          "src": "https://vod1.maowushi.com/20260826/UALnGzNv/index.m3u8"
+        },
+        {
+          "title": "第20260826期下",
+          "src": "https://vod1.maowushi.com/20260826/h9XNzJp1/index.m3u8"
+        },
+        {
+          "title": "第20260826期抢先版EP11",
+          "src": "https://vod1.maowushi.com/20260826/wOcTAOQ2/index.m3u8"
+        },
+        {
+          "title": "第20260827期下饭纯享",
+          "src": "https://vod1.maowushi.com/20260827/aays2xhr/index.m3u8"
+        },
+        {
+          "title": "第20260827期百厨干饭局",
+          "src": "https://vod1.maowushi.com/20260827/MyBb8Txd/index.m3u8"
+        },
+        {
+          "title": "第20260902期上",
+          "src": "https://vod1.maowushi.com/20260902/BBxIKqfj/index.m3u8"
+        },
+        {
+          "title": "第20260902期下",
+          "src": "https://vod1.maowushi.com/20260902/yIyW9J1t/index.m3u8"
+        },
+        {
+          "title": "第20260902期抢先版EP12",
+          "src": "https://vod1.maowushi.com/20260902/I9gDzBQC/index.m3u8"
+        },
+        {
+          "title": "第20260903期下饭纯享",
+          "src": "https://vod1.maowushi.com/20260903/xvYPPlmB/index.m3u8"
+        },
+        {
+          "title": "第20260903期百厨干饭局",
+          "src": "https://vod1.maowushi.com/20260903/IpezB2EO/index.m3u8"
+        },
+        {
+          "title": "第20260909期上",
+          "src": "https://vod1.maowushi.com/20260909/BcuQNGTM/index.m3u8"
+        },
+        {
+          "title": "第20260909期下",
+          "src": "https://vod1.maowushi.com/20260909/ED7iZtAN/index.m3u8"
+        },
+        {
+          "title": "第20260910期下饭纯享",
+          "src": "https://vod1.maowushi.com/20260910/OTbjxdGc/index.m3u8"
+        },
+        {
+          "title": "第20260910期百厨干饭局",
+          "src": "https://vod1.maowushi.com/20260910/JQFYYgrH/index.m3u8"
+        },
+        {
+          "title": "第20260916期加更正片",
+          "src": "https://vod1.maowushi.com/20260916/xlIEMSPX/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2932341331.webp",
+  "posterColor": "#baa176",
+  "uptime": "2026-09-16 13:35:02",
+  "opyear": "2026"
+}

@@ -3,61 +3,57 @@
   "type": "剧集",
   "sources": [
     {
-      "name": "非凡资源站",
+      "name": "飘零影院资源站",
       "episodes": [
         {
           "title": "第01集",
-          "src": "https://vod.ffzy-bofang.com/20260816/2050_aebf7782/index.m3u8"
-        },
-        {
-          "title": "第02集",
-          "src": "https://vod.ffzy-bofang.com/20260816/2051_a9813e95/index.m3u8"
-        },
-        {
-          "title": "第03集",
-          "src": "https://vod.ffzy-bofang.com/20260816/2052_584b98aa/index.m3u8"
-        },
-        {
-          "title": "第04集",
-          "src": "https://vod.ffzy-bofang.com/20260816/2053_f3e52c30/index.m3u8"
-        },
-        {
-          "title": "第05集",
-          "src": "https://vod.ffzy-bofang.com/20260816/2054_955cb567/index.m3u8"
+          "src": "https://v7.ppqrrs.com/wjv7/202608/15/A2D8jnQpvn95/video/index.m3u8"
         },
         {
           "title": "第06集",
-          "src": "https://vod.ffzy-bofang.com/20260816/2055_9afefc52/index.m3u8"
+          "src": "https://v4.ppqrrs.com/wjv4/202608/08/QvFRFHJ04892/video/index.m3u8"
         },
         {
-          "title": "第07集",
-          "src": "https://vod.ffzy-bofang.com/20260816/2056_a96d3afe/index.m3u8"
+          "title": "第05集",
+          "src": "https://v1.ppqrrs.com/202608/02/4qEcwWhTCZ93/video/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://v1.ppqrrs.com/202607/25/sSKgtmjFE092/video/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://v9.ppqrrs.com/wjv9/202607/18/XDZiLe9iYK87/video/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://v12.ppqrrs.com/wjv12/202607/18/mbacdBy2gZ88/video/index.m3u8"
+        },
+        {
+          "title": "第01集",
+          "src": "https://v2.ppqrrs.com/wjv2/202607/07/NeY279Q5uj96/video/index.m3u8"
         },
         {
           "title": "第08集",
-          "src": "https://super.ffzy-online6.com/20260822/39312_0b8a492f/index.m3u8"
+          "src": "https://v8.ppqrrs.com/wjv8/202608/22/UBQ0hm2FZw88/video/index.m3u8"
         },
         {
           "title": "第09集",
-          "src": "https://super.ffzy-online6.com/20260829/39886_6a51a5dd/index.m3u8"
+          "src": "https://v12.ppqrrs.com/wjv12/202608/29/6xUVqgxTTn89/video/index.m3u8"
         },
         {
           "title": "第10集",
-          "src": "https://super.ffzy-online6.com/20260905/40330_70607a5b/index.m3u8"
+          "src": "https://v8.ppqrrs.com/wjv8/202609/05/0RtzqhUXJu96/video/index.m3u8"
         },
         {
           "title": "第11集",
-          "src": "https://super.ffzy-online6.com/20260912/40869_e4c5f4bf/index.m3u8"
-        },
-        {
-          "title": "第12集",
-          "src": "https://super.ffzy-online6.com/20260919/41346_d2339e22/index.m3u8"
+          "src": "https://v5.ppqrrs.com/wjv5/202609/12/605nQkkrSq91/video/index.m3u8"
         }
       ]
     }
   ],
-  "poster": "https://fffgood.com/upload/vod/20260816-1/f8299886a32e6ce6b8cd3f7c8f8fa790.jpg",
-  "posterColor": "#aec5d3",
-  "uptime": "2026-09-19 08:34:42",
+  "poster": "https://pic.youkupic.com/upload/vod/20260707-1/776aab4dcf730dcd1b6b5027c7d992cf.jpg",
+  "posterColor": "#b0c5d2",
+  "uptime": "2026-09-19 18:20:03",
   "opyear": "2026"
 }

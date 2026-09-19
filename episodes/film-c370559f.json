@@ -1,0 +1,687 @@
+{
+  "title": "全知干预视角 (2018)",
+  "type": "综艺",
+  "sources": [
+    {
+      "name": "光速资源站",
+      "episodes": [
+        {
+          "title": "第230506期",
+          "src": "https://v.gsuus.com/play/oeEWP2vb/index.m3u8"
+        },
+        {
+          "title": "第230520期",
+          "src": "https://v.gsuus.com/play/9avJGAna/index.m3u8"
+        },
+        {
+          "title": "第230527期",
+          "src": "https://v.gsuus.com/play/zbqp5zra/index.m3u8"
+        },
+        {
+          "title": "第230603期",
+          "src": "https://v.gsuus.com/play/QbYZlxYd/index.m3u8"
+        },
+        {
+          "title": "第230610期",
+          "src": "https://v.gsuus.com/play/oeEv8O0a/index.m3u8"
+        },
+        {
+          "title": "第230617期",
+          "src": "https://v.gsuus.com/play/kaz5WwYe/index.m3u8"
+        },
+        {
+          "title": "第230624期",
+          "src": "https://v.gsuus.com/play/NbWzoZoa/index.m3u8"
+        },
+        {
+          "title": "第230701期",
+          "src": "https://v.gsuus.com/play/zbqX4Vpa/index.m3u8"
+        },
+        {
+          "title": "第230708期",
+          "src": "https://v.gsuus.com/play/QdJ2AwKd/index.m3u8"
+        },
+        {
+          "title": "第230715期",
+          "src": "https://v.gsuus.com/play/NbWl4yxd/index.m3u8"
+        },
+        {
+          "title": "第230729期",
+          "src": "https://v.gsuus.com/play/xe7kW0Oe/index.m3u8"
+        },
+        {
+          "title": "第230805期",
+          "src": "https://v.gsuus.com/play/xboPPm3d/index.m3u8"
+        },
+        {
+          "title": "第230812期",
+          "src": "https://v.gsuus.com/play/zbq90Q7b/index.m3u8"
+        },
+        {
+          "title": "第230819期",
+          "src": "https://v.gsuus.com/play/QdJRmDld/index.m3u8"
+        },
+        {
+          "title": "第230826期",
+          "src": "https://v.gsuus.com/play/kazoR98b/index.m3u8"
+        },
+        {
+          "title": "第230902期",
+          "src": "https://v.gsuus.com/play/9avrg8Ma/index.m3u8"
+        },
+        {
+          "title": "第230909期",
+          "src": "https://v.gsuus.com/play/QdJrY1Dd/index.m3u8"
+        },
+        {
+          "title": "第230916期",
+          "src": "https://v.gsuus.com/play/NbWX11Xd/index.m3u8"
+        },
+        {
+          "title": "第230923期",
+          "src": "https://v.gsuus.com/play/oeEmVg0e/index.m3u8"
+        },
+        {
+          "title": "第230930期",
+          "src": "https://v.gsuus.com/play/7e5X5NRd/index.m3u8"
+        },
+        {
+          "title": "第231007期",
+          "src": "https://v.gsuus.com/play/9avrNnna/index.m3u8"
+        },
+        {
+          "title": "第231014期",
+          "src": "https://v.gsuus.com/play/ZdPE7J4e/index.m3u8"
+        },
+        {
+          "title": "第231021期",
+          "src": "https://v.gsuus.com/play/Pe9N3MBa/index.m3u8"
+        },
+        {
+          "title": "第231104期",
+          "src": "https://v.gsuus.com/play/PdRJ40Od/index.m3u8"
+        },
+        {
+          "title": "第231111期",
+          "src": "https://v.gsuus.com/play/xbogyyKb/index.m3u8"
+        },
+        {
+          "title": "第231118期",
+          "src": "https://v.gsuus.com/play/6dBYpgnb/index.m3u8"
+        },
+        {
+          "title": "第231125期",
+          "src": "https://v.gsuus.com/play/Pe9EZMYe/index.m3u8"
+        },
+        {
+          "title": "第231202期",
+          "src": "https://v.gsuus.com/play/vbm9Bqrb/index.m3u8"
+        },
+        {
+          "title": "第231209期",
+          "src": "https://v.gsuus.com/play/7axW7Pqe/index.m3u8"
+        },
+        {
+          "title": "第231216期",
+          "src": "https://v.gsuus.com/play/zbqWkD7e/index.m3u8"
+        },
+        {
+          "title": "第231223期",
+          "src": "https://v.gsuus.com/play/7e5oYGBb/index.m3u8"
+        },
+        {
+          "title": "第231230期",
+          "src": "https://v.gsuus.com/play/mbkW9o5b/index.m3u8"
+        },
+        {
+          "title": "第240106期",
+          "src": "https://v.gsuus.com/play/xboBvYAa/index.m3u8"
+        },
+        {
+          "title": "第240113期",
+          "src": "https://v.gsuus.com/play/mbkxKkxd/index.m3u8"
+        },
+        {
+          "title": "第240120期",
+          "src": "https://v.gsuus.com/play/ZdPwkkwb/index.m3u8"
+        },
+        {
+          "title": "第240127期",
+          "src": "https://v.gsuus.com/play/6dBMkD2b/index.m3u8"
+        },
+        {
+          "title": "第240203期",
+          "src": "https://v.gsuus.com/play/wdLOv14b/index.m3u8"
+        },
+        {
+          "title": "第240210期",
+          "src": "https://v.gsuus.com/play/NbWroxJa/index.m3u8"
+        },
+        {
+          "title": "第240217期",
+          "src": "https://v.gsuus.com/play/vbmmg59b/index.m3u8"
+        },
+        {
+          "title": "第240224期",
+          "src": "https://v.gsuus.com/play/7e5kP8Ab/index.m3u8"
+        },
+        {
+          "title": "第240302期",
+          "src": "https://v.gsuus.com/play/QbYwz92e/index.m3u8"
+        },
+        {
+          "title": "第240309期",
+          "src": "https://v.gsuus.com/play/oeEM07We/index.m3u8"
+        },
+        {
+          "title": "第240316期",
+          "src": "https://v.gsuus.com/play/9avBwx0a/index.m3u8"
+        },
+        {
+          "title": "第240323期",
+          "src": "https://v.gsuus.com/play/ZdPowozb/index.m3u8"
+        },
+        {
+          "title": "第240330期",
+          "src": "https://v.gsuus.com/play/wdLkx1Wb/index.m3u8"
+        },
+        {
+          "title": "第240406期",
+          "src": "https://v.gsuus.com/play/zbq4jYDa/index.m3u8"
+        },
+        {
+          "title": "第240414期",
+          "src": "https://v.gsuus.com/play/neg4K16a/index.m3u8"
+        },
+        {
+          "title": "第240420期",
+          "src": "https://v.gsuus.com/play/QbYPLQna/index.m3u8"
+        },
+        {
+          "title": "第240421期",
+          "src": "https://v.gsuus.com/play/mbk44nEd/index.m3u8"
+        },
+        {
+          "title": "第240427期",
+          "src": "https://v.gsuus.com/play/0dNAP96b/index.m3u8"
+        },
+        {
+          "title": "第240504期",
+          "src": "https://v.gsuus.com/play/xe7ZA3Gd/index.m3u8"
+        },
+        {
+          "title": "第240519期",
+          "src": "https://v.gsuus.com/play/BeXKGzmd/index.m3u8"
+        },
+        {
+          "title": "第240526期",
+          "src": "https://v.gsuus.com/play/DbDj3PYe/index.m3u8"
+        },
+        {
+          "title": "第240602期",
+          "src": "https://v.gsuus.com/play/QeZMlqwd/index.m3u8"
+        },
+        {
+          "title": "第240609期",
+          "src": "https://v.gsuus.com/play/lej1OKld/index.m3u8"
+        },
+        {
+          "title": "第240616期",
+          "src": "https://v.gsuus.com/play/9aAp2Ope/index.m3u8"
+        },
+        {
+          "title": "第240623期",
+          "src": "https://v.gsuus.com/play/Rb4OoNga/index.m3u8"
+        },
+        {
+          "title": "第240629期",
+          "src": "https://v.gsuus.com/play/1aKDJMlb/index.m3u8"
+        },
+        {
+          "title": "第240706期",
+          "src": "https://v.gsuus.com/play/nel3YqJd/index.m3u8"
+        },
+        {
+          "title": "第240713期",
+          "src": "https://v.gsuus.com/play/9aAV89zb/index.m3u8"
+        },
+        {
+          "title": "第240720期",
+          "src": "https://v.gsuus.com/play/QeZLyy8b/index.m3u8"
+        },
+        {
+          "title": "第240818期",
+          "src": "https://v.gsuus.com/play/lejlYmBb/index.m3u8"
+        },
+        {
+          "title": "第240824期",
+          "src": "https://v.gsuus.com/play/PdyE2n7d/index.m3u8"
+        },
+        {
+          "title": "第240831期",
+          "src": "https://v.gsuus.com/play/5eVBK0ze/index.m3u8"
+        },
+        {
+          "title": "第240901期",
+          "src": "https://v.gsuus.com/play/RdGjo27b/index.m3u8"
+        },
+        {
+          "title": "第240908期",
+          "src": "https://v.gsuus.com/play/neln40Jb/index.m3u8"
+        },
+        {
+          "title": "第240915期",
+          "src": "https://v.gsuus.com/play/1aKng9Ye/index.m3u8"
+        },
+        {
+          "title": "第240921期",
+          "src": "https://v.gsuus.com/play/mepMg1Qa/index.m3u8"
+        },
+        {
+          "title": "第240928期",
+          "src": "https://v.gsuus.com/play/9aA496je/index.m3u8"
+        },
+        {
+          "title": "第241005期",
+          "src": "https://v.gsuus.com/play/qaQ4mY7e/index.m3u8"
+        },
+        {
+          "title": "第241012期",
+          "src": "https://v.gsuus.com/play/Rb4Xrl0b/index.m3u8"
+        },
+        {
+          "title": "第241020期",
+          "src": "https://v.gsuus.com/play/Xe0Q645a/index.m3u8"
+        },
+        {
+          "title": "第241026期",
+          "src": "https://v.gsuus.com/play/BeX4jPVe/index.m3u8"
+        },
+        {
+          "title": "第241102期",
+          "src": "https://v.gsuus.com/play/1aM3JLRd/index.m3u8"
+        },
+        {
+          "title": "第241109期",
+          "src": "https://v.gsuus.com/play/9b6OGMld/index.m3u8"
+        },
+        {
+          "title": "第241116期",
+          "src": "https://v.gsuus.com/play/Xe0Gym5d/index.m3u8"
+        },
+        {
+          "title": "第241124期",
+          "src": "https://v.gsuus.com/play/rb2KpYMd/index.m3u8"
+        },
+        {
+          "title": "第241130期",
+          "src": "https://v.gsuus.com/play/BeX8N65e/index.m3u8"
+        },
+        {
+          "title": "第241215期",
+          "src": "https://v.gsuus.com/play/9aA0ME7e/index.m3u8"
+        },
+        {
+          "title": "第241221期",
+          "src": "https://v.gsuus.com/play/Xe0JDy7b/index.m3u8"
+        },
+        {
+          "title": "第241228期",
+          "src": "https://v.gsuus.com/play/QeZP9m8b/index.m3u8"
+        },
+        {
+          "title": "第250105期",
+          "src": "https://v.gsuus.com/play/nelqwj7a/index.m3u8"
+        },
+        {
+          "title": "第250111期",
+          "src": "https://v.gsuus.com/play/lejozoYa/index.m3u8"
+        },
+        {
+          "title": "第250118期",
+          "src": "https://v.gsuus.com/play/mepJYVQb/index.m3u8"
+        },
+        {
+          "title": "第250125期",
+          "src": "https://v.gsuus.com/play/nelBpvMb/index.m3u8"
+        },
+        {
+          "title": "第250201期",
+          "src": "https://v.gsuus.com/play/mepJnopb/index.m3u8"
+        },
+        {
+          "title": "第250208期",
+          "src": "https://v.gsuus.com/play/mepJmvpb/index.m3u8"
+        },
+        {
+          "title": "第250215期",
+          "src": "https://v.gsuus.com/play/nelBwNrb/index.m3u8"
+        },
+        {
+          "title": "第250222期",
+          "src": "https://v.gsuus.com/play/5eVXX95b/index.m3u8"
+        },
+        {
+          "title": "第250301期",
+          "src": "https://v.gsuus.com/play/Ddwo9Omd/index.m3u8"
+        },
+        {
+          "title": "第250308期",
+          "src": "https://v.gsuus.com/play/qaQoN2Md/index.m3u8"
+        },
+        {
+          "title": "第250315期",
+          "src": "https://v.gsuus.com/play/RdG1AV5a/index.m3u8"
+        },
+        {
+          "title": "第250322期",
+          "src": "https://v.gsuus.com/play/DdwoNxJd/index.m3u8"
+        },
+        {
+          "title": "第250329期",
+          "src": "https://v.gsuus.com/play/lejXDnPb/index.m3u8"
+        },
+        {
+          "title": "第250405期",
+          "src": "https://v.gsuus.com/play/Xe0w4GGd/index.m3u8"
+        },
+        {
+          "title": "第250412期",
+          "src": "https://v.gsuus.com/play/DdwX07Xe/index.m3u8"
+        },
+        {
+          "title": "第250419期",
+          "src": "https://v.gsuus.com/play/9b6nGEQb/index.m3u8"
+        },
+        {
+          "title": "第250426期",
+          "src": "https://v.gsuus.com/play/DdwXlKme/index.m3u8"
+        },
+        {
+          "title": "第250503期",
+          "src": "https://v.gsuus.com/play/DdwXD0re/index.m3u8"
+        },
+        {
+          "title": "第250510期",
+          "src": "https://v.gsuus.com/play/9b6LEnRe/index.m3u8"
+        },
+        {
+          "title": "第250517期",
+          "src": "https://v.gsuus.com/play/9aABJPBb/index.m3u8"
+        },
+        {
+          "title": "第250524期",
+          "src": "https://v.gsuus.com/play/vbmAO5rb/index.m3u8"
+        },
+        {
+          "title": "第250531期",
+          "src": "https://v.gsuus.com/play/9aAw8O3d/index.m3u8"
+        },
+        {
+          "title": "第250607期",
+          "src": "https://v.gsuus.com/play/mepEVKVa/index.m3u8"
+        },
+        {
+          "title": "第250614期",
+          "src": "https://v.gsuus.com/play/rb23oxNd/index.m3u8"
+        },
+        {
+          "title": "第250621期",
+          "src": "https://v.gsuus.com/play/yb8krMga/index.m3u8"
+        },
+        {
+          "title": "第250628期",
+          "src": "https://v.gsuus.com/play/1aK0q5Mb/index.m3u8"
+        },
+        {
+          "title": "第250705期",
+          "src": "https://v.gsuus.com/play/BeX18kva/index.m3u8"
+        },
+        {
+          "title": "第250712期",
+          "src": "https://v.gsuus.com/play/penBDBYe/index.m3u8"
+        },
+        {
+          "title": "第250719期",
+          "src": "https://v.gsuus.com/play/9aAjvkBb/index.m3u8"
+        },
+        {
+          "title": "第250726期",
+          "src": "https://v.gsuus.com/play/1aM09QQe/index.m3u8"
+        },
+        {
+          "title": "第250802期",
+          "src": "https://v.gsuus.com/play/1aM0W9Ae/index.m3u8"
+        },
+        {
+          "title": "第250809期",
+          "src": "https://v.gsuus.com/play/Rb4EMLxd/index.m3u8"
+        },
+        {
+          "title": "第250816期",
+          "src": "https://v.gsuus.com/play/xe7lxl8a/index.m3u8"
+        },
+        {
+          "title": "第250824期",
+          "src": "https://v.gsuus.com/play/zbqJ3jkd/index.m3u8"
+        },
+        {
+          "title": "第250830期",
+          "src": "https://v.gsuus.com/play/PdRWQJRe/index.m3u8"
+        },
+        {
+          "title": "第250906期",
+          "src": "https://v.gsuus.com/play/7axQZMJb/index.m3u8"
+        },
+        {
+          "title": "第250914期",
+          "src": "https://v.gsuus.com/play/7axZn4ld/index.m3u8"
+        },
+        {
+          "title": "第250920期",
+          "src": "https://v.gsuus.com/play/Rb4p4l6b/index.m3u8"
+        },
+        {
+          "title": "第250928期",
+          "src": "https://v.gsuus.com/play/1aMORoAd/index.m3u8"
+        },
+        {
+          "title": "第251004期",
+          "src": "https://v.gsuus.com/play/5eV8GBob/index.m3u8"
+        },
+        {
+          "title": "第251012期",
+          "src": "https://v.gsuus.com/play/1aMYR9Ra/index.m3u8"
+        },
+        {
+          "title": "第251018期",
+          "src": "https://v.gsuus.com/play/meprZpVb/index.m3u8"
+        },
+        {
+          "title": "第251026期",
+          "src": "https://v.gsuus.com/play/Xe0voKGb/index.m3u8"
+        },
+        {
+          "title": "第251101期",
+          "src": "https://v.gsuus.com/play/xe7N0ZBd/index.m3u8"
+        },
+        {
+          "title": "第251108期",
+          "src": "https://v.gsuus.com/play/YaOVKBRe/index.m3u8"
+        },
+        {
+          "title": "第251122期",
+          "src": "https://v.gsuus.com/play/dwp9KNMe/index.m3u8"
+        },
+        {
+          "title": "第251129期",
+          "src": "https://v.gsuus.com/play/dNkDnxDe/index.m3u8"
+        },
+        {
+          "title": "第251206期",
+          "src": "https://v.gsuus.com/play/egJYoxjd/index.m3u8"
+        },
+        {
+          "title": "第251213期",
+          "src": "https://v.gsuus.com/play/eZ6O2xge/index.m3u8"
+        },
+        {
+          "title": "第251220期",
+          "src": "https://v.gsuus.com/play/egJJ5RGd/index.m3u8"
+        },
+        {
+          "title": "第251227期",
+          "src": "https://v.gsuus.com/play/bYEElppb/index.m3u8"
+        },
+        {
+          "title": "第260103期",
+          "src": "https://v.gsuus.com/play/e1wwq4mb/index.m3u8"
+        },
+        {
+          "title": "第260110期",
+          "src": "https://v.gsuus.com/play/bqxxEJ3a/index.m3u8"
+        },
+        {
+          "title": "第260117期",
+          "src": "https://v.gsuus.com/play/bmZZJ49d/index.m3u8"
+        },
+        {
+          "title": "第260124期",
+          "src": "https://v.gsuus.com/play/bkRRJ2Ea/index.m3u8"
+        },
+        {
+          "title": "第260131期",
+          "src": "https://v.gsuus.com/play/dJ6Z83vd/index.m3u8"
+        },
+        {
+          "title": "第260207期",
+          "src": "https://v.gsuus.com/play/bo2YJvja/index.m3u8"
+        },
+        {
+          "title": "第260214期",
+          "src": "https://v.gsuus.com/play/bYE6NVOb/index.m3u8"
+        },
+        {
+          "title": "第260221期",
+          "src": "https://v.gsuus.com/play/e1wjA6Gb/index.m3u8"
+        },
+        {
+          "title": "第260228期",
+          "src": "https://v.gsuus.com/play/bo2YxZja/index.m3u8"
+        },
+        {
+          "title": "第260307期",
+          "src": "https://v.gsuus.com/play/axkvql9e/index.m3u8"
+        },
+        {
+          "title": "第260314期",
+          "src": "https://v.gsuus.com/play/axkv1Qle/index.m3u8"
+        },
+        {
+          "title": "第260321期",
+          "src": "https://v.gsuus.com/play/bqxYp3ra/index.m3u8"
+        },
+        {
+          "title": "第260328期",
+          "src": "https://v.gsuus.com/play/dPNZV84a/index.m3u8"
+        },
+        {
+          "title": "第260404期",
+          "src": "https://v.gsuus.com/play/bqxY1n3a/index.m3u8"
+        },
+        {
+          "title": "第260411期",
+          "src": "https://v.gsuus.com/play/e73LE28e/index.m3u8"
+        },
+        {
+          "title": "第260418期",
+          "src": "https://v.gsuus.com/play/b68XRNQe/index.m3u8"
+        },
+        {
+          "title": "第260425期",
+          "src": "https://v.gsuus.com/play/eXDLnWoe/index.m3u8"
+        },
+        {
+          "title": "第260502期",
+          "src": "https://v.gsuus.com/play/aM8wxDOe/index.m3u8"
+        },
+        {
+          "title": "第260509期",
+          "src": "https://v.gsuus.com/play/bqx7082a/index.m3u8"
+        },
+        {
+          "title": "第260517期",
+          "src": "https://v.gsuus.com/play/axknR3Pe/index.m3u8"
+        },
+        {
+          "title": "第260523期",
+          "src": "https://v.gsuus.com/play/bkR8J4xa/index.m3u8"
+        },
+        {
+          "title": "第260530期",
+          "src": "https://v.gsuus.com/play/e739p1Ge/index.m3u8"
+        },
+        {
+          "title": "第260606期",
+          "src": "https://v.gsuus.com/play/bmZq8w3d/index.m3u8"
+        },
+        {
+          "title": "第260620期",
+          "src": "https://v.gsuus.com/play/e5y7p8ve/index.m3u8"
+        },
+        {
+          "title": "第260627期",
+          "src": "https://v.gsuus.com/play/bo2ZL5Ya/index.m3u8"
+        },
+        {
+          "title": "第260704期",
+          "src": "https://v.gsuus.com/play/av28qMma/index.m3u8"
+        },
+        {
+          "title": "第260711期",
+          "src": "https://v.gsuus.com/play/bYEyM1Yb/index.m3u8"
+        },
+        {
+          "title": "第260718期",
+          "src": "https://v.gsuus.com/play/azp7NWmd/index.m3u8"
+        },
+        {
+          "title": "第260725期",
+          "src": "https://v.gsuus.com/play/dJ6NgxDd/index.m3u8"
+        },
+        {
+          "title": "第260801期",
+          "src": "https://v.gsuus.com/play/av28GPra/index.m3u8"
+        },
+        {
+          "title": "第260808期",
+          "src": "https://v.gsuus.com/play/azp7VDyd/index.m3u8"
+        },
+        {
+          "title": "第260815期",
+          "src": "https://v.gsuus.com/play/bDk8YGya/index.m3u8"
+        },
+        {
+          "title": "第260822期",
+          "src": "https://v.gsuus.com/play/b689voOe/index.m3u8"
+        },
+        {
+          "title": "第260829期",
+          "src": "https://v.gsuus.com/play/epY2Aw1a/index.m3u8"
+        },
+        {
+          "title": "第260906期",
+          "src": "https://v.gsuus.com/play/aKrQgnGe/index.m3u8"
+        },
+        {
+          "title": "第260912期",
+          "src": "https://v.gsuus.com/play/b2k9x8vd/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://img.guangsuimage.com/cover/e9a1449858c471af13976b2746b7b83b.jpg",
+  "posterColor": "#f4615c",
+  "uptime": "2026-09-14 15:24:03",
+  "opyear": "2018"
+}

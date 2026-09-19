@@ -1,0 +1,78 @@
+{
+  "title": "致命羁绊 (2026)",
+  "type": "剧集",
+  "sources": [
+    {
+      "name": "光速资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v.gsuus.com/play/dG696p0b/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://v.gsuus.com/play/ejRn2V5e/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://v.gsuus.com/play/aOYZZzYd/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "飘零影院资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v2.ppqrrs.com/wjv2/202609/11/dPeSTxs6GY97/video/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://v7.ppqrrs.com/wjv7/202609/11/V06JL4f5rq88/video/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://v5.ppqrrs.com/wjv5/202609/17/a5ynXJW89g95/video/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "天涯影视资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://tyyszywvod2.com/videos/202609/11/6aa37a6d807e92f4be317e17/39370d/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://tyyszywvod2.com/videos/202609/11/6aa37a63807e92f4be317e16/a63efg/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://tyyszywvod2.com/videos/202609/17/6aabdff2e9e107f436524c54/14279e/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "百度资源网",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://b3.bdzybf22.com/videos/202609/11/6aa376c41163f3d4efb9fa66/e48478/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://b3.bdzybf22.com/videos/202609/11/6aa376ce1163f3d4efb9fa72/97dbff/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://b3.bdzybf22.com/videos/202609/17/6aabeb6280d729d4e8e989a8/5ffbd1/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://img.guangsuimage.com/cover/8431a66e04dc4b516b817d4083397de4.jpg",
+  "posterColor": "#9a7e55",
+  "uptime": "2026-09-18 11:12:03",
+  "opyear": "2026"
+}

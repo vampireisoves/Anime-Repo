@@ -3,45 +3,49 @@
   "type": "综艺",
   "sources": [
     {
-      "name": "caiji.xgzyapi.com",
+      "name": "光速资源站",
       "episodes": [
         {
           "title": "第01集",
-          "src": "https://svip.xgplay17.com/2026-07-31/33629_HBo0ivwv15Dx6M0Tb7/index.m3u8"
+          "src": "https://v.gsuus.com/play/dNkYq3Ne/index.m3u8"
         },
         {
           "title": "第02集",
-          "src": "https://svip.xgplay17.com/2026-08-07/34518_wSh8_JK2cDOVVBIcaB/index.m3u8"
+          "src": "https://v.gsuus.com/play/av28O3Ma/index.m3u8"
+        },
+        {
+          "title": "直播篇",
+          "src": "https://v.gsuus.com/play/dPNz2mWa/index.m3u8"
         },
         {
           "title": "第03集",
-          "src": "https://svip.xgplay17.com/2026-08-14/35553_mEoHCSuh0UcGkopjHI/index.m3u8"
+          "src": "https://v.gsuus.com/play/en5OOPpd/index.m3u8"
         },
         {
           "title": "第04集",
-          "src": "https://svip.xgplay17.com/2026-08-21/36476_Ez0BqgAZ0-d91u78RA/index.m3u8"
+          "src": "https://v.gsuus.com/play/erk9q34a/index.m3u8"
         },
         {
           "title": "第05集",
-          "src": "https://svip.xgplay17.com/2026-08-28/37316_I05QQgPqvD34jr4jJV/index.m3u8"
+          "src": "https://v.gsuus.com/play/epY2WE2a/index.m3u8"
         },
         {
           "title": "第06集",
-          "src": "https://svip.xgplay17.com/2026-09-04/38150__mD9wCOBs4tho2t-bC/index.m3u8"
+          "src": "https://v.gsuus.com/play/eVOQ39va/index.m3u8"
         },
         {
           "title": "第07集",
-          "src": "https://svip.xgplay17.com/2026-09-11/39028_C3ohMNItlQlWQFrH4b/index.m3u8"
+          "src": "https://v.gsuus.com/play/b2k9kEWd/index.m3u8"
         },
         {
           "title": "第08集",
-          "src": "https://svip.xgplay17.com/2026-09-18/39864_1V1sxLcQo86bPjHn2F/index.m3u8"
+          "src": "https://v.gsuus.com/play/elYpvmVa/index.m3u8"
         }
       ]
     }
   ],
-  "poster": "https://vod.xiguazyimg.com/upload/vod/20260731-1/e2aa73452b9adeccaf018752b7f11d71.jpg",
-  "posterColor": "#c2b194",
-  "uptime": "2026-09-18 22:07:48",
+  "poster": "https://img.guangsuimage.com/cover/51d086480b1e9500854f8df05223797f.jpg",
+  "posterColor": "#c3b091",
+  "uptime": "2026-09-19 10:02:02",
   "opyear": "2026"
 }

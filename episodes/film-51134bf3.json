@@ -1,0 +1,531 @@
+{
+  "title": "刘在街头第四季 (2022)",
+  "type": "未分类",
+  "sources": [
+    {
+      "name": "飘零影院资源站",
+      "episodes": [
+        {
+          "title": "240103",
+          "src": "https://v3.ppqrrs.com/wjv3/202401/04/heLwMKKYHP2/video/index.m3u8"
+        },
+        {
+          "title": "240110",
+          "src": "https://v3.ppqrrs.com/wjv3/202401/11/UvMa2tVx7P2/video/index.m3u8"
+        },
+        {
+          "title": "240117",
+          "src": "https://v3.ppqrrs.com/wjv3/202401/18/5ch814PP5j2/video/index.m3u8"
+        },
+        {
+          "title": "240124",
+          "src": "https://v3.ppqrrs.com/wjv3/202401/25/yeMhkL0srE2/video/index.m3u8"
+        },
+        {
+          "title": "240207",
+          "src": "https://v3.ppqrrs.com/wjv3/202402/08/8zkPehcKcy2/video/index.m3u8"
+        },
+        {
+          "title": "240214",
+          "src": "https://v12.ppqrrs.com/wjv12/202402/15/MGFkbCZHZB4/video/index.m3u8"
+        },
+        {
+          "title": "240228",
+          "src": "https://v2.ppqrrs.com/wjv2/202402/29/RAJmbicDES2/video/index.m3u8"
+        },
+        {
+          "title": "240306",
+          "src": "https://v2.ppqrrs.com/wjv2/202403/07/T2mhb78TDX2/video/index.m3u8"
+        },
+        {
+          "title": "240313",
+          "src": "https://v11.ppqrrs.com/wjv11/202403/14/Yi2kcg7VwT3/video/index.m3u8"
+        },
+        {
+          "title": "240327",
+          "src": "https://v11.ppqrrs.com/wjv11/202403/28/2Y8EiaE9cn3/video/index.m3u8"
+        },
+        {
+          "title": "240424",
+          "src": "https://v11.ppqrrs.com/wjv11/202404/25/eUJ0yxeNfb83/video/index.m3u8"
+        },
+        {
+          "title": "240501",
+          "src": "https://v5.ppqrrs.com/wjv5/202405/03/rLj11NCJnW77/video/index.m3u8"
+        },
+        {
+          "title": "240508",
+          "src": "https://v4.ppqrrs.com/wjv4/202405/09/vZ13cUr43k76/video/index.m3u8"
+        },
+        {
+          "title": "240515",
+          "src": "https://v1.ppqrrs.com/wjv1/202405/16/9x4YWdRjDE85/video/index.m3u8"
+        },
+        {
+          "title": "240522",
+          "src": "https://v1.ppqrrs.com/wjv1/202405/23/qQs6Mminc785/video/index.m3u8"
+        },
+        {
+          "title": "240605",
+          "src": "https://v3.ppqrrs.com/wjv3/202406/06/pj9usm6ktz75/video/index.m3u8"
+        },
+        {
+          "title": "240612",
+          "src": "https://v5.ppqrrs.com/wjv5/202406/13/9gnS2RBbUS77/video/index.m3u8"
+        },
+        {
+          "title": "240619",
+          "src": "https://v12.ppqrrs.com/wjv12/202406/20/YuZ17X82Bq84/video/index.m3u8"
+        },
+        {
+          "title": "240626",
+          "src": "https://v9.ppqrrs.com/wjv9/202406/27/gSrrpsM6mt81/video/index.m3u8"
+        },
+        {
+          "title": "240703",
+          "src": "https://v11.ppqrrs.com/wjv11/202407/04/NDxbzGZGPC83/video/index.m3u8"
+        },
+        {
+          "title": "240710",
+          "src": "https://v12.ppqrrs.com/wjv12/202407/11/e0igp9Q1v284/video/index.m3u8"
+        },
+        {
+          "title": "240717",
+          "src": "https://v11.ppqrrs.com/wjv11/202407/18/tfe8jSECyk83/video/index.m3u8"
+        },
+        {
+          "title": "240724",
+          "src": "https://v10.ppqrrs.com/wjv10/202407/25/SdcdNPfh4G82/video/index.m3u8"
+        },
+        {
+          "title": "240731",
+          "src": "https://v9.ppqrrs.com/wjv9/202408/01/kW6f1qHAr181/video/index.m3u8"
+        },
+        {
+          "title": "240807",
+          "src": "https://v7.ppqrrs.com/wjv7/202408/08/qZxi6yDx7279/video/index.m3u8"
+        },
+        {
+          "title": "240814",
+          "src": "https://v12.ppqrrs.com/wjv12/202408/15/Vvc56mXyWj84/video/index.m3u8"
+        },
+        {
+          "title": "240821",
+          "src": "https://v7.ppqrrs.com/wjv7/202408/22/ieKQtBG6Ad79/video/index.m3u8"
+        },
+        {
+          "title": "240828",
+          "src": "https://v2.ppqrrs.com/wjv2/202408/29/JzjAC3uYsN74/video/index.m3u8"
+        },
+        {
+          "title": "240904",
+          "src": "https://v10.ppqrrs.com/wjv10/202409/05/GasYP1G4TJ82/video/index.m3u8"
+        },
+        {
+          "title": "240911",
+          "src": "https://v2.ppqrrs.com/wjv2/202409/12/Jrby0abHfr74/video/index.m3u8"
+        },
+        {
+          "title": "240925",
+          "src": "https://v7.ppqrrs.com/wjv7/202409/26/5GFUUSLxS379/video/index.m3u8"
+        },
+        {
+          "title": "241002",
+          "src": "https://v4.ppqrrs.com/wjv4/202410/03/ZgmXzLjHpC76/video/index.m3u8"
+        },
+        {
+          "title": "241009",
+          "src": "https://v11.ppqrrs.com/wjv11/202410/10/9bDbfu5ivV83/video/index.m3u8"
+        },
+        {
+          "title": "241016",
+          "src": "https://v10.ppqrrs.com/wjv10/202410/17/U5cqGdbxye82/video/index.m3u8"
+        },
+        {
+          "title": "241023",
+          "src": "https://v3.ppqrrs.com/wjv3/202410/24/R8eGtPXzNS75/video/index.m3u8"
+        },
+        {
+          "title": "241030",
+          "src": "https://v6.ppqrrs.com/wjv6/202410/31/bGfH9UZVmz78/video/index.m3u8"
+        },
+        {
+          "title": "241106",
+          "src": "https://v6.ppqrrs.com/wjv6/202411/07/Sr68c7am0X78/video/index.m3u8"
+        },
+        {
+          "title": "241113",
+          "src": "https://v9.ppqrrs.com/wjv9/202411/14/KJygCcd0am81/video/index.m3u8"
+        },
+        {
+          "title": "241120",
+          "src": "https://v3.ppqrrs.com/wjv3/202411/21/2zPQzm4Fy775/video/index.m3u8"
+        },
+        {
+          "title": "241127",
+          "src": "https://v10.ppqrrs.com/wjv10/202411/28/Dh3hhS0grx82/video/index.m3u8"
+        },
+        {
+          "title": "241211",
+          "src": "https://v3.ppqrrs.com/wjv3/202412/12/3kDbRP67eM75/video/index.m3u8"
+        },
+        {
+          "title": "241218",
+          "src": "https://v10.ppqrrs.com/wjv10/202412/19/XfXUAQQssh82/video/index.m3u8"
+        },
+        {
+          "title": "241225",
+          "src": "https://v11.ppqrrs.com/wjv11/202412/26/8wBFa8J1Kz83/video/index.m3u8"
+        },
+        {
+          "title": "250108",
+          "src": "https://v11.ppqrrs.com/wjv11/202501/09/cu8EbWCTEX83/video/index.m3u8"
+        },
+        {
+          "title": "250115",
+          "src": "https://v11.ppqrrs.com/wjv11/202501/16/Rpffv4yVVY83/video/index.m3u8"
+        },
+        {
+          "title": "250122",
+          "src": "https://v9.ppqrrs.com/wjv9/202501/23/SxpTM2SCLr81/video/index.m3u8"
+        },
+        {
+          "title": "250129",
+          "src": "https://v11.ppqrrs.com/wjv11/202501/30/WJ6GE1G60383/video/index.m3u8"
+        },
+        {
+          "title": "250205",
+          "src": "https://v12.ppqrrs.com/wjv12/202502/06/beCNLHyhSP84/video/index.m3u8"
+        },
+        {
+          "title": "250212",
+          "src": "https://v6.ppqrrs.com/wjv6/202502/13/GzPTjMrp1Z78/video/index.m3u8"
+        },
+        {
+          "title": "250219",
+          "src": "https://v3.ppqrrs.com/wjv3/202502/20/mv4LYdcNkM75/video/index.m3u8"
+        },
+        {
+          "title": "250226",
+          "src": "https://v11.ppqrrs.com/wjv11/202502/27/9h3vVsiz0s83/video/index.m3u8"
+        },
+        {
+          "title": "250305",
+          "src": "https://v3.ppqrrs.com/wjv3/202503/06/3AL24ipxzz75/video/index.m3u8"
+        },
+        {
+          "title": "250312",
+          "src": "https://v11.ppqrrs.com/wjv11/202503/13/7jWT59eGDN83/video/index.m3u8"
+        },
+        {
+          "title": "250319",
+          "src": "https://v9.ppqrrs.com/wjv9/202503/20/dh4mEnDUAk81/video/index.m3u8"
+        },
+        {
+          "title": "250326",
+          "src": "https://v10.ppqrrs.com/wjv10/202503/27/CyDCCEg3m482/video/index.m3u8"
+        },
+        {
+          "title": "250402",
+          "src": "https://v12.ppqrrs.com/wjv12/202504/03/3iYJAnfgiR84/video/index.m3u8"
+        },
+        {
+          "title": "250409",
+          "src": "https://v12.ppqrrs.com/wjv12/202504/10/VSEt5y7TKD84/video/index.m3u8"
+        },
+        {
+          "title": "250416",
+          "src": "https://v6.ppqrrs.com/wjv6/202504/17/G2TcQZp7Jg78/video/index.m3u8"
+        },
+        {
+          "title": "250423",
+          "src": "https://v3.ppqrrs.com/wjv3/202504/24/QBHvmk1Xh475/video/index.m3u8"
+        },
+        {
+          "title": "250430",
+          "src": "https://v8.ppqrrs.com/wjv8/202505/01/QNTU8YTuHC80/video/index.m3u8"
+        },
+        {
+          "title": "250507",
+          "src": "https://v12.ppqrrs.com/wjv12/202505/08/tYTn0AQmeJ84/video/index.m3u8"
+        },
+        {
+          "title": "250514",
+          "src": "https://v9.ppqrrs.com/wjv9/202505/15/wkA9GWS4hj81/video/index.m3u8"
+        },
+        {
+          "title": "250521",
+          "src": "https://v12.ppqrrs.com/wjv12/202505/22/TBvUadqiAs84/video/index.m3u8"
+        },
+        {
+          "title": "250528",
+          "src": "https://v10.ppqrrs.com/wjv10/202505/29/UE8VBRxFyJ82/video/index.m3u8"
+        },
+        {
+          "title": "250604",
+          "src": "https://v10.ppqrrs.com/wjv10/202506/05/PBaBn35WT082/video/index.m3u8"
+        },
+        {
+          "title": "250611",
+          "src": "https://v11.ppqrrs.com/wjv11/202506/12/rMQH8ycHpL83/video/index.m3u8"
+        },
+        {
+          "title": "250618",
+          "src": "https://v2.ppqrrs.com/wjv2/202506/19/7jRAz2kSYE74/video/index.m3u8"
+        },
+        {
+          "title": "250625",
+          "src": "https://v11.ppqrrs.com/wjv11/202506/26/WHYtrPUFTC83/video/index.m3u8"
+        },
+        {
+          "title": "250702",
+          "src": "https://v1.ppqrrs.com/wjv1/202507/03/XeVJShjLiu85/video/index.m3u8"
+        },
+        {
+          "title": "250709",
+          "src": "https://v8.ppqrrs.com/wjv8/202507/10/TnQENRE0Xf80/video/index.m3u8"
+        },
+        {
+          "title": "250716",
+          "src": "https://v10.ppqrrs.com/wjv10/202507/17/VGqkEvhiNe82/video/index.m3u8"
+        },
+        {
+          "title": "250723",
+          "src": "https://v2.ppqrrs.com/wjv2/202507/24/TkecCvjHXC74/video/index.m3u8"
+        },
+        {
+          "title": "250730",
+          "src": "https://v12.ppqrrs.com/wjv12/202507/31/bP9UNc7iyb84/video/index.m3u8"
+        },
+        {
+          "title": "250806",
+          "src": "https://v8.ppqrrs.com/wjv8/202508/07/YiLtK651q880/video/index.m3u8"
+        },
+        {
+          "title": "250813",
+          "src": "https://v11.ppqrrs.com/wjv11/202508/14/8EMY8jQSVb83/video/index.m3u8"
+        },
+        {
+          "title": "250820",
+          "src": "https://v8.ppqrrs.com/wjv8/202508/21/wvQPv6uQBx80/video/index.m3u8"
+        },
+        {
+          "title": "250827",
+          "src": "https://v11.ppqrrs.com/wjv11/202508/28/6yB6LEYVLA83/video/index.m3u8"
+        },
+        {
+          "title": "250903",
+          "src": "https://v10.ppqrrs.com/wjv10/202509/04/Rm6s5iT6E682/video/index.m3u8"
+        },
+        {
+          "title": "250910",
+          "src": "https://v8.ppqrrs.com/wjv8/202509/11/6SJ55z4vCi80/video/index.m3u8"
+        },
+        {
+          "title": "250917",
+          "src": "https://v2.ppqrrs.com/wjv2/202509/18/VSYt7gynr874/video/index.m3u8"
+        },
+        {
+          "title": "250924",
+          "src": "https://v10.ppqrrs.com/wjv10/202509/25/xPwcDN9gYg82/video/index.m3u8"
+        },
+        {
+          "title": "251001",
+          "src": "https://v10.ppqrrs.com/wjv10/202510/02/NHMU24xxna82/video/index.m3u8"
+        },
+        {
+          "title": "251015",
+          "src": "https://v11.ppqrrs.com/wjv11/202510/16/8rWTRdELnG83/video/index.m3u8"
+        },
+        {
+          "title": "251022",
+          "src": "https://v8.ppqrrs.com/wjv8/202510/23/7FHSeyp2e880/video/index.m3u8"
+        },
+        {
+          "title": "251029",
+          "src": "https://v8.ppqrrs.com/wjv8/202510/30/GNrnYbD2PM80/video/index.m3u8"
+        },
+        {
+          "title": "251105",
+          "src": "https://v12.ppqrrs.com/wjv12/202511/06/dXFqHL9r0M84/video/index.m3u8"
+        },
+        {
+          "title": "251112",
+          "src": "https://v10.ppqrrs.com/wjv10/202511/13/YMRKKB7UNB82/video/index.m3u8"
+        },
+        {
+          "title": "251119",
+          "src": "https://v12.ppqrrs.com/wjv12/202511/20/qMK9gE3sFk84/video/index.m3u8"
+        },
+        {
+          "title": "251126",
+          "src": "https://v10.ppqrrs.com/wjv10/202511/27/ye9kJgs2Wa89/video/index.m3u8"
+        },
+        {
+          "title": "251203",
+          "src": "https://v8.ppqrrs.com/wjv8/202512/04/XBUWKeLu0S96/video/index.m3u8"
+        },
+        {
+          "title": "251210",
+          "src": "https://v12.ppqrrs.com/wjv12/202512/11/aXJzYjjbFB91/video/index.m3u8"
+        },
+        {
+          "title": "251217",
+          "src": "https://v7.ppqrrs.com/wjv7/202512/18/CZgZkcywNE89/video/index.m3u8"
+        },
+        {
+          "title": "251224",
+          "src": "https://v2.ppqrrs.com/wjv2/202512/25/y5iWmHaWa194/video/index.m3u8"
+        },
+        {
+          "title": "251231",
+          "src": "https://v3.ppqrrs.com/wjv3/202601/01/aJ95Vjg8Yb92/video/index.m3u8"
+        },
+        {
+          "title": "260107",
+          "src": "https://v8.ppqrrs.com/wjv8/202601/08/pX3zA2LHM793/video/index.m3u8"
+        },
+        {
+          "title": "260114",
+          "src": "https://v11.ppqrrs.com/wjv11/202601/15/AhPJmELbqy97/video/index.m3u8"
+        },
+        {
+          "title": "260121",
+          "src": "https://v8.ppqrrs.com/wjv8/202601/22/4nninX21CT94/video/index.m3u8"
+        },
+        {
+          "title": "260128",
+          "src": "https://v3.ppqrrs.com/wjv3/202601/29/Hnpih0jrZ996/video/index.m3u8"
+        },
+        {
+          "title": "260204",
+          "src": "https://v4.ppqrrs.com/wjv4/202602/05/0KsgntprMX96/video/index.m3u8"
+        },
+        {
+          "title": "260211",
+          "src": "https://v8.ppqrrs.com/wjv8/202602/12/MEBVn3Fudi94/video/index.m3u8"
+        },
+        {
+          "title": "260225",
+          "src": "https://v2.ppqrrs.com/wjv2/202602/26/WyVkA6tRMt94/video/index.m3u8"
+        },
+        {
+          "title": "260305",
+          "src": "https://v8.ppqrrs.com/wjv8/202603/05/LrW7gYdCVU93/video/index.m3u8"
+        },
+        {
+          "title": "260311",
+          "src": "https://v9.ppqrrs.com/wjv9/202603/12/P6H5VBg8vn93/video/index.m3u8"
+        },
+        {
+          "title": "260318",
+          "src": "https://v1.ppqrrs.com/wjv1/202603/19/TAV38Y2aB396/video/index.m3u8"
+        },
+        {
+          "title": "260325",
+          "src": "https://v3.ppqrrs.com/wjv3/202603/26/xnU8y0LkfE97/video/index.m3u8"
+        },
+        {
+          "title": "260401",
+          "src": "https://v5.ppqrrs.com/wjv5/202604/02/c9bVWY5p5x90/video/index.m3u8"
+        },
+        {
+          "title": "260408",
+          "src": "https://v4.ppqrrs.com/wjv4/202604/09/6kUAv7E0Xf88/video/index.m3u8"
+        },
+        {
+          "title": "260415",
+          "src": "https://v12.ppqrrs.com/wjv12/202604/16/Rzsu3MndMn87/video/index.m3u8"
+        },
+        {
+          "title": "260422",
+          "src": "https://v7.ppqrrs.com/wjv7/202604/23/b9Bx11PiSV97/video/index.m3u8"
+        },
+        {
+          "title": "260429",
+          "src": "https://v5.ppqrrs.com/wjv5/202604/30/rRieWqEMEk90/video/index.m3u8"
+        },
+        {
+          "title": "260506",
+          "src": "https://v5.ppqrrs.com/wjv5/202605/07/R6MyYSmrjY91/video/index.m3u8"
+        },
+        {
+          "title": "260514",
+          "src": "https://v6.ppqrrs.com/wjv6/202605/14/uE1csGdXFH97/video/index.m3u8"
+        },
+        {
+          "title": "260521",
+          "src": "https://v4.ppqrrs.com/wjv4/202605/21/tEpDhMMrPQ97/video/index.m3u8"
+        },
+        {
+          "title": "260528",
+          "src": "https://v2.ppqrrs.com/wjv2/202605/28/buh17K1hmz94/video/index.m3u8"
+        },
+        {
+          "title": "260611",
+          "src": "https://v8.ppqrrs.com/wjv8/202606/11/XPs2wARhHP90/video/index.m3u8"
+        },
+        {
+          "title": "260618",
+          "src": "https://v12.ppqrrs.com/wjv12/202606/18/T1girW1KZE90/video/index.m3u8"
+        },
+        {
+          "title": "260625",
+          "src": "https://v1.ppqrrs.com/202606/25/MUh27u6pKv95/video/index.m3u8"
+        },
+        {
+          "title": "260702",
+          "src": "https://v2.ppqrrs.com/wjv2/202607/02/5H55k66dMT88/video/index.m3u8"
+        },
+        {
+          "title": "260709",
+          "src": "https://v9.ppqrrs.com/wjv9/202607/09/Gt0Sx86bS795/video/index.m3u8"
+        },
+        {
+          "title": "260716",
+          "src": "https://v4.ppqrrs.com/wjv4/202607/16/NA5Tby8Svg87/video/index.m3u8"
+        },
+        {
+          "title": "260723",
+          "src": "https://v8.ppqrrs.com/wjv8/202607/23/38PawFXSPp91/video/index.m3u8"
+        },
+        {
+          "title": "260730",
+          "src": "https://v11.ppqrrs.com/wjv11/202607/30/7dZnvyDg6u88/video/index.m3u8"
+        },
+        {
+          "title": "260806",
+          "src": "https://v12.ppqrrs.com/wjv12/202608/13/S3TdW2yxs692/video/index.m3u8"
+        },
+        {
+          "title": "260813",
+          "src": "https://v7.ppqrrs.com/wjv7/202608/13/fEAVVG2bX889/video/index.m3u8"
+        },
+        {
+          "title": "260820",
+          "src": "https://v9.ppqrrs.com/wjv9/202608/20/Khnrm14cbs94/video/index.m3u8"
+        },
+        {
+          "title": "260827",
+          "src": "https://v2.ppqrrs.com/wjv2/202608/27/dQuCWKq0WN91/video/index.m3u8"
+        },
+        {
+          "title": "260903",
+          "src": "https://v2.ppqrrs.com/wjv2/202609/03/rKw9yLj1Cm90/video/index.m3u8"
+        },
+        {
+          "title": "260910",
+          "src": "https://v10.ppqrrs.com/wjv10/202609/10/KUPpxe8Le095/video/index.m3u8"
+        },
+        {
+          "title": "260917",
+          "src": "https://v2.ppqrrs.com/wjv2/202609/17/yLKY7XURZk93/video/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://pic.youkupic.com/upload/vod/20230309-1/8f04e2dd2b3ced57096d994b24b92afa.jpg",
+  "posterColor": "#3086bb",
+  "uptime": "2026-09-17 15:20:03",
+  "opyear": "2022"
+}

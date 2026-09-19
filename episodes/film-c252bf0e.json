@@ -1,0 +1,256 @@
+{
+  "title": "快乐老家 (2026)",
+  "type": "综艺",
+  "sources": [
+    {
+      "name": "360资源",
+      "episodes": [
+        {
+          "title": "第20260625期先导片",
+          "src": "https://vod1.maowushi.com/20260625/EGs4P7No/index.m3u8"
+        },
+        {
+          "title": "第20260626期特别企划",
+          "src": "https://vod1.maowushi.com/20260627/Zm37MvAI/index.m3u8"
+        },
+        {
+          "title": "第20260627期先导加更",
+          "src": "https://vod1.maowushi.com/20260627/Lsm0gKzS/index.m3u8"
+        },
+        {
+          "title": "第20260628期",
+          "src": "https://vod1.maowushi.com/20260628/byYtFUTJ/index.m3u8"
+        },
+        {
+          "title": "第20260629期加更版",
+          "src": "https://vod1.maowushi.com/20260629/mbO0HSZk/index.m3u8"
+        },
+        {
+          "title": "第20260703期加更版",
+          "src": "https://vod1.maowushi.com/20260703/HihIZTCT/index.m3u8"
+        },
+        {
+          "title": "第20260704期",
+          "src": "https://vod1.maowushi.com/20260704/4PVY6n5c/index.m3u8"
+        },
+        {
+          "title": "第20260704期加料版",
+          "src": "https://vod1.maowushi.com/20260704/cpYeKd4A/index.m3u8"
+        },
+        {
+          "title": "第20260704期加长版",
+          "src": "https://vod1.maowushi.com/20260706/DfOTYBe5/index.m3u8"
+        },
+        {
+          "title": "第20260711期",
+          "src": "https://vod1.maowushi.com/20260711/wvhBUgi8/index.m3u8"
+        },
+        {
+          "title": "第20260711期加长",
+          "src": "https://vod1.maowushi.com/20260711/3bPbhOBr/index.m3u8"
+        },
+        {
+          "title": "第20260713期加更",
+          "src": "https://vod1.maowushi.com/20260713/QfPR0aHC/index.m3u8"
+        },
+        {
+          "title": "第20260717期周报",
+          "src": "https://vod1.maowushi.com/20260717/meJDRo5i/index.m3u8"
+        },
+        {
+          "title": "第20260718期",
+          "src": "https://vod1.maowushi.com/20260718/g7N4RDQn/index.m3u8"
+        },
+        {
+          "title": "第20260720期加长",
+          "src": "https://vod1.maowushi.com/20260720/ht0XGeNO/index.m3u8"
+        },
+        {
+          "title": "第20260724期周报",
+          "src": "https://vod1.maowushi.com/20260724/IIvQCw9L/index.m3u8"
+        },
+        {
+          "title": "第20260725期",
+          "src": "https://vod1.maowushi.com/20260725/LHZ6SFdN/index.m3u8"
+        },
+        {
+          "title": "第20260725期加更",
+          "src": "https://vod1.maowushi.com/20260725/VCTz2iw8/index.m3u8"
+        },
+        {
+          "title": "第20260727期加长",
+          "src": "https://vod1.maowushi.com/20260727/wsLOTPMw/index.m3u8"
+        },
+        {
+          "title": "第20260731期周报",
+          "src": "https://vod1.maowushi.com/20260731/Sxa8p3lz/index.m3u8"
+        },
+        {
+          "title": "第20260801期加更",
+          "src": "https://vod1.maowushi.com/20260801/mnhDsG1b/index.m3u8"
+        },
+        {
+          "title": "第20260803期加长",
+          "src": "https://vod1.maowushi.com/20260803/CmkMfFfA/index.m3u8"
+        },
+        {
+          "title": "第20260808期",
+          "src": "https://vod1.maowushi.com/20260808/UdIFoibc/index.m3u8"
+        },
+        {
+          "title": "第20260808期加更",
+          "src": "https://vod1.maowushi.com/20260808/9YDoPp7J/index.m3u8"
+        },
+        {
+          "title": "第20260815期",
+          "src": "https://vod1.maowushi.com/20260815/ENtmrCJV/index.m3u8"
+        },
+        {
+          "title": "第20260822期番外篇",
+          "src": "https://vod1.maowushi.com/20260822/Fm0TXhna/index.m3u8"
+        },
+        {
+          "title": "第20260829期番外篇",
+          "src": "https://vod1.maowushi.com/20260829/jFbPsn2f/index.m3u8"
+        },
+        {
+          "title": "第20260905期番外篇",
+          "src": "https://vod1.maowushi.com/20260905/5AVWG4xH/index.m3u8"
+        },
+        {
+          "title": "第20260912期番外篇",
+          "src": "https://vod1.maowushi.com/20260912/mgdWDW9I/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "光速资源站",
+      "episodes": [
+        {
+          "title": "先导片",
+          "src": "https://v.gsuus.com/play/bkR2v4va/index.m3u8"
+        },
+        {
+          "title": "先导加更版",
+          "src": "https://v.gsuus.com/play/av2Q378a/index.m3u8"
+        },
+        {
+          "title": "第01集",
+          "src": "https://v.gsuus.com/play/dPNjvV6a/index.m3u8"
+        },
+        {
+          "title": "加更版第1期",
+          "src": "https://v.gsuus.com/play/bW6P4A4a/index.m3u8"
+        },
+        {
+          "title": "加更版第2期",
+          "src": "https://v.gsuus.com/play/bqxQgz0a/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://v.gsuus.com/play/bYE72G9b/index.m3u8"
+        },
+        {
+          "title": "偷偷加料版第1期",
+          "src": "https://v.gsuus.com/play/e5y765Ze/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://v.gsuus.com/play/egJn27kd/index.m3u8"
+        },
+        {
+          "title": "加长版第2期",
+          "src": "https://v.gsuus.com/play/bo2jyAXa/index.m3u8"
+        },
+        {
+          "title": "加更版第3期",
+          "src": "https://v.gsuus.com/play/dL9vnMXe/index.m3u8"
+        },
+        {
+          "title": "旧圈秘闻周报第1期",
+          "src": "https://v.gsuus.com/play/dBBP96Nd/index.m3u8"
+        },
+        {
+          "title": "加更版第4期",
+          "src": "https://v.gsuus.com/play/bkRrMqNa/index.m3u8"
+        },
+        {
+          "title": "加长版第3期",
+          "src": "https://v.gsuus.com/play/bmZYn3nd/index.m3u8"
+        },
+        {
+          "title": "旧圈秘闻周报第2期",
+          "src": "https://v.gsuus.com/play/bYEyD70b/index.m3u8"
+        },
+        {
+          "title": "加更版第5期",
+          "src": "https://v.gsuus.com/play/dBBPM6Xd/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://v.gsuus.com/play/e1wGoB3b/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://v.gsuus.com/play/e1wGo4Rb/index.m3u8"
+        },
+        {
+          "title": "夏日老友吃瓜局",
+          "src": "https://v.gsuus.com/play/dPNzoMAa/index.m3u8"
+        },
+        {
+          "title": "加长版第4期",
+          "src": "https://v.gsuus.com/play/e9rDM1Pa/index.m3u8"
+        },
+        {
+          "title": "旧圈秘闻周报第3期",
+          "src": "https://v.gsuus.com/play/bW6QDmoa/index.m3u8"
+        },
+        {
+          "title": "加更版第6期",
+          "src": "https://v.gsuus.com/play/dBBP4XWd/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://v.gsuus.com/play/azp7ZZrd/index.m3u8"
+        },
+        {
+          "title": "加长版第5期",
+          "src": "https://v.gsuus.com/play/egJnmBld/index.m3u8"
+        },
+        {
+          "title": "第07集",
+          "src": "https://v.gsuus.com/play/bkRrzmKa/index.m3u8"
+        },
+        {
+          "title": "加更版第7期",
+          "src": "https://v.gsuus.com/play/e1wG58Gb/index.m3u8"
+        },
+        {
+          "title": "第08集",
+          "src": "https://v.gsuus.com/play/aKrQ6Lxe/index.m3u8"
+        },
+        {
+          "title": "番外篇第1期",
+          "src": "https://v.gsuus.com/play/erk9p7Ka/index.m3u8"
+        },
+        {
+          "title": "番外篇第2期",
+          "src": "https://v.gsuus.com/play/en5OAKpd/index.m3u8"
+        },
+        {
+          "title": "番外篇第3期",
+          "src": "https://v.gsuus.com/play/en5OvP5d/index.m3u8"
+        },
+        {
+          "title": "番外篇第4期",
+          "src": "https://v.gsuus.com/play/dwpkj9ge/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://img.guangsuimage.com/cover/2568bf47ba5181873653b2112a4904ab.jpg",
+  "posterColor": "#3384ad",
+  "uptime": "2026-09-12 12:56:02",
+  "opyear": "2026"
+}

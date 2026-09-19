@@ -1,0 +1,31 @@
+{
+  "title": "遥远的召唤 (2021)",
+  "type": "电影",
+  "sources": [
+    {
+      "name": "极速资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://vv.jisuzyv.com/play/e73pLpOe/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://vv.jisuzyv.com/play/bqxlYlya/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://vv.jisuzyv.com/play/e5yR9LXe/index.m3u8"
+        },
+        {
+          "title": "第4集完结",
+          "src": "https://vv.jisuzyv.com/play/bYEyv5Yb/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://img.jisuimage.com/cover/aa9f6af4c97770f819b7cbb150229314.jpg",
+  "posterColor": "#639ac0",
+  "uptime": "2026-07-07 17:12:04",
+  "opyear": "2021"
+}

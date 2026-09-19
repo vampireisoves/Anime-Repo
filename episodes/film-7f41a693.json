@@ -1,0 +1,34 @@
+{
+  "title": "绿灯军团 (2026)",
+  "type": "剧集",
+  "sources": [
+    {
+      "name": "360资源",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://vod1.maowushi.com/20260817/HI2aiRCW/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://vod1.maowushi.com/20260824/zofeAmZ1/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://vod1.maowushi.com/20260831/UgGgiRTM/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://vod1.maowushi.com/20260907/LuSsM2dF/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://vod1.maowushi.com/20260914/DSsPpFLi/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2934875461.webp",
+  "uptime": "2026-09-14 13:15:02",
+  "opyear": "2026"
+}

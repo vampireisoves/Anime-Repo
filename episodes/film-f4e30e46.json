@@ -1,0 +1,23 @@
+{
+  "title": "正好聊聊天 (2026)",
+  "type": "综艺",
+  "sources": [
+    {
+      "name": "光速资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v.gsuus.com/play/eZ6098we/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://v.gsuus.com/play/dyPmPAwb/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://img.guangsuimage.com/cover/5c4db4130c1bd19beb5bceb41d335b4a.jpg",
+  "posterColor": "#f2d8ae",
+  "uptime": "2026-09-11 20:36:02",
+  "opyear": "2026"
+}

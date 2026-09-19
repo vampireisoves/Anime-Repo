@@ -1,0 +1,46 @@
+{
+  "title": "你我对抗全世界 (2026)",
+  "type": "电影",
+  "sources": [
+    {
+      "name": "樱花资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://vod12.wgslsw.com/20260919/ssW9N7zjFv86/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "百度资源网",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://b3.bdzybf22.com/videos/202609/18/6aacdafd0452185f59c9f73d/9934f6/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "360资源",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://vod1.maowushi.com/20260918/Sbae4Ixf/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "光速资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v.gsuus.com/play/b829oZLe/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://img.guangsuimage.com/cover/6a577a171701c6543bcc1b88da24238b.jpg",
+  "posterColor": "#884e3f",
+  "uptime": "2026-09-19 11:36:03",
+  "opyear": "2026"
+}

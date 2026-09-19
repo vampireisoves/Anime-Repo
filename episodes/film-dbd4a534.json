@@ -1,0 +1,51 @@
+{
+  "title": "大空港GATE24 (2026)",
+  "type": "剧集",
+  "sources": [
+    {
+      "name": "光速资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v.gsuus.com/play/bYEyDEKb/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://v.gsuus.com/play/dJ6NmEvd/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://v.gsuus.com/play/bmZYKpGd/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://v.gsuus.com/play/aAD1MApe/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://v.gsuus.com/play/ejR8J5Ye/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://v.gsuus.com/play/ejR89lRe/index.m3u8"
+        },
+        {
+          "title": "第07集",
+          "src": "https://v.gsuus.com/play/aAD14E1e/index.m3u8"
+        },
+        {
+          "title": "第08集",
+          "src": "https://v.gsuus.com/play/aKrQKDle/index.m3u8"
+        },
+        {
+          "title": "第9集完结",
+          "src": "https://v.gsuus.com/play/en5zz8Yd/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://img.guangsuimage.com/cover/fbe235ec0f0e75384fa005bcd7668767.jpg",
+  "posterColor": "#5897c4",
+  "uptime": "2026-09-18 01:08:02",
+  "opyear": "2026"
+}

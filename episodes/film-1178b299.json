@@ -1,0 +1,23 @@
+{
+  "title": "史诡记之黄泉村 (2026)",
+  "type": "剧集",
+  "sources": [
+    {
+      "name": "虎牙资源站",
+      "episodes": [
+        {
+          "title": "正片",
+          "src": "https://1080p.huyall.com/play/axk6Mlle/index.m3u8"
+        },
+        {
+          "title": "正片",
+          "src": "https://1080p.huyall.com/play/egJp36Zd/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://image.huyajs.com/cover/1073fd3b72117072a7ed0dc3de84658a.jpg",
+  "posterColor": "#924720",
+  "uptime": "2026-06-27 11:27:02",
+  "opyear": "2026"
+}

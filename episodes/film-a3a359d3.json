@@ -67,10 +67,109 @@
           "src": "https://vod1.maowushi.com/20260918/nSibXjGc/index.m3u8"
         }
       ]
+    },
+    {
+      "name": "光速资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v.gsuus.com/play/bqxlG4ya/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://v.gsuus.com/play/eXD55woe/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://v.gsuus.com/play/aKrQ7xxe/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://v.gsuus.com/play/dwprNo8e/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://v.gsuus.com/play/en5Owl5d/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://v.gsuus.com/play/aM89EJ5e/index.m3u8"
+        },
+        {
+          "title": "第07集",
+          "src": "https://v.gsuus.com/play/eVON57Wa/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "西瓜资源",
+      "episodes": [
+        {
+          "title": "20260807",
+          "src": "https://svip.xgplay17.com/2026-08-07/34517_IK-XwOQOsUqo2y1HNN/index.m3u8"
+        },
+        {
+          "title": "20260814",
+          "src": "https://svip.xgplay20.com/2026-08-14/45035_tTZ4u2TpvGsd6s5dFa/index.m3u8"
+        },
+        {
+          "title": "20260821",
+          "src": "https://svip.xgplay17.com/2026-08-21/36463_k-pxbFcNGnHrOyP1mD/index.m3u8"
+        },
+        {
+          "title": "20260828",
+          "src": "https://svip.xgplay17.com/2026-08-28/37305_CK7QHwPiyBczKNg5qT/index.m3u8"
+        },
+        {
+          "title": "20260904",
+          "src": "https://svip.xgplay17.com/2026-09-04/38144_h3qxi8ARKtBuUFbVi4/index.m3u8"
+        },
+        {
+          "title": "20260911",
+          "src": "https://svip.xgplay17.com/2026-09-11/39004_oKRHXPNnPkOoJ0Z5oP/index.m3u8"
+        },
+        {
+          "title": "20260918",
+          "src": "https://svip.xgplay17.com/2026-09-18/39848_eJM2px8rL0xCj4fC1S/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "非凡资源站",
+      "episodes": [
+        {
+          "title": "第20260807期",
+          "src": "https://vod.ffzy-bofang.com/20260807/1704_a588a619/index.m3u8"
+        },
+        {
+          "title": "第20260814期",
+          "src": "https://vod.ffzy-bofang.com/20260814/1994_008bd5ad/index.m3u8"
+        },
+        {
+          "title": "第20260821期",
+          "src": "https://vod.ffzy-bofang.com/20260822/2279_96671501/index.m3u8"
+        },
+        {
+          "title": "第20260828期",
+          "src": "https://vod.ffzy-bofang.com/20260828/2546_92a0e7a4/index.m3u8"
+        },
+        {
+          "title": "第20260904期",
+          "src": "https://vod.ffzy-bofang.com/20260904/2800_0fc170ec/index.m3u8"
+        },
+        {
+          "title": "第20260911期",
+          "src": "https://vod.ffzy-bofang.com/20260911/3043_fc325d4b/index.m3u8"
+        },
+        {
+          "title": "第20260918期",
+          "src": "https://vod.ffzy-bofang.com/20260918/3251_504c296f/index.m3u8"
+        }
+      ]
     }
   ],
-  "poster": "https://www.imgzy360.com:7788/upload/vod/20260807-1/9679434e7ee752a378df1e88b6c0e3a9.jpg",
-  "posterColor": "#7086d1",
-  "uptime": "2026-09-18 20:10:02",
+  "poster": "https://img.guangsuimage.com/cover/9eae1d7b8e91d0b9e88f7a38faa3ad9c.jpg",
+  "posterColor": "#6f86d0",
+  "uptime": "2026-09-18 21:24:02",
   "opyear": "2026"
 }

@@ -1,0 +1,43 @@
+{
+  "title": "诛仙最终季 (2026)",
+  "type": "动漫",
+  "sources": [
+    {
+      "name": "光速资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v.gsuus.com/play/aKrQEvxe/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://v.gsuus.com/play/aAD1Ogle/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://v.gsuus.com/play/aQW7LB9d/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://v.gsuus.com/play/aOY84opd/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://v.gsuus.com/play/eXD54lke/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://v.gsuus.com/play/b689Lp9e/index.m3u8"
+        },
+        {
+          "title": "第07集",
+          "src": "https://v.gsuus.com/play/erkY9rka/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://img.guangsuimage.com/cover/e255ba0d78af223ff77727dea645f1a1.jpg",
+  "posterColor": "#7089bf",
+  "uptime": "2026-09-17 19:48:02",
+  "opyear": "2026"
+}

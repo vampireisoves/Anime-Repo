@@ -3,26 +3,71 @@
   "type": "电影",
   "sources": [
     {
-      "name": "caiji.xgzyapi.com",
+      "name": "非凡资源站",
       "episodes": [
         {
           "title": "第01集",
-          "src": "https://svip.xgplay20.com/2026-09-18/47933__OCSF3av4a-hGBvux2/index.m3u8"
+          "src": "https://super.ffzy-online6.com/20260918/41322_73905701/index.m3u8"
         }
       ]
     },
     {
-      "name": "西瓜资源",
+      "name": "360资源",
       "episodes": [
         {
           "title": "第01集",
-          "src": "https://svip.xgplay20.com/2026-09-18/47933__OCSF3av4a-hGBvux2/index.m3u8"
+          "src": "https://vod1.maowushi.com/20260918/8GsQ4lBW/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "天涯影视资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://tyyszywvod2.com/videos/202609/18/6aad3263807e92f4be36101e/6a142d/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "樱花资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://vod12.wgslsw.com/20260919/P23rGZUeUf96/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "百度资源网",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://b3.bdzybf22.com/videos/202609/18/6aad38642394fd5f70946ec7/ee4d89/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "飘零影院资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v2.ppqrrs.com/wjv2/202609/18/P23rGZUeUf96/video/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "光速资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v.gsuus.com/play/erkYER4a/index.m3u8"
         }
       ]
     }
   ],
-  "poster": "https://vod.xiguazyimg.com/upload/vod/20260918-1/47135edafd5191ce745ab8c1b44990d3.jpg",
-  "posterColor": "#2a6288",
-  "uptime": "2026-09-18 18:28:13",
+  "poster": "https://img.guangsuimage.com/cover/205cc45cedbc6a482d96f8d068845c05.jpg",
+  "posterColor": "#296289",
+  "uptime": "2026-09-18 19:26:02",
   "opyear": "2026"
 }

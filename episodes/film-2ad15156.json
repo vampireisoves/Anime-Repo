@@ -1,0 +1,27 @@
+{
+  "title": "像你一样的人们 第一季 (2021)",
+  "type": "电影",
+  "sources": [
+    {
+      "name": "虎牙资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://1080p.huyall.com/play/bkR21z6a/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://1080p.huyall.com/play/bo2Z1NXa/index.m3u8"
+        },
+        {
+          "title": "第3集完结",
+          "src": "https://1080p.huyall.com/play/egJp0Bkd/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://image.huyajs.com/cover/4c2913ff191852da915891a6a0c6e569.jpg",
+  "posterColor": "#66a0d2",
+  "uptime": "2026-06-26 21:27:02",
+  "opyear": "2021"
+}

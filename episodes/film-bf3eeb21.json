@@ -1,0 +1,39 @@
+{
+  "title": "战斧 (2026)",
+  "type": "动漫",
+  "sources": [
+    {
+      "name": "光速资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v.gsuus.com/play/elYpvQMa/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://v.gsuus.com/play/erkYEZ2a/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://v.gsuus.com/play/elYppjja/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://v.gsuus.com/play/aKr6YXxe/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://v.gsuus.com/play/erkYEZpa/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://v.gsuus.com/play/aADmQqle/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://img.guangsuimage.com/cover/951fa1c9c4aced52dc285af21865846f.jpg",
+  "posterColor": "#923622",
+  "uptime": "2026-09-18 17:56:03",
+  "opyear": "2026"
+}

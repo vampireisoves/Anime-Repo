@@ -1,0 +1,58 @@
+{
+  "title": "旋转亮片 (2026)",
+  "type": "剧集",
+  "sources": [
+    {
+      "name": "360资源",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://vod1.maowushi.com/20260701/EGWlrzVw/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://vod1.maowushi.com/20260708/OlwMBjqg/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://vod1.maowushi.com/20260715/8JvC6iDQ/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://vod1.maowushi.com/20260722/R9D20tRH/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://vod1.maowushi.com/20260730/4AGkyZCz/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://vod1.maowushi.com/20260805/vpC3yNCx/index.m3u8"
+        },
+        {
+          "title": "第07集",
+          "src": "https://vod1.maowushi.com/20260812/65KFbSyc/index.m3u8"
+        },
+        {
+          "title": "第08集",
+          "src": "https://vod1.maowushi.com/20260819/T47vXRrk/index.m3u8"
+        },
+        {
+          "title": "第09集",
+          "src": "https://vod1.maowushi.com/20260827/KEMujOrD/index.m3u8"
+        },
+        {
+          "title": "第10集",
+          "src": "https://vod1.maowushi.com/20260902/HOcKs3A9/index.m3u8"
+        },
+        {
+          "title": "第11集",
+          "src": "https://vod1.maowushi.com/20260909/5zDtie16/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2933512282.webp",
+  "uptime": "2026-09-09 19:15:02",
+  "opyear": "2026"
+}

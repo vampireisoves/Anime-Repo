@@ -1,0 +1,39 @@
+{
+  "title": "娃娃 (2026)",
+  "type": "剧集",
+  "sources": [
+    {
+      "name": "光速资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v.gsuus.com/play/dwpkr0ge/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://v.gsuus.com/play/dG698vrb/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://v.gsuus.com/play/dyPmXozb/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://v.gsuus.com/play/bDk08P6a/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://v.gsuus.com/play/en5zO85d/index.m3u8"
+        },
+        {
+          "title": "第6集完结",
+          "src": "https://v.gsuus.com/play/dwpkrZre/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://img.guangsuimage.com/cover/2e432f8296797325bc59f9059704d909.jpg",
+  "posterColor": "#ad2c05",
+  "uptime": "2026-09-17 13:24:02",
+  "opyear": "2026"
+}

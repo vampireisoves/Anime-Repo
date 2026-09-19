@@ -1,0 +1,39 @@
+{
+  "title": "光点NOUR (2026)",
+  "type": "剧集",
+  "sources": [
+    {
+      "name": "光速资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v.gsuus.com/play/aM81xNme/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://v.gsuus.com/play/bDk8l66a/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://v.gsuus.com/play/dwprwA8e/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://v.gsuus.com/play/en5Opmld/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://v.gsuus.com/play/aOY819Ld/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://v.gsuus.com/play/b2k97BAd/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://img.guangsuimage.com/cover/913b6966cec46dc0ee8123f2fe98fd15.jpg",
+  "posterColor": "#8d3526",
+  "uptime": "2026-09-16 21:30:03",
+  "opyear": "2026"
+}

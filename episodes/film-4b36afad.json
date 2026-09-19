@@ -1,0 +1,746 @@
+{
+  "title": "乡野小神农 (2026)",
+  "type": "剧集",
+  "sources": [
+    {
+      "name": "飘零影院资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v4.ppqrrs.com/wjv4/202609/10/X72ZGSCg5q93/video/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://v1.ppqrrs.com/202609/10/TK8YShACD091/video/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://v1.ppqrrs.com/202609/10/9Hp2WNmdfW91/video/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://v2.ppqrrs.com/wjv2/202609/10/X0LRM3RMZj90/video/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://v2.ppqrrs.com/wjv2/202609/11/rYyH2LRcKK88/video/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://v4.ppqrrs.com/wjv4/202609/11/GDdHfJQx4A94/video/index.m3u8"
+        },
+        {
+          "title": "第07集",
+          "src": "https://v11.ppqrrs.com/wjv11/202609/13/kS23JVipvY95/video/index.m3u8"
+        },
+        {
+          "title": "第08集",
+          "src": "https://v7.ppqrrs.com/wjv7/202609/13/5TwW8zW4Zf94/video/index.m3u8"
+        },
+        {
+          "title": "第09集",
+          "src": "https://v12.ppqrrs.com/wjv12/202609/13/kVM5XCS6MJ91/video/index.m3u8"
+        },
+        {
+          "title": "第10集",
+          "src": "https://v2.ppqrrs.com/wjv2/202609/13/Wej9HizCYR91/video/index.m3u8"
+        },
+        {
+          "title": "第11集",
+          "src": "https://v3.ppqrrs.com/wjv3/202609/14/hQhppR4kRR95/video/index.m3u8"
+        },
+        {
+          "title": "第12集",
+          "src": "https://v9.ppqrrs.com/wjv9/202609/14/54Nwg2Puyp93/video/index.m3u8"
+        },
+        {
+          "title": "第13集",
+          "src": "https://v1.ppqrrs.com/202609/15/XEuuuzRY8y91/video/index.m3u8"
+        },
+        {
+          "title": "第14集",
+          "src": "https://v12.ppqrrs.com/wjv12/202609/15/dmKR6Z3G9D96/video/index.m3u8"
+        },
+        {
+          "title": "第15集",
+          "src": "https://v9.ppqrrs.com/wjv9/202609/16/36gf2eybSa93/video/index.m3u8"
+        },
+        {
+          "title": "第16集",
+          "src": "https://v3.ppqrrs.com/wjv3/202609/16/u7pa31T3iy89/video/index.m3u8"
+        },
+        {
+          "title": "第17集",
+          "src": "https://v2.ppqrrs.com/wjv2/202609/17/TLZpZbGrSr92/video/index.m3u8"
+        },
+        {
+          "title": "第18集",
+          "src": "https://v8.ppqrrs.com/wjv8/202609/17/Wp6EHATW2E89/video/index.m3u8"
+        },
+        {
+          "title": "第19集",
+          "src": "https://v5.ppqrrs.com/wjv5/202609/18/t91G4Q1q5D93/video/index.m3u8"
+        },
+        {
+          "title": "第20集",
+          "src": "https://v5.ppqrrs.com/wjv5/202609/18/uqL1eVXuqH97/video/index.m3u8"
+        },
+        {
+          "title": "第21集",
+          "src": "https://v6.ppqrrs.com/wjv6/202609/19/sE5C8R7JmA89/video/index.m3u8"
+        },
+        {
+          "title": "第22集",
+          "src": "https://v1.ppqrrs.com/202609/19/RU7y8tbn3094/video/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "天涯影视资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://tyyszywvod2.com/videos/202609/10/6aa23c601e5c4ff435ec3c30/32f10d/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://tyyszywvod2.com/videos/202609/10/6aa23c741e5c4ff435ec3c32/5d50d6/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://tyyszywvod2.com/videos/202609/10/6aa23c7d1e5c4ff435ec3c33/48945e/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://tyyszywvod2.com/videos/202609/10/6aa23c6a1e5c4ff435ec3c31/d61g1e/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://tyyszywvod2.com/videos/202609/11/6aa390bdb86465f47d6f8918/6e52c4/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://tyyszywvod2.com/videos/202609/11/6aa390c7b86465f47d6f891d/6e147g/index.m3u8"
+        },
+        {
+          "title": "第07集",
+          "src": "https://tyyszywvod2.com/videos/202609/13/6aa62977096a8ef47c967eb3/d36a76/index.m3u8"
+        },
+        {
+          "title": "第08集",
+          "src": "https://tyyszywvod2.com/videos/202609/13/6aa62970096a8ef47c967eb2/e2b307/index.m3u8"
+        },
+        {
+          "title": "第09集",
+          "src": "https://tyyszywvod2.com/videos/202609/13/6aa62962096a8ef47c967eb1/0ca6d4/index.m3u8"
+        },
+        {
+          "title": "第10集",
+          "src": "https://tyyszywvod2.com/videos/202609/13/6aa6297d096a8ef47c967eb4/4ba8bg/index.m3u8"
+        },
+        {
+          "title": "第11集",
+          "src": "https://tyyszywvod2.com/videos/202609/14/6aa7808c111492f4c5b59402/054453/index.m3u8"
+        },
+        {
+          "title": "第12集",
+          "src": "https://tyyszywvod2.com/videos/202609/14/6aa780aa111492f4c5b59774/a68aa3/index.m3u8"
+        },
+        {
+          "title": "第13集",
+          "src": "https://tyyszywvod2.com/videos/202609/15/6aa8e0341e5c4ff435ef50f0/bd5652/index.m3u8"
+        },
+        {
+          "title": "第14集",
+          "src": "https://tyyszywvod2.com/videos/202609/15/6aa8e1c41e5c4ff435ef538b/8697ag/index.m3u8"
+        },
+        {
+          "title": "第15集",
+          "src": "https://tyyszywvod2.com/videos/202609/16/6aaa1924096a8ef47c98362f/eb405g/index.m3u8"
+        },
+        {
+          "title": "第16集",
+          "src": "https://tyyszywvod2.com/videos/202609/16/6aaa1939096a8ef47c98363c/81286b/index.m3u8"
+        },
+        {
+          "title": "第17集",
+          "src": "https://tyyszywvod2.com/videos/202609/17/6aab78f3096a8ef47c98ff60/8be071/index.m3u8"
+        },
+        {
+          "title": "第18集",
+          "src": "https://tyyszywvod2.com/videos/202609/17/6aab7a0bebb0a3f500d73198/d9c573/index.m3u8"
+        },
+        {
+          "title": "第19集",
+          "src": "https://tyyszywvod2.com/videos/202609/18/6aacdc83807e92f4be35de9f/e42a37/index.m3u8"
+        },
+        {
+          "title": "第20集",
+          "src": "https://tyyszywvod2.com/videos/202609/18/6aacdc64807e92f4be35de9c/cg75fc/index.m3u8"
+        },
+        {
+          "title": "第21集",
+          "src": "https://tyyszywvod2.com/videos/202609/19/6aae1eeb807e92f4be365c9a/4184e9/index.m3u8"
+        },
+        {
+          "title": "第22集",
+          "src": "https://tyyszywvod2.com/videos/202609/19/6aae1ef5807e92f4be365cc3/302ga5/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "无尽资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v4.ppqrrs.com/wjv4/202609/10/X72ZGSCg5q93/video/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://v1.ppqrrs.com/202609/10/TK8YShACD091/video/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://v1.ppqrrs.com/202609/10/9Hp2WNmdfW91/video/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://v2.ppqrrs.com/wjv2/202609/10/X0LRM3RMZj90/video/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://v2.ppqrrs.com/wjv2/202609/11/rYyH2LRcKK88/video/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://v4.ppqrrs.com/wjv4/202609/11/GDdHfJQx4A94/video/index.m3u8"
+        },
+        {
+          "title": "第07集",
+          "src": "https://v11.ppqrrs.com/wjv11/202609/13/kS23JVipvY95/video/index.m3u8"
+        },
+        {
+          "title": "第08集",
+          "src": "https://v7.ppqrrs.com/wjv7/202609/13/5TwW8zW4Zf94/video/index.m3u8"
+        },
+        {
+          "title": "第09集",
+          "src": "https://v12.ppqrrs.com/wjv12/202609/13/kVM5XCS6MJ91/video/index.m3u8"
+        },
+        {
+          "title": "第10集",
+          "src": "https://v2.ppqrrs.com/wjv2/202609/13/Wej9HizCYR91/video/index.m3u8"
+        },
+        {
+          "title": "第11集",
+          "src": "https://v3.ppqrrs.com/wjv3/202609/14/hQhppR4kRR95/video/index.m3u8"
+        },
+        {
+          "title": "第12集",
+          "src": "https://v9.ppqrrs.com/wjv9/202609/14/54Nwg2Puyp93/video/index.m3u8"
+        },
+        {
+          "title": "第13集",
+          "src": "https://v1.ppqrrs.com/202609/15/XEuuuzRY8y91/video/index.m3u8"
+        },
+        {
+          "title": "第14集",
+          "src": "https://v12.ppqrrs.com/wjv12/202609/15/dmKR6Z3G9D96/video/index.m3u8"
+        },
+        {
+          "title": "第15集",
+          "src": "https://v9.ppqrrs.com/wjv9/202609/16/36gf2eybSa93/video/index.m3u8"
+        },
+        {
+          "title": "第16集",
+          "src": "https://v3.ppqrrs.com/wjv3/202609/16/u7pa31T3iy89/video/index.m3u8"
+        },
+        {
+          "title": "第17集",
+          "src": "https://v2.ppqrrs.com/wjv2/202609/17/TLZpZbGrSr92/video/index.m3u8"
+        },
+        {
+          "title": "第18集",
+          "src": "https://v8.ppqrrs.com/wjv8/202609/17/Wp6EHATW2E89/video/index.m3u8"
+        },
+        {
+          "title": "第19集",
+          "src": "https://v5.ppqrrs.com/wjv5/202609/18/t91G4Q1q5D93/video/index.m3u8"
+        },
+        {
+          "title": "第20集",
+          "src": "https://v5.ppqrrs.com/wjv5/202609/18/uqL1eVXuqH97/video/index.m3u8"
+        },
+        {
+          "title": "第21集",
+          "src": "https://v6.ppqrrs.com/wjv6/202609/19/sE5C8R7JmA89/video/index.m3u8"
+        },
+        {
+          "title": "第22集",
+          "src": "https://v1.ppqrrs.com/202609/19/RU7y8tbn3094/video/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "360资源",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://vod1.maowushi.com/20260910/eyMuemry/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://vod1.maowushi.com/20260910/KCxj1k6v/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://vod1.maowushi.com/20260910/NFsR0BsE/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://vod1.maowushi.com/20260910/TkDOf8mm/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://vod1.maowushi.com/20260910/8LBS4cht/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://vod1.maowushi.com/20260910/yeZX4V50/index.m3u8"
+        },
+        {
+          "title": "第07集",
+          "src": "https://vod1.maowushi.com/20260910/Tj0LlR1g/index.m3u8"
+        },
+        {
+          "title": "第08集",
+          "src": "https://vod1.maowushi.com/20260910/XyeMeTsj/index.m3u8"
+        },
+        {
+          "title": "第09集",
+          "src": "https://vod1.maowushi.com/20260910/BaVSI4gR/index.m3u8"
+        },
+        {
+          "title": "第10集",
+          "src": "https://vod1.maowushi.com/20260910/Z8DWUeda/index.m3u8"
+        },
+        {
+          "title": "第11集",
+          "src": "https://vod1.maowushi.com/20260910/mz8RnBj3/index.m3u8"
+        },
+        {
+          "title": "第12集",
+          "src": "https://vod1.maowushi.com/20260910/wkWfsrWT/index.m3u8"
+        },
+        {
+          "title": "第13集",
+          "src": "https://vod1.maowushi.com/20260910/UN83KKsV/index.m3u8"
+        },
+        {
+          "title": "第14集",
+          "src": "https://vod1.maowushi.com/20260910/rWbn3sLw/index.m3u8"
+        },
+        {
+          "title": "第15集",
+          "src": "https://vod1.maowushi.com/20260910/vkj56a79/index.m3u8"
+        },
+        {
+          "title": "第16集",
+          "src": "https://vod1.maowushi.com/20260910/ct3aD69X/index.m3u8"
+        },
+        {
+          "title": "第17集",
+          "src": "https://vod1.maowushi.com/20260910/3Pe3mT6y/index.m3u8"
+        },
+        {
+          "title": "第18集",
+          "src": "https://vod1.maowushi.com/20260910/4OToj96W/index.m3u8"
+        },
+        {
+          "title": "第19集",
+          "src": "https://vod1.maowushi.com/20260910/CXi4p1qr/index.m3u8"
+        },
+        {
+          "title": "第20集",
+          "src": "https://vod1.maowushi.com/20260910/ZhgYrHPo/index.m3u8"
+        },
+        {
+          "title": "第21集",
+          "src": "https://vod1.maowushi.com/20260910/LpM3SKbt/index.m3u8"
+        },
+        {
+          "title": "第22集",
+          "src": "https://vod1.maowushi.com/20260910/0UuyrIaP/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "樱花资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://vod12.wgslsw.com/20260911/X72ZGSCg5q93/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://vod12.wgslsw.com/20260911/TK8YShACD091/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://vod12.wgslsw.com/20260911/9Hp2WNmdfW91/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://vod12.wgslsw.com/20260911/X0LRM3RMZj90/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://vod12.wgslsw.com/20260912/rYyH2LRcKK88/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://vod12.wgslsw.com/20260912/GDdHfJQx4A94/index.m3u8"
+        },
+        {
+          "title": "第07集",
+          "src": "https://vod12.wgslsw.com/20260914/kS23JVipvY95/index.m3u8"
+        },
+        {
+          "title": "第08集",
+          "src": "https://vod12.wgslsw.com/20260914/5TwW8zW4Zf94/index.m3u8"
+        },
+        {
+          "title": "第09集",
+          "src": "https://vod12.wgslsw.com/20260914/kVM5XCS6MJ91/index.m3u8"
+        },
+        {
+          "title": "第10集",
+          "src": "https://vod12.wgslsw.com/20260914/Wej9HizCYR91/index.m3u8"
+        },
+        {
+          "title": "第11集",
+          "src": "https://vod12.wgslsw.com/20260915/hQhppR4kRR95/index.m3u8"
+        },
+        {
+          "title": "第12集",
+          "src": "https://vod12.wgslsw.com/20260915/54Nwg2Puyp93/index.m3u8"
+        },
+        {
+          "title": "第13集",
+          "src": "https://vod12.wgslsw.com/20260916/XEuuuzRY8y91/index.m3u8"
+        },
+        {
+          "title": "第14集",
+          "src": "https://vod12.wgslsw.com/20260916/dmKR6Z3G9D96/index.m3u8"
+        },
+        {
+          "title": "第15集",
+          "src": "https://vod12.wgslsw.com/20260917/36gf2eybSa93/index.m3u8"
+        },
+        {
+          "title": "第16集",
+          "src": "https://vod12.wgslsw.com/20260917/u7pa31T3iy89/index.m3u8"
+        },
+        {
+          "title": "第17集",
+          "src": "https://vod12.wgslsw.com/20260918/TLZpZbGrSr92/index.m3u8"
+        },
+        {
+          "title": "第18集",
+          "src": "https://vod12.wgslsw.com/20260918/Wp6EHATW2E89/index.m3u8"
+        },
+        {
+          "title": "第19集",
+          "src": "https://vod12.wgslsw.com/20260919/t91G4Q1q5D93/index.m3u8"
+        },
+        {
+          "title": "第20集",
+          "src": "https://vod12.wgslsw.com/20260919/uqL1eVXuqH97/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "牛牛资源",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v13.gghijk.com/yyv13/202609/10/UZbtdWrUZH27/video/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://v14.gghijk.com/yyv14/202609/10/uXSPWeukjf27/video/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://v13.gghijk.com/yyv13/202609/10/Eu23Yy6wLa27/video/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://v14.gghijk.com/yyv14/202609/10/C90vdeKw6s27/video/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://v14.gghijk.com/yyv14/202609/11/QuLj1BF0Hb27/video/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://v15.gghijk.com/yyv15/202609/11/kJBTHvEC0127/video/index.m3u8"
+        },
+        {
+          "title": "第07集",
+          "src": "https://v15.gghijk.com/yyv15/202609/13/vY2K19zVqH27/video/index.m3u8"
+        },
+        {
+          "title": "第08集",
+          "src": "https://v13.gghijk.com/yyv13/202609/13/fAT2nDdn2M27/video/index.m3u8"
+        },
+        {
+          "title": "第09集",
+          "src": "https://v15.gghijk.com/yyv15/202609/13/5j8XcV30ng27/video/index.m3u8"
+        },
+        {
+          "title": "第10集",
+          "src": "https://v15.gghijk.com/yyv15/202609/13/uAEXuFp2e827/video/index.m3u8"
+        },
+        {
+          "title": "第11集",
+          "src": "https://v13.gghijk.com/yyv13/202609/14/wCmLcQnxv427/video/index.m3u8"
+        },
+        {
+          "title": "第12集",
+          "src": "https://v15.gghijk.com/yyv15/202609/14/xzCi18MPf227/video/index.m3u8"
+        },
+        {
+          "title": "第13集",
+          "src": "https://v13.gghijk.com/yyv13/202609/15/QaKsSuvhwP27/video/index.m3u8"
+        },
+        {
+          "title": "第14集",
+          "src": "https://v14.gghijk.com/yyv14/202609/15/7mRXjtyYzC27/video/index.m3u8"
+        },
+        {
+          "title": "第15集",
+          "src": "https://v13.gghijk.com/yyv13/202609/16/DHeL147fWR27/video/index.m3u8"
+        },
+        {
+          "title": "第16集",
+          "src": "https://v15.gghijk.com/yyv15/202609/16/qCA2Cdn7Zh27/video/index.m3u8"
+        },
+        {
+          "title": "第17集",
+          "src": "https://v15.gghijk.com/yyv15/202609/17/wkeVKCG7ny27/video/index.m3u8"
+        },
+        {
+          "title": "第18集",
+          "src": "https://v15.gghijk.com/yyv15/202609/17/1cuYyrRAPL27/video/index.m3u8"
+        },
+        {
+          "title": "第19集",
+          "src": "https://v14.gghijk.com/yyv14/202609/18/GuvvySP5Xt27/video/index.m3u8"
+        },
+        {
+          "title": "第20集",
+          "src": "https://v13.gghijk.com/yyv13/202609/18/Chc7K5C7jE27/video/index.m3u8"
+        },
+        {
+          "title": "第21集",
+          "src": "https://v14.gghijk.com/yyv14/202609/19/vqqZBKFpab27/video/index.m3u8"
+        },
+        {
+          "title": "第22集",
+          "src": "https://v15.gghijk.com/yyv15/202609/19/0uN0MuXmB527/video/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "百度资源网",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://b3.bdzybf22.com/videos/202609/10/6aa243141163f3d4efb8533f/64g42e/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://b3.bdzybf22.com/videos/202609/10/6aa242ec1163f3d4efb852fd/gaa01b/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://b3.bdzybf22.com/videos/202609/10/6aa242e21163f3d4efb852e3/gd75ef/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://b3.bdzybf22.com/videos/202609/10/6aa242f61163f3d4efb85309/1g8fab/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://b3.bdzybf22.com/videos/202609/11/6aa3a1561163f3d4efba5e67/4ac3cc/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://b3.bdzybf22.com/videos/202609/11/6aa3a14c1163f3d4efba5e5b/0bdaf9/index.m3u8"
+        },
+        {
+          "title": "第07集",
+          "src": "https://b3.bdzybf22.com/videos/202609/13/6aa6255a81cb94d4da504726/ge4082/index.m3u8"
+        },
+        {
+          "title": "第08集",
+          "src": "https://b3.bdzybf22.com/videos/202609/13/6aa6256481cb94d4da504732/g23cc4/index.m3u8"
+        },
+        {
+          "title": "第09集",
+          "src": "https://b3.bdzybf22.com/videos/202609/13/6aa6256e81cb94d4da50474c/e16d90/index.m3u8"
+        },
+        {
+          "title": "第10集",
+          "src": "https://b3.bdzybf22.com/videos/202609/13/6aa6254f81cb94d4da50471a/274efd/index.m3u8"
+        },
+        {
+          "title": "第11集",
+          "src": "https://b3.bdzybf22.com/videos/202609/14/6aa78fea1163f3d4efbd8d87/d9g6dd/index.m3u8"
+        },
+        {
+          "title": "第12集",
+          "src": "https://b3.bdzybf22.com/videos/202609/14/6aa78fb81163f3d4efbd8d44/b35304/index.m3u8"
+        },
+        {
+          "title": "第13集",
+          "src": "https://b3.bdzybf22.com/videos/202609/15/6aa8eb1f1163f3d4efbf516d/b3c4d4/index.m3u8"
+        },
+        {
+          "title": "第14集",
+          "src": "https://b3.bdzybf22.com/videos/202609/15/6aa8eb001163f3d4efbf512f/1f8g49/index.m3u8"
+        },
+        {
+          "title": "第15集",
+          "src": "https://b3.bdzybf22.com/videos/202609/16/6aaa28401163f3d4efc091d3/6d03a4/index.m3u8"
+        },
+        {
+          "title": "第16集",
+          "src": "https://b3.bdzybf22.com/videos/202609/16/6aaa282c1163f3d4efc091ac/0f5ge8/index.m3u8"
+        },
+        {
+          "title": "第17集",
+          "src": "https://b3.bdzybf22.com/videos/202609/17/6aab771d80d729d4e8e8d092/bb18c5/index.m3u8"
+        },
+        {
+          "title": "第18集",
+          "src": "https://b3.bdzybf22.com/videos/202609/17/6aab771480d729d4e8e8d085/dga22e/index.m3u8"
+        },
+        {
+          "title": "第19集",
+          "src": "https://b3.bdzybf22.com/videos/202609/18/6aacdc5380d729d4e8ea9a78/caeab3/index.m3u8"
+        },
+        {
+          "title": "第20集",
+          "src": "https://b3.bdzybf22.com/videos/202609/18/6aacdc7a80d729d4e8ea9ab6/b4b3eg/index.m3u8"
+        },
+        {
+          "title": "第21集",
+          "src": "https://b3.bdzybf22.com/videos/202609/19/6aae1f77cba42bd4e18704e7/58fg97/index.m3u8"
+        },
+        {
+          "title": "第22集",
+          "src": "https://b3.bdzybf22.com/videos/202609/19/6aae1f6dcba42bd4e18704da/7db0f4/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "鸭鸭资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v13.rstuuv.com/yyv13/202609/10/UZbtdWrUZH27/video/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://v14.rstuuv.com/yyv14/202609/10/uXSPWeukjf27/video/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://v13.rstuuv.com/yyv13/202609/10/Eu23Yy6wLa27/video/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://v14.rstuuv.com/yyv14/202609/10/C90vdeKw6s27/video/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://v14.rstuuv.com/yyv14/202609/11/QuLj1BF0Hb27/video/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://v15.rstuuv.com/yyv15/202609/11/kJBTHvEC0127/video/index.m3u8"
+        },
+        {
+          "title": "第07集",
+          "src": "https://v15.rstuuv.com/yyv15/202609/13/vY2K19zVqH27/video/index.m3u8"
+        },
+        {
+          "title": "第08集",
+          "src": "https://v13.rstuuv.com/yyv13/202609/13/fAT2nDdn2M27/video/index.m3u8"
+        },
+        {
+          "title": "第09集",
+          "src": "https://v15.rstuuv.com/yyv15/202609/13/5j8XcV30ng27/video/index.m3u8"
+        },
+        {
+          "title": "第10集",
+          "src": "https://v15.rstuuv.com/yyv15/202609/13/uAEXuFp2e827/video/index.m3u8"
+        },
+        {
+          "title": "第11集",
+          "src": "https://v13.rstuuv.com/yyv13/202609/14/wCmLcQnxv427/video/index.m3u8"
+        },
+        {
+          "title": "第12集",
+          "src": "https://v15.rstuuv.com/yyv15/202609/14/xzCi18MPf227/video/index.m3u8"
+        },
+        {
+          "title": "第13集",
+          "src": "https://v13.rstuuv.com/yyv13/202609/15/QaKsSuvhwP27/video/index.m3u8"
+        },
+        {
+          "title": "第14集",
+          "src": "https://v14.rstuuv.com/yyv14/202609/15/7mRXjtyYzC27/video/index.m3u8"
+        },
+        {
+          "title": "第15集",
+          "src": "https://v13.rstuuv.com/yyv13/202609/16/DHeL147fWR27/video/index.m3u8"
+        },
+        {
+          "title": "第16集",
+          "src": "https://v15.rstuuv.com/yyv15/202609/16/qCA2Cdn7Zh27/video/index.m3u8"
+        },
+        {
+          "title": "第17集",
+          "src": "https://v15.rstuuv.com/yyv15/202609/17/wkeVKCG7ny27/video/index.m3u8"
+        },
+        {
+          "title": "第18集",
+          "src": "https://v15.rstuuv.com/yyv15/202609/17/1cuYyrRAPL27/video/index.m3u8"
+        },
+        {
+          "title": "第19集",
+          "src": "https://v14.rstuuv.com/yyv14/202609/18/GuvvySP5Xt27/video/index.m3u8"
+        },
+        {
+          "title": "第20集",
+          "src": "https://v13.rstuuv.com/yyv13/202609/18/Chc7K5C7jE27/video/index.m3u8"
+        },
+        {
+          "title": "第21集",
+          "src": "https://v14.rstuuv.com/yyv14/202609/19/vqqZBKFpab27/video/index.m3u8"
+        },
+        {
+          "title": "第22集",
+          "src": "https://v15.rstuuv.com/yyv15/202609/19/0uN0MuXmB527/video/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://pic.yayazy.info/upload/vod/20260919-1/ea7e1a183b8c1702f52f9ad0acdeb315.jpg",
+  "posterColor": "#a79c76",
+  "uptime": "2026-09-19 13:30:00",
+  "opyear": "2026"
+}

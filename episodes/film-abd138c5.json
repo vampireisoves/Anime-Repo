@@ -1,0 +1,37 @@
+{
+  "title": "误杀2 (2021)",
+  "type": "电影",
+  "sources": [
+    {
+      "name": "无尽资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v2.ppqrrs.com/wjv2/202609/18/F4pQArKm9B87/video/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "飘零影院资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v2.ppqrrs.com/wjv2/202609/18/F4pQArKm9B87/video/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "樱花资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://vod12.wgslsw.com/20260919/F4pQArKm9B87/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://pic.jegms.com/upload/vod/20260919-1/edb374ca2600000a3dac7390bd5bcdf0.jpg",
+  "posterColor": "#6f6147",
+  "uptime": "2026-09-19 13:00:03",
+  "opyear": "2021"
+}

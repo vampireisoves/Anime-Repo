@@ -1,0 +1,19 @@
+{
+  "title": "KAMA (2024)",
+  "type": "电影",
+  "sources": [
+    {
+      "name": "光速资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v.gsuus.com/play/e9r9qW8a/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://img.guangsuimage.com/cover/05c77ee375c75fbb2bacc395dec4a5ff.jpg",
+  "posterColor": "#a31210",
+  "uptime": "2026-07-03 18:54:03",
+  "opyear": "2024"
+}

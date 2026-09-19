@@ -3,17 +3,71 @@
   "type": "剧集",
   "sources": [
     {
-      "name": "caiji.xgzyapi.com",
+      "name": "西瓜资源",
       "episodes": [
         {
           "title": "第01集",
           "src": "https://svip.xgplay20.com/2026-09-18/47922_bhGpmRtx82-64sZ_Ef/index.m3u8"
         }
       ]
+    },
+    {
+      "name": "非凡资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://super.ffzy-online6.com/20260918/41326_5f646a58/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "飘零影院资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v6.ppqrrs.com/wjv6/202609/18/DWdvYQszyj96/video/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "360资源",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://vod1.maowushi.com/20260918/DJygVuDY/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "天涯影视资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://tyyszywvod2.com/videos/202609/18/6aac9e19807e92f4be35bc46/1953dd/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "百度资源网",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://b3.bdzybf22.com/videos/202609/18/6aacad9b80d729d4e8ea6291/df35d5/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "光速资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v.gsuus.com/play/aM89EKPe/index.m3u8"
+        }
+      ]
     }
   ],
-  "poster": "https://vod.xiguazyimg.com/upload/vod/20260918-1/227dba1624306011ab048b52026ef7d2.png",
-  "posterColor": "#706143",
-  "uptime": "2026-09-18 18:57:41",
+  "poster": "https://img.guangsuimage.com/cover/649aa6b152ea7c23921ce70f4ac18dd1.jpg",
+  "posterColor": "#446e65",
+  "uptime": "2026-09-19 10:48:02",
   "opyear": "2026"
 }

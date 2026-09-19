@@ -1,0 +1,23 @@
+{
+  "title": "多浪迪总统 (2026)",
+  "type": "剧集",
+  "sources": [
+    {
+      "name": "虎牙资源站",
+      "episodes": [
+        {
+          "title": "抢先版",
+          "src": "https://1080p.huyall.com/play/erk8oRpa/index.m3u8"
+        },
+        {
+          "title": "正片",
+          "src": "https://1080p.huyall.com/play/e739Rl1e/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://image.huyajs.com/cover/3a209a22caa40d26e1b4f7d16e5aa90a.jpg",
+  "posterColor": "#87392b",
+  "uptime": "2026-06-26 21:03:02",
+  "opyear": "2026"
+}

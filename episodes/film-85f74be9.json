@@ -1,0 +1,555 @@
+{
+  "title": "综艺大集合 (2024)",
+  "type": "综艺",
+  "sources": [
+    {
+      "name": "360资源",
+      "episodes": [
+        {
+          "title": "第20240107期",
+          "src": "https://vod1.maowushi.com/20250627/CHSZsluH/index.m3u8"
+        },
+        {
+          "title": "第20240114期",
+          "src": "https://vod1.maowushi.com/20250627/QtlWZfKQ/index.m3u8"
+        },
+        {
+          "title": "第20240121期",
+          "src": "https://vod1.maowushi.com/20250627/n3T3SVQj/index.m3u8"
+        },
+        {
+          "title": "第20240128期",
+          "src": "https://vod1.maowushi.com/20250627/sF47u4p3/index.m3u8"
+        },
+        {
+          "title": "第20240204期",
+          "src": "https://vod1.maowushi.com/20250627/cpmf26bW/index.m3u8"
+        },
+        {
+          "title": "第20240211期",
+          "src": "https://vod1.maowushi.com/20250627/HaHl1qbc/index.m3u8"
+        },
+        {
+          "title": "第20240218期",
+          "src": "https://vod1.maowushi.com/20250627/64PaBGSQ/index.m3u8"
+        },
+        {
+          "title": "第20240225期",
+          "src": "https://vod1.maowushi.com/20250627/W23YxrlX/index.m3u8"
+        },
+        {
+          "title": "第20240303期",
+          "src": "https://vod1.maowushi.com/20250627/TkSzEnlW/index.m3u8"
+        },
+        {
+          "title": "第20240310期",
+          "src": "https://vod1.maowushi.com/20250627/xkgPtAXd/index.m3u8"
+        },
+        {
+          "title": "第20240317期",
+          "src": "https://vod1.maowushi.com/20250627/Hy7ObFCE/index.m3u8"
+        },
+        {
+          "title": "第20240324期",
+          "src": "https://vod1.maowushi.com/20250627/LKNToQrL/index.m3u8"
+        },
+        {
+          "title": "第20240331期",
+          "src": "https://vod1.maowushi.com/20250627/dg96VVLk/index.m3u8"
+        },
+        {
+          "title": "第20240407期",
+          "src": "https://vod1.maowushi.com/20250627/pqiTpeWR/index.m3u8"
+        },
+        {
+          "title": "第20240414期",
+          "src": "https://vod1.maowushi.com/20250627/SiCT8k5Z/index.m3u8"
+        },
+        {
+          "title": "第20240421期",
+          "src": "https://vod1.maowushi.com/20250627/2TtKgYZa/index.m3u8"
+        },
+        {
+          "title": "第20240428期",
+          "src": "https://vod1.maowushi.com/20250627/rIOviCwL/index.m3u8"
+        },
+        {
+          "title": "第20240505期",
+          "src": "https://vod1.maowushi.com/20250627/NQ18onXw/index.m3u8"
+        },
+        {
+          "title": "第20240512期",
+          "src": "https://vod1.maowushi.com/20250627/AZSlYxbJ/index.m3u8"
+        },
+        {
+          "title": "第20250518期",
+          "src": "https://vod1.maowushi.com/20250630/I3oHmJ3C/index.m3u8"
+        },
+        {
+          "title": "第20240519期",
+          "src": "https://vod1.maowushi.com/20250627/ckNGa53Y/index.m3u8"
+        },
+        {
+          "title": "第20240526期",
+          "src": "https://vod1.maowushi.com/20250627/vnfqEhax/index.m3u8"
+        },
+        {
+          "title": "第20240602期",
+          "src": "https://vod1.maowushi.com/20250627/6xbfhFao/index.m3u8"
+        },
+        {
+          "title": "第20240623期",
+          "src": "https://vod1.maowushi.com/20250627/0SlnkRu6/index.m3u8"
+        },
+        {
+          "title": "第20240721期",
+          "src": "https://vod1.maowushi.com/20250627/iWKDK1HY/index.m3u8"
+        },
+        {
+          "title": "第20240728期",
+          "src": "https://vod1.maowushi.com/20250627/Bt3ahNqs/index.m3u8"
+        },
+        {
+          "title": "第20240804期",
+          "src": "https://vod1.maowushi.com/20250627/sQDLceax/index.m3u8"
+        },
+        {
+          "title": "第20240811期",
+          "src": "https://vod1.maowushi.com/20250627/xquwnEeL/index.m3u8"
+        },
+        {
+          "title": "第20240825期",
+          "src": "https://vod1.maowushi.com/20250627/ZvHmLOkn/index.m3u8"
+        },
+        {
+          "title": "第20240901期",
+          "src": "https://vod1.maowushi.com/20250627/5Rj3Jtx4/index.m3u8"
+        },
+        {
+          "title": "第20240908期",
+          "src": "https://vod1.maowushi.com/20250627/R1mcPLjO/index.m3u8"
+        },
+        {
+          "title": "第20240915期",
+          "src": "https://vod1.maowushi.com/20250627/KWyocmve/index.m3u8"
+        },
+        {
+          "title": "第20240922期",
+          "src": "https://vod1.maowushi.com/20250627/dYrIDr6e/index.m3u8"
+        },
+        {
+          "title": "第20240929期",
+          "src": "https://vod1.maowushi.com/20250627/fFWgVHUZ/index.m3u8"
+        },
+        {
+          "title": "第20241006期",
+          "src": "https://vod1.maowushi.com/20250627/qxEwOrQp/index.m3u8"
+        },
+        {
+          "title": "第20241013期",
+          "src": "https://vod1.maowushi.com/20250627/2iFG6BOe/index.m3u8"
+        },
+        {
+          "title": "第20241020期上",
+          "src": "https://vod1.maowushi.com/20250627/si009hCX/index.m3u8"
+        },
+        {
+          "title": "第20241020期下",
+          "src": "https://vod1.maowushi.com/20250627/bk66DfbQ/index.m3u8"
+        },
+        {
+          "title": "第20241027期",
+          "src": "https://vod1.maowushi.com/20250627/ERh2aTgb/index.m3u8"
+        },
+        {
+          "title": "第20241103期",
+          "src": "https://vod1.maowushi.com/20250627/zkUD2Akw/index.m3u8"
+        },
+        {
+          "title": "第20241110期",
+          "src": "https://vod1.maowushi.com/20250627/kkXe2nTm/index.m3u8"
+        },
+        {
+          "title": "第20241117期",
+          "src": "https://vod1.maowushi.com/20250627/3iE4NiMl/index.m3u8"
+        },
+        {
+          "title": "第20241124期",
+          "src": "https://vod1.maowushi.com/20250627/61s7YO2o/index.m3u8"
+        },
+        {
+          "title": "第20241201期",
+          "src": "https://vod1.maowushi.com/20250627/S3Lqot2n/index.m3u8"
+        },
+        {
+          "title": "第20241215期",
+          "src": "https://vod1.maowushi.com/20250627/E6rbDRyn/index.m3u8"
+        },
+        {
+          "title": "第20241222期",
+          "src": "https://vod1.maowushi.com/20250627/PlHhvZ0O/index.m3u8"
+        },
+        {
+          "title": "第20241229期",
+          "src": "https://vod1.maowushi.com/20250627/0IMv1eL5/index.m3u8"
+        },
+        {
+          "title": "第20250105期",
+          "src": "https://vod1.maowushi.com/20250627/Zt4rL2Lx/index.m3u8"
+        },
+        {
+          "title": "第20250112期",
+          "src": "https://vod1.maowushi.com/20250627/5sNt1XWq/index.m3u8"
+        },
+        {
+          "title": "第20250119期",
+          "src": "https://vod1.maowushi.com/20250627/4ubzJWUe/index.m3u8"
+        },
+        {
+          "title": "第20250126期",
+          "src": "https://vod1.maowushi.com/20250627/eDLcts2l/index.m3u8"
+        },
+        {
+          "title": "第20250202期",
+          "src": "https://vod1.maowushi.com/20250627/VbwkMFke/index.m3u8"
+        },
+        {
+          "title": "第20250209期",
+          "src": "https://vod1.maowushi.com/20250627/hFuuzsX1/index.m3u8"
+        },
+        {
+          "title": "第20250216期",
+          "src": "https://vod1.maowushi.com/20250627/qM7D8Rqy/index.m3u8"
+        },
+        {
+          "title": "第20250223期",
+          "src": "https://vod1.maowushi.com/20250627/nlmwQexw/index.m3u8"
+        },
+        {
+          "title": "第20250302期",
+          "src": "https://vod1.maowushi.com/20250627/UlrfJIsd/index.m3u8"
+        },
+        {
+          "title": "第20250309期",
+          "src": "https://vod1.maowushi.com/20250627/OW4bTGDL/index.m3u8"
+        },
+        {
+          "title": "第20250316期",
+          "src": "https://vod1.maowushi.com/20250627/8d8AH8mV/index.m3u8"
+        },
+        {
+          "title": "第20250324期",
+          "src": "https://vod1.maowushi.com/20250627/izYtaiEz/index.m3u8"
+        },
+        {
+          "title": "第20250330期",
+          "src": "https://vod1.maowushi.com/20250627/QR3cXv8Q/index.m3u8"
+        },
+        {
+          "title": "第20250406期",
+          "src": "https://vod1.maowushi.com/20250627/68XjPS5i/index.m3u8"
+        },
+        {
+          "title": "第20250413期",
+          "src": "https://vod1.maowushi.com/20250627/OKDcwWMx/index.m3u8"
+        },
+        {
+          "title": "第20250420期",
+          "src": "https://vod1.maowushi.com/20250627/GjTcz2T4/index.m3u8"
+        },
+        {
+          "title": "第20250427期",
+          "src": "https://vod1.maowushi.com/20250627/IBm7UgBf/index.m3u8"
+        },
+        {
+          "title": "第20250504期",
+          "src": "https://vod1.maowushi.com/20250627/BoasD8eO/index.m3u8"
+        },
+        {
+          "title": "第20250511期",
+          "src": "https://vod1.maowushi.com/20250627/aLqUmJQ9/index.m3u8"
+        },
+        {
+          "title": "第20250525期",
+          "src": "https://vod1.maowushi.com/20250627/RWMCl65Y/index.m3u8"
+        },
+        {
+          "title": "第20250601期",
+          "src": "https://vod1.maowushi.com/20250627/o4y6NvAj/index.m3u8"
+        },
+        {
+          "title": "第20250608期",
+          "src": "https://vod1.maowushi.com/20250627/3S4avB0X/index.m3u8"
+        },
+        {
+          "title": "第20250615期",
+          "src": "https://vod1.maowushi.com/20250627/zYn7cMrJ/index.m3u8"
+        },
+        {
+          "title": "第20250622期",
+          "src": "https://vod1.maowushi.com/20250627/qSHSyUBs/index.m3u8"
+        },
+        {
+          "title": "第20250629期",
+          "src": "https://vod1.maowushi.com/20250701/krkup0Vw/index.m3u8"
+        },
+        {
+          "title": "第20250706期",
+          "src": "https://vod1.maowushi.com/20250708/faMaDf29/index.m3u8"
+        },
+        {
+          "title": "第20250713期",
+          "src": "https://vod1.maowushi.com/20250715/DbFb7lzj/index.m3u8"
+        },
+        {
+          "title": "第20250720期",
+          "src": "https://vod1.maowushi.com/20250721/K684cGHC/index.m3u8"
+        },
+        {
+          "title": "第20250727期",
+          "src": "https://vod1.maowushi.com/20250728/Lh0cUplf/index.m3u8"
+        },
+        {
+          "title": "第20250804期",
+          "src": "https://vod1.maowushi.com/20250804/CsanqdlH/index.m3u8"
+        },
+        {
+          "title": "第20250810期",
+          "src": "https://vod1.maowushi.com/20250811/DmB6Kuuy/index.m3u8"
+        },
+        {
+          "title": "第20250817期",
+          "src": "https://vod1.maowushi.com/20250818/wQxoyqok/index.m3u8"
+        },
+        {
+          "title": "第20250824期",
+          "src": "https://vod1.maowushi.com/20250826/CoSBgIq0/index.m3u8"
+        },
+        {
+          "title": "第20250831期",
+          "src": "https://vod1.maowushi.com/20250902/9tlOpWGT/index.m3u8"
+        },
+        {
+          "title": "第20250907期",
+          "src": "https://vod1.maowushi.com/20250909/VXB9erfI/index.m3u8"
+        },
+        {
+          "title": "第20250914期",
+          "src": "https://vod1.maowushi.com/20250916/APZJKbs5/index.m3u8"
+        },
+        {
+          "title": "第20250921期",
+          "src": "https://vod1.maowushi.com/20250923/RWDkWhxH/index.m3u8"
+        },
+        {
+          "title": "第20250928期",
+          "src": "https://vod1.maowushi.com/20250930/fJooKnKC/index.m3u8"
+        },
+        {
+          "title": "第20251005期",
+          "src": "https://vod1.maowushi.com/20251007/dFjQ8xJ2/index.m3u8"
+        },
+        {
+          "title": "第20251012期",
+          "src": "https://vod1.maowushi.com/20251014/oYGPzYB1/index.m3u8"
+        },
+        {
+          "title": "第20251019期",
+          "src": "https://vod1.maowushi.com/20251021/7nVOFStE/index.m3u8"
+        },
+        {
+          "title": "第20251026期",
+          "src": "https://vod1.maowushi.com/20251028/3Pm8TOrD/index.m3u8"
+        },
+        {
+          "title": "第20251102期",
+          "src": "https://vod1.maowushi.com/20251104/98bT6j8i/index.m3u8"
+        },
+        {
+          "title": "第20251109期",
+          "src": "https://vod1.maowushi.com/20251111/A3JRdlK6/index.m3u8"
+        },
+        {
+          "title": "第20251116期",
+          "src": "https://vod1.maowushi.com/20251118/ec46P5DM/index.m3u8"
+        },
+        {
+          "title": "第20251123期",
+          "src": "https://vod1.maowushi.com/20251125/zV5mpTN2/index.m3u8"
+        },
+        {
+          "title": "第20251130期",
+          "src": "https://vod1.maowushi.com/20251202/HF2macVL/index.m3u8"
+        },
+        {
+          "title": "第20251207期",
+          "src": "https://vod1.maowushi.com/20251209/7pzvvBh5/index.m3u8"
+        },
+        {
+          "title": "第20251214期",
+          "src": "https://vod1.maowushi.com/20251216/jkwIK9T1/index.m3u8"
+        },
+        {
+          "title": "第20251221期",
+          "src": "https://vod1.maowushi.com/20251223/aTrFy6Gw/index.m3u8"
+        },
+        {
+          "title": "第20251228期",
+          "src": "https://vod1.maowushi.com/20251230/lCxdAelB/index.m3u8"
+        },
+        {
+          "title": "第20260104期",
+          "src": "https://vod1.maowushi.com/20260106/QZpR7Lvt/index.m3u8"
+        },
+        {
+          "title": "第20260111期",
+          "src": "https://vod1.maowushi.com/20260113/sJujatF0/index.m3u8"
+        },
+        {
+          "title": "第20260118期",
+          "src": "https://vod1.maowushi.com/20260126/LA2wS3Ij/index.m3u8"
+        },
+        {
+          "title": "第20260125期",
+          "src": "https://vod1.maowushi.com/20260126/1M18fe2g/index.m3u8"
+        },
+        {
+          "title": "第20260201期",
+          "src": "https://vod1.maowushi.com/20260202/VEVKbTsb/index.m3u8"
+        },
+        {
+          "title": "第20260208期",
+          "src": "https://vod1.maowushi.com/20260210/v96K2R5g/index.m3u8"
+        },
+        {
+          "title": "第20260215期",
+          "src": "https://vod1.maowushi.com/20260217/OoAemhBd/index.m3u8"
+        },
+        {
+          "title": "第20260222期",
+          "src": "https://vod1.maowushi.com/20260224/6nUbvxTl/index.m3u8"
+        },
+        {
+          "title": "第20260301期",
+          "src": "https://vod1.maowushi.com/20260303/0zRSVB4d/index.m3u8"
+        },
+        {
+          "title": "第20260308期",
+          "src": "https://vod1.maowushi.com/20260310/vo9U62L7/index.m3u8"
+        },
+        {
+          "title": "第20260315期",
+          "src": "https://vod1.maowushi.com/20260316/xO8YBjtg/index.m3u8"
+        },
+        {
+          "title": "第20260322期",
+          "src": "https://vod1.maowushi.com/20260323/ksh1DAWz/index.m3u8"
+        },
+        {
+          "title": "第20260329期",
+          "src": "https://vod1.maowushi.com/20260330/jYYo1ZVM/index.m3u8"
+        },
+        {
+          "title": "第20260405期",
+          "src": "https://vod1.maowushi.com/20260406/dlJBIGHr/index.m3u8"
+        },
+        {
+          "title": "第20260412期",
+          "src": "https://vod1.maowushi.com/20260413/co2pG3pn/index.m3u8"
+        },
+        {
+          "title": "第20260419期",
+          "src": "https://vod1.maowushi.com/20260420/oJUIvN7z/index.m3u8"
+        },
+        {
+          "title": "第20260426期",
+          "src": "https://vod1.maowushi.com/20260427/D3vGhEzX/index.m3u8"
+        },
+        {
+          "title": "第20260503期",
+          "src": "https://vod1.maowushi.com/20260505/CoIZ8Ou5/index.m3u8"
+        },
+        {
+          "title": "第20260510期",
+          "src": "https://vod1.maowushi.com/20260512/t1QivLX8/index.m3u8"
+        },
+        {
+          "title": "第20260517期",
+          "src": "https://vod1.maowushi.com/20260519/VA09X6xx/index.m3u8"
+        },
+        {
+          "title": "第20260524期",
+          "src": "https://vod1.maowushi.com/20260525/SkliMvkV/index.m3u8"
+        },
+        {
+          "title": "第20260531期",
+          "src": "https://vod1.maowushi.com/20260602/1XvCi6Ex/index.m3u8"
+        },
+        {
+          "title": "第20260607期",
+          "src": "https://vod1.maowushi.com/20260608/JN8MPLIl/index.m3u8"
+        },
+        {
+          "title": "第20260614期",
+          "src": "https://vod1.maowushi.com/20260615/JllTKSkE/index.m3u8"
+        },
+        {
+          "title": "第20260621期",
+          "src": "https://vod1.maowushi.com/20260622/7YR4UhF4/index.m3u8"
+        },
+        {
+          "title": "第20260628期",
+          "src": "https://vod1.maowushi.com/20260629/zWTXWbIH/index.m3u8"
+        },
+        {
+          "title": "第20260705期",
+          "src": "https://vod1.maowushi.com/20260706/jvzEpoGT/index.m3u8"
+        },
+        {
+          "title": "第20260712期",
+          "src": "https://vod1.maowushi.com/20260715/SRNqodiv/index.m3u8"
+        },
+        {
+          "title": "第20260719期",
+          "src": "https://vod1.maowushi.com/20260721/uKz4uP50/index.m3u8"
+        },
+        {
+          "title": "第20260726期",
+          "src": "https://vod1.maowushi.com/20260728/VxNLBCbZ/index.m3u8"
+        },
+        {
+          "title": "第20260802期",
+          "src": "https://vod1.maowushi.com/20260803/7nB0bS0B/index.m3u8"
+        },
+        {
+          "title": "第20260809期",
+          "src": "https://vod1.maowushi.com/20260810/uZ64jgPK/index.m3u8"
+        },
+        {
+          "title": "第20260816期",
+          "src": "https://vod1.maowushi.com/20260817/Ko4IbXwk/index.m3u8"
+        },
+        {
+          "title": "第20260823期",
+          "src": "https://vod1.maowushi.com/20260824/9AOkdXo1/index.m3u8"
+        },
+        {
+          "title": "第20260830期",
+          "src": "https://vod1.maowushi.com/20260831/VEf0rZ10/index.m3u8"
+        },
+        {
+          "title": "第20260906期",
+          "src": "https://vod1.maowushi.com/20260907/fCLQXqjq/index.m3u8"
+        },
+        {
+          "title": "第20260913期",
+          "src": "https://vod1.maowushi.com/20260914/k6A4UbtD/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://www.imgzy360.com:7788/upload/vod/20250629-1/ad586a15b98096d170e6f6b4c3af42fb.jpg",
+  "posterColor": "#cea331",
+  "uptime": "2026-09-14 14:20:01",
+  "opyear": "2024"
+}

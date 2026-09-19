@@ -3,6 +3,59 @@
   "type": "剧集",
   "sources": [
     {
+      "name": "360资源",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://vod1.maowushi.com/20260704/iaQAQp4V/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://vod1.maowushi.com/20260711/Sb23bue3/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://vod1.maowushi.com/20260718/BtWegxUA/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://vod1.maowushi.com/20260725/OaCi25BX/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://vod1.maowushi.com/20260801/s5uB4VGQ/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://vod1.maowushi.com/20260808/1942lNOI/index.m3u8"
+        },
+        {
+          "title": "第07集",
+          "src": "https://vod1.maowushi.com/20260815/e3q0Q41H/index.m3u8"
+        },
+        {
+          "title": "第08集",
+          "src": "https://vod1.maowushi.com/20260822/sOzl8Bcp/index.m3u8"
+        },
+        {
+          "title": "第09集",
+          "src": "https://vod1.maowushi.com/20260829/FzZzxYmA/index.m3u8"
+        },
+        {
+          "title": "第10集",
+          "src": "https://vod1.maowushi.com/20260905/WjbyC2F6/index.m3u8"
+        },
+        {
+          "title": "第11集",
+          "src": "https://vod1.maowushi.com/20260919/5OuDmkhw/index.m3u8"
+        },
+        {
+          "title": "第12集",
+          "src": "https://vod1.maowushi.com/20260919/VP4i8m5O/index.m3u8"
+        }
+      ]
+    },
+    {
       "name": "非凡资源站",
       "episodes": [
         {
@@ -54,10 +107,55 @@
           "src": "https://super.ffzy-online6.com/20260919/41347_10489e28/index.m3u8"
         }
       ]
+    },
+    {
+      "name": "飘零影院资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v12.ppqrrs.com/wjv12/202607/04/s6gE5mkpMx90/video/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://v3.ppqrrs.com/wjv3/202607/11/aTMCepNDcC94/video/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://v2.ppqrrs.com/wjv2/202607/17/j04NbKbAhq92/video/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://v11.ppqrrs.com/wjv11/202607/25/LiLb64stiY90/video/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://v7.ppqrrs.com/wjv7/202608/01/b3KEsGWgDa86/video/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://v7.ppqrrs.com/wjv7/202608/08/Zp8vziKxx097/video/index.m3u8"
+        },
+        {
+          "title": "第07集",
+          "src": "https://v1.ppqrrs.com/202608/15/vrfKuKihQ486/video/index.m3u8"
+        },
+        {
+          "title": "第08集",
+          "src": "https://v2.ppqrrs.com/wjv2/202608/22/dKc7S8wDf791/video/index.m3u8"
+        },
+        {
+          "title": "第09集",
+          "src": "https://v7.ppqrrs.com/wjv7/202608/29/1QdNRJMWRg89/video/index.m3u8"
+        },
+        {
+          "title": "第10集",
+          "src": "https://v10.ppqrrs.com/wjv10/202609/05/X0Ay82ezWw91/video/index.m3u8"
+        }
+      ]
     }
   ],
-  "poster": "https://fffgood.com/upload/vod/20260705-1/7b728751215747a3073893f915d5bf16.jpg",
-  "posterColor": "#61557a",
-  "uptime": "2026-09-19 08:35:22",
+  "poster": "https://pic.youkupic.com/upload/vod/20260704-1/6c2aa819c4563fefa7fabe32e36e3653.jpg",
+  "posterColor": "#62577a",
+  "uptime": "2026-09-19 18:20:03",
   "opyear": "2026"
 }

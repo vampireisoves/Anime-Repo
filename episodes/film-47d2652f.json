@@ -1,0 +1,620 @@
+{
+  "title": "密室大逃脱第八季 (2026)",
+  "type": "未分类",
+  "sources": [
+    {
+      "name": "豪华资源站",
+      "episodes": [
+        {
+          "title": "超前聚会上",
+          "src": "https://play.hhuus.com/play/e0R0VwLb/index.m3u8"
+        },
+        {
+          "title": "超前聚会下",
+          "src": "https://play.hhuus.com/play/en5gr27d/index.m3u8"
+        },
+        {
+          "title": "大神版超前聚会上",
+          "src": "https://play.hhuus.com/play/ejR0qxle/index.m3u8"
+        },
+        {
+          "title": "大神版超前聚会下",
+          "src": "https://play.hhuus.com/play/epYkQENa/index.m3u8"
+        },
+        {
+          "title": "超前彩蛋特调小队",
+          "src": "https://play.hhuus.com/play/dG6MEjQb/index.m3u8"
+        },
+        {
+          "title": "绝叫山庄Ⅰ上",
+          "src": "https://play.hhuus.com/play/aKrLv3ne/index.m3u8"
+        },
+        {
+          "title": "绝叫山庄Ⅰ下",
+          "src": "https://play.hhuus.com/play/elY2Nr6a/index.m3u8"
+        },
+        {
+          "title": "Plus版第1期",
+          "src": "https://play.hhuus.com/play/elY2WRla/index.m3u8"
+        },
+        {
+          "title": "超前彩蛋第2期",
+          "src": "https://play.hhuus.com/play/en5gyZWd/index.m3u8"
+        },
+        {
+          "title": "绝叫山庄Ⅱ上",
+          "src": "https://play.hhuus.com/play/eVO7RQva/index.m3u8"
+        },
+        {
+          "title": "绝叫山庄Ⅱ下",
+          "src": "https://play.hhuus.com/play/b82MVEge/index.m3u8"
+        },
+        {
+          "title": "Plus版第2期",
+          "src": "https://play.hhuus.com/play/b68B52Ne/index.m3u8"
+        },
+        {
+          "title": "超前彩蛋第3期",
+          "src": "https://play.hhuus.com/play/epYkxpXa/index.m3u8"
+        },
+        {
+          "title": "公馆离情Ⅰ上",
+          "src": "https://play.hhuus.com/play/ejR0zz4e/index.m3u8"
+        },
+        {
+          "title": "公馆离情Ⅰ下",
+          "src": "https://play.hhuus.com/play/b68B33Ne/index.m3u8"
+        },
+        {
+          "title": "Plus版第3期",
+          "src": "https://play.hhuus.com/play/b4xz5kxb/index.m3u8"
+        },
+        {
+          "title": "超前彩蛋第4期",
+          "src": "https://play.hhuus.com/play/elY7YoJa/index.m3u8"
+        },
+        {
+          "title": "公馆离情Ⅱ上",
+          "src": "https://play.hhuus.com/play/dR61oyEd/index.m3u8"
+        },
+        {
+          "title": "公馆离情Ⅱ下",
+          "src": "https://play.hhuus.com/play/dBB6LMYd/index.m3u8"
+        },
+        {
+          "title": "20260814Plus版",
+          "src": "https://play.hhuus.com/play/dNk0YN8e/index.m3u8"
+        },
+        {
+          "title": "超前彩蛋全员寻物",
+          "src": "https://play.hhuus.com/play/dBB6nRNd/index.m3u8"
+        },
+        {
+          "title": "大神版第1期",
+          "src": "https://play.hhuus.com/play/azpXn9Yd/index.m3u8"
+        },
+        {
+          "title": "大神260724Plus版",
+          "src": "https://play.hhuus.com/play/e73XAWre/index.m3u8"
+        },
+        {
+          "title": "超前彩蛋全员卧底",
+          "src": "https://play.hhuus.com/play/dL9JP5Ae/index.m3u8"
+        },
+        {
+          "title": "大神版第2期",
+          "src": "https://play.hhuus.com/play/dPNQYrwa/index.m3u8"
+        },
+        {
+          "title": "大神版第2期",
+          "src": "https://play.hhuus.com/play/dJ6QPl2d/index.m3u8"
+        },
+        {
+          "title": "大神260731Plus版",
+          "src": "https://play.hhuus.com/play/dR61L5Kd/index.m3u8"
+        },
+        {
+          "title": "20260803夏日派对",
+          "src": "https://play.hhuus.com/play/e5yLW3Be/index.m3u8"
+        },
+        {
+          "title": "超前彩蛋复刻名场面",
+          "src": "https://play.hhuus.com/play/e9rg23Za/index.m3u8"
+        },
+        {
+          "title": "大神版第3期",
+          "src": "https://play.hhuus.com/play/bkR7oD5a/index.m3u8"
+        },
+        {
+          "title": "大神版第3期",
+          "src": "https://play.hhuus.com/play/e1w49BPb/index.m3u8"
+        },
+        {
+          "title": "大神260807Plus版",
+          "src": "https://play.hhuus.com/play/bmZyE7rd/index.m3u8"
+        },
+        {
+          "title": "超前彩蛋脑洞狂飙",
+          "src": "https://play.hhuus.com/play/e31w9Yxb/index.m3u8"
+        },
+        {
+          "title": "大神版第4期",
+          "src": "https://play.hhuus.com/play/bqxZ2MGa/index.m3u8"
+        },
+        {
+          "title": "大神版第4期",
+          "src": "https://play.hhuus.com/play/bqxZ2D2a/index.m3u8"
+        },
+        {
+          "title": "大神260814Plus版",
+          "src": "https://play.hhuus.com/play/av2ZjmXa/index.m3u8"
+        },
+        {
+          "title": "260818超前彩蛋",
+          "src": "https://play.hhuus.com/play/bo2y6Q3a/index.m3u8"
+        },
+        {
+          "title": "禁忌学园Ⅰ上",
+          "src": "https://play.hhuus.com/play/bkR7Dxva/index.m3u8"
+        },
+        {
+          "title": "禁忌学园Ⅰ下",
+          "src": "https://play.hhuus.com/play/e1w4Qoqb/index.m3u8"
+        },
+        {
+          "title": "大神版第5期",
+          "src": "https://play.hhuus.com/play/bqxZDEya/index.m3u8"
+        },
+        {
+          "title": "大神版第5期",
+          "src": "https://play.hhuus.com/play/bqxZDq7a/index.m3u8"
+        },
+        {
+          "title": "20260821Plus版",
+          "src": "https://play.hhuus.com/play/av2ZJPga/index.m3u8"
+        },
+        {
+          "title": "大神260821plus版",
+          "src": "https://play.hhuus.com/play/av2Zx05a/index.m3u8"
+        },
+        {
+          "title": "260825超前彩蛋",
+          "src": "https://play.hhuus.com/play/bW6qR4xa/index.m3u8"
+        },
+        {
+          "title": "大神版260825超前彩蛋",
+          "src": "https://play.hhuus.com/play/dPNQAZla/index.m3u8"
+        },
+        {
+          "title": "禁忌学园Ⅱ上",
+          "src": "https://play.hhuus.com/play/egJ2Nvkd/index.m3u8"
+        },
+        {
+          "title": "禁忌学园Ⅱ下",
+          "src": "https://play.hhuus.com/play/e5yLXj8e/index.m3u8"
+        },
+        {
+          "title": "大神版第6期信任危机",
+          "src": "https://play.hhuus.com/play/dPNQAP4a/index.m3u8"
+        },
+        {
+          "title": "大神版第6期营救计划",
+          "src": "https://play.hhuus.com/play/bYE5N22b/index.m3u8"
+        },
+        {
+          "title": "Plus版第6期",
+          "src": "https://play.hhuus.com/play/eERxLR4a/index.m3u8"
+        },
+        {
+          "title": "大神版Plus版第6期",
+          "src": "https://play.hhuus.com/play/azpX8Z2d/index.m3u8"
+        },
+        {
+          "title": "260901超前彩蛋",
+          "src": "https://play.hhuus.com/play/dL9JERXe/index.m3u8"
+        },
+        {
+          "title": "大神版260901超前彩蛋",
+          "src": "https://play.hhuus.com/play/e9rgW08a/index.m3u8"
+        },
+        {
+          "title": "云绮织梦Ⅰ上",
+          "src": "https://play.hhuus.com/play/axk1DqPe/index.m3u8"
+        },
+        {
+          "title": "云绮织梦Ⅰ下",
+          "src": "https://play.hhuus.com/play/e5yL5nAe/index.m3u8"
+        },
+        {
+          "title": "大神版第7期空中飞人",
+          "src": "https://play.hhuus.com/play/bo2yqRka/index.m3u8"
+        },
+        {
+          "title": "大神版第7期博弈局",
+          "src": "https://play.hhuus.com/play/bW6qD6oa/index.m3u8"
+        },
+        {
+          "title": "20260904Plus版",
+          "src": "https://play.hhuus.com/play/bkR7qZxa/index.m3u8"
+        },
+        {
+          "title": "大神版Plus版第7期",
+          "src": "https://play.hhuus.com/play/bkR7qjJa/index.m3u8"
+        },
+        {
+          "title": "20260908超前彩蛋",
+          "src": "https://play.hhuus.com/play/e73XjzBe/index.m3u8"
+        },
+        {
+          "title": "大神版260908超前彩蛋",
+          "src": "https://play.hhuus.com/play/dBB6xqJd/index.m3u8"
+        },
+        {
+          "title": "云绮织梦Ⅱ上",
+          "src": "https://play.hhuus.com/play/bYE54BOb/index.m3u8"
+        },
+        {
+          "title": "云绮织梦Ⅱ下",
+          "src": "https://play.hhuus.com/play/bqxZJXDa/index.m3u8"
+        },
+        {
+          "title": "大神版第8期续火花",
+          "src": "https://play.hhuus.com/play/dPNQRpya/index.m3u8"
+        },
+        {
+          "title": "大神版第8期大冲关",
+          "src": "https://play.hhuus.com/play/e5yLjEqe/index.m3u8"
+        },
+        {
+          "title": "20260911Plus版",
+          "src": "https://play.hhuus.com/play/e5yWnLRe/index.m3u8"
+        },
+        {
+          "title": "大神版Plus版第8期",
+          "src": "https://play.hhuus.com/play/dL9P91We/index.m3u8"
+        },
+        {
+          "title": "超前彩蛋第9期",
+          "src": "https://play.hhuus.com/play/azpnvM7d/index.m3u8"
+        },
+        {
+          "title": "大神版超前彩蛋第9期",
+          "src": "https://play.hhuus.com/play/av2jQzMa/index.m3u8"
+        },
+        {
+          "title": "狼来了Ⅰ上",
+          "src": "https://play.hhuus.com/play/bmZEYNOd/index.m3u8"
+        },
+        {
+          "title": "狼来了Ⅰ下",
+          "src": "https://play.hhuus.com/play/av2j8RXa/index.m3u8"
+        },
+        {
+          "title": "大神版第9期上",
+          "src": "https://play.hhuus.com/play/bqx2lMGa/index.m3u8"
+        },
+        {
+          "title": "大神版第9期下",
+          "src": "https://play.hhuus.com/play/bqx2lM0a/index.m3u8"
+        },
+        {
+          "title": "Plus版第9期",
+          "src": "https://play.hhuus.com/play/bkRoo4Xa/index.m3u8"
+        },
+        {
+          "title": "大神版Plus版第9期",
+          "src": "https://play.hhuus.com/play/azpnqQYd/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "金鹰资源站",
+      "episodes": [
+        {
+          "title": "超前聚会上",
+          "src": "https://hd.kuktxu.com/play/e9rDQJDa/index.m3u8"
+        },
+        {
+          "title": "超前聚会下",
+          "src": "https://hd.kuktxu.com/play/bmZYQ1Gd/index.m3u8"
+        },
+        {
+          "title": "大神版超前聚会上",
+          "src": "https://hd.kuktxu.com/play/egJnLr3d/index.m3u8"
+        },
+        {
+          "title": "大神版超前聚会下",
+          "src": "https://hd.kuktxu.com/play/bo2jQD3a/index.m3u8"
+        },
+        {
+          "title": "超前彩蛋特调小队",
+          "src": "https://hd.kuktxu.com/play/eER0B5Ka/index.m3u8"
+        },
+        {
+          "title": "绝叫山庄Ⅰ上",
+          "src": "https://hd.kuktxu.com/play/dJ6Nr3od/index.m3u8"
+        },
+        {
+          "title": "绝叫山庄Ⅰ下",
+          "src": "https://hd.kuktxu.com/play/bkRrNqXa/index.m3u8"
+        },
+        {
+          "title": "Plus版第1期",
+          "src": "https://hd.kuktxu.com/play/bkRrW2xa/index.m3u8"
+        },
+        {
+          "title": "超前彩蛋第2期",
+          "src": "https://hd.kuktxu.com/play/bmZYxw9d/index.m3u8"
+        },
+        {
+          "title": "绝叫山庄Ⅱ上",
+          "src": "https://hd.kuktxu.com/play/dR6PN1Od/index.m3u8"
+        },
+        {
+          "title": "绝叫山庄Ⅱ下",
+          "src": "https://hd.kuktxu.com/play/e73pRXye/index.m3u8"
+        },
+        {
+          "title": "Plus版第2期",
+          "src": "https://hd.kuktxu.com/play/e5yR53Xe/index.m3u8"
+        },
+        {
+          "title": "超前彩蛋第3期",
+          "src": "https://hd.kuktxu.com/play/bo2jwoAa/index.m3u8"
+        },
+        {
+          "title": "公馆离情Ⅰ上",
+          "src": "https://hd.kuktxu.com/play/egJnwwjd/index.m3u8"
+        },
+        {
+          "title": "公馆离情Ⅰ下",
+          "src": "https://hd.kuktxu.com/play/e5yR22Xe/index.m3u8"
+        },
+        {
+          "title": "Plus版第3期",
+          "src": "https://hd.kuktxu.com/play/e31y4jRb/index.m3u8"
+        },
+        {
+          "title": "超前彩蛋第4期",
+          "src": "https://hd.kuktxu.com/play/bkR7RnYa/index.m3u8"
+        },
+        {
+          "title": "公馆离情Ⅱ上",
+          "src": "https://hd.kuktxu.com/play/aQW70x9d/index.m3u8"
+        },
+        {
+          "title": "公馆离情Ⅱ下",
+          "src": "https://hd.kuktxu.com/play/aAD1PLle/index.m3u8"
+        },
+        {
+          "title": "20260814Plus版",
+          "src": "https://hd.kuktxu.com/play/aM81JM1e/index.m3u8"
+        },
+        {
+          "title": "超前彩蛋全员寻物",
+          "src": "https://hd.kuktxu.com/play/aAD1m9Pe/index.m3u8"
+        },
+        {
+          "title": "大神版第1期",
+          "src": "https://hd.kuktxu.com/play/dyPXmM7b/index.m3u8"
+        },
+        {
+          "title": "大神260724Plus版",
+          "src": "https://hd.kuktxu.com/play/b6890zle/index.m3u8"
+        },
+        {
+          "title": "超前彩蛋全员卧底",
+          "src": "https://hd.kuktxu.com/play/aKrQ65Ye/index.m3u8"
+        },
+        {
+          "title": "大神版第2期",
+          "src": "https://hd.kuktxu.com/play/aOY8Zqpd/index.m3u8"
+        },
+        {
+          "title": "大神版第2期",
+          "src": "https://hd.kuktxu.com/play/dG689g7b/index.m3u8"
+        },
+        {
+          "title": "大神260731Plus版",
+          "src": "https://hd.kuktxu.com/play/aQW7O5Ld/index.m3u8"
+        },
+        {
+          "title": "20260803夏日派对",
+          "src": "https://hd.kuktxu.com/play/b4xL941b/index.m3u8"
+        },
+        {
+          "title": "超前彩蛋复刻名场面",
+          "src": "https://hd.kuktxu.com/play/b82E9XLe/index.m3u8"
+        },
+        {
+          "title": "大神版第3期",
+          "src": "https://hd.kuktxu.com/play/ejR8nLRe/index.m3u8"
+        },
+        {
+          "title": "大神版第3期",
+          "src": "https://hd.kuktxu.com/play/eZ60WmRe/index.m3u8"
+        },
+        {
+          "title": "大神260807Plus版",
+          "src": "https://hd.kuktxu.com/play/elY7p8ra/index.m3u8"
+        },
+        {
+          "title": "超前彩蛋脑洞狂飙",
+          "src": "https://hd.kuktxu.com/play/b2kW9GNd/index.m3u8"
+        },
+        {
+          "title": "大神版第4期",
+          "src": "https://hd.kuktxu.com/play/epY2zXNa/index.m3u8"
+        },
+        {
+          "title": "大神版第4期",
+          "src": "https://hd.kuktxu.com/play/epY2z72a/index.m3u8"
+        },
+        {
+          "title": "大神260814Plus版",
+          "src": "https://hd.kuktxu.com/play/erk9YgKa/index.m3u8"
+        },
+        {
+          "title": "260818超前彩蛋",
+          "src": "https://hd.kuktxu.com/play/en5ONrEd/index.m3u8"
+        },
+        {
+          "title": "禁忌学园Ⅰ上",
+          "src": "https://hd.kuktxu.com/play/ejR8Lw4e/index.m3u8"
+        },
+        {
+          "title": "禁忌学园Ⅰ下",
+          "src": "https://hd.kuktxu.com/play/eZ60pKge/index.m3u8"
+        },
+        {
+          "title": "大神版第5期",
+          "src": "https://hd.kuktxu.com/play/epY27Dya/index.m3u8"
+        },
+        {
+          "title": "大神版第5期",
+          "src": "https://hd.kuktxu.com/play/epY27pQa/index.m3u8"
+        },
+        {
+          "title": "20260821Plus版",
+          "src": "https://hd.kuktxu.com/play/erk97Lka/index.m3u8"
+        },
+        {
+          "title": "大神260821plus版",
+          "src": "https://hd.kuktxu.com/play/erk9qDpa/index.m3u8"
+        },
+        {
+          "title": "260825超前彩蛋",
+          "src": "https://hd.kuktxu.com/play/eVOQ96Xa/index.m3u8"
+        },
+        {
+          "title": "大神版260825超前彩蛋",
+          "src": "https://hd.kuktxu.com/play/aOY8zyGd/index.m3u8"
+        },
+        {
+          "title": "禁忌学园Ⅱ上",
+          "src": "https://hd.kuktxu.com/play/e0RLP4Lb/index.m3u8"
+        },
+        {
+          "title": "禁忌学园Ⅱ下",
+          "src": "https://hd.kuktxu.com/play/b4xLPgxb/index.m3u8"
+        },
+        {
+          "title": "大神版第6期信任危机",
+          "src": "https://hd.kuktxu.com/play/aOY8zOrd/index.m3u8"
+        },
+        {
+          "title": "大神版第6期营救计划",
+          "src": "https://hd.kuktxu.com/play/eXD521ge/index.m3u8"
+        },
+        {
+          "title": "Plus版第6期",
+          "src": "https://hd.kuktxu.com/play/bDk8Kk5a/index.m3u8"
+        },
+        {
+          "title": "大神版Plus版第6期",
+          "src": "https://hd.kuktxu.com/play/dyPX4YRb/index.m3u8"
+        },
+        {
+          "title": "260901超前彩蛋",
+          "src": "https://hd.kuktxu.com/play/aKrQDRMe/index.m3u8"
+        },
+        {
+          "title": "大神版260901超前彩蛋",
+          "src": "https://hd.kuktxu.com/play/b82EVQ2e/index.m3u8"
+        },
+        {
+          "title": "云绮织梦Ⅰ上",
+          "src": "https://hd.kuktxu.com/play/dwprB9Xe/index.m3u8"
+        },
+        {
+          "title": "云绮织梦Ⅰ下",
+          "src": "https://hd.kuktxu.com/play/b4xL7mkb/index.m3u8"
+        },
+        {
+          "title": "大神版第7期空中飞人",
+          "src": "https://hd.kuktxu.com/play/en5OpQPd/index.m3u8"
+        },
+        {
+          "title": "大神版第7期博弈局",
+          "src": "https://hd.kuktxu.com/play/eVOQBOoa/index.m3u8"
+        },
+        {
+          "title": "20260904Plus版",
+          "src": "https://hd.kuktxu.com/play/ejR8pqWe/index.m3u8"
+        },
+        {
+          "title": "大神版Plus版第7期",
+          "src": "https://hd.kuktxu.com/play/ejR8pgye/index.m3u8"
+        },
+        {
+          "title": "20260908超前彩蛋",
+          "src": "https://hd.kuktxu.com/play/b689gyNe/index.m3u8"
+        },
+        {
+          "title": "大神版260908超前彩蛋",
+          "src": "https://hd.kuktxu.com/play/aAD1wpze/index.m3u8"
+        },
+        {
+          "title": "云绮织梦Ⅱ上",
+          "src": "https://hd.kuktxu.com/play/eXD53A8e/index.m3u8"
+        },
+        {
+          "title": "云绮织梦Ⅱ下",
+          "src": "https://hd.kuktxu.com/play/epY2G6Xa/index.m3u8"
+        },
+        {
+          "title": "大神版第8期续火花",
+          "src": "https://hd.kuktxu.com/play/aOY8QoBd/index.m3u8"
+        },
+        {
+          "title": "大神版第8期大冲关",
+          "src": "https://hd.kuktxu.com/play/b4xLgDgb/index.m3u8"
+        },
+        {
+          "title": "20260911Plus版",
+          "src": "https://hd.kuktxu.com/play/b4x9mL6b/index.m3u8"
+        },
+        {
+          "title": "大神版Plus版第8期",
+          "src": "https://hd.kuktxu.com/play/aKr6r7ze/index.m3u8"
+        },
+        {
+          "title": "超前彩蛋第9期",
+          "src": "https://hd.kuktxu.com/play/dyPmoLwb/index.m3u8"
+        },
+        {
+          "title": "大神版超前彩蛋第9期",
+          "src": "https://hd.kuktxu.com/play/erkY2vWa/index.m3u8"
+        },
+        {
+          "title": "狼来了Ⅰ上",
+          "src": "https://hd.kuktxu.com/play/elYp2E5a/index.m3u8"
+        },
+        {
+          "title": "狼来了Ⅰ下",
+          "src": "https://hd.kuktxu.com/play/erkYmBKa/index.m3u8"
+        },
+        {
+          "title": "大神版第9期上",
+          "src": "https://hd.kuktxu.com/play/epYzkXNa/index.m3u8"
+        },
+        {
+          "title": "大神版第9期下",
+          "src": "https://hd.kuktxu.com/play/epYzkXpa/index.m3u8"
+        },
+        {
+          "title": "Plus版第9期",
+          "src": "https://hd.kuktxu.com/play/ejRnn45e/index.m3u8"
+        },
+        {
+          "title": "大神版Plus版第9期",
+          "src": "https://hd.kuktxu.com/play/dyPmp77b/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://image.jinyingimage.com/cover/4bd8575441a219bc600c27999928e8ed.jpg",
+  "posterColor": "#9f664a",
+  "uptime": "2026-09-19 12:08:03",
+  "opyear": "2026"
+}

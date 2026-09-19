@@ -1,0 +1,30 @@
+{
+  "title": "我和朋友的假期 (2024)",
+  "type": "综艺",
+  "sources": [
+    {
+      "name": "鸭鸭资源站",
+      "episodes": [
+        {
+          "title": "20241212启程篇",
+          "src": "https://v3.rstuuv.com/yyv3/202412/12/UWNAqNeruH21/video/index.m3u8"
+        },
+        {
+          "title": "20260121",
+          "src": "https://v13.rstuuv.com/yyv13/202601/21/Zc561v2YZ027/video/index.m3u8"
+        },
+        {
+          "title": "20260128",
+          "src": "https://v14.rstuuv.com/yyv14/202601/28/CVW6uAkRFi22/video/index.m3u8"
+        },
+        {
+          "title": "20260204",
+          "src": "https://v14.rstuuv.com/yyv14/202602/04/qM5ZPskHb727/video/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://pic.yayazy.info/upload/vod/20260204-1/ce9cc5a832aabd5151e10c62076f0b4c.jpg",
+  "uptime": "2026-02-04 12:50:42",
+  "opyear": "2024"
+}

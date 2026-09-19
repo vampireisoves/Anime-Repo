@@ -1,0 +1,51 @@
+{
+  "title": "星际迷航，奇异新世界第四季 (2026)",
+  "type": "剧集",
+  "sources": [
+    {
+      "name": "光速资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v.gsuus.com/play/bkRr0kYa/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://v.gsuus.com/play/bo2j51La/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://v.gsuus.com/play/dJ6NOnKd/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://v.gsuus.com/play/aQW7667d/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://v.gsuus.com/play/elY76rla/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://v.gsuus.com/play/ejR893le/index.m3u8"
+        },
+        {
+          "title": "第07集",
+          "src": "https://v.gsuus.com/play/elY7GGja/index.m3u8"
+        },
+        {
+          "title": "第08集",
+          "src": "https://v.gsuus.com/play/epYzYV1a/index.m3u8"
+        },
+        {
+          "title": "第09集",
+          "src": "https://v.gsuus.com/play/dwpkkZge/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://img.guangsuimage.com/cover/ac42212f8edecd7b11fc05b94783a71d.jpg",
+  "posterColor": "#1e6295",
+  "uptime": "2026-09-18 01:32:02",
+  "opyear": "2026"
+}

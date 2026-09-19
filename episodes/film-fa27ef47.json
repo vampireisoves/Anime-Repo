@@ -1,0 +1,43 @@
+{
+  "title": "静请期戴 (2026)",
+  "type": "综艺",
+  "sources": [
+    {
+      "name": "360资源",
+      "episodes": [
+        {
+          "title": "第20260617期上",
+          "src": "https://vod1.maowushi.com/20260730/DlaeMuYi/index.m3u8"
+        },
+        {
+          "title": "第20260617期下",
+          "src": "https://vod1.maowushi.com/20260730/g0gqEux2/index.m3u8"
+        },
+        {
+          "title": "第20260626期",
+          "src": "https://vod1.maowushi.com/20260730/nOgph6LN/index.m3u8"
+        },
+        {
+          "title": "第20260713期",
+          "src": "https://vod1.maowushi.com/20260730/UWN0nn4p/index.m3u8"
+        },
+        {
+          "title": "第20260730期",
+          "src": "https://vod1.maowushi.com/20260730/wQTmcFpg/index.m3u8"
+        },
+        {
+          "title": "第20260810期",
+          "src": "https://vod1.maowushi.com/20260811/NOwsjXSa/index.m3u8"
+        },
+        {
+          "title": "第20260909期",
+          "src": "https://vod1.maowushi.com/20260909/3C2VUQX1/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://1img.hitv.com/preview/sp_images/2026/06/26/20260626165634145.jpg",
+  "posterColor": "#f9c035",
+  "uptime": "2026-09-09 22:15:03",
+  "opyear": "2026"
+}

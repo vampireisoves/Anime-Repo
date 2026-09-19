@@ -67,10 +67,76 @@
           "src": "https://play.ly166.com:65/videos/20260919/6aadff28eab8874c97403ab7/ca258d/index.m3u8"
         }
       ]
+    },
+    {
+      "name": "西瓜资源",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://svip.xgplay17.com/2026-09-17/39623_HJDWShUSZoss8fjiGY/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://svip.xgplay17.com/2026-09-17/39624_E1a73ynCncq3ENLOe4/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://svip.xgplay17.com/2026-09-17/39625_e0B8i78-ovpMEr4oX4/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://svip.xgplay17.com/2026-09-18/39760_q3IgKFWtnjxIyEygty/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://svip.xgplay17.com/2026-09-18/39761_9QsSdez59srmt03-RQ/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://svip.xgplay17.com/2026-09-19/39881_52TQdqD604AT4EIlMD/index.m3u8"
+        },
+        {
+          "title": "第07集",
+          "src": "https://svip.xgplay17.com/2026-09-19/39882_-yNMBhR8imp8DSJ_YB/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "360资源",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://vod1.maowushi.com/20260917/5qxKOh6e/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://vod1.maowushi.com/20260917/2jtKgtIA/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://vod1.maowushi.com/20260917/W0a4IJAc/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://vod1.maowushi.com/20260918/2sf4LBcO/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://vod1.maowushi.com/20260918/yHwTSG9L/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://vod1.maowushi.com/20260919/daon3pMZ/index.m3u8"
+        },
+        {
+          "title": "第07集",
+          "src": "https://vod1.maowushi.com/20260919/4lacAi1p/index.m3u8"
+        }
+      ]
     }
   ],
-  "poster": "https://tu.iqiyizyimg.com/upload/vod/20260917-1/96bacf70b39c5d6ca4f38dc2d989a895.jpg",
+  "poster": "https://m.ykimg.com/058400006A990F2070A43D1443A303AB?x-oss-process=image/resize,w_312/interlace,1/quality,Q_70",
   "posterColor": "#c4aa84",
-  "uptime": "2026-09-19 11:32:04",
+  "uptime": "2026-09-19 14:10:05",
   "opyear": "2026"
 }

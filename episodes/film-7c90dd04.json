@@ -10,10 +10,73 @@
           "src": "https://svip.xgplay20.com/2026-09-18/47942_QYQYva1HNdra6Vf3GS/index.m3u8"
         }
       ]
+    },
+    {
+      "name": "飘零影院资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v4.ppqrrs.com/wjv4/202608/11/mN4KE3HRRY88/video/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "光速资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v.gsuus.com/play/eXDM7nke/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "西瓜资源",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://svip.xgplay20.com/2026-09-18/47942_QYQYva1HNdra6Vf3GS/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "非凡资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://vip.ffzy-plays.com/20260918/58424_ddff211b/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "360资源",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://vod1.maowushi.com/20260918/P4Sx809e/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "茅台资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://vodcnd17.uvjtih.cn/20260919/zBn68ZhF/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "豆瓣资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://vodcnd17.ajupf.com/20260919/JCYnqNN5/index.m3u8"
+        }
+      ]
     }
   ],
-  "poster": "https://vod.xiguazyimg.com/upload/vod/20260918-1/2b679b8807c25541429c9202d0ee0a25.jpg",
-  "posterColor": "#df8c87",
-  "uptime": "2026-09-18 20:01:32",
+  "poster": "https://img.guangsuimage.com/cover/3c518c867b9f7a182769271ffd59a671.jpg",
+  "posterColor": "#c57d87",
+  "uptime": "2026-09-19 09:32:02",
   "opyear": "2026"
 }

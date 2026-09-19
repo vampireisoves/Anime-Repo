@@ -20,6 +20,10 @@
         {
           "title": "20260918",
           "src": "https://vodcnd16.ajupf.com/20260918/PKG7nTWZ/index.m3u8"
+        },
+        {
+          "title": "20260919纯享版",
+          "src": "https://vodcnd17.ajupf.com/20260919/Mc4VIJhB/index.m3u8"
         }
       ]
     },
@@ -68,10 +72,156 @@
           "src": "https://play.maoyanplay.top/20260919/a4NCqWf9/index.m3u8"
         }
       ]
+    },
+    {
+      "name": "无尽资源站",
+      "episodes": [
+        {
+          "title": "20260911第1期",
+          "src": "https://v11.ppqrrs.com/wjv11/202609/11/G3jnWmWhN095/video/index.m3u8"
+        },
+        {
+          "title": "20260912第1期纯享",
+          "src": "https://v6.ppqrrs.com/wjv6/202609/12/1cW2z2guS986/video/index.m3u8"
+        },
+        {
+          "title": "20260913第1期精编版",
+          "src": "https://v4.ppqrrs.com/wjv4/202609/13/pjtuJG5wPd94/video/index.m3u8"
+        },
+        {
+          "title": "20260918第2期",
+          "src": "https://v9.ppqrrs.com/wjv9/202609/18/Ug9aUqaQRF91/video/index.m3u8"
+        },
+        {
+          "title": "20260918第2期纯享",
+          "src": "https://v10.ppqrrs.com/wjv10/202609/18/Zp11ik7bpR88/video/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "非凡资源站",
+      "episodes": [
+        {
+          "title": "第20260911期",
+          "src": "https://vod.ffzy-bofang.com/20260912/3053_177540c7/index.m3u8"
+        },
+        {
+          "title": "第20260912期",
+          "src": "https://vod.ffzy-bofang.com/20260912/3054_d9b1655c/index.m3u8"
+        },
+        {
+          "title": "第20260918期",
+          "src": "https://vod.ffzy-bofang.com/20260918/3252_1e3b21cb/index.m3u8"
+        },
+        {
+          "title": "第20260919期",
+          "src": "https://vod.ffzy-bofang.com/20260919/3264_f0eaf559/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "樱花资源站",
+      "episodes": [
+        {
+          "title": "20260911第1期",
+          "src": "https://vod12.wgslsw.com/20260912/G3jnWmWhN095/index.m3u8"
+        },
+        {
+          "title": "20260912第1期纯享",
+          "src": "https://vod12.wgslsw.com/20260913/1cW2z2guS986/index.m3u8"
+        },
+        {
+          "title": "20260913第1期精编版",
+          "src": "https://vod12.wgslsw.com/20260914/pjtuJG5wPd94/index.m3u8"
+        },
+        {
+          "title": "20260918第2期",
+          "src": "https://vod12.wgslsw.com/20260919/Ug9aUqaQRF91/index.m3u8"
+        },
+        {
+          "title": "20260918第2期纯享",
+          "src": "https://vod12.wgslsw.com/20260919/Zp11ik7bpR88/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "百度资源网",
+      "episodes": [
+        {
+          "title": "20260911第1期",
+          "src": "https://b3.bdzybf22.com/videos/202609/12/6aa4433213f8cfc0dd3af7f2/36fgd9/index.m3u8"
+        },
+        {
+          "title": "20260912第1期纯享",
+          "src": "https://b3.bdzybf22.com/videos/202609/12/6aa4efff13f8cfc0dd3bb1dc/f2gad0/index.m3u8"
+        },
+        {
+          "title": "20260913第1期精编版",
+          "src": "https://b3.bdzybf22.com/videos/202609/13/6aa64a0db42238c0deb1049b/4c2d71/index.m3u8"
+        },
+        {
+          "title": "20260918第2期纯享",
+          "src": "https://b3.bdzybf22.com/videos/202609/19/6aad6fa013f8cfc0dd41996e/3814bg/index.m3u8"
+        },
+        {
+          "title": "20260918第2期",
+          "src": "https://b3.bdzybf22.com/videos/202609/19/6aad6f9a13f8cfc0dd4198e1/a8cb52/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "茅台资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://vodcnd17.uvjtih.cn/20260912/TVNTEdJP/index.m3u8"
+        },
+        {
+          "title": "第1期纯享",
+          "src": "https://vodcnd17.uvjtih.cn/20260912/Mre9zoRa/index.m3u8"
+        },
+        {
+          "title": "上班直播第1期",
+          "src": "https://vodcnd17.uvjtih.cn/20260913/63G2h0hx/index.m3u8"
+        },
+        {
+          "title": "第20260918期",
+          "src": "https://vodcnd16.uvjtih.cn/20260918/vTFx4o44/index.m3u8"
+        },
+        {
+          "title": "第20260919期纯享版",
+          "src": "https://vodcnd17.uvjtih.cn/20260919/nfOlurPC/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "鸭鸭资源站",
+      "episodes": [
+        {
+          "title": "20260911第1期",
+          "src": "https://v14.rstuuv.com/yyv14/202609/11/LAPF74BRRG27/video/index.m3u8"
+        },
+        {
+          "title": "20260912第1期纯享",
+          "src": "https://v14.rstuuv.com/yyv14/202609/12/Hmrj96zaxu27/video/index.m3u8"
+        },
+        {
+          "title": "20260913第1期精编版",
+          "src": "https://v15.rstuuv.com/yyv15/202609/13/EcAcCCmRZq27/video/index.m3u8"
+        },
+        {
+          "title": "20260918第2期纯享",
+          "src": "https://v14.rstuuv.com/yyv14/202609/18/0SkKX2bi9T27/video/index.m3u8"
+        },
+        {
+          "title": "20260918第2期",
+          "src": "https://v15.rstuuv.com/yyv15/202609/18/DhGnmkZJbr27/video/index.m3u8"
+        }
+      ]
     }
   ],
-  "poster": "http://www.maoyanimg.top/upload/vod/20260912-1/27dcbc74cec3bc6b412af4f87d5382ec.webp",
+  "poster": "https://pic.yayazy.info/upload/vod/20260919-1/ef0fe7fa86a9515b1ccb0ced809323e1.jpg",
   "posterColor": "#294889",
-  "uptime": "2026-09-19 09:27:02",
+  "uptime": "2026-09-19 01:03:37",
   "opyear": "2026"
 }

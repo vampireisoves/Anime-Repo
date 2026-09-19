@@ -3,7 +3,7 @@
   "type": "剧集",
   "sources": [
     {
-      "name": "caiji.xgzyapi.com",
+      "name": "西瓜资源",
       "episodes": [
         {
           "title": "第01集",
@@ -38,10 +38,167 @@
           "src": "https://svip.xgplay20.com/2026-09-18/47921_uMZ-1sMjIkE_xcg06T/index.m3u8"
         }
       ]
+    },
+    {
+      "name": "飘零影院资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v8.ppqrrs.com/wjv8/202609/17/am7WPrPgqK91/video/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://v9.ppqrrs.com/wjv9/202609/17/7cCE8KVXUv88/video/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://v2.ppqrrs.com/wjv2/202609/17/VaTADVs2hj92/video/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://v3.ppqrrs.com/wjv3/202609/17/V8vSTf24jS88/video/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://v1.ppqrrs.com/202609/17/sSXn56ziPs89/video/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://v5.ppqrrs.com/wjv5/202609/17/gTuaDenXmx96/video/index.m3u8"
+        },
+        {
+          "title": "第07集",
+          "src": "https://v10.ppqrrs.com/wjv10/202609/17/DwYfmqfgGe94/video/index.m3u8"
+        },
+        {
+          "title": "第08集",
+          "src": "https://v6.ppqrrs.com/wjv6/202609/17/4Lk05dYFr792/video/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "360资源",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://vod1.maowushi.com/20260918/VrUiEp0T/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://vod1.maowushi.com/20260918/yJn18C5R/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://vod1.maowushi.com/20260918/VCcoG0x7/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://vod1.maowushi.com/20260918/LahSCcg4/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://vod1.maowushi.com/20260918/rWQuFNrZ/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://vod1.maowushi.com/20260918/2wNn9qQa/index.m3u8"
+        },
+        {
+          "title": "第07集",
+          "src": "https://vod1.maowushi.com/20260918/qHaedqDw/index.m3u8"
+        },
+        {
+          "title": "第08集",
+          "src": "https://vod1.maowushi.com/20260918/s0S8FMdD/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "天涯影视资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://tyyszywvod2.com/videos/202609/17/6aabe045e9e107f436524c5c/aace82/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://tyyszywvod2.com/videos/202609/17/6aabe010e9e107f436524c57/a2862e/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://tyyszywvod2.com/videos/202609/17/6aabe008e9e107f436524c56/3eb19e/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://tyyszywvod2.com/videos/202609/17/6aabe030e9e107f436524c5a/19gbc2/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://tyyszywvod2.com/videos/202609/17/6aabe01ee9e107f436524c58/1f92e2/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://tyyszywvod2.com/videos/202609/17/6aabdf54e9e107f436524c44/479731/index.m3u8"
+        },
+        {
+          "title": "第07集",
+          "src": "https://tyyszywvod2.com/videos/202609/17/6aabe03ce9e107f436524c5b/38ac5e/index.m3u8"
+        },
+        {
+          "title": "第08集",
+          "src": "https://tyyszywvod2.com/videos/202609/17/6aabe024e9e107f436524c59/6a153g/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "百度资源网",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://b3.bdzybf22.com/videos/202609/17/6aabeacb80d729d4e8e987cc/g1a139/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://b3.bdzybf22.com/videos/202609/17/6aabeb2680d729d4e8e98917/589b9e/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://b3.bdzybf22.com/videos/202609/17/6aabeb3280d729d4e8e98967/06a6fd/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://b3.bdzybf22.com/videos/202609/17/6aabeaea80d729d4e8e98846/9fg351/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://b3.bdzybf22.com/videos/202609/17/6aabeb1380d729d4e8e988f5/72be0e/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://b3.bdzybf22.com/videos/202609/17/6aabeb0780d729d4e8e98887/9g876d/index.m3u8"
+        },
+        {
+          "title": "第07集",
+          "src": "https://b3.bdzybf22.com/videos/202609/17/6aabeadf80d729d4e8e98809/a3d4d9/index.m3u8"
+        },
+        {
+          "title": "第08集",
+          "src": "https://b3.bdzybf22.com/videos/202609/17/6aabeaf380d729d4e8e98867/ff6dc7/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "光速资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v.gsuus.com/play/epYzR8pa/index.m3u8"
+        }
+      ]
     }
   ],
-  "poster": "https://vod.xiguazyimg.com/upload/vod/20260918-1/65213286f09840ef537c04203e8f528f.png",
-  "posterColor": "#7c573e",
-  "uptime": "2026-09-18 18:58:27",
+  "poster": "https://img.guangsuimage.com/cover/3e069f66d2566e7fcb05071ddfcf8663.jpg",
+  "posterColor": "#7c583f",
+  "uptime": "2026-09-18 20:08:03",
   "opyear": "2026"
 }

@@ -3,130 +3,316 @@
   "type": "剧集",
   "sources": [
     {
-      "name": "caiji.xgzyapi.com",
+      "name": "速播资源站",
       "episodes": [
         {
           "title": "第01集",
-          "src": "https://svip.xgplay17.com/2026-09-10/38815_qXeaPjkAm9NWVSz44_/index.m3u8"
+          "src": "https://play.xluuss.com/play/dBB6KzXd/index.m3u8"
         },
         {
           "title": "第02集",
-          "src": "https://svip.xgplay17.com/2026-09-10/38817_6s35bnsJF8mVOMCdyd/index.m3u8"
+          "src": "https://play.xluuss.com/play/dNk0QKve/index.m3u8"
         },
         {
           "title": "第03集",
-          "src": "https://svip.xgplay17.com/2026-09-10/38818_bwluocUj4qYQPdka24/index.m3u8"
+          "src": "https://play.xluuss.com/play/bW6qkKxa/index.m3u8"
         },
         {
           "title": "第04集",
-          "src": "https://svip.xgplay17.com/2026-09-10/38855_QTDbimvFnTky2pCrDp/index.m3u8"
+          "src": "https://play.xluuss.com/play/egJ21EYd/index.m3u8"
         },
         {
           "title": "第05集",
-          "src": "https://svip.xgplay17.com/2026-09-11/38985_ZuJ4-wHV5BfC8Ll8uP/index.m3u8"
+          "src": "https://play.xluuss.com/play/bo2ORlXa/index.m3u8"
         },
         {
           "title": "第06集",
-          "src": "https://svip.xgplay17.com/2026-09-11/38986_gNLkWMRX4qkuN1Zsup/index.m3u8"
+          "src": "https://play.xluuss.com/play/egJkYEGd/index.m3u8"
         },
         {
           "title": "第07集",
-          "src": "https://svip.xgplay17.com/2026-09-12/39137_mp0a7f7DD47OWpX87n/index.m3u8"
+          "src": "https://play.xluuss.com/play/e5yW8rxe/index.m3u8"
         },
         {
           "title": "第08集",
-          "src": "https://svip.xgplay17.com/2026-09-12/39139_mkgS68kA_P1R0nUPYL/index.m3u8"
+          "src": "https://play.xluuss.com/play/e9r28mPa/index.m3u8"
         },
         {
           "title": "第09集",
-          "src": "https://svip.xgplay17.com/2026-09-13/39256_l5nSFsrutwQcDb86wQ/index.m3u8"
+          "src": "https://play.xluuss.com/play/bqx2YXGa/index.m3u8"
         },
         {
           "title": "第10集",
-          "src": "https://svip.xgplay17.com/2026-09-14/39360_r39vbdwWSnzx-HThl6/index.m3u8"
+          "src": "https://play.xluuss.com/play/dBBnNDWd/index.m3u8"
         },
         {
           "title": "第11集",
-          "src": "https://svip.xgplay17.com/2026-09-15/39466_oLfmhqIbAsuM1-5yO_/index.m3u8"
+          "src": "https://play.xluuss.com/play/egJkpKZd/index.m3u8"
         },
         {
           "title": "第12集",
-          "src": "https://svip.xgplay20.com/2026-09-16/47774_Gk05EKaWX9-ePy4JWA/index.m3u8"
+          "src": "https://play.xluuss.com/play/bo2OjWAa/index.m3u8"
         },
         {
           "title": "第13集",
-          "src": "https://svip.xgplay17.com/2026-09-17/39720_zUqv09sVg3rJu0Jzus/index.m3u8"
+          "src": "https://play.xluuss.com/play/axkl1wre/index.m3u8"
         },
         {
           "title": "第14集",
-          "src": "https://svip.xgplay17.com/2026-09-18/39832_QiMP87NDb0d-Vkh1ej/index.m3u8"
+          "src": "https://play.xluuss.com/play/azpnBpyd/index.m3u8"
+        },
+        {
+          "title": "第15集",
+          "src": "https://play.xluuss.com/play/egJk7r6d/index.m3u8"
+        },
+        {
+          "title": "第16集",
+          "src": "https://play.xluuss.com/play/bo2OADja/index.m3u8"
+        },
+        {
+          "title": "第17集",
+          "src": "https://play.xluuss.com/play/bo2OADKa/index.m3u8"
+        },
+        {
+          "title": "第18集已完结",
+          "src": "https://play.xluuss.com/play/axkloPre/index.m3u8"
         }
       ]
     },
     {
-      "name": "西瓜资源",
+      "name": "非凡资源站",
       "episodes": [
         {
           "title": "第01集",
-          "src": "https://svip.xgplay17.com/2026-09-10/38815_qXeaPjkAm9NWVSz44_/index.m3u8"
+          "src": "https://vip.ffzy-plays.com/20260910/58128_1dd80b6c/index.m3u8"
         },
         {
           "title": "第02集",
-          "src": "https://svip.xgplay17.com/2026-09-10/38817_6s35bnsJF8mVOMCdyd/index.m3u8"
+          "src": "https://vip.ffzy-plays.com/20260910/58129_3a0d1535/index.m3u8"
         },
         {
           "title": "第03集",
-          "src": "https://svip.xgplay17.com/2026-09-10/38818_bwluocUj4qYQPdka24/index.m3u8"
+          "src": "https://vip.ffzy-plays.com/20260910/58130_2d2f3af8/index.m3u8"
         },
         {
           "title": "第04集",
-          "src": "https://svip.xgplay17.com/2026-09-10/38855_QTDbimvFnTky2pCrDp/index.m3u8"
+          "src": "https://vip.ffzy-plays.com/20260910/58131_ac86c1dc/index.m3u8"
         },
         {
           "title": "第05集",
-          "src": "https://svip.xgplay17.com/2026-09-11/38985_ZuJ4-wHV5BfC8Ll8uP/index.m3u8"
+          "src": "https://vip.ffzy-plays.com/20260911/58176_3f0d850f/index.m3u8"
         },
         {
           "title": "第06集",
-          "src": "https://svip.xgplay17.com/2026-09-11/38986_gNLkWMRX4qkuN1Zsup/index.m3u8"
+          "src": "https://vip.ffzy-plays.com/20260911/58178_101c2276/index.m3u8"
         },
         {
           "title": "第07集",
-          "src": "https://svip.xgplay17.com/2026-09-12/39137_mp0a7f7DD47OWpX87n/index.m3u8"
+          "src": "https://vip.ffzy-plays.com/20260912/58218_1947db12/index.m3u8"
         },
         {
           "title": "第08集",
-          "src": "https://svip.xgplay17.com/2026-09-12/39139_mkgS68kA_P1R0nUPYL/index.m3u8"
+          "src": "https://vip.ffzy-plays.com/20260912/58219_822645f7/index.m3u8"
         },
         {
           "title": "第09集",
-          "src": "https://svip.xgplay17.com/2026-09-13/39256_l5nSFsrutwQcDb86wQ/index.m3u8"
+          "src": "https://vip.ffzy-plays.com/20260913/58246_b98fe105/index.m3u8"
         },
         {
           "title": "第10集",
-          "src": "https://svip.xgplay17.com/2026-09-14/39360_r39vbdwWSnzx-HThl6/index.m3u8"
+          "src": "https://vip.ffzy-plays.com/20260914/58269_075e464a/index.m3u8"
         },
         {
           "title": "第11集",
-          "src": "https://svip.xgplay17.com/2026-09-15/39466_oLfmhqIbAsuM1-5yO_/index.m3u8"
+          "src": "https://vip.ffzy-plays.com/20260915/58306_7d340fc0/index.m3u8"
         },
         {
           "title": "第12集",
-          "src": "https://svip.xgplay20.com/2026-09-16/47774_Gk05EKaWX9-ePy4JWA/index.m3u8"
+          "src": "https://vip.ffzy-plays.com/20260916/58331_56c92431/index.m3u8"
         },
         {
           "title": "第13集",
-          "src": "https://svip.xgplay17.com/2026-09-17/39720_zUqv09sVg3rJu0Jzus/index.m3u8"
+          "src": "https://vip.ffzy-plays.com/20260917/58359_c469c3c2/index.m3u8"
         },
         {
           "title": "第14集",
-          "src": "https://svip.xgplay17.com/2026-09-18/39832_QiMP87NDb0d-Vkh1ej/index.m3u8"
+          "src": "https://vip.ffzy-plays.com/20260918/58413_6be7fae8/index.m3u8"
+        },
+        {
+          "title": "第15集",
+          "src": "https://vip.ffzy-plays.com/20260919/58447_17b70670/index.m3u8"
+        },
+        {
+          "title": "第16集",
+          "src": "https://vip.ffzy-plays.com/20260919/58452_70a11268/index.m3u8"
+        },
+        {
+          "title": "第17集",
+          "src": "https://vip.ffzy-plays.com/20260919/58453_4d93a08e/index.m3u8"
+        },
+        {
+          "title": "第18集",
+          "src": "https://vip.ffzy-plays.com/20260919/58454_2f78c31a/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "飘零影院资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v5.ppqrrs.com/wjv5/202609/10/9yTLZFiMzj89/video/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://v1.ppqrrs.com/202609/11/njLSnUHTXL94/video/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://v6.ppqrrs.com/wjv6/202609/11/dq16xK4yYq87/video/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://v1.ppqrrs.com/202609/11/HE3Cu2mTN796/video/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://v8.ppqrrs.com/wjv8/202609/12/NdJsVVLQ2X96/video/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://v5.ppqrrs.com/wjv5/202609/12/WC6d919N3890/video/index.m3u8"
+        },
+        {
+          "title": "第07集",
+          "src": "https://v11.ppqrrs.com/wjv11/202609/13/EkyS5dPG9396/video/index.m3u8"
+        },
+        {
+          "title": "第08集",
+          "src": "https://v11.ppqrrs.com/wjv11/202609/13/kHdJw0xbVY96/video/index.m3u8"
+        },
+        {
+          "title": "第09集",
+          "src": "https://v7.ppqrrs.com/wjv7/202609/14/JXNkAjXKTU90/video/index.m3u8"
+        },
+        {
+          "title": "第10集",
+          "src": "https://v5.ppqrrs.com/wjv5/202609/15/iB4fpJdxCS93/video/index.m3u8"
+        },
+        {
+          "title": "第11集",
+          "src": "https://v1.ppqrrs.com/202609/16/rY5sysZAVB90/video/index.m3u8"
+        },
+        {
+          "title": "第12集",
+          "src": "https://v1.ppqrrs.com/202609/17/4jcSNY4rxb88/video/index.m3u8"
+        },
+        {
+          "title": "第13集",
+          "src": "https://v12.ppqrrs.com/wjv12/202609/18/imETGk8Re597/video/index.m3u8"
+        },
+        {
+          "title": "第14集",
+          "src": "https://v6.ppqrrs.com/wjv6/202609/19/Hv6Hhs88Cy88/video/index.m3u8"
+        },
+        {
+          "title": "第15集",
+          "src": "https://v6.ppqrrs.com/wjv6/202609/19/LyLBVzb5rj94/video/index.m3u8"
+        },
+        {
+          "title": "第16集",
+          "src": "https://v6.ppqrrs.com/wjv6/202609/19/vaEvaBjSNf86/video/index.m3u8"
+        },
+        {
+          "title": "第17集",
+          "src": "https://v12.ppqrrs.com/wjv12/202609/19/EavKanrsn988/video/index.m3u8"
+        },
+        {
+          "title": "第18集",
+          "src": "https://v4.ppqrrs.com/wjv4/202609/19/nAQjbfNZYF90/video/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "鸭鸭资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v13.rstuuv.com/yyv13/202609/10/9qpSxFm7DQ27/video/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://v14.rstuuv.com/yyv14/202609/10/UTKpc3aivs27/video/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://v14.rstuuv.com/yyv14/202609/10/J4gPck2HHL27/video/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://v14.rstuuv.com/yyv14/202609/10/PA3tz6VSTZ27/video/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://v15.rstuuv.com/yyv15/202609/11/w1Dp1Zrfcp27/video/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://v15.rstuuv.com/yyv15/202609/11/3jz9SALJYS27/video/index.m3u8"
+        },
+        {
+          "title": "第07集",
+          "src": "https://v15.rstuuv.com/yyv15/202609/12/8ga5dC3Ryu27/video/index.m3u8"
+        },
+        {
+          "title": "第08集",
+          "src": "https://v13.rstuuv.com/yyv13/202609/12/CchTq7nyu327/video/index.m3u8"
+        },
+        {
+          "title": "第09集",
+          "src": "https://v14.rstuuv.com/yyv14/202609/13/XP6XShBhPL27/video/index.m3u8"
+        },
+        {
+          "title": "第10集",
+          "src": "https://v14.rstuuv.com/yyv14/202609/14/vnCrMPgXk527/video/index.m3u8"
+        },
+        {
+          "title": "第11集",
+          "src": "https://v13.rstuuv.com/yyv13/202609/15/NRXbZYyn5U27/video/index.m3u8"
+        },
+        {
+          "title": "第12集",
+          "src": "https://v13.rstuuv.com/yyv13/202609/16/mkcwvWzEA127/video/index.m3u8"
+        },
+        {
+          "title": "第13集",
+          "src": "https://v15.rstuuv.com/yyv15/202609/17/aJsR8TU8VT27/video/index.m3u8"
+        },
+        {
+          "title": "第14集",
+          "src": "https://v15.rstuuv.com/yyv15/202609/18/bTNV9n16F727/video/index.m3u8"
+        },
+        {
+          "title": "第15集",
+          "src": "https://v14.rstuuv.com/yyv14/202609/19/GcXMMN24Ri27/video/index.m3u8"
+        },
+        {
+          "title": "第16集",
+          "src": "https://v14.rstuuv.com/yyv14/202609/19/iAHUv79Gin27/video/index.m3u8"
+        },
+        {
+          "title": "第17集",
+          "src": "https://v14.rstuuv.com/yyv14/202609/19/2kv3y60U1p27/video/index.m3u8"
+        },
+        {
+          "title": "第18集",
+          "src": "https://v14.rstuuv.com/yyv14/202609/19/AigAVRRZN227/video/index.m3u8"
         }
       ]
     }
   ],
-  "poster": "https://vod.xiguazyimg.com/upload/vod/20260910-1/380281c69783ffa37e7f596da5687215.jpg",
+  "poster": "https://pic.yayazy.info/upload/vod/20260919-1/1f8b0108e364710151b8ea81c797a056.jpg",
   "posterColor": "#764a3d",
-  "uptime": "2026-09-18 17:27:23",
+  "uptime": "2026-09-19 19:40:39",
   "opyear": "2026"
 }

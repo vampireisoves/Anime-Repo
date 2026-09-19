@@ -1,0 +1,48 @@
+{
+  "title": "热浪之外2026 (2026)",
+  "type": "综艺",
+  "sources": [
+    {
+      "name": "360资源",
+      "episodes": [
+        {
+          "title": "第20260723期",
+          "src": "https://vod1.maowushi.com/20260724/7qbhB5tZ/index.m3u8"
+        },
+        {
+          "title": "第20260806期",
+          "src": "https://vod1.maowushi.com/20260806/FYokr8d7/index.m3u8"
+        },
+        {
+          "title": "第20260917期",
+          "src": "https://vod1.maowushi.com/20260917/27MZROLQ/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "光速资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v.gsuus.com/play/dJ6N93Kd/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://v.gsuus.com/play/dNkYVWLe/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://v.gsuus.com/play/ejR8B5Pe/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://v.gsuus.com/play/epYz29ya/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://img.guangsuimage.com/cover/b351bfe0250f5cf93b5621a4f80696fc.jpg",
+  "posterColor": "#e09073",
+  "uptime": "2026-09-17 12:30:02",
+  "opyear": "2026"
+}

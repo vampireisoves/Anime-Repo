@@ -1,0 +1,31 @@
+{
+  "title": "187号公路 (2026)",
+  "type": "剧集",
+  "sources": [
+    {
+      "name": "光速资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v.gsuus.com/play/eXDMr85e/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://v.gsuus.com/play/b829EZ2e/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://v.gsuus.com/play/dwpkr4me/index.m3u8"
+        },
+        {
+          "title": "第4集完结",
+          "src": "https://v.gsuus.com/play/dwpkr4ge/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://img.guangsuimage.com/cover/5117c818b29b37468ab016ea3c4c3a9e.jpg",
+  "posterColor": "#3c5376",
+  "uptime": "2026-09-17 20:52:02",
+  "opyear": "2026"
+}

@@ -1,0 +1,36 @@
+{
+  "title": "双城记2026 (2026)",
+  "type": "剧集",
+  "sources": [
+    {
+      "name": "360资源",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://vod1.maowushi.com/20260906/SgYDk5bY/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://vod1.maowushi.com/20260914/MuTCZgfq/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "光速资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v.gsuus.com/play/eZ60Azge/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://v.gsuus.com/play/aM89ww3e/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://img.guangsuimage.com/cover/4ee122f5fb755db23dee861d20ae579a.jpg",
+  "posterColor": "#326d81",
+  "uptime": "2026-09-14 15:24:03",
+  "opyear": "2026"
+}

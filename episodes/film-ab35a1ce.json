@@ -1,0 +1,36 @@
+{
+  "title": "翠鸟谋杀案 (2026)",
+  "type": "剧集",
+  "sources": [
+    {
+      "name": "360资源",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://vod1.maowushi.com/20260907/nu5zOu3x/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://vod1.maowushi.com/20260914/8QfX2ycf/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "光速资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v.gsuus.com/play/dyPXZ26b/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://v.gsuus.com/play/erkY8Ywa/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://img.guangsuimage.com/cover/9d04ee3f9deb404b31a377564f608e30.jpg",
+  "posterColor": "#764b3d",
+  "uptime": "2026-09-14 17:04:02",
+  "opyear": "2026"
+}

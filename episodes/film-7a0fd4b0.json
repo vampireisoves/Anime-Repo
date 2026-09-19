@@ -1,0 +1,37 @@
+{
+  "title": "六人定律 (2026)",
+  "type": "综艺",
+  "sources": [
+    {
+      "name": "茅台资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://vodcnd16.uvjtih.cn/20260919/NMYfZl1h/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "豆瓣资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://vodcnd16.ajupf.com/20260919/uwesnaPb/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "光速资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v.gsuus.com/play/elYp7w7a/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://img.guangsuimage.com/cover/35d00a18dc210564ab10a1ad59c58c8a.jpg",
+  "posterColor": "#e7aa81",
+  "uptime": "2026-09-17 21:08:02",
+  "opyear": "2026"
+}

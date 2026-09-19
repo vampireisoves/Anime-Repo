@@ -1,0 +1,43 @@
+{
+  "title": "约翰·亚当斯 (2008)",
+  "type": "剧集",
+  "sources": [
+    {
+      "name": "光速资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v.gsuus.com/play/aKr61mle/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://v.gsuus.com/play/aOYZMLQd/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://v.gsuus.com/play/erkY87Wa/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://v.gsuus.com/play/elYpx61a/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://v.gsuus.com/play/epYz8oya/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://v.gsuus.com/play/eXDMLPVe/index.m3u8"
+        },
+        {
+          "title": "第7集完结",
+          "src": "https://v.gsuus.com/play/b4x9Q2Jb/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://img.guangsuimage.com/cover/c6bdca5e3bdb932f3e6f57e0a21d872b.jpg",
+  "posterColor": "#7e6534",
+  "uptime": "2026-09-15 01:22:02",
+  "opyear": "2008"
+}

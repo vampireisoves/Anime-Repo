@@ -1,0 +1,37 @@
+{
+  "title": "荒山野店 (2026)",
+  "type": "电影",
+  "sources": [
+    {
+      "name": "飘零影院资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v4.ppqrrs.com/wjv4/202609/16/9xx7edfs2u94/video/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "360资源",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://vod1.maowushi.com/20260916/0D7Bv4OD/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "光速资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v.gsuus.com/play/aM891ZPe/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://img.guangsuimage.com/cover/2363ff04a611b870805b0d4f5b5c5927.jpg",
+  "posterColor": "#3e5274",
+  "uptime": "2026-09-17 11:38:02",
+  "opyear": "2026"
+}

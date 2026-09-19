@@ -1,0 +1,52 @@
+{
+  "title": "娜就聊姐姐 (2026)",
+  "type": "综艺",
+  "sources": [
+    {
+      "name": "360资源",
+      "episodes": [
+        {
+          "title": "第20260903期",
+          "src": "https://vod1.maowushi.com/20260903/kO9lU1dn/index.m3u8"
+        },
+        {
+          "title": "第20260910期",
+          "src": "https://vod1.maowushi.com/20260910/0zhUUx1U/index.m3u8"
+        },
+        {
+          "title": "第20260911期加更",
+          "src": "https://vod1.maowushi.com/20260912/AcsT44YJ/index.m3u8"
+        },
+        {
+          "title": "第20260917期",
+          "src": "https://vod1.maowushi.com/20260917/vSIEpPsn/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "光速资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v.gsuus.com/play/b82E5moe/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://v.gsuus.com/play/b689L89e/index.m3u8"
+        },
+        {
+          "title": "第2期加更",
+          "src": "https://v.gsuus.com/play/elYpYL7a/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://v.gsuus.com/play/elYp72Va/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://img.guangsuimage.com/cover/a7ee11c99daa86125832bfc5e5a06cce.jpg",
+  "posterColor": "#e975c5",
+  "uptime": "2026-09-17 12:28:02",
+  "opyear": "2026"
+}

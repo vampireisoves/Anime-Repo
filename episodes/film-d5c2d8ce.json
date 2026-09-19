@@ -1,0 +1,287 @@
+{
+  "title": "踢球的她们 (2021)",
+  "type": "综艺",
+  "sources": [
+    {
+      "name": "非凡资源站",
+      "episodes": [
+        {
+          "title": "20241127",
+          "src": "https://vod.feifei-kan.com/20241128/33837_30887722/index.m3u8"
+        },
+        {
+          "title": "20241211",
+          "src": "https://vod.feifei-kan.com/20241213/34209_460d5587/index.m3u8"
+        },
+        {
+          "title": "20241218",
+          "src": "https://vod.feifei-kan.com/20241220/34404_270567b7/index.m3u8"
+        },
+        {
+          "title": "20241225",
+          "src": "https://vod.feifei-kan.com/20241227/34606_c1560dcc/index.m3u8"
+        },
+        {
+          "title": "20250101",
+          "src": "https://vod.feifei-kan.com/20250103/34797_59c53d89/index.m3u8"
+        },
+        {
+          "title": "20250108",
+          "src": "https://vod.feifei-kan.com/20250110/34995_4456cf96/index.m3u8"
+        },
+        {
+          "title": "20250115",
+          "src": "https://vod.feifei-kan.com/20250117/35170_ce8a03e9/index.m3u8"
+        },
+        {
+          "title": "20250122",
+          "src": "https://vod.feifei-kan.com/20250124/35317_2aa075ae/index.m3u8"
+        },
+        {
+          "title": "20250205",
+          "src": "https://vod.feifei-kan.com/20250207/35657_4965052f/index.m3u8"
+        },
+        {
+          "title": "20250212",
+          "src": "https://vod.feifei-kan.com/20250214/35807_e83a34b2/index.m3u8"
+        },
+        {
+          "title": "20250219",
+          "src": "https://vod.feifei-kan.com/20250221/36016_659b7cf9/index.m3u8"
+        },
+        {
+          "title": "20250226",
+          "src": "https://vip.ffzy-play10.com/20250301/39359_a88e6ae4/index.m3u8"
+        },
+        {
+          "title": "20250305",
+          "src": "https://vip.ffzy-play10.com/20250307/39483_55b0dce5/index.m3u8"
+        },
+        {
+          "title": "20250312",
+          "src": "https://vip.ffzy-play10.com/20250314/39618_b18ab25c/index.m3u8"
+        },
+        {
+          "title": "20250319",
+          "src": "https://vip.ffzy-plays.com/20250321/39466_83806e0b/index.m3u8"
+        },
+        {
+          "title": "20250326",
+          "src": "https://vip.ffzy-play10.com/20250328/39943_e3efe0ad/index.m3u8"
+        },
+        {
+          "title": "20250402",
+          "src": "https://vip.ffzy-play10.com/20250404/40101_14919153/index.m3u8"
+        },
+        {
+          "title": "20250409",
+          "src": "https://vip.ffzy-play10.com/20250411/40268_e1c1027f/index.m3u8"
+        },
+        {
+          "title": "20250416",
+          "src": "https://vip.ffzy-play10.com/20250418/40420_f3f61141/index.m3u8"
+        },
+        {
+          "title": "20250423",
+          "src": "https://vip.ffzy-play10.com/20250425/40580_59c48eb9/index.m3u8"
+        },
+        {
+          "title": "20250430",
+          "src": "https://vip.ffzy-play10.com/20250508/40892_a57b6cfb/index.m3u8"
+        },
+        {
+          "title": "20250507",
+          "src": "https://vip.ffzy-play10.com/20250509/40943_1fcf4e6a/index.m3u8"
+        },
+        {
+          "title": "20250514",
+          "src": "https://vip.ffzy-play10.com/20250515/41110_2b9a3dc9/index.m3u8"
+        },
+        {
+          "title": "20250521",
+          "src": "https://vip.ffzy-play10.com/20250522/41313_ba662e16/index.m3u8"
+        },
+        {
+          "title": "20250528",
+          "src": "https://vip.ffzy-online3.com/20250529/37045_3a8c0277/index.m3u8"
+        },
+        {
+          "title": "20250604",
+          "src": "https://vip.ffzy-online3.com/20250605/37267_4595ea04/index.m3u8"
+        },
+        {
+          "title": "20250611",
+          "src": "https://vip.ffzy-online3.com/20250612/37500_d34d8f14/index.m3u8"
+        },
+        {
+          "title": "20250618",
+          "src": "https://vip.ffzy-online3.com/20250619/37708_2fffde9f/index.m3u8"
+        },
+        {
+          "title": "20250625",
+          "src": "https://vip.ffzy-online3.com/20250626/37918_1393dc4f/index.m3u8"
+        },
+        {
+          "title": "20250702",
+          "src": "https://vip.ffzy-online3.com/20250703/38107_a752beb9/index.m3u8"
+        },
+        {
+          "title": "20250709",
+          "src": "https://vip.ffzy-online3.com/20250710/38281_6de04eb7/index.m3u8"
+        },
+        {
+          "title": "20250716",
+          "src": "https://vip.ffzy-online3.com/20250717/38458_ecab0875/index.m3u8"
+        },
+        {
+          "title": "20250723",
+          "src": "https://vip.ffzy-online1.com/20250724/55843_5eaacd48/index.m3u8"
+        },
+        {
+          "title": "20250730",
+          "src": "https://vip.ffzy-online1.com/20250731/56022_dfa9afa9/index.m3u8"
+        },
+        {
+          "title": "20250806",
+          "src": "https://vip.ffzy-online1.com/20250807/56220_c2cacd23/index.m3u8"
+        },
+        {
+          "title": "20250813",
+          "src": "https://vip.ffzy-online1.com/20250814/56428_8015dcb3/index.m3u8"
+        },
+        {
+          "title": "20250820",
+          "src": "https://vip.ffzy-online1.com/20250821/56607_44de5d09/index.m3u8"
+        },
+        {
+          "title": "20250827",
+          "src": "https://vip.ffzy-online1.com/20250828/56823_2cb99534/index.m3u8"
+        },
+        {
+          "title": "20250903",
+          "src": "https://vip.ffzy-online1.com/20250904/57016_96420801/index.m3u8"
+        },
+        {
+          "title": "20250910",
+          "src": "https://vip.ffzy-online1.com/20250911/57214_29fbecd1/index.m3u8"
+        },
+        {
+          "title": "20250917",
+          "src": "https://vip.ffzy-online1.com/20250918/57488_2de7d0c3/index.m3u8"
+        },
+        {
+          "title": "20250924",
+          "src": "https://vip.ffzy-online1.com/20250925/57716_03cae206/index.m3u8"
+        },
+        {
+          "title": "20251001",
+          "src": "https://vip.ffzy-online1.com/20251002/57950_d9be23a7/index.m3u8"
+        },
+        {
+          "title": "20251008",
+          "src": "https://vip.ffzy-online1.com/20251009/58136_a6562b4b/index.m3u8"
+        },
+        {
+          "title": "20260114",
+          "src": "https://vip.ffzy-online3.com/20260115/41213_fa7d73e0/index.m3u8"
+        },
+        {
+          "title": "20260401",
+          "src": "https://vip.ffzy-online3.com/20260402/43186_b560c615/index.m3u8"
+        },
+        {
+          "title": "20260408",
+          "src": "https://vip.ffzy-online3.com/20260409/43370_2162aa36/index.m3u8"
+        },
+        {
+          "title": "20260415",
+          "src": "https://vip.ffzy-online3.com/20260416/43542_9c70cb2f/index.m3u8"
+        },
+        {
+          "title": "20260422",
+          "src": "https://vip.ffzy-online3.com/20260423/43734_2eeb0ece/index.m3u8"
+        },
+        {
+          "title": "20260429",
+          "src": "https://vip.ffzy-online3.com/20260430/43956_a8c7f7c2/index.m3u8"
+        },
+        {
+          "title": "20260506",
+          "src": "https://vip.ffzy-online3.com/20260507/44165_dd3e603f/index.m3u8"
+        },
+        {
+          "title": "20260513",
+          "src": "https://vip.ffzy-online3.com/20260514/44360_83dac2ca/index.m3u8"
+        },
+        {
+          "title": "20260520",
+          "src": "https://vip.ffzy-online3.com/20260522/44606_18c7d3e9/index.m3u8"
+        },
+        {
+          "title": "20260610",
+          "src": "https://vip.ffzy-online3.com/20260611/45279_9b31229c/index.m3u8"
+        },
+        {
+          "title": "20260617",
+          "src": "https://vip.ffzy-online3.com/20260618/45493_59aee406/index.m3u8"
+        },
+        {
+          "title": "22060624",
+          "src": "https://vod.ffzy-bofang.com/20260625/102_ec895663/index.m3u8"
+        },
+        {
+          "title": "20260701",
+          "src": "https://vod.ffzy-bofang.com/20260702/360_e7b24b11/index.m3u8"
+        },
+        {
+          "title": "20260708",
+          "src": "https://vod.ffzy-bofang.com/20260709/612_f76a89f0/index.m3u8"
+        },
+        {
+          "title": "20260715",
+          "src": "https://vod.ffzy-bofang.com/20260716/884_170c9449/index.m3u8"
+        },
+        {
+          "title": "20260722",
+          "src": "https://vod.ffzy-bofang.com/20260723/1146_8a3363ab/index.m3u8"
+        },
+        {
+          "title": "20260729",
+          "src": "https://vod.ffzy-bofang.com/20260730/1408_6d9c547c/index.m3u8"
+        },
+        {
+          "title": "20260805",
+          "src": "https://vod.ffzy-bofang.com/20260806/1660_9a440050/index.m3u8"
+        },
+        {
+          "title": "20260812",
+          "src": "https://vod.ffzy-bofang.com/20260813/1949_36ac8e55/index.m3u8"
+        },
+        {
+          "title": "20260819",
+          "src": "https://vod.ffzy-bofang.com/20260820/2236_3dd94242/index.m3u8"
+        },
+        {
+          "title": "20260826",
+          "src": "https://vod.ffzy-bofang.com/20260827/2484_b4baaff0/index.m3u8"
+        },
+        {
+          "title": "20260902",
+          "src": "https://vod.ffzy-bofang.com/20260903/2743_22b1f2e0/index.m3u8"
+        },
+        {
+          "title": "20260909",
+          "src": "https://vod.ffzy-bofang.com/20260910/2998_71887f62/index.m3u8"
+        },
+        {
+          "title": "20260916",
+          "src": "https://vod.ffzy-bofang.com/20260917/3206_211ed78f/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://fffgood.com/upload/vod/20241128-1/057a57cb5bb788d1aec15ebd4f92ec13.jpg",
+  "posterColor": "#6cb288",
+  "uptime": "2026-09-17 18:39:29",
+  "opyear": "2021"
+}

@@ -3,7 +3,32 @@
   "type": "综艺",
   "sources": [
     {
-      "name": "caiji.xgzyapi.com",
+      "name": "光速资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v.gsuus.com/play/elY7rLMa/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://v.gsuus.com/play/eZ607y5e/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://v.gsuus.com/play/eZ6W68we/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://v.gsuus.com/play/elYpYxMa/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://v.gsuus.com/play/en5zYmYd/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "西瓜资源",
       "episodes": [
         {
           "title": "第01集",
@@ -26,10 +51,77 @@
           "src": "https://svip.xgplay20.com/2026-09-18/47941_Fe5B0BRpF8hbykr14k/index.m3u8"
         }
       ]
+    },
+    {
+      "name": "360资源",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://vod1.maowushi.com/20260904/efV5GJlv/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://vod1.maowushi.com/20260904/1TJSHB8R/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://vod1.maowushi.com/20260911/piAi7mOM/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://vod1.maowushi.com/20260911/SauzV1DG/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://vod1.maowushi.com/20260918/5pn9eHHA/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "牛牛资源",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v13.gghijk.com/yyv13/202609/04/j20KGkWVJh27/video/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://v15.gghijk.com/yyv15/202609/05/zVVLSJyGNU27/video/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://v15.gghijk.com/yyv15/202609/12/FTQ6kfJwPE27/video/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://v15.gghijk.com/yyv15/202609/19/RKcExnM3QY27/video/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "鸭鸭资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v13.rstuuv.com/yyv13/202609/04/j20KGkWVJh27/video/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://v15.rstuuv.com/yyv15/202609/05/zVVLSJyGNU27/video/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://v15.rstuuv.com/yyv15/202609/12/FTQ6kfJwPE27/video/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://v15.rstuuv.com/yyv15/202609/19/RKcExnM3QY27/video/index.m3u8"
+        }
+      ]
     }
   ],
-  "poster": "https://vod.xiguazyimg.com/upload/vod/20260904-1/35d60947a41aaefe8d5a29058c31110b.jpg",
-  "posterColor": "#c89b8c",
-  "uptime": "2026-09-18 19:54:26",
+  "poster": "https://img.guangsuimage.com/cover/c32d34017ca8f7cb6d15f06481b401d3.jpg",
+  "posterColor": "#c5998a",
+  "uptime": "2026-09-19 09:34:02",
   "opyear": "2026"
 }

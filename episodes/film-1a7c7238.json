@@ -3,53 +3,110 @@
   "type": "动漫",
   "sources": [
     {
-      "name": "caiji.xgzyapi.com",
+      "name": "360资源",
       "episodes": [
         {
           "title": "第01集",
-          "src": "https://svip.xgplay17.com/2026-09-05/38248_mOuBleatZzlZYgv3fb/index.m3u8"
+          "src": "https://vod1.maowushi.com/20260905/lhzXAxNL/index.m3u8"
         },
         {
           "title": "第02集",
-          "src": "https://svip.xgplay17.com/2026-09-05/38249_arfSudzP3pC5f9nFUR/index.m3u8"
+          "src": "https://vod1.maowushi.com/20260905/5wxuKMpo/index.m3u8"
         },
         {
           "title": "第03集",
-          "src": "https://svip.xgplay17.com/2026-09-05/38250_i6VML3F2YA0IRzHQ7u/index.m3u8"
+          "src": "https://vod1.maowushi.com/20260905/WA02KURA/index.m3u8"
         },
         {
           "title": "第04集",
-          "src": "https://svip.xgplay17.com/2026-09-05/38251_POSyMJL6YVZm5IPGur/index.m3u8"
+          "src": "https://vod1.maowushi.com/20260905/M5JpqSn5/index.m3u8"
         },
         {
           "title": "第05集",
-          "src": "https://svip.xgplay17.com/2026-09-05/38252_yrBzFWSbzaND616o9F/index.m3u8"
+          "src": "https://vod1.maowushi.com/20260905/Kvb26pkB/index.m3u8"
         },
         {
           "title": "第06集",
-          "src": "https://svip.xgplay17.com/2026-09-05/38253_ZmXTsnOjuDPxvkNP-4/index.m3u8"
+          "src": "https://vod1.maowushi.com/20260905/ppbjh7xK/index.m3u8"
         },
         {
           "title": "第07集",
-          "src": "https://svip.xgplay17.com/2026-09-05/38254_MsddvzdOmwuHRX7R9d/index.m3u8"
+          "src": "https://vod1.maowushi.com/20260905/IHzHpec8/index.m3u8"
         },
         {
           "title": "第08集",
-          "src": "https://svip.xgplay20.com/2026-09-06/47316_58GqR526Ny8Y49lqdP/index.m3u8"
+          "src": "https://vod1.maowushi.com/20260906/0lvhxhDW/index.m3u8"
         },
         {
           "title": "第09集",
-          "src": "https://svip.xgplay17.com/2026-09-12/39069_Sovrh6x95mW04_6DJS/index.m3u8"
+          "src": "https://vod1.maowushi.com/20260912/EKXzlHIL/index.m3u8"
         },
         {
           "title": "第10集",
-          "src": "https://svip.xgplay17.com/2026-09-13/39192_yflWZ13kA-Rlz3W9v3/index.m3u8"
+          "src": "https://vod1.maowushi.com/20260913/hoBU5iLt/index.m3u8"
+        },
+        {
+          "title": "第11集",
+          "src": "https://vod1.maowushi.com/20260919/3cvCLFXX/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "光速资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v.gsuus.com/play/b689MwLe/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://v.gsuus.com/play/aQW7XxMd/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://v.gsuus.com/play/aKrQGole/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://v.gsuus.com/play/eZ60gK2e/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://v.gsuus.com/play/dG68xQ5b/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://v.gsuus.com/play/b4xLrWJb/index.m3u8"
+        },
+        {
+          "title": "第07集",
+          "src": "https://v.gsuus.com/play/erk9xnLa/index.m3u8"
+        },
+        {
+          "title": "第08集",
+          "src": "https://v.gsuus.com/play/b2kWKMPd/index.m3u8"
+        },
+        {
+          "title": "第09集",
+          "src": "https://v.gsuus.com/play/erk9L76a/index.m3u8"
+        },
+        {
+          "title": "第10集",
+          "src": "https://v.gsuus.com/play/b4x9xZVb/index.m3u8"
+        },
+        {
+          "title": "第11集",
+          "src": "https://v.gsuus.com/play/epYzgNNa/index.m3u8"
+        },
+        {
+          "title": "第12集",
+          "src": "https://v.gsuus.com/play/eVON5GWa/index.m3u8"
         }
       ]
     }
   ],
-  "poster": "https://vod.xiguazyimg.com/upload/vod/20260918-1/0d8463e12412198c70bdf32e252c9e0c.png",
-  "posterColor": "#1f4894",
-  "uptime": "2026-09-18 18:59:15",
+  "poster": "https://img.guangsuimage.com/cover/6cd012367ab40c496837b7967cc37cc4.jpg",
+  "posterColor": "#557990",
+  "uptime": "2026-09-19 10:36:02",
   "opyear": "2026"
 }

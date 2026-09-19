@@ -3,26 +3,17 @@
   "type": "剧集",
   "sources": [
     {
-      "name": "天涯影视资源站",
+      "name": "樱花资源站",
       "episodes": [
         {
           "title": "第01集",
-          "src": "https://tyyszywvod2.com/videos/202609/19/6aad6f89807e92f4be3637d5/cd1g49/index.m3u8"
-        }
-      ]
-    },
-    {
-      "name": "牛牛资源",
-      "episodes": [
-        {
-          "title": "第01集",
-          "src": "https://v15.gghijk.com/yyv15/202609/18/H0RPpFEaYQ27/video/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260919/wizDdGDkt093/index.m3u8"
         }
       ]
     }
   ],
-  "poster": "https://pic.niuniuzy.info/upload/vod/20260919-1/237b96d846333a390790a09525f39a7f.jpg",
+  "poster": "https://pic.jegms.com/upload/vod/20260919-1/9f4ac001950b02e83aecc83ef195b54b.jpg",
   "posterColor": "#944e1e",
-  "uptime": "2026-09-19 00:44:27",
+  "uptime": "2026-09-19 13:00:05",
   "opyear": "2026"
 }

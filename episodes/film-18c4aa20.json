@@ -3,6 +3,42 @@
   "type": "电影",
   "sources": [
     {
+      "name": "360资源",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://vod1.maowushi.com/20260919/kuSztqO7/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "天涯影视资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://tyyszywvod2.com/videos/202609/19/6aae1ec3807e92f4be365c61/90c4gc/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "牛牛资源",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v14.gghijk.com/yyv14/202609/19/PpZMQe20yK27/video/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "百度资源网",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://b3.bdzybf22.com/videos/202609/19/6aae19c66ad3eb5f7118e28f/bbf756/index.m3u8"
+        }
+      ]
+    },
+    {
       "name": "非凡资源站",
       "episodes": [
         {
@@ -12,11 +48,20 @@
       ]
     },
     {
-      "name": "速播资源站",
+      "name": "飘零影院资源站",
       "episodes": [
         {
           "title": "第01集",
-          "src": "https://play.xluuss.com/play/bo2Ovwza/index.m3u8"
+          "src": "https://v7.ppqrrs.com/wjv7/202609/19/fbhkWLbJUY97/video/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "鸭鸭资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v14.rstuuv.com/yyv14/202609/19/PpZMQe20yK27/video/index.m3u8"
         }
       ]
     },

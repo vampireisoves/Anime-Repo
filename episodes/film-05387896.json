@@ -3,17 +3,17 @@
   "type": "剧集",
   "sources": [
     {
-      "name": "牛牛资源",
+      "name": "樱花资源站",
       "episodes": [
         {
           "title": "第01集",
-          "src": "https://v13.gghijk.com/yyv13/202609/18/55vqXM7cWD27/video/index.m3u8"
+          "src": "https://vod12.wgslsw.com/20260919/ZUN8FpBsDE87/index.m3u8"
         }
       ]
     }
   ],
-  "poster": "https://pic.niuniuzy.info/upload/vod/20260919-1/9bb92f6d960072d962769f4238fd32f1.jpg",
+  "poster": "https://pic.jegms.com/upload/vod/20260919-1/915623946c26b85e6c6c5abe2de93fc8.jpg",
   "posterColor": "#88626b",
-  "uptime": "2026-09-19 00:45:45",
+  "uptime": "2026-09-19 13:00:07",
   "opyear": "2026"
 }

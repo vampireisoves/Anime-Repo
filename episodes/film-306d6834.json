@@ -1,0 +1,37 @@
+{
+  "title": "东游令 (2026)",
+  "type": "电影",
+  "sources": [
+    {
+      "name": "非凡资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://super.ffzy-online6.com/20260915/41050_10b23550/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "360资源",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://vod1.maowushi.com/20260915/Y8Privnl/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "光速资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v.gsuus.com/play/eVONQvBa/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://img.guangsuimage.com/cover/a6a4d7cd151c449e0488a84185fddd0c.jpg",
+  "posterColor": "#c28c77",
+  "uptime": "2026-09-17 11:40:03",
+  "opyear": "2026"
+}

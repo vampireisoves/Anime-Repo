@@ -3,7 +3,72 @@
   "type": "剧集",
   "sources": [
     {
-      "name": "无尽资源站",
+      "name": "360资源",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://vod1.maowushi.com/20260915/tPhs3FxS/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://vod1.maowushi.com/20260919/ikIVMIRn/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "天涯影视资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://tyyszywvod2.com/videos/202609/16/6aa96fe61e5c4ff435ef8645/35ecff/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://tyyszywvod2.com/videos/202609/19/6aae29df807e92f4be366c4c/3ggf21/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "牛牛资源",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v13.gghijk.com/yyv13/202609/15/RunA6Am0J227/video/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://v14.gghijk.com/yyv14/202609/19/76EVxMf7xa27/video/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "百度资源网",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://b3.bdzybf22.com/videos/202609/16/6aa975911163f3d4efbff2c0/0gf8ae/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://b3.bdzybf22.com/videos/202609/19/6aae38aacba42bd4e1872bb2/be8e2d/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "非凡资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://vod.ffzy-bofang.com/20260915/3155_b22b257a/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://super.ffzy-online6.com/20260919/41386_4d42b846/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "飘零影院资源站",
       "episodes": [
         {
           "title": "第01集",
@@ -14,10 +79,23 @@
           "src": "https://v9.ppqrrs.com/wjv9/202609/19/e7PXEEGYL186/video/index.m3u8"
         }
       ]
+    },
+    {
+      "name": "鸭鸭资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v13.rstuuv.com/yyv13/202609/15/RunA6Am0J227/video/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://v14.rstuuv.com/yyv14/202609/19/76EVxMf7xa27/video/index.m3u8"
+        }
+      ]
     }
   ],
-  "poster": "https://pic.youkupic.com/upload/vod/20260915-1/d351c37b3830269e7e9e69b5e70fda68.jpg",
+  "poster": "https://pic.yayazy.info/upload/vod/20260919-1/7678eb7c091efbeba87884da11e2256f.jpg",
   "posterColor": "#7c90b1",
-  "uptime": "2026-09-19 11:14:10",
+  "uptime": "2026-09-19 14:04:55",
   "opyear": "2026"
 }

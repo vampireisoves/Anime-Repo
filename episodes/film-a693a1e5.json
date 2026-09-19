@@ -1,0 +1,22 @@
+{
+  "title": "Project XY (2026)",
+  "type": "综艺",
+  "sources": [
+    {
+      "name": "360资源",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://vod1.maowushi.com/20260912/C1ERDhRq/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://vod1.maowushi.com/20260913/X8uIrw0z/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2935259956.webp",
+  "uptime": "2026-09-14 00:05:01",
+  "opyear": "2026"
+}

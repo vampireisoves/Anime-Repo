@@ -1,0 +1,37 @@
+{
+  "title": "年华 (2026)",
+  "type": "未分类",
+  "sources": [
+    {
+      "name": "飘零影院资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v11.ppqrrs.com/wjv11/202609/16/KijuSy9tvc86/video/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "豆瓣资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://vodcnd17.ajupf.com/20260919/mMihGgLw/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "光速资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v.gsuus.com/play/en5zOJ7d/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://img.guangsuimage.com/cover/2d8d54382bf5e339a1cadd83faff284c.jpg",
+  "posterColor": "#aa6439",
+  "uptime": "2026-09-17 14:40:02",
+  "opyear": "2026"
+}

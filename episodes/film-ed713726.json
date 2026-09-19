@@ -1,0 +1,31 @@
+{
+  "title": "我是单身第33季 (2026)",
+  "type": "综艺",
+  "sources": [
+    {
+      "name": "光速资源站",
+      "episodes": [
+        {
+          "title": "第260826期",
+          "src": "https://v.gsuus.com/play/aM81VPGe/index.m3u8"
+        },
+        {
+          "title": "第260902期",
+          "src": "https://v.gsuus.com/play/b4xLXk7b/index.m3u8"
+        },
+        {
+          "title": "第260909期",
+          "src": "https://v.gsuus.com/play/erk9yl6a/index.m3u8"
+        },
+        {
+          "title": "第260916期",
+          "src": "https://v.gsuus.com/play/b4x9LBkb/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://img.guangsuimage.com/cover/96b3b02fe3b67dc64a30f2798aaf3a42.jpg",
+  "posterColor": "#6ed1dd",
+  "uptime": "2026-09-17 22:44:02",
+  "opyear": "2026"
+}

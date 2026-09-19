@@ -1,0 +1,31 @@
+{
+  "title": "北京厂开玩 (2026)",
+  "type": "动漫",
+  "sources": [
+    {
+      "name": "速播资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://play.xluuss.com/play/axk1Jnqe/index.m3u8"
+        },
+        {
+          "title": "张凯丽挑战流星飞车",
+          "src": "https://play.xluuss.com/play/bo2ywQ3a/index.m3u8"
+        },
+        {
+          "title": "探秘北冰洋工厂",
+          "src": "https://play.xluuss.com/play/e5yW7QKe/index.m3u8"
+        },
+        {
+          "title": "走向人机融合新方向",
+          "src": "https://play.xluuss.com/play/av2jmLma/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://xl.xltupian.com/cover/ddc8bb0477c7261fa8def2fbc0e335d3.jpg",
+  "posterColor": "#52a9d2",
+  "uptime": "2026-09-19 12:24:43",
+  "opyear": "2026"
+}

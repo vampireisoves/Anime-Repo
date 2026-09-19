@@ -1,0 +1,23 @@
+{
+  "title": "博物馆夜行指楠 (2026)",
+  "type": "综艺",
+  "sources": [
+    {
+      "name": "光速资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v.gsuus.com/play/eXD5gxme/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://v.gsuus.com/play/aADmPBle/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://img.guangsuimage.com/cover/00ac8c9b984ddfc64cb9f1923348e225.jpg",
+  "posterColor": "#3b698d",
+  "uptime": "2026-09-14 12:16:02",
+  "opyear": "2026"
+}
