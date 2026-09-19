@@ -1,0 +1,327 @@
+{
+  "title": "帮我找房子吧 (2019)",
+  "type": "综艺",
+  "sources": [
+    {
+      "name": "豆瓣资源站",
+      "episodes": [
+        {
+          "title": "第230104期",
+          "src": "https://vodcnd00.ajupf.com/20250609/6ZRu2FrM/index.m3u8"
+        },
+        {
+          "title": "第230928期",
+          "src": "https://vodcnd00.ajupf.com/20250609/uolvY8XI/index.m3u8"
+        },
+        {
+          "title": "第231002期",
+          "src": "https://vodcnd00.ajupf.com/20250609/lTj3cXLN/index.m3u8"
+        },
+        {
+          "title": "第231009期",
+          "src": "https://vodcnd00.ajupf.com/20250609/OAjD4JTl/index.m3u8"
+        },
+        {
+          "title": "第231019期",
+          "src": "https://vodcnd00.ajupf.com/20250609/ODS1Yly1/index.m3u8"
+        },
+        {
+          "title": "第231026期",
+          "src": "https://vodcnd00.ajupf.com/20250609/a8sSw27I/index.m3u8"
+        },
+        {
+          "title": "第231102期",
+          "src": "https://vodcnd00.ajupf.com/20250609/Vz5TXWh3/index.m3u8"
+        },
+        {
+          "title": "第231116期",
+          "src": "https://vodcnd00.ajupf.com/20250609/mMdAsaMY/index.m3u8"
+        },
+        {
+          "title": "第231123期",
+          "src": "https://vodcnd00.ajupf.com/20250609/tR0BccjE/index.m3u8"
+        },
+        {
+          "title": "第231130期",
+          "src": "https://vodcnd00.ajupf.com/20250609/tUvx0lHE/index.m3u8"
+        },
+        {
+          "title": "第231207期",
+          "src": "https://vodcnd00.ajupf.com/20250609/TtxTiAU6/index.m3u8"
+        },
+        {
+          "title": "第231214期",
+          "src": "https://vodcnd00.ajupf.com/20250609/1eCeqn05/index.m3u8"
+        },
+        {
+          "title": "第231221期",
+          "src": "https://vodcnd00.ajupf.com/20250609/6E8uHHx4/index.m3u8"
+        },
+        {
+          "title": "第231228期",
+          "src": "https://vodcnd00.ajupf.com/20250609/QqHARgxP/index.m3u8"
+        },
+        {
+          "title": "第240111期",
+          "src": "https://vodcnd00.ajupf.com/20250609/cCsXweq3/index.m3u8"
+        },
+        {
+          "title": "第240118期",
+          "src": "https://vodcnd00.ajupf.com/20250609/uSgPsbHd/index.m3u8"
+        },
+        {
+          "title": "第240125期",
+          "src": "https://vodcnd00.ajupf.com/20250609/LrhxvYI1/index.m3u8"
+        },
+        {
+          "title": "第240201期",
+          "src": "https://vodcnd00.ajupf.com/20250609/spvOakYf/index.m3u8"
+        },
+        {
+          "title": "第240208期",
+          "src": "https://vodcnd00.ajupf.com/20250609/fBALPSS0/index.m3u8"
+        },
+        {
+          "title": "第240215期",
+          "src": "https://vodcnd00.ajupf.com/20250609/g9K09nk8/index.m3u8"
+        },
+        {
+          "title": "第240222期",
+          "src": "https://vodcnd00.ajupf.com/20250609/ixadg0j2/index.m3u8"
+        },
+        {
+          "title": "第240229期",
+          "src": "https://vodcnd00.ajupf.com/20250609/kzXH6yDx/index.m3u8"
+        },
+        {
+          "title": "第240307期",
+          "src": "https://vodcnd00.ajupf.com/20250609/OsEw7Zr6/index.m3u8"
+        },
+        {
+          "title": "第240314期",
+          "src": "https://vodcnd00.ajupf.com/20250609/mP5G7Xnn/index.m3u8"
+        },
+        {
+          "title": "第240321期",
+          "src": "https://vodcnd00.ajupf.com/20250609/WqQTYc0A/index.m3u8"
+        },
+        {
+          "title": "第240328期",
+          "src": "https://vodcnd00.ajupf.com/20250609/PfjdKTQW/index.m3u8"
+        },
+        {
+          "title": "第240404期",
+          "src": "https://vodcnd00.ajupf.com/20250609/TlOphUAk/index.m3u8"
+        },
+        {
+          "title": "第240411期",
+          "src": "https://vodcnd00.ajupf.com/20250609/RPr9OsxN/index.m3u8"
+        },
+        {
+          "title": "第240418期",
+          "src": "https://vodcnd00.ajupf.com/20250610/6h7awm8W/index.m3u8"
+        },
+        {
+          "title": "第240502期",
+          "src": "https://vodcnd00.ajupf.com/20250610/oVAHt2z2/index.m3u8"
+        },
+        {
+          "title": "第240509期",
+          "src": "https://vodcnd00.ajupf.com/20250610/z5kqOsS2/index.m3u8"
+        },
+        {
+          "title": "第240516期",
+          "src": "https://vodcnd00.ajupf.com/20250610/wJ5v05EM/index.m3u8"
+        },
+        {
+          "title": "第240523期",
+          "src": "https://vodcnd00.ajupf.com/20250610/YMg9o9bL/index.m3u8"
+        },
+        {
+          "title": "第240530期",
+          "src": "https://vodcnd00.ajupf.com/20250610/lTOFspyV/index.m3u8"
+        },
+        {
+          "title": "第240613期",
+          "src": "https://vodcnd00.ajupf.com/20250610/DXOW2Aza/index.m3u8"
+        },
+        {
+          "title": "第240620期",
+          "src": "https://vodcnd00.ajupf.com/20250610/c4FTsSJh/index.m3u8"
+        },
+        {
+          "title": "第240627期",
+          "src": "https://vodcnd00.ajupf.com/20250610/mj0lzbyK/index.m3u8"
+        },
+        {
+          "title": "第240704期",
+          "src": "https://vodcnd00.ajupf.com/20250610/sgk6zCmH/index.m3u8"
+        },
+        {
+          "title": "第240711期",
+          "src": "https://vodcnd00.ajupf.com/20250610/h804u5bK/index.m3u8"
+        },
+        {
+          "title": "第240718期",
+          "src": "https://vodcnd00.ajupf.com/20250610/UgTHNkbl/index.m3u8"
+        },
+        {
+          "title": "第240815期",
+          "src": "https://vodcnd00.ajupf.com/20250610/MWXMQYPB/index.m3u8"
+        },
+        {
+          "title": "第240822期",
+          "src": "https://vodcnd00.ajupf.com/20250610/NghcKRnA/index.m3u8"
+        },
+        {
+          "title": "第240830期",
+          "src": "https://vodcnd00.ajupf.com/20250610/mLHEjVT5/index.m3u8"
+        },
+        {
+          "title": "第240905期",
+          "src": "https://vodcnd00.ajupf.com/20250610/pYH1fMMd/index.m3u8"
+        },
+        {
+          "title": "第240912期",
+          "src": "https://vodcnd00.ajupf.com/20250610/23prZv2p/index.m3u8"
+        },
+        {
+          "title": "第240919期",
+          "src": "https://vodcnd00.ajupf.com/20250610/9urzalty/index.m3u8"
+        },
+        {
+          "title": "第20260122期",
+          "src": "https://vodcnd14.ajupf.com/20260124/aR17jiYu/index.m3u8"
+        },
+        {
+          "title": "第20260129期",
+          "src": "https://vodcnd13.ajupf.com/20260130/AZYXLhw2/index.m3u8"
+        },
+        {
+          "title": "第20260205期",
+          "src": "https://vodcnd13.ajupf.com/20260206/msOtPvpJ/index.m3u8"
+        },
+        {
+          "title": "第20260212期",
+          "src": "https://vodcnd13.ajupf.com/20260213/PVQfd14F/index.m3u8"
+        },
+        {
+          "title": "第20260219期",
+          "src": "https://vodcnd13.ajupf.com/20260220/Tjb1nOaT/index.m3u8"
+        },
+        {
+          "title": "第20260226期",
+          "src": "https://vodcnd14.ajupf.com/20260227/es2Fhks9/index.m3u8"
+        },
+        {
+          "title": "第20260312期",
+          "src": "https://vodcnd13.ajupf.com/20260313/FLIt8EXI/index.m3u8"
+        },
+        {
+          "title": "第20260319期",
+          "src": "https://vodcnd13.ajupf.com/20260320/gqm7byAZ/index.m3u8"
+        },
+        {
+          "title": "第20260326期",
+          "src": "https://vodcnd13.ajupf.com/20260327/YG0zgui5/index.m3u8"
+        },
+        {
+          "title": "第20260402期",
+          "src": "https://vodcnd13.ajupf.com/20260403/c0M5b9t7/index.m3u8"
+        },
+        {
+          "title": "第20260409期",
+          "src": "https://vodcnd13.ajupf.com/20260410/ilWig9SW/index.m3u8"
+        },
+        {
+          "title": "第20260416期",
+          "src": "https://vodcnd15.ajupf.com/20260417/cmxAWpUq/index.m3u8"
+        },
+        {
+          "title": "第20260423期",
+          "src": "https://vodcnd13.ajupf.com/20260424/ZlPosJPI/index.m3u8"
+        },
+        {
+          "title": "第20260430期",
+          "src": "https://vodcnd13.ajupf.com/20260501/wHMPqdSn/index.m3u8"
+        },
+        {
+          "title": "第20260507期",
+          "src": "https://vodcnd15.ajupf.com/20260508/exeCDWzg/index.m3u8"
+        },
+        {
+          "title": "第20260521期",
+          "src": "https://vodcnd15.ajupf.com/20260522/fZyU1wCL/index.m3u8"
+        },
+        {
+          "title": "第20260604期",
+          "src": "https://vodcnd15.ajupf.com/20260605/t9tNkvHf/index.m3u8"
+        },
+        {
+          "title": "第20260611期",
+          "src": "https://vodcnd15.ajupf.com/20260612/Rwn3MF8W/index.m3u8"
+        },
+        {
+          "title": "第20260618期",
+          "src": "https://vodcnd15.ajupf.com/20260619/OCJdaGU7/index.m3u8"
+        },
+        {
+          "title": "第20260625期",
+          "src": "https://vodcnd15.ajupf.com/20260626/llAW8wXt/index.m3u8"
+        },
+        {
+          "title": "第20260702期",
+          "src": "https://vodcnd15.ajupf.com/20260703/qg4JeBIG/index.m3u8"
+        },
+        {
+          "title": "第20260709期",
+          "src": "https://vodcnd15.ajupf.com/20260710/TyeWVX12/index.m3u8"
+        },
+        {
+          "title": "第20260716期",
+          "src": "https://vodcnd16.ajupf.com/20260717/M6EbOS6A/index.m3u8"
+        },
+        {
+          "title": "第20260723期",
+          "src": "https://vodcnd16.ajupf.com/20260724/x9LOuEyI/index.m3u8"
+        },
+        {
+          "title": "第20260730期",
+          "src": "https://vodcnd16.ajupf.com/20260731/VWl45XWp/index.m3u8"
+        },
+        {
+          "title": "第20260806期",
+          "src": "https://vodcnd16.ajupf.com/20260807/xyiLEy1b/index.m3u8"
+        },
+        {
+          "title": "第20260813期",
+          "src": "https://vodcnd17.ajupf.com/20260814/vWwndAns/index.m3u8"
+        },
+        {
+          "title": "第20260820期",
+          "src": "https://vodcnd17.ajupf.com/20260821/ATAMbcAl/index.m3u8"
+        },
+        {
+          "title": "第20260827期",
+          "src": "https://vodcnd17.ajupf.com/20260828/65kMcdUv/index.m3u8"
+        },
+        {
+          "title": "第20260903期",
+          "src": "https://vodcnd17.ajupf.com/20260904/MCWEGEuE/index.m3u8"
+        },
+        {
+          "title": "第20260910期",
+          "src": "https://vodcnd17.ajupf.com/20260911/5Q2MpQ6P/index.m3u8"
+        },
+        {
+          "title": "第20260917期",
+          "src": "https://vodcnd17.ajupf.com/20260918/BETBM6bl/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://dbzy5.com/upload/vod/20250109-2/2e56f555876413de4fd5e561b83cc69b.jpg",
+  "posterColor": "#856ac2",
+  "uptime": "2026-09-19 11:08:10",
+  "opyear": "2019"
+}

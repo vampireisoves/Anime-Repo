@@ -1,0 +1,49 @@
+{
+  "title": "澜湄青年说 (2026)",
+  "type": "剧集",
+  "sources": [
+    {
+      "name": "虎牙资源站",
+      "episodes": [
+        {
+          "title": "第1期",
+          "src": "https://hd.kuktxu.com/play/en5zYyEd/index.m3u8"
+        },
+        {
+          "title": "第2期",
+          "src": "https://hd.kuktxu.com/play/dwpkELMe/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "豪华资源站",
+      "episodes": [
+        {
+          "title": "第1期",
+          "src": "https://play.hhuus.com/play/bo2Ovz3a/index.m3u8"
+        },
+        {
+          "title": "第2期",
+          "src": "https://play.hhuus.com/play/axklVgqe/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "极速资源站",
+      "episodes": [
+        {
+          "title": "第1期",
+          "src": "https://vv.jisuzyv.com/play/epYzRANa/index.m3u8"
+        },
+        {
+          "title": "第2期",
+          "src": "https://vv.jisuzyv.com/play/dyPm6jPb/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://img.jisuimage.com/cover/552885fc594899d371386c5e122dcf8d.jpg",
+  "posterColor": "#e8ddbf",
+  "uptime": "2026-09-19 11:12:03",
+  "opyear": "2026"
+}

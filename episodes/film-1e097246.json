@@ -1,0 +1,44 @@
+{
+  "title": "梦想改造家第十三季 (2026)",
+  "type": "综艺",
+  "sources": [
+    {
+      "name": "caiji.xgzyapi.com",
+      "episodes": [
+        {
+          "title": "20260910回访特辑",
+          "src": "https://svip.xgplay17.com/2026-09-11/38937_bc8xOJROya6bwBvf6U/index.m3u8"
+        },
+        {
+          "title": "20260917",
+          "src": "https://svip.xgplay17.com/2026-09-18/39767_gpwQfaNzuyal94Rrbm/index.m3u8"
+        },
+        {
+          "title": "20260918第1期会员版",
+          "src": "https://svip.xgplay17.com/2026-09-18/39867_v1NCU_O8adgs8wmggc/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "360资源",
+      "episodes": [
+        {
+          "title": "第20260910期回访特辑",
+          "src": "https://vod1.maowushi.com/20260911/ATGMRGxh/index.m3u8"
+        },
+        {
+          "title": "第20260917期",
+          "src": "https://vod1.maowushi.com/20260918/RqyrFts7/index.m3u8"
+        },
+        {
+          "title": "第20260918期第1期会员版",
+          "src": "https://vod1.maowushi.com/20260918/jQbME98x/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://www.imgzy360.com:7788/upload/vod/20260911-1/c313782f1831ddd703e26c4788b6559d.png",
+  "posterColor": "#cbaf9c",
+  "uptime": "2026-09-19 00:35:02",
+  "opyear": "2026"
+}

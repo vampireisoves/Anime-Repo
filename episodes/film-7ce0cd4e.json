@@ -1,0 +1,76 @@
+{
+  "title": "烟灰 (2026)",
+  "type": "剧集",
+  "sources": [
+    {
+      "name": "caiji.xgzyapi.com",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://svip.xgplay17.com/2026-08-14/35538_DUPbuOtBvuV7EfW9AE/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://svip.xgplay17.com/2026-08-14/35539_tpaK1JySBKutCMiEZt/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://svip.xgplay17.com/2026-08-21/36470_fjbeog6JvTDX3z9xV5/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://svip.xgplay17.com/2026-08-28/37309_o-Z1WRyOCaUbu5AJYi/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://svip.xgplay17.com/2026-09-04/38147_ch1Vi_KUsuaH4vIPKM/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://svip.xgplay17.com/2026-09-11/39011_-P5IiVmTF8Ru-KAX3-/index.m3u8"
+        },
+        {
+          "title": "第07集",
+          "src": "https://svip.xgplay17.com/2026-09-18/39859_a2ad8FOIfyvCdEAqxz/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "爱奇艺资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://play.ly166.com:65/videos/20260814/6a7f0f8a339f684cac12b10d/9bafd9/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://play.ly166.com:65/videos/20260814/6a7f0f8a339f684cac12b108/439415/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://play.ly166.com:65/videos/20260821/6a88419e2f204a4c9e502914/569c19/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://play.ly166.com:65/videos/20260828/6a917c5beab8874c97825485/8ab44g/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://play.ly166.com:65/videos/20260904/6a9ac0735c14f34ca5b5fcb3/0126e7/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://play.ly166.com:65/videos/20260911/6aa3fa42eab8874c975ec120/565a00/index.m3u8"
+        },
+        {
+          "title": "第07集",
+          "src": "https://play.ly166.com:65/videos/20260918/6aad331f2f204a4c9e86d751/cb02bb/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://tu.iqiyizyimg.com/upload/vod/20260814-1/e161c74d9ca82933bd02280f498cdc80.webp",
+  "posterColor": "#78493a",
+  "uptime": "2026-09-18 21:24:11",
+  "opyear": "2026"
+}

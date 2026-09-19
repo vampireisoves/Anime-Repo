@@ -1,0 +1,36 @@
+{
+  "title": "可以爱吗 (2026)",
+  "type": "剧集",
+  "sources": [
+    {
+      "name": "caiji.xgzyapi.com",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://svip.xgplay17.com/2026-09-11/39033_3VaK-neROTEor78W_m/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://svip.xgplay17.com/2026-09-18/39869_9U_7V-vxkOjfvfbJcS/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "爱奇艺资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://play.ly166.com:65/videos/20260911/6aa42243339f684cac318339/69g952/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://play.ly166.com:65/videos/20260918/6aad5cc5eab8874c97941ddf/b65a15/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://tu.iqiyizyimg.com/upload/vod/20260912-1/77ad7151c8aed05c30ecbf22cca10374.webp",
+  "posterColor": "#0f172a",
+  "uptime": "2026-09-18 23:48:12",
+  "opyear": "2026"
+}
