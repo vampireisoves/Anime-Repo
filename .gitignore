@@ -10,3 +10,6 @@ crawler_core.py
 url.txt
 resume_state.json
 cmsurl.txt
+/crawler_cache
+/build
+play.src.html
