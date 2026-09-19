@@ -19,10 +19,19 @@
           "src": "https://super.ffzy-online6.com/20260919/41348_9cc38fba/index.m3u8"
         }
       ]
+    },
+    {
+      "name": "西瓜资源",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://svip.xgplay17.com/2026-09-18/39836_76z9hIkEtuVP58si3B/index.m3u8"
+        }
+      ]
     }
   ],
-  "poster": "https://fffgood.com/upload/vod/20260919-1/5e399148fe3e9061e2b93b2efbfd2012.jpg",
-  "posterColor": "#76653e",
-  "uptime": "2026-09-19 08:36:46",
+  "poster": "https://vod.xiguazyimg.com/upload/vod/20260918-1/2d47d0a33f4c2f4bac351ac719f40254.jpg",
+  "posterColor": "#8e7d50",
+  "uptime": "2026-09-18 18:18:33",
   "opyear": "2026"
 }

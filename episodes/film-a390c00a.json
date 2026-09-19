@@ -160,10 +160,63 @@
           "src": "https://hd.kuktxu.com/play/eXDM7X8e/index.m3u8"
         }
       ]
+    },
+    {
+      "name": "魔都资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://play.modujx11.com/20260704/tpb033ri/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://play.modujx17.com/20260711/vvloLIan/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://play.modujx17.com/20260718/kaqX0nkk/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://play.modujx17.com/20260725/15SNhlIZ/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://play.modujx17.com/20260801/dHJeTp4K/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://play.modujx17.com/20260808/3THyVqqG/index.m3u8"
+        },
+        {
+          "title": "第07集",
+          "src": "https://play.modujx17.com/20260815/IXgTXs67/index.m3u8"
+        },
+        {
+          "title": "第08集",
+          "src": "https://play.modujx17.com/20260822/TTDH01dS/index.m3u8"
+        },
+        {
+          "title": "第09集",
+          "src": "https://play.modujx17.com/20260829/MYxGRNuv/index.m3u8"
+        },
+        {
+          "title": "第10集",
+          "src": "https://play.modujx17.com/20260905/Pp04Tgee/index.m3u8"
+        },
+        {
+          "title": "第11集",
+          "src": "https://play.modujx17.com/20260912/tMwFWC4c/index.m3u8"
+        },
+        {
+          "title": "第12集",
+          "src": "https://play.modujx17.com/20260919/a1VkAIdt/index.m3u8"
+        }
+      ]
     }
   ],
-  "poster": "https://image.jinyingimage.com/cover/f4ac71795f13804fe2b309f3084dc532.jpg",
-  "posterColor": "#f8eb62",
-  "uptime": "2026-09-19 11:44:07",
+  "poster": "https://www.mdzypic.com/upload/vod/20260704-1/80c1b7d294d693334e9f47023ab7508b.webp",
+  "posterColor": "#faed60",
+  "uptime": "2026-09-19 11:34:52",
   "opyear": "2026"
 }

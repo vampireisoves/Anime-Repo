@@ -209,10 +209,63 @@
           "src": "https://play.maoyanplay.top/20260919/XLoBrVIg/index.m3u8"
         }
       ]
+    },
+    {
+      "name": "天涯影视资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://tyyszywvod2.com/videos/202607/04/6a4887845dc98c448ac905ef/ac68c5/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://tyyszywvod2.com/videos/202607/11/6a51b27cebb0a3f500abe987/g5b118/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://tyyszywvod2.com/videos/202607/19/6a5cafead420c4f5013e148f/a26dee/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://tyyszywvod2.com/videos/202607/25/6a63a0cae9e107f4362e4e24/b7c88b/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://tyyszywvod2.com/videos/202608/01/6a6dc726e9e107f436341a3a/8g7282/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://tyyszywvod2.com/videos/202608/08/6a768a83e9e107f436396ee7/b1ef21/index.m3u8"
+        },
+        {
+          "title": "第07集",
+          "src": "https://tyyszywvod2.com/videos/202608/15/6a7fae7e096a8ef47c84a53c/a7bg84/index.m3u8"
+        },
+        {
+          "title": "第08集",
+          "src": "https://tyyszywvod2.com/videos/202608/22/6a888ad1ebb0a3f500c6d05f/c6gga7/index.m3u8"
+        },
+        {
+          "title": "第09集",
+          "src": "https://tyyszywvod2.com/videos/202608/29/6a925ff6e9e107f436466d9a/16f04e/index.m3u8"
+        },
+        {
+          "title": "第10集",
+          "src": "https://tyyszywvod2.com/videos/202609/05/6a9b966fd420c4f5015e05f5/c8ge54/index.m3u8"
+        },
+        {
+          "title": "第11集",
+          "src": "https://tyyszywvod2.com/videos/202609/12/6aa4afc0b86465f47d7011ad/8611d6/index.m3u8"
+        },
+        {
+          "title": "第12集",
+          "src": "https://tyyszywvod2.com/videos/202609/19/6aadfe08807e92f4be36547c/895gcc/index.m3u8"
+        }
+      ]
     }
   ],
-  "poster": "https://img.guangsuimage.com/cover/f4ac71795f13804fe2b309f3084dc532.jpg",
-  "posterColor": "#f8eb62",
-  "uptime": "2026-09-19 11:44:07",
+  "poster": "http://www.maoyanimg.top/upload/vod/20260704-1/728f8302accbd338857cf35838c5fd50.webp",
+  "posterColor": "#f9ed61",
+  "uptime": "2026-09-19 09:27:04",
   "opyear": "2026"
 }

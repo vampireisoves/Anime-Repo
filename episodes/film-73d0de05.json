@@ -107,10 +107,116 @@
           "src": "https://v13.gghijk.com/yyv13/202609/19/TwLN0tF6iQ27/video/index.m3u8"
         }
       ]
+    },
+    {
+      "name": "猫眼资源",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://play.maoyanplay.top/20260704/rYBTCe6R/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://play.maoyanplay.top/20260711/Cx03VWUB/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://play.maoyanplay.top/20260718/4God17YP/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://play.maoyanplay.top/20260725/ORvZhgmo/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://play.maoyanplay.top/20260801/Oj1dcLbT/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://play.maoyanplay.top/20260808/IcKuJaw5/index.m3u8"
+        },
+        {
+          "title": "第07集",
+          "src": "https://play.maoyanplay.top/20260815/cLKZ83Gd/index.m3u8"
+        },
+        {
+          "title": "第08集",
+          "src": "https://play.maoyanplay.top/20260822/QVqySjvf/index.m3u8"
+        },
+        {
+          "title": "第09集",
+          "src": "https://play.maoyanplay.top/20260829/A0TTi3uN/index.m3u8"
+        },
+        {
+          "title": "第10集",
+          "src": "https://play.maoyanplay.top/20260905/vH9z4CqP/index.m3u8"
+        },
+        {
+          "title": "第11集",
+          "src": "https://play.maoyanplay.top/20260912/Z4UTXG2b/index.m3u8"
+        },
+        {
+          "title": "第12集",
+          "src": "https://play.maoyanplay.top/20260919/5KYu6xfP/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "天涯影视资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://tyyszywvod2.com/videos/202607/04/6a487920e85dabf3e5ec36cb/bg75ac/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://tyyszywvod2.com/videos/202607/11/6a51b289ebb0a3f500abe988/ca8b0g/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://tyyszywvod2.com/videos/202607/19/6a5cafd8d420c4f5013e148d/31d453/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://tyyszywvod2.com/videos/202607/25/6a6414cbe9e107f4362f1c0a/855dcf/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://tyyszywvod2.com/videos/202608/01/6a6dc6ffd420c4f50147612e/6c2642/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://tyyszywvod2.com/videos/202608/08/6a768a8de9e107f436396ee8/e3ebg2/index.m3u8"
+        },
+        {
+          "title": "第07集",
+          "src": "https://tyyszywvod2.com/videos/202608/15/6a7fae6b096a8ef47c84a519/00ddbg/index.m3u8"
+        },
+        {
+          "title": "第08集",
+          "src": "https://tyyszywvod2.com/videos/202608/22/6a888acaebb0a3f500c6d05e/c25b4b/index.m3u8"
+        },
+        {
+          "title": "第09集",
+          "src": "https://tyyszywvod2.com/videos/202608/29/6a92364a096a8ef47c8d5493/3bcc5e/index.m3u8"
+        },
+        {
+          "title": "第10集",
+          "src": "https://tyyszywvod2.com/videos/202609/05/6a9b9690d420c4f5015e05f8/fdb5e3/index.m3u8"
+        },
+        {
+          "title": "第11集",
+          "src": "https://tyyszywvod2.com/videos/202609/12/6aa4afaeb86465f47d7011ab/787dd1/index.m3u8"
+        },
+        {
+          "title": "第12集",
+          "src": "https://tyyszywvod2.com/videos/202609/19/6aadfe14807e92f4be36547e/918a70/index.m3u8"
+        }
+      ]
     }
   ],
-  "poster": "https://pic.yayazy.info/upload/vod/20260919-1/fadf3f0c949e97c32c9b0ed274b146fb.jpg",
+  "poster": "https://tyyswimg2.com/upload/vod/20260919-1/4fb2170fcf36e643c4044f8594cf5fe7.jpg",
   "posterColor": "#9e1428",
-  "uptime": "2026-09-19 11:14:33",
+  "uptime": "2026-09-19 11:30:20",
   "opyear": "2026"
 }

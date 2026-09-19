@@ -19,10 +19,19 @@
           "src": "https://svip.xgplay17.com/2026-09-18/39843_QowU1r5715FYZ5DmO5/index.m3u8"
         }
       ]
+    },
+    {
+      "name": "360资源",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://vod1.maowushi.com/20260918/s72qSayo/index.m3u8"
+        }
+      ]
     }
   ],
   "poster": "https://0img.hitv.com/preview/sp_images/2026/09/14/202609141155254351509.jpg",
   "posterColor": "#d6be73",
-  "uptime": "2026-09-18 18:28:53",
+  "uptime": "2026-09-18 19:10:03",
   "opyear": "2026"
 }

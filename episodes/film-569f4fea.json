@@ -54,10 +54,63 @@
           "src": "https://svip.xgplay17.com/2026-09-18/39863_D9IsGQMfbLh9KLb0L2/index.m3u8"
         }
       ]
+    },
+    {
+      "name": "猫眼资源",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://play.maoyanplay.top/20260711/KenaAn2V/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://play.maoyanplay.top/20260711/4UpdBwVL/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://play.maoyanplay.top/20260718/WUky73k5/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://play.maoyanplay.top/20260725/KFP90Ga4/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://play.maoyanplay.top/20260801/pOEUjsn2/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://play.maoyanplay.top/20260808/0r9qe09q/index.m3u8"
+        },
+        {
+          "title": "第07集",
+          "src": "https://play.maoyanplay.top/20260815/CSl59exx/index.m3u8"
+        },
+        {
+          "title": "第08集",
+          "src": "https://play.maoyanplay.top/20260822/ywroeQsH/index.m3u8"
+        },
+        {
+          "title": "第09集",
+          "src": "https://play.maoyanplay.top/20260829/BwhDaCcQ/index.m3u8"
+        },
+        {
+          "title": "第10集",
+          "src": "https://play.maoyanplay.top/20260905/PSp9ajVe/index.m3u8"
+        },
+        {
+          "title": "第11集",
+          "src": "https://play.maoyanplay.top/20260912/CotYhG7q/index.m3u8"
+        },
+        {
+          "title": "第12集",
+          "src": "https://play.maoyanplay.top/20260919/3MqoyIfi/index.m3u8"
+        }
+      ]
     }
   ],
-  "poster": "https://vod.xiguazyimg.com/upload/vod/20260703-1/c4de8a8967d5901878e5b44bcf4d9085.jpg",
-  "posterColor": "#8e4c31",
-  "uptime": "2026-09-18 21:47:48",
+  "poster": "http://www.maoyanimg.top/upload/vod/20260711-1/84faaecc03f79eabc586305aaf451898.webp",
+  "posterColor": "#904d30",
+  "uptime": "2026-09-19 09:27:03",
   "opyear": "2026"
 }
