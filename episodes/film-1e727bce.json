@@ -38,9 +38,83 @@
           "src": "https://vod1.maowushi.com/20260909/053v9L8c/index.m3u8"
         }
       ]
+    },
+    {
+      "name": "牛牛资源",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v13.gghijk.com/yyv13/202609/08/246pQQ1kwL27/video/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://v15.gghijk.com/yyv15/202609/08/vNTNkxQHAi27/video/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://v15.gghijk.com/yyv15/202609/08/tRabe8MNz027/video/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://v13.gghijk.com/yyv13/202609/08/hU0aUFmDi227/video/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://v14.gghijk.com/yyv14/202609/08/XuDAmc9qsD27/video/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://v15.gghijk.com/yyv15/202609/08/xLhyJRWpmh27/video/index.m3u8"
+        },
+        {
+          "title": "第07集",
+          "src": "https://v13.gghijk.com/yyv13/202609/08/6CxWAzpVed27/video/index.m3u8"
+        },
+        {
+          "title": "第08集",
+          "src": "https://v13.gghijk.com/yyv13/202609/08/twZuUK6qVC27/video/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "鸭鸭资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v13.rstuuv.com/yyv13/202609/08/246pQQ1kwL27/video/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://v15.rstuuv.com/yyv15/202609/08/vNTNkxQHAi27/video/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://v15.rstuuv.com/yyv15/202609/08/tRabe8MNz027/video/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://v13.rstuuv.com/yyv13/202609/08/hU0aUFmDi227/video/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://v14.rstuuv.com/yyv14/202609/08/XuDAmc9qsD27/video/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://v15.rstuuv.com/yyv15/202609/08/xLhyJRWpmh27/video/index.m3u8"
+        },
+        {
+          "title": "第07集",
+          "src": "https://v13.rstuuv.com/yyv13/202609/08/6CxWAzpVed27/video/index.m3u8"
+        },
+        {
+          "title": "第08集",
+          "src": "https://v13.rstuuv.com/yyv13/202609/08/twZuUK6qVC27/video/index.m3u8"
+        }
+      ]
     }
   ],
-  "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2935643883.webp",
-  "uptime": "2026-09-09 12:05:02",
+  "poster": "https://pic.yayazy.info/upload/vod/20260908-1/d28bfc232eaaec8c778012740fa4f998.jpg",
+  "uptime": "2026-09-08 21:16:29",
   "opyear": "2026"
 }

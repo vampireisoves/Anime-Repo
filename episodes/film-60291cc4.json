@@ -50,9 +50,58 @@
           "src": "https://vod1.maowushi.com/20260909/5zDtie16/index.m3u8"
         }
       ]
+    },
+    {
+      "name": "牛牛资源",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v13.gghijk.com/yyv13/202607/08/2B4WjfrrxJ27/video/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://v14.gghijk.com/yyv14/202607/08/26M6URdHaJ27/video/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://v14.gghijk.com/yyv14/202607/22/5upS5mXgsS27/video/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://v13.gghijk.com/yyv13/202607/22/v4pUtYps0Q27/video/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://v14.gghijk.com/yyv14/202607/30/tdM8jXdZwF27/video/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://v14.gghijk.com/yyv14/202608/05/wTsA79xpV227/video/index.m3u8"
+        },
+        {
+          "title": "第07集",
+          "src": "https://v14.gghijk.com/yyv14/202608/12/cu5QKWgjYA27/video/index.m3u8"
+        },
+        {
+          "title": "第08集",
+          "src": "https://v13.gghijk.com/yyv13/202608/19/5hKAWc80SX27/video/index.m3u8"
+        },
+        {
+          "title": "第09集",
+          "src": "https://v13.gghijk.com/yyv13/202608/27/T3wnfNmb9W27/video/index.m3u8"
+        },
+        {
+          "title": "第10集",
+          "src": "https://v13.gghijk.com/yyv13/202609/02/5RCtwxAqWm27/video/index.m3u8"
+        },
+        {
+          "title": "第11集",
+          "src": "https://v13.gghijk.com/yyv13/202609/10/9Ncxg7KNHm27/video/index.m3u8"
+        }
+      ]
     }
   ],
-  "poster": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2933512282.webp",
-  "uptime": "2026-09-09 19:15:02",
+  "poster": "https://pic.niuniuzy.info/upload/vod/20260910-1/ab2168a281471a9cca90e96de4ac9f6d.jpg",
+  "uptime": "2026-09-10 10:49:11",
   "opyear": "2026"
 }

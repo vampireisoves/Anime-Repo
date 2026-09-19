@@ -50,9 +50,50 @@
           "src": "https://vod1.maowushi.com/20260909/sumFzXVc/index.m3u8"
         }
       ]
+    },
+    {
+      "name": "鸭鸭资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v5.rstuuv.com/yyv5/202607/06/jm8vM61djD27/video/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://v14.rstuuv.com/yyv14/202607/13/LuN77viKvj27/video/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://v13.rstuuv.com/yyv13/202607/20/s0NZuVEVAp27/video/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://v14.rstuuv.com/yyv14/202607/27/AxDm5V1SMB27/video/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://v14.rstuuv.com/yyv14/202608/03/ex9iURj7eM27/video/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://v13.rstuuv.com/yyv13/202608/10/7Sn3yvASRz27/video/index.m3u8"
+        },
+        {
+          "title": "第08集",
+          "src": "https://v14.rstuuv.com/yyv14/202608/24/3qDhy9th2M27/video/index.m3u8"
+        },
+        {
+          "title": "第09集",
+          "src": "https://v14.rstuuv.com/yyv14/202608/31/aRudj7fiqU27/video/index.m3u8"
+        },
+        {
+          "title": "第10集",
+          "src": "https://v14.rstuuv.com/yyv14/202609/07/eaD38grh2n27/video/index.m3u8"
+        }
+      ]
     }
   ],
-  "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2933849055.webp",
-  "uptime": "2026-09-09 22:15:03",
+  "poster": "https://pic.yayazy.info/upload/vod/20260907-1/497655f2f922e4be132a5062ab7f5049.jpg",
+  "uptime": "2026-09-07 21:05:36",
   "opyear": "2026"
 }

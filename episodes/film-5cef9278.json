@@ -538,10 +538,739 @@
           "src": "https://vod1.maowushi.com/20260914/7oGsgF9v/index.m3u8"
         }
       ]
+    },
+    {
+      "name": "鸭鸭资源站",
+      "episodes": [
+        {
+          "title": "20221113",
+          "src": "https://v5.rstuuv.com/yyv5/202309/04/5wfGf1Z7Cp1/video/index.m3u8"
+        },
+        {
+          "title": "20221120",
+          "src": "https://v5.rstuuv.com/yyv5/202309/04/0M3wD41bGH1/video/index.m3u8"
+        },
+        {
+          "title": "20221127",
+          "src": "https://v5.rstuuv.com/yyv5/202309/04/6g9AxpZP6G1/video/index.m3u8"
+        },
+        {
+          "title": "20221204",
+          "src": "https://v5.rstuuv.com/yyv5/202309/04/Y2SX9zR1Cx1/video/index.m3u8"
+        },
+        {
+          "title": "20221211",
+          "src": "https://v5.rstuuv.com/yyv5/202309/04/WsKm72NJat1/video/index.m3u8"
+        },
+        {
+          "title": "20221218",
+          "src": "https://v5.rstuuv.com/yyv5/202309/04/prTs8FbfUC1/video/index.m3u8"
+        },
+        {
+          "title": "20221225",
+          "src": "https://v5.rstuuv.com/yyv5/202309/04/L1B652SQE61/video/index.m3u8"
+        },
+        {
+          "title": "20230101",
+          "src": "https://v5.rstuuv.com/yyv5/202309/04/740pqwUb5B1/video/index.m3u8"
+        },
+        {
+          "title": "20230108",
+          "src": "https://v5.rstuuv.com/yyv5/202309/04/AtfqfJtd6g1/video/index.m3u8"
+        },
+        {
+          "title": "20230115",
+          "src": "https://v5.rstuuv.com/yyv5/202309/04/Y4RtxFZYGC1/video/index.m3u8"
+        },
+        {
+          "title": "20230122",
+          "src": "https://v5.rstuuv.com/yyv5/202309/04/51LGak03Qy1/video/index.m3u8"
+        },
+        {
+          "title": "20230129",
+          "src": "https://v5.rstuuv.com/yyv5/202309/04/DL9mZL2xpa1/video/index.m3u8"
+        },
+        {
+          "title": "20230205",
+          "src": "https://v5.rstuuv.com/yyv5/202309/04/N0MKmwXFwW1/video/index.m3u8"
+        },
+        {
+          "title": "20230212",
+          "src": "https://v5.rstuuv.com/yyv5/202309/04/a3nedYWGEV1/video/index.m3u8"
+        },
+        {
+          "title": "20230219",
+          "src": "https://v5.rstuuv.com/yyv5/202309/04/dL7F65u1zw1/video/index.m3u8"
+        },
+        {
+          "title": "20230226",
+          "src": "https://v5.rstuuv.com/yyv5/202309/04/PmrFkZrUGH1/video/index.m3u8"
+        },
+        {
+          "title": "20230305",
+          "src": "https://v5.rstuuv.com/yyv5/202309/04/JX5Mqu5N7w1/video/index.m3u8"
+        },
+        {
+          "title": "20230312",
+          "src": "https://v5.rstuuv.com/yyv5/202309/04/48BD2ZcYWW1/video/index.m3u8"
+        },
+        {
+          "title": "20230319",
+          "src": "https://v5.rstuuv.com/yyv5/202309/04/DE8eedEuFJ1/video/index.m3u8"
+        },
+        {
+          "title": "20230326",
+          "src": "https://v5.rstuuv.com/yyv5/202309/04/NxjPktiAZQ1/video/index.m3u8"
+        },
+        {
+          "title": "20230402",
+          "src": "https://v5.rstuuv.com/yyv5/202309/04/N4JHVZvz9b1/video/index.m3u8"
+        },
+        {
+          "title": "20230409",
+          "src": "https://v5.rstuuv.com/yyv5/202309/04/mcHM75Ugyv1/video/index.m3u8"
+        },
+        {
+          "title": "20230416",
+          "src": "https://v5.rstuuv.com/yyv5/202309/04/kBz5A5g8pW1/video/index.m3u8"
+        },
+        {
+          "title": "20230423",
+          "src": "https://v5.rstuuv.com/yyv5/202309/04/Ec2vbwWzSW1/video/index.m3u8"
+        },
+        {
+          "title": "20230430",
+          "src": "https://v5.rstuuv.com/yyv5/202309/04/CmJvGVUH7N1/video/index.m3u8"
+        },
+        {
+          "title": "20230514",
+          "src": "https://v5.rstuuv.com/yyv5/202309/04/iGAzNYpUNy1/video/index.m3u8"
+        },
+        {
+          "title": "20230521",
+          "src": "https://v5.rstuuv.com/yyv5/202309/04/VvVHfzQux11/video/index.m3u8"
+        },
+        {
+          "title": "20230528",
+          "src": "https://v5.rstuuv.com/yyv5/202309/04/uJfC0rnYDB1/video/index.m3u8"
+        },
+        {
+          "title": "20230604",
+          "src": "https://v5.rstuuv.com/yyv5/202309/04/qdWVFDhSBq1/video/index.m3u8"
+        },
+        {
+          "title": "20230611",
+          "src": "https://v5.rstuuv.com/yyv5/202309/04/DDHgizWd881/video/index.m3u8"
+        },
+        {
+          "title": "20230618",
+          "src": "https://v5.rstuuv.com/yyv5/202309/04/y6B7xFtLPT1/video/index.m3u8"
+        },
+        {
+          "title": "20230625",
+          "src": "https://v5.rstuuv.com/yyv5/202309/04/By32s4FW4V1/video/index.m3u8"
+        },
+        {
+          "title": "20230702",
+          "src": "https://v5.rstuuv.com/yyv5/202309/04/5MtWXqL2HH1/video/index.m3u8"
+        },
+        {
+          "title": "20230709",
+          "src": "https://v5.rstuuv.com/yyv5/202309/04/YbzmgCsYt31/video/index.m3u8"
+        },
+        {
+          "title": "20230723",
+          "src": "https://v5.rstuuv.com/yyv5/202309/04/Hvg3qEDkuj1/video/index.m3u8"
+        },
+        {
+          "title": "20230730",
+          "src": "https://v5.rstuuv.com/yyv5/202309/04/Tcs7mac7Lx1/video/index.m3u8"
+        },
+        {
+          "title": "20230806",
+          "src": "https://v5.rstuuv.com/yyv5/202309/04/RaMXiTHtAs1/video/index.m3u8"
+        },
+        {
+          "title": "20230813",
+          "src": "https://v5.rstuuv.com/yyv5/202309/04/FsNmswSt4h1/video/index.m3u8"
+        },
+        {
+          "title": "20230820",
+          "src": "https://v5.rstuuv.com/yyv5/202309/04/gK3y7Vwf1e1/video/index.m3u8"
+        },
+        {
+          "title": "20230827",
+          "src": "https://v3.rstuuv.com/yyv3/202309/25/KpHtzNCJtV2/video/index.m3u8"
+        },
+        {
+          "title": "20230903",
+          "src": "https://v3.rstuuv.com/yyv3/202309/25/uuVUQsqKEV2/video/index.m3u8"
+        },
+        {
+          "title": "20230910",
+          "src": "https://v3.rstuuv.com/yyv3/202309/25/hJr0uDamhq2/video/index.m3u8"
+        },
+        {
+          "title": "20230917",
+          "src": "https://v3.rstuuv.com/yyv3/202309/25/iw9aLcCDPp2/video/index.m3u8"
+        },
+        {
+          "title": "20230924",
+          "src": "https://v3.rstuuv.com/yyv3/202309/25/MpzjVtyLyx2/video/index.m3u8"
+        },
+        {
+          "title": "20231008",
+          "src": "https://v3.rstuuv.com/yyv3/202310/09/vQfs9EYqb42/video/index.m3u8"
+        },
+        {
+          "title": "20231015",
+          "src": "https://v3.rstuuv.com/yyv3/202310/16/c90NiGH3U32/video/index.m3u8"
+        },
+        {
+          "title": "20231022",
+          "src": "https://v3.rstuuv.com/yyv3/202310/23/qKiCEDVrBc2/video/index.m3u8"
+        },
+        {
+          "title": "20231029",
+          "src": "https://v3.rstuuv.com/yyv3/202310/30/zAaw7WV1tV2/video/index.m3u8"
+        },
+        {
+          "title": "20231105",
+          "src": "https://v3.rstuuv.com/yyv3/202311/06/WDbp8zk7kW2/video/index.m3u8"
+        },
+        {
+          "title": "20231112",
+          "src": "https://v3.rstuuv.com/yyv3/202311/13/G7Tng5R2BA2/video/index.m3u8"
+        },
+        {
+          "title": "20231119",
+          "src": "https://v3.rstuuv.com/yyv3/202311/20/LW4Kj05JQg2/video/index.m3u8"
+        },
+        {
+          "title": "20231126",
+          "src": "https://v3.rstuuv.com/yyv3/202311/27/gS9FAWMqQ82/video/index.m3u8"
+        },
+        {
+          "title": "20231203",
+          "src": "https://v3.rstuuv.com/yyv3/202312/04/DscHvFKv232/video/index.m3u8"
+        },
+        {
+          "title": "20231210",
+          "src": "https://v3.rstuuv.com/yyv3/202312/12/nMz7EW7cp62/video/index.m3u8"
+        },
+        {
+          "title": "20231217",
+          "src": "https://v3.rstuuv.com/yyv3/202312/18/YjhpPJ0Pqx2/video/index.m3u8"
+        },
+        {
+          "title": "20231224",
+          "src": "https://v3.rstuuv.com/yyv3/202312/27/txdtd9JYn02/video/index.m3u8"
+        },
+        {
+          "title": "20231231",
+          "src": "https://v3.rstuuv.com/yyv3/202401/01/VMTUT5qrfK2/video/index.m3u8"
+        },
+        {
+          "title": "20240107",
+          "src": "https://v3.rstuuv.com/yyv3/202401/08/YGTs6W5WVL2/video/index.m3u8"
+        },
+        {
+          "title": "20240114",
+          "src": "https://v3.rstuuv.com/yyv3/202401/15/yNhGQSSXd62/video/index.m3u8"
+        },
+        {
+          "title": "20240121",
+          "src": "https://v3.rstuuv.com/yyv3/202401/22/5iv4KDb27D2/video/index.m3u8"
+        },
+        {
+          "title": "20240128",
+          "src": "https://v3.rstuuv.com/yyv3/202401/29/Zqrdxm7rj02/video/index.m3u8"
+        },
+        {
+          "title": "20240204",
+          "src": "https://v3.rstuuv.com/yyv3/202402/05/pRB7fyZkKa2/video/index.m3u8"
+        },
+        {
+          "title": "20240211",
+          "src": "https://v3.rstuuv.com/yyv3/202402/12/FTUMtXEBxe2/video/index.m3u8"
+        },
+        {
+          "title": "20240218",
+          "src": "https://v2.rstuuv.com/yyv2/202402/19/eG6wZ6Rxz32/video/index.m3u8"
+        },
+        {
+          "title": "20240225",
+          "src": "https://v2.rstuuv.com/yyv2/202402/26/x17FiUKvVD2/video/index.m3u8"
+        },
+        {
+          "title": "20240303",
+          "src": "https://v2.rstuuv.com/yyv2/202403/04/wM48aZyQvx2/video/index.m3u8"
+        },
+        {
+          "title": "20240310",
+          "src": "https://v11.rstuuv.com/yyv11/202403/11/18ir3QwxCJ3/video/index.m3u8"
+        },
+        {
+          "title": "20240317",
+          "src": "https://v11.rstuuv.com/yyv11/202403/18/t2hhd9Q9c03/video/index.m3u8"
+        },
+        {
+          "title": "20240324",
+          "src": "https://v11.rstuuv.com/yyv11/202403/25/C9yPdiGd9V3/video/index.m3u8"
+        },
+        {
+          "title": "20240331",
+          "src": "https://v11.rstuuv.com/yyv11/202404/01/Af2q7mbPwk3/video/index.m3u8"
+        },
+        {
+          "title": "20240407",
+          "src": "https://v10.rstuuv.com/yyv10/202404/08/WrPFrN31bs15/video/index.m3u8"
+        },
+        {
+          "title": "20240414",
+          "src": "https://v10.rstuuv.com/yyv10/202404/15/PB2uMPRHN315/video/index.m3u8"
+        },
+        {
+          "title": "20240421",
+          "src": "https://v12.rstuuv.com/yyv12/202404/22/mzAdDiBTPa8/video/index.m3u8"
+        },
+        {
+          "title": "20240428",
+          "src": "https://v10.rstuuv.com/yyv10/202404/29/WKGMqFLJS515/video/index.m3u8"
+        },
+        {
+          "title": "20240505",
+          "src": "https://v10.rstuuv.com/yyv10/202405/06/B4YYLsHCSV15/video/index.m3u8"
+        },
+        {
+          "title": "20240512",
+          "src": "https://v9.rstuuv.com/yyv9/202405/13/PTfhDy2fXV18/video/index.m3u8"
+        },
+        {
+          "title": "20240519",
+          "src": "https://v7.rstuuv.com/yyv7/202405/20/dwGmGVhBDB13/video/index.m3u8"
+        },
+        {
+          "title": "20240526",
+          "src": "https://v3.rstuuv.com/yyv3/202405/27/36EddK3RA92/video/index.m3u8"
+        },
+        {
+          "title": "20240602",
+          "src": "https://v8.rstuuv.com/yyv8/202406/03/uSt2hpMuDM14/video/index.m3u8"
+        },
+        {
+          "title": "20240609",
+          "src": "https://v9.rstuuv.com/yyv9/202406/10/RffGcEKkfg18/video/index.m3u8"
+        },
+        {
+          "title": "20240616",
+          "src": "https://v1.rstuuv.com/yyv1/202406/17/r2cvrTeEVs1/video/index.m3u8"
+        },
+        {
+          "title": "20240623",
+          "src": "https://v8.rstuuv.com/yyv8/202406/24/2nNyGZCAxm14/video/index.m3u8"
+        },
+        {
+          "title": "20240630",
+          "src": "https://v11.rstuuv.com/yyv11/202407/01/cn7NALNihE3/video/index.m3u8"
+        },
+        {
+          "title": "20240707",
+          "src": "https://v11.rstuuv.com/yyv11/202407/08/E5Pq27kSgC3/video/index.m3u8"
+        },
+        {
+          "title": "20240714",
+          "src": "https://v10.rstuuv.com/yyv10/202407/15/Lrx16qgDqg15/video/index.m3u8"
+        },
+        {
+          "title": "20240721",
+          "src": "https://v5.rstuuv.com/yyv5/202407/22/12aKVRdkFh7/video/index.m3u8"
+        },
+        {
+          "title": "20240818",
+          "src": "https://v12.rstuuv.com/yyv12/202408/19/f4f0ECyGyf8/video/index.m3u8"
+        },
+        {
+          "title": "20240825",
+          "src": "https://v10.rstuuv.com/yyv10/202408/26/PjpAfdcqiX15/video/index.m3u8"
+        },
+        {
+          "title": "20240901",
+          "src": "https://v12.rstuuv.com/yyv12/202409/02/jg65fKz70g8/video/index.m3u8"
+        },
+        {
+          "title": "20240915",
+          "src": "https://v10.rstuuv.com/yyv10/202409/16/AV8WDM6XQk15/video/index.m3u8"
+        },
+        {
+          "title": "20240922",
+          "src": "https://v8.rstuuv.com/yyv8/202409/23/3WGZ5PnNdY14/video/index.m3u8"
+        },
+        {
+          "title": "20240929",
+          "src": "https://v8.rstuuv.com/yyv8/202409/30/W6c7GvTQPZ14/video/index.m3u8"
+        },
+        {
+          "title": "20241006",
+          "src": "https://v12.rstuuv.com/yyv12/202410/07/EM8D9GNGVS8/video/index.m3u8"
+        },
+        {
+          "title": "20241013",
+          "src": "https://v3.rstuuv.com/yyv3/202410/14/gsL6x6pSeW2/video/index.m3u8"
+        },
+        {
+          "title": "20241020",
+          "src": "https://v6.rstuuv.com/yyv6/202410/21/G5w2bDAUvR20/video/index.m3u8"
+        },
+        {
+          "title": "20241027",
+          "src": "https://v2.rstuuv.com/yyv2/202410/28/3Grgxvw8CD21/video/index.m3u8"
+        },
+        {
+          "title": "20241103",
+          "src": "https://v2.rstuuv.com/yyv2/202411/04/rYx95a0ZiM20/video/index.m3u8"
+        },
+        {
+          "title": "20241117",
+          "src": "https://v3.rstuuv.com/yyv3/202411/18/qeDRKmeFCx20/video/index.m3u8"
+        },
+        {
+          "title": "20241124",
+          "src": "https://v6.rstuuv.com/yyv6/202411/25/uN8qfBi3m522/video/index.m3u8"
+        },
+        {
+          "title": "20241201",
+          "src": "https://v2.rstuuv.com/yyv2/202412/02/ztfFg8ddWZ19/video/index.m3u8"
+        },
+        {
+          "title": "20241208",
+          "src": "https://v2.rstuuv.com/yyv2/202412/09/t9LtarcXYC21/video/index.m3u8"
+        },
+        {
+          "title": "20241215",
+          "src": "https://v5.rstuuv.com/yyv5/202412/16/2a78akUTfq20/video/index.m3u8"
+        },
+        {
+          "title": "20241222",
+          "src": "https://v2.rstuuv.com/yyv2/202412/23/bdZ0Gyp7c621/video/index.m3u8"
+        },
+        {
+          "title": "20250105",
+          "src": "https://v5.rstuuv.com/yyv5/202501/06/mu7myrajG024/video/index.m3u8"
+        },
+        {
+          "title": "20250119",
+          "src": "https://v5.rstuuv.com/yyv5/202501/20/5rVSAjZKC523/video/index.m3u8"
+        },
+        {
+          "title": "20250126",
+          "src": "https://v2.rstuuv.com/yyv2/202501/27/kYceak71HQ23/video/index.m3u8"
+        },
+        {
+          "title": "20250202",
+          "src": "https://v3.rstuuv.com/yyv3/202502/03/fg4BDEixL821/video/index.m3u8"
+        },
+        {
+          "title": "20250209",
+          "src": "https://v5.rstuuv.com/yyv5/202502/10/8xmkFYQBT519/video/index.m3u8"
+        },
+        {
+          "title": "20250216",
+          "src": "https://v3.rstuuv.com/yyv3/202502/17/kvX6fJAKWh24/video/index.m3u8"
+        },
+        {
+          "title": "20250223",
+          "src": "https://v2.rstuuv.com/yyv2/202502/24/KaXZwXLDU220/video/index.m3u8"
+        },
+        {
+          "title": "20250302",
+          "src": "https://v6.rstuuv.com/yyv6/202503/03/KPRNN8TLFQ20/video/index.m3u8"
+        },
+        {
+          "title": "20250309",
+          "src": "https://v6.rstuuv.com/yyv6/202503/10/vquRW1EQpe24/video/index.m3u8"
+        },
+        {
+          "title": "20250316",
+          "src": "https://v5.rstuuv.com/yyv5/202503/17/3JsxYQrRGQ23/video/index.m3u8"
+        },
+        {
+          "title": "20250323",
+          "src": "https://v5.rstuuv.com/yyv5/202503/24/BUerSd34y621/video/index.m3u8"
+        },
+        {
+          "title": "20250330",
+          "src": "https://v4.rstuuv.com/yyv4/202503/31/4hKR2TmwQ022/video/index.m3u8"
+        },
+        {
+          "title": "20250406",
+          "src": "https://v5.rstuuv.com/yyv5/202504/07/xdbngXQPZk23/video/index.m3u8"
+        },
+        {
+          "title": "20250413",
+          "src": "https://v4.rstuuv.com/yyv4/202504/14/gKamr2AQZp22/video/index.m3u8"
+        },
+        {
+          "title": "20250427",
+          "src": "https://v4.rstuuv.com/yyv4/202504/28/3dcQ8cP2eK21/video/index.m3u8"
+        },
+        {
+          "title": "20250511",
+          "src": "https://v5.rstuuv.com/yyv5/202505/12/URkRBbE6id20/video/index.m3u8"
+        },
+        {
+          "title": "20250518",
+          "src": "https://v4.rstuuv.com/yyv4/202505/19/5ntCGv80GC20/video/index.m3u8"
+        },
+        {
+          "title": "20250525",
+          "src": "https://v4.rstuuv.com/yyv4/202505/26/7zLfqXLB3223/video/index.m3u8"
+        },
+        {
+          "title": "20250601",
+          "src": "https://v13.rstuuv.com/yyv13/202506/02/ex0VFm8M9721/video/index.m3u8"
+        },
+        {
+          "title": "20250608",
+          "src": "https://v14.rstuuv.com/yyv14/202506/09/4SYsP12hf319/video/index.m3u8"
+        },
+        {
+          "title": "20250615",
+          "src": "https://v14.rstuuv.com/yyv14/202506/16/vgLjJaCY7i19/video/index.m3u8"
+        },
+        {
+          "title": "20250622",
+          "src": "https://v13.rstuuv.com/yyv13/202506/23/whJLQRYkEp21/video/index.m3u8"
+        },
+        {
+          "title": "20250629",
+          "src": "https://v14.rstuuv.com/yyv14/202506/30/CmqSHWNe6D23/video/index.m3u8"
+        },
+        {
+          "title": "20250706",
+          "src": "https://v13.rstuuv.com/yyv13/202507/07/xPJRCN17hS21/video/index.m3u8"
+        },
+        {
+          "title": "20250713",
+          "src": "https://v14.rstuuv.com/yyv14/202507/14/hGMc3m6kkT22/video/index.m3u8"
+        },
+        {
+          "title": "20250720",
+          "src": "https://v13.rstuuv.com/yyv13/202507/21/ECZjLEzzgP23/video/index.m3u8"
+        },
+        {
+          "title": "20250727",
+          "src": "https://v13.rstuuv.com/yyv13/202507/28/SiVPdkQ9pS20/video/index.m3u8"
+        },
+        {
+          "title": "20250803",
+          "src": "https://v14.rstuuv.com/yyv14/202508/04/9t2bCGLwAQ20/video/index.m3u8"
+        },
+        {
+          "title": "20250810",
+          "src": "https://v14.rstuuv.com/yyv14/202508/11/tYkuH0g2YB19/video/index.m3u8"
+        },
+        {
+          "title": "20250817",
+          "src": "https://v13.rstuuv.com/yyv13/202508/18/BXFVVZQc0F22/video/index.m3u8"
+        },
+        {
+          "title": "20250824",
+          "src": "https://v14.rstuuv.com/yyv14/202508/25/TsS8eFGthb19/video/index.m3u8"
+        },
+        {
+          "title": "20250831",
+          "src": "https://v14.rstuuv.com/yyv14/202509/01/eZeCPFSp3t19/video/index.m3u8"
+        },
+        {
+          "title": "20250907",
+          "src": "https://v14.rstuuv.com/yyv14/202509/08/juWH8q6FM321/video/index.m3u8"
+        },
+        {
+          "title": "20250914",
+          "src": "https://v14.rstuuv.com/yyv14/202509/15/5qvpXfdVxq19/video/index.m3u8"
+        },
+        {
+          "title": "20250921",
+          "src": "https://v14.rstuuv.com/yyv14/202509/22/8bcxT8FFR723/video/index.m3u8"
+        },
+        {
+          "title": "20250928",
+          "src": "https://v13.rstuuv.com/yyv13/202509/29/2y6GKUWNZ420/video/index.m3u8"
+        },
+        {
+          "title": "20251005",
+          "src": "https://v13.rstuuv.com/yyv13/202510/06/T6hyUBgMNK24/video/index.m3u8"
+        },
+        {
+          "title": "20251012",
+          "src": "https://v14.rstuuv.com/yyv14/202510/13/p6UwnCbk7k22/video/index.m3u8"
+        },
+        {
+          "title": "20251019",
+          "src": "https://v13.rstuuv.com/yyv13/202510/20/iENZUdNneE20/video/index.m3u8"
+        },
+        {
+          "title": "20251026",
+          "src": "https://v14.rstuuv.com/yyv14/202510/27/g5cN18f2WR24/video/index.m3u8"
+        },
+        {
+          "title": "20251102",
+          "src": "https://v13.rstuuv.com/yyv13/202511/03/UtgykkZJTA23/video/index.m3u8"
+        },
+        {
+          "title": "20251109",
+          "src": "https://v14.rstuuv.com/yyv14/202511/10/t9qi0WME3424/video/index.m3u8"
+        },
+        {
+          "title": "20251116",
+          "src": "https://v13.rstuuv.com/yyv13/202511/17/BJMDP0vtyN22/video/index.m3u8"
+        },
+        {
+          "title": "20251123",
+          "src": "https://v13.rstuuv.com/yyv13/202511/24/UYdv8rYd5p20/video/index.m3u8"
+        },
+        {
+          "title": "20251130",
+          "src": "https://v14.rstuuv.com/yyv14/202512/01/TY8snSdmZp22/video/index.m3u8"
+        },
+        {
+          "title": "20251207",
+          "src": "https://v14.rstuuv.com/yyv14/202512/08/qh5HUYAwBy22/video/index.m3u8"
+        },
+        {
+          "title": "20251214",
+          "src": "https://v14.rstuuv.com/yyv14/202512/15/JNGVfFNa4127/video/index.m3u8"
+        },
+        {
+          "title": "20251221",
+          "src": "https://v14.rstuuv.com/yyv14/202512/22/JhBErKBmnV22/video/index.m3u8"
+        },
+        {
+          "title": "20251228",
+          "src": "https://v14.rstuuv.com/yyv14/202512/29/qCKZku0PNu27/video/index.m3u8"
+        },
+        {
+          "title": "20260104",
+          "src": "https://v14.rstuuv.com/yyv14/202601/05/dUuJ9S7F7527/video/index.m3u8"
+        },
+        {
+          "title": "20260111",
+          "src": "https://v13.rstuuv.com/yyv13/202601/12/SNR7LvMHJ722/video/index.m3u8"
+        },
+        {
+          "title": "20260125",
+          "src": "https://v14.rstuuv.com/yyv14/202601/26/qEK4SgdTPU22/video/index.m3u8"
+        },
+        {
+          "title": "20260201",
+          "src": "https://v13.rstuuv.com/yyv13/202602/02/JqjcXm3xDY27/video/index.m3u8"
+        },
+        {
+          "title": "20260208",
+          "src": "https://v14.rstuuv.com/yyv14/202602/09/k3QVMHes6J27/video/index.m3u8"
+        },
+        {
+          "title": "20260222",
+          "src": "https://v13.rstuuv.com/yyv13/202602/23/eDNz74aFsw27/video/index.m3u8"
+        },
+        {
+          "title": "20260302",
+          "src": "https://v14.rstuuv.com/yyv14/202603/02/DypvLLCdqE27/video/index.m3u8"
+        },
+        {
+          "title": "20260308",
+          "src": "https://v13.rstuuv.com/yyv13/202603/16/hRG83r0mRg19/video/index.m3u8"
+        },
+        {
+          "title": "20260315",
+          "src": "https://v14.rstuuv.com/yyv14/202603/16/DPycb771CY24/video/index.m3u8"
+        },
+        {
+          "title": "20260322",
+          "src": "https://v13.rstuuv.com/yyv13/202603/23/c9aiFgn3QW27/video/index.m3u8"
+        },
+        {
+          "title": "20260329",
+          "src": "https://v13.rstuuv.com/yyv13/202603/30/fxSF3MhW4A27/video/index.m3u8"
+        },
+        {
+          "title": "20260405",
+          "src": "https://v14.rstuuv.com/yyv14/202604/06/rAY6CKQMWn27/video/index.m3u8"
+        },
+        {
+          "title": "20260412",
+          "src": "https://v6.rstuuv.com/yyv6/202604/13/GdmUDahc0p19/video/index.m3u8"
+        },
+        {
+          "title": "20260419",
+          "src": "https://v14.rstuuv.com/yyv14/202604/20/EZfXhHhNh527/video/index.m3u8"
+        },
+        {
+          "title": "20260426",
+          "src": "https://v3.rstuuv.com/yyv3/202604/27/kZ1g9RvCs527/video/index.m3u8"
+        },
+        {
+          "title": "20260503",
+          "src": "https://v13.rstuuv.com/yyv13/202605/04/pV2C3PzuXV24/video/index.m3u8"
+        },
+        {
+          "title": "20260518",
+          "src": "https://v13.rstuuv.com/yyv13/202605/18/tzSWmp7jgM24/video/index.m3u8"
+        },
+        {
+          "title": "20260601",
+          "src": "https://v14.rstuuv.com/yyv14/202606/01/1WK4PsNdf127/video/index.m3u8"
+        },
+        {
+          "title": "20260608",
+          "src": "https://v13.rstuuv.com/yyv13/202606/08/cHPUXm6qFK27/video/index.m3u8"
+        },
+        {
+          "title": "20260615",
+          "src": "https://v13.rstuuv.com/yyv13/202606/15/sWCg1cVSXT27/video/index.m3u8"
+        },
+        {
+          "title": "20260623",
+          "src": "https://v2.rstuuv.com/yyv2/202606/24/2nnNQx1M6k27/video/index.m3u8"
+        },
+        {
+          "title": "20260706",
+          "src": "https://v3.rstuuv.com/yyv3/202607/06/8s30NCgfHB27/video/index.m3u8"
+        },
+        {
+          "title": "20260720",
+          "src": "https://v14.rstuuv.com/yyv14/202607/20/HjyFERr59w27/video/index.m3u8"
+        },
+        {
+          "title": "20260727",
+          "src": "https://v13.rstuuv.com/yyv13/202608/03/rh08920ygV27/video/index.m3u8"
+        },
+        {
+          "title": "20260803",
+          "src": "https://v14.rstuuv.com/yyv14/202608/03/h9LDXA0LTR27/video/index.m3u8"
+        },
+        {
+          "title": "20260810",
+          "src": "https://v14.rstuuv.com/yyv14/202608/10/UnyiWZvrMG27/video/index.m3u8"
+        },
+        {
+          "title": "20260817",
+          "src": "https://v14.rstuuv.com/yyv14/202608/17/eyF9Cv7BRN27/video/index.m3u8"
+        },
+        {
+          "title": "20260831",
+          "src": "https://v13.rstuuv.com/yyv13/202608/31/cmtTU08MnZ27/video/index.m3u8"
+        },
+        {
+          "title": "20260907",
+          "src": "https://v14.rstuuv.com/yyv14/202609/07/VtfiUJLN9x27/video/index.m3u8"
+        }
+      ]
     }
   ],
-  "poster": "https://www.imgzy360.com:7788/upload/vod/20250626-1/42481c8364bb4f8158cd4bfe2e8e6ddd.jpg",
+  "poster": "https://pic.yayazy.info/upload/vod/20260907-1/1e572ea78999a340c6bad0b9c90fb262.jpg",
   "posterColor": "#c3a050",
-  "uptime": "2026-09-14 13:15:02",
+  "uptime": "2026-09-07 18:53:00",
   "opyear": "2019"
 }

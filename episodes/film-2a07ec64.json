@@ -1,0 +1,35 @@
+{
+  "title": "四渡 (2026)",
+  "type": "电影",
+  "sources": [
+    {
+      "name": "牛牛资源",
+      "episodes": [
+        {
+          "title": "TC",
+          "src": "https://v13.gghijk.com/yyv13/202608/02/m00EpmGEVp27/video/index.m3u8"
+        },
+        {
+          "title": "HD",
+          "src": "https://v14.gghijk.com/yyv14/202609/09/eciH4pSgth27/video/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "鸭鸭资源站",
+      "episodes": [
+        {
+          "title": "TC",
+          "src": "https://v13.rstuuv.com/yyv13/202608/02/m00EpmGEVp27/video/index.m3u8"
+        },
+        {
+          "title": "HD",
+          "src": "https://v14.rstuuv.com/yyv14/202609/09/eciH4pSgth27/video/index.m3u8"
+        }
+      ]
+    }
+  ],
+  "poster": "https://pic.yayazy.info/upload/vod/20260909-1/6a58c142edf71320e0a5d5d1de08386a.jpg",
+  "uptime": "2026-09-09 14:09:02",
+  "opyear": "2026"
+}

@@ -18,10 +18,44 @@
           "src": "https://vod1.maowushi.com/20260909/rxJPLSpc/index.m3u8"
         }
       ]
+    },
+    {
+      "name": "牛牛资源",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v14.gghijk.com/yyv14/202609/03/q9NwNn1PhA27/video/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://v13.gghijk.com/yyv13/202609/03/8UY6jZeQS527/video/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://v14.gghijk.com/yyv14/202609/09/jmyJ4es2MH27/video/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "鸭鸭资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v14.rstuuv.com/yyv14/202609/03/q9NwNn1PhA27/video/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://v13.rstuuv.com/yyv13/202609/03/8UY6jZeQS527/video/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://v14.rstuuv.com/yyv14/202609/09/jmyJ4es2MH27/video/index.m3u8"
+        }
+      ]
     }
   ],
-  "poster": "https://www.imgzy360.com:7788/upload/vod/20260909-1/7c5ed536ee3661e709084331da15f406.webp",
+  "poster": "https://pic.yayazy.info/upload/vod/20260909-1/407bdf58b680aafa2ca5ea9f6f47f9be.jpg",
   "posterColor": "#35687e",
-  "uptime": "2026-09-09 23:20:02",
+  "uptime": "2026-09-09 11:56:48",
   "opyear": "2026"
 }

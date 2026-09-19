@@ -10,10 +10,28 @@
           "src": "https://vod1.maowushi.com/20260909/CDoVObv8/index.m3u8"
         }
       ]
+    },
+    {
+      "name": "牛牛资源",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v13.gghijk.com/yyv13/202609/09/YPvWT8JikG27/video/index.m3u8"
+        }
+      ]
+    },
+    {
+      "name": "鸭鸭资源站",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v13.rstuuv.com/yyv13/202609/09/YPvWT8JikG27/video/index.m3u8"
+        }
+      ]
     }
   ],
-  "poster": "https://www.imgzy360.com:7788/upload/vod/20260909-1/b99faadafc3ed63152c7a19c8e14a785.webp",
+  "poster": "https://pic.yayazy.info/upload/vod/20260909-1/20e226f413101e41c34291790efc2b16.jpg",
   "posterColor": "#8f543f",
-  "uptime": "2026-09-09 20:15:02",
+  "uptime": "2026-09-09 12:29:59",
   "opyear": "2026"
 }

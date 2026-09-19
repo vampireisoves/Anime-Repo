@@ -10,10 +10,19 @@
           "src": "https://vod1.maowushi.com/20260909/IuYoy037/index.m3u8"
         }
       ]
+    },
+    {
+      "name": "牛牛资源",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v13.gghijk.com/yyv13/202609/10/S79pD4e7aE27/video/index.m3u8"
+        }
+      ]
     }
   ],
-  "poster": "https://www.imgzy360.com:7788/upload/vod/20260909-1/1cdcc8e0fdeed3fbd3a10e612b13c816.webp",
+  "poster": "https://pic.niuniuzy.info/upload/vod/20260910-1/280fbb61a18be98d125dcdbdd170d519.jpg",
   "posterColor": "#567298",
-  "uptime": "2026-09-10 00:20:02",
+  "uptime": "2026-09-10 13:03:31",
   "opyear": "2026"
 }

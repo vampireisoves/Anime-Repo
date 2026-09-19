@@ -38,10 +38,47 @@
           "src": "https://v.gsuus.com/play/bDk0R2Ba/index.m3u8"
         }
       ]
+    },
+    {
+      "name": "牛牛资源",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://v15.gghijk.com/yyv15/202609/10/qBcnVus6kf27/video/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://v14.gghijk.com/yyv14/202609/10/yMpWprwQzG27/video/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://v14.gghijk.com/yyv14/202609/10/psBNJs2jZ027/video/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://v13.gghijk.com/yyv13/202609/10/XD3ad9zkd327/video/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://v13.gghijk.com/yyv13/202609/10/zk5GmLA4CL27/video/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://v13.gghijk.com/yyv13/202609/10/vGs236EXK227/video/index.m3u8"
+        },
+        {
+          "title": "第07集",
+          "src": "https://v15.gghijk.com/yyv15/202609/10/ndi7Pb5bCu27/video/index.m3u8"
+        },
+        {
+          "title": "第08集",
+          "src": "https://v14.gghijk.com/yyv14/202609/10/zZGrhevxr827/video/index.m3u8"
+        }
+      ]
     }
   ],
-  "poster": "https://img.guangsuimage.com/cover/76218e5302bb5271412880b8e32ac3d7.jpg",
+  "poster": "https://pic.niuniuzy.info/upload/vod/20260910-1/6ca2c8dcd25c16e9921d4811521ea652.jpg",
   "posterColor": "#cf9b25",
-  "uptime": "2026-09-12 16:14:02",
+  "uptime": "2026-09-10 21:27:09",
   "opyear": "2026"
 }
