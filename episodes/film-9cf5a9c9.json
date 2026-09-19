@@ -10,10 +10,19 @@
           "src": "https://vod1.maowushi.com/20260911/hyp24U2h/index.m3u8"
         }
       ]
+    },
+    {
+      "name": "猫眼资源",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://play.maoyanplay.top/20260912/AUkuyikP/index.m3u8"
+        }
+      ]
     }
   ],
-  "poster": "https://www.imgzy360.com:7788/upload/vod/20260911-1/d268a5ca641879c3b490421a8a8801ba.webp",
+  "poster": "http://www.maoyanimg.top/upload/vod/20260913-1/182c20ff7c44061ebcf56c3358eaf906.jpg",
   "posterColor": "#87502c",
-  "uptime": "2026-09-11 13:25:02",
+  "uptime": "2026-09-13 21:51:50",
   "opyear": "2026"
 }

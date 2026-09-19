@@ -160,10 +160,63 @@
           "src": "https://v15.rstuuv.com/yyv15/202609/08/6MdX8jiqks27/video/index.m3u8"
         }
       ]
+    },
+    {
+      "name": "猫眼资源",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://play.maoyanplay.top/20260804/goa6g1ew/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://play.maoyanplay.top/20260805/YksQgZNL/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://play.maoyanplay.top/20260811/0qEnjB2D/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://play.maoyanplay.top/20260812/7UatnzVy/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://play.maoyanplay.top/20260818/ubWIgV8c/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://play.maoyanplay.top/20260820/kIzNTusY/index.m3u8"
+        },
+        {
+          "title": "第07集",
+          "src": "https://play.maoyanplay.top/20260826/JUDjtrko/index.m3u8"
+        },
+        {
+          "title": "第08集",
+          "src": "https://play.maoyanplay.top/20260826/UfrerPeG/index.m3u8"
+        },
+        {
+          "title": "第09集",
+          "src": "https://play.maoyanplay.top/20260905/5JJmMjhJ/index.m3u8"
+        },
+        {
+          "title": "第10集",
+          "src": "https://play.maoyanplay.top/20260905/MYBaKUSF/index.m3u8"
+        },
+        {
+          "title": "第11集",
+          "src": "https://play.maoyanplay.top/20260908/37LSj2Re/index.m3u8"
+        },
+        {
+          "title": "第12集",
+          "src": "https://play.maoyanplay.top/20260909/9uibKb0U/index.m3u8"
+        }
+      ]
     }
   ],
-  "poster": "https://pic.yayazy.info/upload/vod/20260909-1/fff8cc201da8ebfdd5dc2910eb305792.jpg",
+  "poster": "http://www.maoyanimg.top/upload/vod/20260804-1/3cb70b78d8fc367ef5eac3f7281aabba.jpg",
   "posterColor": "#aa8377",
-  "uptime": "2026-09-09 00:07:36",
+  "uptime": "2026-09-12 14:46:31",
   "opyear": "2026"
 }

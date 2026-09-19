@@ -37063,6 +37063,14 @@
     "opyear": "2026"
   },
   {
+    "title": "Let''''sGo怪奇组 (2026)",
+    "type": "动漫",
+    "jsonFile": "episodes/film-f6177c7a.json",
+    "poster": "http://www.maoyanimg.top/upload/vod/20260810-1/744907553a08ecc0ee75e178496dad9e.webp",
+    "uptime": "2026-09-14 10:57:03",
+    "opyear": "2026"
+  },
+  {
     "title": "镇龙棺-阎王命3D版    Ai漫剧 (2026)",
     "type": "未分类",
     "jsonFile": "episodes/film-09bdee03.json",
@@ -39684,6 +39692,30 @@
     "opyear": "2026"
   },
   {
+    "title": "你的天空晴转恋 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/film-4eacf672.json",
+    "poster": "http://www.maoyanimg.top/upload/vod/20260802-1/931269f6dc4f3f75615a655e64d3fb91.jpg",
+    "uptime": "2026-09-13 21:38:13",
+    "opyear": "2026"
+  },
+  {
+    "title": "特别行动：母狮第三季 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/film-9b7911a5.json",
+    "poster": "http://www.maoyanimg.top/upload/vod/20260803-1/719c13e4d8e3f8b005aaa215d099ce71.jpg",
+    "uptime": "2026-09-13 21:36:16",
+    "opyear": "2026"
+  },
+  {
+    "title": "寒衣入心 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/film-64e9dfe1.json",
+    "poster": "http://www.maoyanimg.top/upload/vod/20260818-1/404d5d60ab6293089e6ca59089fadc05.jpg",
+    "uptime": "2026-09-13 21:28:45",
+    "opyear": "2026"
+  },
+  {
     "title": "丰臣兄弟！ (2026)",
     "type": "剧集",
     "jsonFile": "episodes/film-72db1482.json",
@@ -39900,7 +39932,8 @@
     "jsonFile": "episodes/film-e90d43f2.json",
     "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2933319685.webp",
     "uptime": "2026-09-13 19:55:02",
-    "opyear": "2026"
+    "opyear": "2026",
+    "posterColor": "#a52c0d"
   },
   {
     "title": "伽倪墨得斯 (2026)",
@@ -40291,6 +40324,122 @@
     "poster": "https://jipinvipimage.com/m2/20260913/74bMZa1C/1.jpg",
     "uptime": "2026-09-13 19:09:17",
     "opyear": "2026"
+  },
+  {
+    "title": "假面骑士ZZZ (2025)",
+    "type": "动漫",
+    "jsonFile": "episodes/film-10e48770.json",
+    "poster": "http://www.maoyanimg.top/upload/vod/20250907-1/8fdf5a59a7d42e5784af908849c3065c.jpg",
+    "posterColor": "#b63a51",
+    "uptime": "2026-09-13 19:08:28",
+    "opyear": "2025"
+  },
+  {
+    "title": "假面骑士ZZZ（中配） (2025)",
+    "type": "动漫",
+    "jsonFile": "episodes/film-12f694da.json",
+    "poster": "http://www.maoyanimg.top/upload/vod/20250907-1/a7bc832628493f43c02924833257a5af.jpg",
+    "uptime": "2026-09-13 19:08:27",
+    "opyear": "2025"
+  },
+  {
+    "title": "闲着干嘛呢 (2026)",
+    "type": "综艺",
+    "jsonFile": "episodes/film-dae65f27.json",
+    "poster": "http://www.maoyanimg.top/upload/vod/20251006-1/b8e0dcb62c74506ee00a98103cd96c43.jpg",
+    "uptime": "2026-09-13 19:08:14",
+    "opyear": "2026"
+  },
+  {
+    "title": "我家娘子竟然是女帝 (2025)",
+    "type": "动漫",
+    "jsonFile": "episodes/film-e80aa3d2.json",
+    "poster": "http://www.maoyanimg.top/upload/vod/20251228-1/4d89ef1ebb03f00a5197c63fc0f502c0.jpg",
+    "uptime": "2026-09-13 19:08:14",
+    "opyear": "2025"
+  },
+  {
+    "title": "只有我能用召唤术 (2025)",
+    "type": "动漫",
+    "jsonFile": "episodes/film-55371a6d.json",
+    "poster": "http://www.maoyanimg.top/upload/vod/20251217-1/3eed7c887ea18abe3236e998c1583df0.jpg",
+    "uptime": "2026-09-13 19:08:06",
+    "opyear": "2025"
+  },
+  {
+    "title": "绝世武神第8季 (2020)",
+    "type": "动漫",
+    "jsonFile": "episodes/film-63c388fc.json",
+    "poster": "http://www.maoyanimg.top/upload/vod/20251019-1/657dee9f61c2d718797157f58352d306.jpg",
+    "uptime": "2026-09-13 19:08:06",
+    "opyear": "2020"
+  },
+  {
+    "title": "老蛇修仙传 (2026)",
+    "type": "动漫",
+    "jsonFile": "episodes/film-c3e0dd08.json",
+    "poster": "http://www.maoyanimg.top/upload/vod/20260322-1/9248fbe7ec903569b365cbce94b35c3e.jpg",
+    "uptime": "2026-09-13 19:08:06",
+    "opyear": "2026"
+  },
+  {
+    "title": "全球惊悚：我开启外挂自选商城 (2025)",
+    "type": "动漫",
+    "jsonFile": "episodes/film-e4bdddc0.json",
+    "poster": "http://www.maoyanimg.top/upload/vod/20251228-1/663812f8e1471d5d0b6e4db0da7ccce1.jpg",
+    "uptime": "2026-09-13 19:08:06",
+    "opyear": "2025"
+  },
+  {
+    "title": "入间同学入魔了第四季 (2025)",
+    "type": "动漫",
+    "jsonFile": "episodes/film-00a91484.json",
+    "poster": "http://www.maoyanimg.top/upload/vod/20260406-1/da9ed3ecd008906fb554379cf047afbc.webp",
+    "posterColor": "#ac634f",
+    "uptime": "2026-09-13 19:07:57",
+    "opyear": "2025"
+  },
+  {
+    "title": "怪兽8号，鸣海的日常 (2026)",
+    "type": "动漫",
+    "jsonFile": "episodes/film-0c81d8b3.json",
+    "poster": "http://www.maoyanimg.top/upload/vod/20260906-1/de3347fef342a9707cb65f5c2a30996e.webp",
+    "posterColor": "#04af9f",
+    "uptime": "2026-09-13 19:07:57",
+    "opyear": "2026"
+  },
+  {
+    "title": "诸界末日在线 (2025)",
+    "type": "动漫",
+    "jsonFile": "episodes/film-3c3f502e.json",
+    "poster": "http://www.maoyanimg.top/upload/vod/20251227-1/f3a30b95dd35c331a41f00481761c60a.jpg",
+    "uptime": "2026-09-13 19:07:57",
+    "opyear": "2025"
+  },
+  {
+    "title": "魔法少女奈叶EXCEEDS，GUN (2026)",
+    "type": "动漫",
+    "jsonFile": "episodes/film-5c0368b4.json",
+    "poster": "http://www.maoyanimg.top/upload/vod/20260705-1/8b427ca8491a2d226155068d2c9aea06.webp",
+    "uptime": "2026-09-13 19:07:57",
+    "opyear": "2026"
+  },
+  {
+    "title": "小书痴的下克上为了成为图书管理员不择手段第四季 (2019)",
+    "type": "动漫",
+    "jsonFile": "episodes/film-871e4497.json",
+    "poster": "http://www.maoyanimg.top/upload/vod/20260412-1/3f16f0ff5a024f225730aab56537941c.webp",
+    "uptime": "2026-09-13 19:07:57",
+    "opyear": "2019"
+  },
+  {
+    "title": "黄泉的使者 (2025)",
+    "type": "动漫",
+    "jsonFile": "episodes/film-a582cbfb.json",
+    "poster": "http://www.maoyanimg.top/upload/vod/20260406-1/67ee2c5709c632beee4beeb3151880e0.webp",
+    "posterColor": "#625e91",
+    "uptime": "2026-09-13 19:07:57",
+    "opyear": "2025"
   },
   {
     "title": "MEFG-542 9总全国探花网红脸高颜值牛仔妹子雷声大雨点小才插一下就射了 (2026)",
@@ -41924,6 +42073,15 @@
     "opyear": "2026"
   },
   {
+    "title": "忙忙碌碌寻宝藏·双人成行季 (2026)",
+    "type": "综艺",
+    "jsonFile": "episodes/film-a8bf967d.json",
+    "poster": "http://www.maoyanimg.top/upload/vod/20260619-1/4ca94e63965a62c2e565255ea356a2d8.jpg",
+    "posterColor": "#847650",
+    "uptime": "2026-09-13 13:56:04",
+    "opyear": "2026"
+  },
+  {
     "title": "XDX-520 女神级的少妇换上黑丝和小奶狗各种姿势啪啪啪完美露脸 (2026)",
     "type": "未分类",
     "jsonFile": "episodes/film-e339dc83.json",
@@ -42872,6 +43030,22 @@
     "posterColor": "#2d4b9e",
     "uptime": "2026-09-13 11:10:25",
     "opyear": "2025"
+  },
+  {
+    "title": "死神：千年血战篇第四季 (2026)",
+    "type": "动漫",
+    "jsonFile": "episodes/film-f34dfcaf.json",
+    "poster": "http://www.maoyanimg.top/upload/vod/20260726-1/a1020196a8243b6f6d448eb109d6ca4d.jpg",
+    "uptime": "2026-09-13 09:58:43",
+    "opyear": "2026"
+  },
+  {
+    "title": "成长秀，向日葵马戏团 (2026)",
+    "type": "动漫",
+    "jsonFile": "episodes/film-ffea4db4.json",
+    "poster": "http://www.maoyanimg.top/upload/vod/20260726-1/3445bb484c9f2f5bbe721d749eaa5f75.jpg",
+    "uptime": "2026-09-13 09:58:43",
+    "opyear": "2026"
   },
   {
     "title": "GMN-792 寝取らせ検証『夫婦のセックスを記念に残すはずが代役との疑似SEXに…』プライベートAV制作で他人棒をオマ○コに擦られ続けた妻はその後浮気してしまうのか？ VOL.4 瀨名光 黒木美沙 (2026)",
@@ -44853,7 +45027,8 @@
     "jsonFile": "episodes/film-3a18ac08.json",
     "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2932413304.webp",
     "uptime": "2026-09-12 22:25:02",
-    "opyear": "2026"
+    "opyear": "2026",
+    "posterColor": "#937e4b"
   },
   {
     "title": "暗黑灯火 (2026)",
@@ -46321,6 +46496,15 @@
     "opyear": "2026"
   },
   {
+    "title": "极致复仇：舍弃面容的家政妇 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/film-8fd9aeef.json",
+    "poster": "http://www.maoyanimg.top/upload/vod/20260421-1/6354e60f3b0916fd57d97bfff4f865cf.jpg",
+    "posterColor": "#2c4f86",
+    "uptime": "2026-09-12 15:43:52",
+    "opyear": "2026"
+  },
+  {
     "title": "JXKF-025 对父母和学校都保密喔！！找干爹援交有理由性爱精选240分钟S级素人all_acto (2026)",
     "type": "未分类",
     "jsonFile": "episodes/film-1939995b.json",
@@ -46848,6 +47032,14 @@
     "jsonFile": "episodes/film-ed87325d.json",
     "poster": "https://jipinvipimage.com/m2/20260912/AiVzH4h4/1.jpg",
     "uptime": "2026-09-12 14:50:20",
+    "opyear": "2026"
+  },
+  {
+    "title": "对手第二季 (2026)",
+    "type": "剧集",
+    "jsonFile": "episodes/film-7bad408e.json",
+    "poster": "http://www.maoyanimg.top/upload/vod/20260517-1/f93deccd5a5d50676568d156c6caec51.jpg",
+    "uptime": "2026-09-12 14:49:57",
     "opyear": "2026"
   },
   {
@@ -47771,6 +47963,38 @@
     "opyear": "2026"
   },
   {
+    "title": "我独自生活 (2026)",
+    "type": "综艺",
+    "jsonFile": "episodes/film-59cf878e.json",
+    "poster": "http://www.maoyanimg.top/upload/vod/20251011-1/415493c70591db28661b13eadb88fd3e.jpg",
+    "uptime": "2026-09-12 12:53:06",
+    "opyear": "2026"
+  },
+  {
+    "title": "姐姐家的产地直送第三季 (2026)",
+    "type": "综艺",
+    "jsonFile": "episodes/film-d6aefba8.json",
+    "poster": "http://www.maoyanimg.top/upload/vod/20260801-1/d8ee595a709404243bcc5aba6448a00c.webp",
+    "uptime": "2026-09-12 12:53:06",
+    "opyear": "2026"
+  },
+  {
+    "title": "欠债亿万，我被迫成为邪神打工人 (2026)",
+    "type": "动漫",
+    "jsonFile": "episodes/film-e2e80595.json",
+    "poster": "http://www.maoyanimg.top/upload/vod/20250913-1/109b0fc33472bd9f4421da0c15e0adbc.jpg",
+    "uptime": "2026-09-12 12:53:06",
+    "opyear": "2026"
+  },
+  {
+    "title": "对我来说太刻薄的经纪人-秘书镇第二季 (2026)",
+    "type": "综艺",
+    "jsonFile": "episodes/film-f08c22b2.json",
+    "poster": "http://www.maoyanimg.top/upload/vod/20260907-1/6a309f35f48d7ef16b8d7e78f44d95f8.webp",
+    "uptime": "2026-09-12 12:53:06",
+    "opyear": "2026"
+  },
+  {
     "title": "EJGX-669 逆向美容院（秘密）拍摄ダマちゃん。all_actoDAMX-011 (2026)",
     "type": "未分类",
     "jsonFile": "episodes/film-37ede203.json",
@@ -47902,6 +48126,14 @@
     "opyear": "2026"
   },
   {
+    "title": "光阴之外 (2025)",
+    "type": "动漫",
+    "jsonFile": "episodes/film-531fe397.json",
+    "poster": "http://www.maoyanimg.top/upload/vod/20260321-1/c30a3ee6304e9c96e278f4a6f9e0ac6a.webp",
+    "uptime": "2026-09-12 12:10:13",
+    "opyear": "2025"
+  },
+  {
     "title": "1999！神秘学对策部英配版 (2026)",
     "type": "动漫",
     "jsonFile": "episodes/film-16f09de0.json",
@@ -47920,12 +48152,29 @@
     "opyear": "2026"
   },
   {
+    "title": "超神宠兽店·动态漫 (2024)",
+    "type": "动漫",
+    "jsonFile": "episodes/film-0201f6f8.json",
+    "poster": "http://www.maoyanimg.top/upload/vod/20260225-1/640d4637614e330a454ea8dde6efe65c.jpg",
+    "posterColor": "#628f9f",
+    "uptime": "2026-09-12 12:09:55",
+    "opyear": "2024"
+  },
+  {
     "title": "PIUM-061 那些荡妇轮流争夺我的鸡巴，让我一次又一次地达到高潮痴女ヘブンall_actoCJOB-172 (2026)",
     "type": "未分类",
     "jsonFile": "episodes/film-dba08dd1.json",
     "poster": "https://jipinvipimage.com/m2/20260912/92Txpoi0/1.jpg",
     "uptime": "2026-09-12 12:09:45",
     "opyear": "2026"
+  },
+  {
+    "title": "开局一万俯卧撑：轰杀神明 (2024)",
+    "type": "动漫",
+    "jsonFile": "episodes/film-e61ad849.json",
+    "poster": "http://www.maoyanimg.top/upload/vod/20251230-1/907497e1a9afea8f88b64f85ab6f4e14.jpg",
+    "uptime": "2026-09-12 12:09:43",
+    "opyear": "2024"
   },
   {
     "title": "校园恋爱警报 (2026)",
@@ -50287,6 +50536,15 @@
     "opyear": "2026"
   },
   {
+    "title": "不成功穿越指南 (2025)",
+    "type": "电影",
+    "jsonFile": "episodes/film-ba34ddb7.json",
+    "poster": "http://www.maoyanimg.top/upload/vod/20260911-1/87aa2470ba1988c78c62b148f5b1a31e.webp",
+    "posterColor": "#b53826",
+    "uptime": "2026-09-11 21:07:24",
+    "opyear": "2025"
+  },
+  {
     "title": "无限返利：我靠发工资成为首富 (2026)",
     "type": "未分类",
     "jsonFile": "episodes/film-0e674e1e.json",
@@ -51720,6 +51978,55 @@
     "opyear": "2026"
   },
   {
+    "title": "百炼成神·动态漫第三季 (2025)",
+    "type": "动漫",
+    "jsonFile": "episodes/film-6f5a0e8d.json",
+    "poster": "http://www.maoyanimg.top/upload/vod/20251216-1/5bb15e1f8e4b7d24dee07527f5d57fa4.jpg",
+    "uptime": "2026-09-11 13:08:57",
+    "opyear": "2025"
+  },
+  {
+    "title": "控分学神 (2023)",
+    "type": "动漫",
+    "jsonFile": "episodes/film-f6f83a0c.json",
+    "poster": "http://www.maoyanimg.top/upload/vod/20260813-1/7eadf4f6a52427e48e76cb801ee94d84.jpg",
+    "uptime": "2026-09-11 13:08:57",
+    "opyear": "2023"
+  },
+  {
+    "title": "高武：登陆未来一万年 (2025)",
+    "type": "动漫",
+    "jsonFile": "episodes/film-26943c30.json",
+    "poster": "http://www.maoyanimg.top/upload/vod/20251219-1/f7663033554d0108ab89af4c88e7e0e7.jpg",
+    "posterColor": "#4897a3",
+    "uptime": "2026-09-11 13:08:50",
+    "opyear": "2025"
+  },
+  {
+    "title": "氪金封神 (2026)",
+    "type": "动漫",
+    "jsonFile": "episodes/film-f0e61881.json",
+    "poster": "http://www.maoyanimg.top/upload/vod/20260310-1/009dcc4df919c5af40145901cd0dc710.jpg",
+    "uptime": "2026-09-11 13:08:50",
+    "opyear": "2026"
+  },
+  {
+    "title": "BanG Dream YUME (2026)",
+    "type": "动漫",
+    "jsonFile": "episodes/film-192155ca.json",
+    "poster": "http://www.maoyanimg.top/upload/vod/20260703-1/62a8e89ae379f4eefc8744f3be25cca1.webp",
+    "uptime": "2026-09-11 13:08:43",
+    "opyear": "2026"
+  },
+  {
+    "title": "落第贤者的学院无双第二回转生，S等级作弊魔术师冒险 (2026)",
+    "type": "动漫",
+    "jsonFile": "episodes/film-ec878921.json",
+    "poster": "http://www.maoyanimg.top/upload/vod/20260721-1/279b2bf6449e406b619b6413c7fcc761.jpg",
+    "uptime": "2026-09-11 13:08:43",
+    "opyear": "2026"
+  },
+  {
     "title": "姐姐家的产地直送3 (2026(韩国))",
     "type": "综艺",
     "jsonFile": "episodes/vod-81144.json",
@@ -52362,7 +52669,8 @@
     "jsonFile": "episodes/film-d3053e2d.json",
     "poster": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2934733055.webp",
     "uptime": "2026-09-10 20:55:02",
-    "opyear": "2026"
+    "opyear": "2026",
+    "posterColor": "#6e5645"
   },
   {
     "title": "第一声啼哭母子救命急救班 (2026)",

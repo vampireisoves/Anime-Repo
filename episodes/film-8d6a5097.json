@@ -54,10 +54,63 @@
           "src": "https://vod1.maowushi.com/20260909/SvaTEnMC/index.m3u8"
         }
       ]
+    },
+    {
+      "name": "猫眼资源",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://play.maoyanplay.top/20260721/I6Csv1Ca/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://play.maoyanplay.top/20260721/UaInzsFX/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://play.maoyanplay.top/20260721/Cgzqpp8w/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://play.maoyanplay.top/20260721/ZXcBiCDr/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://play.maoyanplay.top/20260731/xRDGZXQf/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://play.maoyanplay.top/20260731/1cBlkzqq/index.m3u8"
+        },
+        {
+          "title": "第07集",
+          "src": "https://play.maoyanplay.top/20260807/aF2FUHxn/index.m3u8"
+        },
+        {
+          "title": "第08集",
+          "src": "https://play.maoyanplay.top/20260814/FmDMglbw/index.m3u8"
+        },
+        {
+          "title": "第09集",
+          "src": "https://play.maoyanplay.top/20260821/8dxyvXpj/index.m3u8"
+        },
+        {
+          "title": "第10集",
+          "src": "https://play.maoyanplay.top/20260827/Hj6W2eOn/index.m3u8"
+        },
+        {
+          "title": "第11集",
+          "src": "https://play.maoyanplay.top/20260911/6xlPBmJi/index.m3u8"
+        },
+        {
+          "title": "第12集",
+          "src": "https://play.maoyanplay.top/20260911/zLM2zJJb/index.m3u8"
+        }
+      ]
     }
   ],
-  "poster": "https://www.imgzy360.com:7788/upload/vod/20260704-1/6155699fcaaf7c5a200840f84b6055b9.webp",
+  "poster": "http://www.maoyanimg.top/upload/vod/20260721-1/dcb5ad81c39db23648e52bed3a024e56.webp",
   "posterColor": "#d7c18e",
-  "uptime": "2026-09-10 00:20:02",
+  "uptime": "2026-09-11 13:08:43",
   "opyear": "2026"
 }

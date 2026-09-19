@@ -50,10 +50,55 @@
           "src": "https://vod1.maowushi.com/20260913/Ks8My7Dz/index.m3u8"
         }
       ]
+    },
+    {
+      "name": "猫眼资源",
+      "episodes": [
+        {
+          "title": "第01集",
+          "src": "https://play.maoyanplay.top/20260705/PSY3gfXn/index.m3u8"
+        },
+        {
+          "title": "第02集",
+          "src": "https://play.maoyanplay.top/20260712/NEyLmErZ/index.m3u8"
+        },
+        {
+          "title": "第03集",
+          "src": "https://play.maoyanplay.top/20260719/cFMG77jF/index.m3u8"
+        },
+        {
+          "title": "第04集",
+          "src": "https://play.maoyanplay.top/20260726/TXyUX2XY/index.m3u8"
+        },
+        {
+          "title": "第05集",
+          "src": "https://play.maoyanplay.top/20260802/MKF1cMx3/index.m3u8"
+        },
+        {
+          "title": "第06集",
+          "src": "https://play.maoyanplay.top/20260809/fEjyGQmA/index.m3u8"
+        },
+        {
+          "title": "第07集",
+          "src": "https://play.maoyanplay.top/20260816/iWvAkvFG/index.m3u8"
+        },
+        {
+          "title": "第08集",
+          "src": "https://play.maoyanplay.top/20260823/9VpROUjy/index.m3u8"
+        },
+        {
+          "title": "第10集",
+          "src": "https://play.maoyanplay.top/20260905/aXUU5OyF/index.m3u8"
+        },
+        {
+          "title": "第11集",
+          "src": "https://play.maoyanplay.top/20260913/MrQH3XEe/index.m3u8"
+        }
+      ]
     }
   ],
-  "poster": "https://www.imgzy360.com:7788/upload/vod/20260705-1/fbcc07d69b5b477275a49975bfdcc4df.webp",
+  "poster": "http://www.maoyanimg.top/upload/vod/20260705-1/f8cc4348e202a0f1fda2fc3fca64c6f1.webp",
   "posterColor": "#e66943",
-  "uptime": "2026-09-13 14:10:03",
+  "uptime": "2026-09-13 19:07:57",
   "opyear": "2026"
 }
